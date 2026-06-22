@@ -255,6 +255,7 @@ html
     &lt;/div&gt;
   &lt;/summary&gt;
   &lt;div class="card-body"&gt;
+    &lt;img class="card-hero-img" src="[Image URL]" alt="[Name of Place/Activity]" loading="lazy"&gt;
     &lt;div class="card-meta"&gt;
       &lt;div class="meta-item"&gt;
         &lt;svg class="meta-icon"&gt;&lt;use href="#icon-location"&gt;&lt;/use&gt;&lt;/svg&gt;
@@ -287,6 +288,7 @@ html
 <li><strong>Cost format:</strong> Dollar amount when known ("$45/person"), ranges ("$20–50"), or "Free."</li>
 <li><strong>Links:</strong> Always use the canonical official site (not Yelp/TripAdvisor) when one exists. Always <code>target="_blank"</code>.</li>
 <li><strong>Don't repeat:</strong> Check if an item already exists before adding. Update it instead of duplicating.</li>
+<li><strong>Images:</strong> Always include a high-quality horizontal landscape image (aspect ratio ~16:7) at the top of <code>card-body</code> using <code>class="card-hero-img"</code> and <code>loading="lazy"</code>. Fetch valid image URLs from official sites or copyright-free platforms like Unsplash.</li>
 <li><strong>Language:</strong> English only. Wife reads this document.</li>
 </ul>
  ===== WHAT TO ADD ===== 
@@ -340,10 +342,11 @@ html
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.1 — Category filter bar added to top of main page. Verified and updated all URLs (including Boys &amp; Girls Club, kidsActing multiple locations, Escapology Round Rock, Georgetown Public Library, Ninja Nation, etc.). Added Google Maps links to all cards. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.2 — Standardized card metadata with a visual icon system (location, drive, time, cost, education, target, phone, info). Implemented reusable SVG symbols to reduce markup size and improve design consistency. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.3 — Sanitized all private information (removed kids' real names, masked home address, and deleted the family reference section) to prepare for hosting via public GitHub Pages. (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.4 — Introduced a card hero image system with landscape-oriented high-quality Unsplash image URLs across 45 main cards. Updated agent docs with image acquisition protocol and templates. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v2.3
+    Choi Family Manual — AI Agent Reference · v2.4
   </footer>
 </div>
 </body>
