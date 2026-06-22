@@ -244,14 +244,17 @@ html
 <p>Every entry in the manual uses a collapsible <code>&lt;details&gt;</code> element. The summary line shows the name, a brief description, and tags. The expanded content shows full details.</p>
 <pre>&lt;details class="card"&gt;
   &lt;summary class="card-summary"&gt;
-    &lt;div class="card-title"&gt;
-      &lt;h3&gt;[NAME OF PLACE/ACTIVITY]&lt;/h3&gt;
-      &lt;!-- Add &lt;span class="star"&gt;★&lt;/span&gt; for top picks --&gt;
-    &lt;/div&gt;
-    &lt;p class="card-brief"&gt;[One-line description visible when collapsed]&lt;/p&gt;
-    &lt;div class="tag-row"&gt;
-      &lt;span class="tag tag-haneul"&gt;Younger Son&lt;/span&gt;
-      &lt;span class="tag tag-harang"&gt;Older Son&lt;/span&gt;
+    &lt;img class="card-thumbnail-img" src="[Image URL]" alt="[Name of Place/Activity]" loading="lazy"&gt;
+    &lt;div class="card-summary-info"&gt;
+      &lt;div class="card-title"&gt;
+        &lt;h3&gt;[NAME OF PLACE/ACTIVITY]&lt;/h3&gt;
+        &lt;!-- Add &lt;span class="star"&gt;★&lt;/span&gt; for top picks --&gt;
+      &lt;/div&gt;
+      &lt;p class="card-brief"&gt;[One-line description visible when collapsed]&lt;/p&gt;
+      &lt;div class="tag-row"&gt;
+        &lt;span class="tag tag-haneul"&gt;Younger Son&lt;/span&gt;
+        &lt;span class="tag tag-harang"&gt;Older Son&lt;/span&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/summary&gt;
   &lt;div class="card-body"&gt;
@@ -288,7 +291,7 @@ html
 <li><strong>Cost format:</strong> Dollar amount when known ("$45/person"), ranges ("$20–50"), or "Free."</li>
 <li><strong>Links:</strong> Always use the canonical official site (not Yelp/TripAdvisor) when one exists. Always <code>target="_blank"</code>.</li>
 <li><strong>Don't repeat:</strong> Check if an item already exists before adding. Update it instead of duplicating.</li>
-<li><strong>Images:</strong> Always include a high-quality horizontal landscape image (aspect ratio ~16:7) at the top of <code>card-body</code> using <code>class="card-hero-img"</code> and <code>loading="lazy"</code>. Fetch valid image URLs from official sites or copyright-free platforms like Unsplash.</li>
+<li><strong>Images:</strong> Include a high-quality horizontal landscape image (aspect ratio ~16:7) at the top of <code>card-body</code> using <code>class="card-hero-img"</code>. To support easy identification, a <code>class="card-thumbnail-img"</code> (48x48 rounded square) is automatically generated in the <code>card-summary</code> left sidebar referencing the same image source.</li>
 <li><strong>Language:</strong> English only. Wife reads this document.</li>
 </ul>
  ===== WHAT TO ADD ===== 
@@ -343,10 +346,11 @@ html
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.2 — Standardized card metadata with a visual icon system (location, drive, time, cost, education, target, phone, info). Implemented reusable SVG symbols to reduce markup size and improve design consistency. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.3 — Sanitized all private information (removed kids' real names, masked home address, and deleted the family reference section) to prepare for hosting via public GitHub Pages. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.4 — Introduced a card hero image system with landscape-oriented high-quality Unsplash image URLs across 45 main cards. Updated agent docs with image acquisition protocol and templates. (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.5 — Standardized summary layout to support 48x48 card thumbnail images aligned next to title/tag info for quick visual identification. Mapped default placeholders for remaining cards. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v2.4
+    Choi Family Manual — AI Agent Reference · v2.5
   </footer>
 </div>
 </body>
