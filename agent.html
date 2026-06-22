@@ -1,0 +1,350 @@
+html
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Agent Instructions — Choi Family Manual</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #0E121C;
+    --bg-card: #161B28;
+    --ink: #E8E8EC;
+    --ink-soft: #C4C8D2;
+    --ink-mute: #828A99;
+    --rule: #2A3045;
+    --accent: #7FB8A4;
+    --accent-soft: rgba(127,184,164,0.12);
+    --warn: #E07A5F;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.6;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 32px 96px;
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    transition: opacity 0.15s;
+  }
+  .back-link:hover { opacity: 0.7; }
+
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+  .subtitle {
+    color: var(--ink-soft);
+    font-size: 15px;
+    margin: 0 0 40px;
+    max-width: 640px;
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 48px 0 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule);
+    color: var(--ink);
+  }
+  h2:first-of-type { margin-top: 0; }
+
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 28px 0 10px;
+    color: var(--ink);
+  }
+
+  p { color: var(--ink-soft); margin: 0 0 16px; }
+
+  ul, ol {
+    color: var(--ink-soft);
+    padding-left: 20px;
+    margin: 0 0 16px;
+  }
+  li { margin-bottom: 8px; line-height: 1.6; }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    background: rgba(255,255,255,0.08);
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: var(--ink);
+  }
+
+  pre {
+    background: #0A0E16;
+    padding: 20px 24px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    border: 1px solid var(--rule);
+    margin: 0 0 24px;
+  }
+
+  strong { color: var(--ink); }
+
+  a { color: var(--accent); }
+
+  .tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0 20px;
+  }
+  .tag-sample {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  .tag-s-harang { background: #F2DCE6; color: #8C2E5F; }
+  .tag-s-haneul { background: #DCE9F2; color: #1E5F8C; }
+  .tag-s-family { background: #DDEAE2; color: #2D5C4D; }
+  .tag-s-adult  { background: #EFE3DC; color: #5C3A2D; }
+  .tag-s-feat   { background: #F8EFD8; color: #B8862F; }
+  .tag-s-new    { background: #E0D4F5; color: #5B3D8F; }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 24px 0;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+  .callout strong { color: var(--ink); }
+
+  .warn-callout {
+    background: rgba(224,122,95,0.1);
+    border-left: 3px solid var(--warn);
+    padding: 16px 20px;
+    border-radius: 0 8px 8px 0;
+    margin: 24px 0;
+    color: var(--ink-soft);
+    font-size: 14px;
+  }
+
+  .changelog {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+  .log-entry {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    gap: 16px;
+  }
+  .log-entry .date { color: var(--ink-mute); min-width: 100px; flex-shrink: 0; }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 12px;
+    color: var(--ink-mute);
+    text-align: center;
+  }
+
+  @media (max-width: 640px) {
+    .container { padding: 24px 16px 64px; }
+    h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<a class="back-link" href="index.html">← Back to Family Manual</a>
+<h1>AI Agent Update Instructions</h1>
+<p class="subtitle">This page is for AI agents maintaining the Choi Family Manual. It defines the protocol, templates, and rules for keeping the document current and useful.</p>
+ ===== MISSION ===== 
+<h2>Mission</h2>
+<p>Keep the family manual current, useful, and consistent. Add new restaurants, events, kids' activities, services, and weekend ideas as the family discovers them. Update prices, drive times, phone numbers, and website links as they change. Remove or flag anything that closes.</p>
+<p><strong>Proactive discovery is expected.</strong> Beyond reacting to family requests, the agent should periodically search for:</p>
+<ul>
+<li>Upcoming seasonal events, festivals, and limited-time experiences within 2 hours of Georgetown</li>
+<li>New restaurant openings or highly-rated spots the family hasn't tried</li>
+<li>Surprise recommendations — things the family might not think to search for but would enjoy (e.g., a meteor shower viewing event, a new trampoline park, a pop-up Korean food truck)</li>
+<li>Registration deadlines for sports seasons, camps, and school programs</li>
+</ul>
+ ===== FAMILY CONTEXT ===== 
+<h2>Family Context</h2>
+<p>The agent must understand who the family is to make good recommendations:</p>
+<ul>
+<li><strong>Home address:</strong> Georgetown, TX 78633 (Woodlake neighborhood)</li>
+<li><strong>Older Son (older son, age 11):</strong> Loves acting/theater, singing, gardening, FNAF/Little Nightmares (horror games), Fortnite, Ninja Warrior</li>
+<li><strong>Younger Son (younger son, age 8):</strong> Loves drums, Fortnite, Ninja Warrior, soccer</li>
+<li><strong>Both boys:</strong> Soccer, Ninja Warrior, PC gaming (Fortnite), outdoor adventures</li>
+<li><strong>Parents:</strong> Interested in good food (Korean, BBQ, Tex-Mex), live music, date nights, family outings</li>
+<li><strong>Wife speaks English only</strong> — all content must be in English</li>
+</ul>
+ ===== SOP ===== 
+<h2>Standard Operating Procedure for Updates</h2>
+<ol>
+<li><strong>Identify the category</strong> — the new item belongs to exactly one of the content sections. If unsure, ask the user.</li>
+<li><strong>Verify the information</strong> — search the web for the current address, phone, hours, price, and link. Never invent details.</li>
+<li><strong>Compute drive time</strong> from <code>Georgetown, TX 78633</code>. Use Google Maps or similar; cite typical (non-rush-hour) times.</li>
+<li><strong>Tag the audience</strong> using exactly the tag set defined below.</li>
+<li><strong>Follow the entry template</strong> exactly. Match the collapsible card structure so layout doesn't break.</li>
+<li><strong>Update the masthead</strong> — bump the version number (1.x for content adds, 2.0 for restructures) and change <code>LAST UPDATED</code>.</li>
+<li><strong>Log the change</strong> in the changelog at the bottom of this page.</li>
+</ol>
+ ===== TAG VOCABULARY ===== 
+<h2>Tag Vocabulary</h2>
+<div class="tag-list">
+<span class="tag-sample tag-s-haneul">HANEUL (8)</span>
+<span class="tag-sample tag-s-harang">HARANG (11)</span>
+<span class="tag-sample tag-s-family">FAMILY</span>
+<span class="tag-sample tag-s-adult">ADULT</span>
+<span class="tag-sample tag-s-feat">TOP PICK</span>
+<span class="tag-sample tag-s-new">NEW / SURPRISE</span>
+</div>
+<ul>
+<li><code>tag-haneul</code> — Activities suiting Younger Son (age 8, elementary, drums, soccer, gaming)</li>
+<li><code>tag-harang</code> — Activities suiting Older Son (age 11, middle school, acting, gardening, horror, gaming)</li>
+<li><code>tag-family</code> — Whole-family outings, parks, family restaurants</li>
+<li><code>tag-adult</code> — Parent-only (date nights, festivals not for kids)</li>
+<li><code>tag-featured</code> — A short reason this is a top pick ("Walking distance," "Continuation from Frisco")</li>
+<li><code>tag-new</code> — Surprise or newly discovered recommendation the family hasn't specifically asked for</li>
+</ul>
+ ===== ENTRY TEMPLATE ===== 
+<h2>Entry Template (Collapsible Card)</h2>
+<p>Every entry in the manual uses a collapsible <code>&lt;details&gt;</code> element. The summary line shows the name, a brief description, and tags. The expanded content shows full details.</p>
+<pre>&lt;details class="card"&gt;
+  &lt;summary class="card-summary"&gt;
+    &lt;div class="card-title"&gt;
+      &lt;h3&gt;[NAME OF PLACE/ACTIVITY]&lt;/h3&gt;
+      &lt;!-- Add &lt;span class="star"&gt;★&lt;/span&gt; for top picks --&gt;
+    &lt;/div&gt;
+    &lt;p class="card-brief"&gt;[One-line description visible when collapsed]&lt;/p&gt;
+    &lt;div class="tag-row"&gt;
+      &lt;span class="tag tag-haneul"&gt;Younger Son&lt;/span&gt;
+      &lt;span class="tag tag-harang"&gt;Older Son&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/summary&gt;
+  &lt;div class="card-body"&gt;
+    &lt;div class="card-meta"&gt;
+      &lt;div class="meta-item"&gt;
+        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-location"&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span class="meta-text"&gt;[Full address or location]&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="meta-item"&gt;
+        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-drive"&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span class="meta-text"&gt;Drive: [~XX min from home]&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="meta-item"&gt;
+        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-cost"&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span class="meta-text"&gt;Cost: [Approx price or range]&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;p class="card-desc"&gt;[2–4 sentence description]&lt;/p&gt;
+    &lt;div class="card-links"&gt;
+      &lt;a href="[URL]" target="_blank"&gt;[Link label] →&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/details&gt;</pre>
+<div class="callout">
+<strong>For featured entries:</strong> Add <code>class="card featured"</code> to the <code>&lt;details&gt;</code> element and include the <code>★</code> star span inside the title.
+  </div>
+ ===== STYLE RULES ===== 
+<h2>Style Rules</h2>
+<ul>
+<li><strong>Tone:</strong> Honest, practical, slightly opinionated. We are not selling anything to ourselves — say if a place is overpriced, has long lines, or is only worth doing once.</li>
+<li><strong>Length:</strong> Descriptions are 2–4 sentences. Keep it scannable.</li>
+<li><strong>Drive times:</strong> Always from [Private Address], in minutes, normal traffic.</li>
+<li><strong>Cost format:</strong> Dollar amount when known ("$45/person"), ranges ("$20–50"), or "Free."</li>
+<li><strong>Links:</strong> Always use the canonical official site (not Yelp/TripAdvisor) when one exists. Always <code>target="_blank"</code>.</li>
+<li><strong>Don't repeat:</strong> Check if an item already exists before adding. Update it instead of duplicating.</li>
+<li><strong>Language:</strong> English only. Wife reads this document.</li>
+</ul>
+ ===== WHAT TO ADD ===== 
+<h2>Topics Always Worth Adding</h2>
+<ul>
+<li>Upcoming festivals and one-time events (especially seasonal — holiday markets, summer concert series)</li>
+<li>New restaurants the family has tried and rates ≥ 4/5</li>
+<li>Kids' camps (summer, winter break, spring break) — registration dates matter</li>
+<li>Service provider referrals the family vouches for</li>
+<li>Medical providers once chosen</li>
+<li>Weekend trip discoveries within 3 hours</li>
+<li><strong>Surprise finds:</strong> Gaming tournaments, pop-up events, new parks/attractions, seasonal activities (pumpkin patches, Christmas lights, etc.)</li>
+<li><strong>Interest-specific:</strong> Theater auditions (Older Son), drum workshops/events (Younger Son), Fortnite tournaments (both), horror-themed attractions (Older Son)</li>
+</ul>
+ ===== WHAT NOT TO ADD ===== 
+<h2>What NOT to Add</h2>
+<div class="warn-callout">
+<ul style="margin:0; padding-left: 16px;">
+<li>Random places the family has no reason to visit. This is not a Yelp scrape.</li>
+<li>Anything sponsored or paid promotion.</li>
+<li>Restaurants more than 3 hours away (out of scope).</li>
+<li>Adult-only nightlife the parents won't realistically use.</li>
+</ul>
+</div>
+ ===== HOW USER ASKS ===== 
+<h2>How the User Will Ask</h2>
+<p>Typical requests:</p>
+<ul>
+<li>"Add this restaurant we tried last weekend — [name], it was great."</li>
+<li>"Update Ninja Nation — they raised prices."</li>
+<li>"Find 3 new weekend trips we haven't been to yet."</li>
+<li>"Pull this week's family events in Georgetown and Austin."</li>
+<li>"Add a new section for [topic]."</li>
+<li>"What's new this month? Surprise us."</li>
+</ul>
+<p>For event roundups, add events into the Events section. Mark time-limited events with a note like <code>[Ends: Aug 2026]</code> so they can be cleaned up later.</p>
+ ===== OUTPUT FORMAT ===== 
+<h2>Output Format Requirements</h2>
+<ul>
+<li>This document is HTML. Return the full updated HTML file or a precise diff showing exactly which lines change.</li>
+<li>Do not change the CSS without explicit user permission.</li>
+<li>Preserve the section structure and numbering.</li>
+<li>Preserve existing entries unless the user asks for removal.</li>
+<li>Use the collapsible <code>&lt;details&gt;</code> card pattern for every new entry.</li>
+</ul>
+ ===== CHANGELOG ===== 
+<h2>Changelog</h2>
+<div class="changelog">
+<div class="log-entry"><span class="date">2026-06-22</span><span>v1.0 — Initial document created. Sections populated based on family briefing and Georgetown/Austin web research.</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.0 — Apple-style redesign with collapsible cards. AI instructions moved to separate page. Added kids' names (Older Son, Younger Son), theater, drums, gardening, gaming, horror sections. Added "New &amp; Surprise" tag and proactive discovery mission.</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.1 — Category filter bar added to top of main page. Verified and updated all URLs (including Boys &amp; Girls Club, kidsActing multiple locations, Escapology Round Rock, Georgetown Public Library, Ninja Nation, etc.). Added Google Maps links to all cards. (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.2 — Standardized card metadata with a visual icon system (location, drive, time, cost, education, target, phone, info). Implemented reusable SVG symbols to reduce markup size and improve design consistency. (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-22</span><span>v2.3 — Sanitized all private information (removed kids' real names, masked home address, and deleted the family reference section) to prepare for hosting via public GitHub Pages. (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
+</div>
+<footer>
+    Choi Family Manual — AI Agent Reference · v2.3
+  </footer>
+</div>
+</body>
+</html>

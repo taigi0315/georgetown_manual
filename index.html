@@ -1,0 +1,2216 @@
+html
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Choi Family Manual — Living in Georgetown &amp; Austin</title>
+<meta content="A living document for the Choi family: schools, activities, restaurants, and everything about life in Georgetown &amp; Austin, TX." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>/* ============================================
+     DESIGN SYSTEM — Apple-inspired, clean, minimal
+     ============================================ */
+  :root {
+    --bg: #FAFAFA;
+    --bg-card: #FFFFFF;
+    --bg-hover: #F5F5F7;
+    --ink: #1D1D1F;
+    --ink-secondary: #6E6E73;
+    --ink-tertiary: #86868B;
+    --rule: #E8E8ED;
+    --accent: #0071E3;
+    --accent-hover: #0077ED;
+    --green: #34C759;
+    --green-soft: #E8F9ED;
+    --gold: #AF8A2E;
+    --gold-soft: #FDF6E3;
+    --purple: #5856D6;
+    --purple-soft: #EEEDFA;
+
+    --tag-haneul: #007AFF;
+    --tag-haneul-bg: #E3F0FF;
+    --tag-harang: #AF52DE;
+    --tag-harang-bg: #F5EEFA;
+    --tag-family: #34C759;
+    --tag-family-bg: #E8F9ED;
+    --tag-adult: #FF9500;
+    --tag-adult-bg: #FFF3E0;
+    --tag-featured: #AF8A2E;
+    --tag-featured-bg: #FDF6E3;
+    --tag-new: #5856D6;
+    --tag-new-bg: #EEEDFA;
+
+    --radius: 12px;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.02);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.06);
+    --transition: 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 40px 24px 100px;
+  }
+
+  /* ===== HEADER ===== */
+  .masthead {
+    padding: 24px 0 40px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 48px;
+  }
+  .masthead h1 {
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    margin-bottom: 12px;
+  }
+  .masthead h1 span {
+    display: block;
+    font-weight: 300;
+    color: var(--ink-secondary);
+    font-size: clamp(20px, 3vw, 28px);
+    letter-spacing: -0.01em;
+    margin-top: 4px;
+  }
+  .masthead .subtitle {
+    color: var(--ink-secondary);
+    font-size: 16px;
+    max-width: 640px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .meta-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-size: 13px;
+    color: var(--ink-tertiary);
+  }
+  .meta-bar strong {
+    color: var(--ink-secondary);
+    font-weight: 600;
+  }
+
+  /* ===== CATEGORY FILTER BAR ===== */
+  .category-bar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(250, 250, 250, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--rule);
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 12px 24px;
+    margin-bottom: 32px;
+  }
+  .category-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .category-bar::-webkit-scrollbar {
+    display: none;
+  }
+  .category-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: 20px;
+    color: var(--ink-secondary);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all var(--transition);
+    font-family: inherit;
+  }
+  .category-btn:hover {
+    background: var(--bg-hover);
+    color: var(--ink);
+  }
+  .category-btn.active {
+    background: var(--ink);
+    color: white;
+    border-color: var(--ink);
+  }
+  .agent-btn {
+    margin-left: auto;
+    background: var(--purple-soft);
+    color: var(--purple);
+    border-color: var(--purple);
+  }
+  .agent-btn:hover {
+    background: var(--purple);
+    color: white;
+  }
+
+  /* ===== SECTIONS ===== */
+  section {
+    margin-bottom: 56px;
+    scroll-margin-top: 24px;
+    animation: fadeIn 0.4s ease-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .section-header {
+    margin-bottom: 20px;
+  }
+  .section-header h2 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+  }
+  .section-header p {
+    color: var(--ink-secondary);
+    font-size: 15px;
+    max-width: 640px;
+  }
+
+  /* ===== COLLAPSIBLE CARDS ===== */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: box-shadow var(--transition);
+  }
+  .card:hover {
+    box-shadow: var(--shadow-sm);
+  }
+  .card[open] {
+    box-shadow: var(--shadow-md);
+  }
+
+  .card.featured {
+    border-color: var(--green);
+    border-width: 1.5px;
+  }
+  .card.featured .card-summary {
+    background: linear-gradient(180deg, var(--green-soft) 0%, var(--bg-card) 100%);
+  }
+
+  .card-summary {
+    display: block;
+    padding: 16px 20px;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    transition: background var(--transition);
+  }
+  .card-summary::-webkit-details-marker { display: none; }
+  .card-summary::marker { display: none; content: ''; }
+  .card-summary:hover {
+    background: var(--bg-hover);
+  }
+
+  .card-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-title h3 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    flex: 1;
+  }
+  .star {
+    color: var(--gold);
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+  .chevron {
+    width: 20px;
+    height: 20px;
+    color: var(--ink-tertiary);
+    flex-shrink: 0;
+    transition: transform var(--transition);
+  }
+  .card[open] .chevron {
+    transform: rotate(90deg);
+  }
+
+  .card-brief {
+    color: var(--ink-secondary);
+    font-size: 13px;
+    margin-top: 4px;
+    line-height: 1.4;
+  }
+
+  .tag-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 8px;
+  }
+  .tag {
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .tag-haneul  { background: var(--tag-haneul-bg); color: var(--tag-haneul); }
+  .tag-harang  { background: var(--tag-harang-bg); color: var(--tag-harang); }
+  .tag-family  { background: var(--tag-family-bg); color: var(--tag-family); }
+  .tag-adult   { background: var(--tag-adult-bg); color: var(--tag-adult); }
+  .tag-featured{ background: var(--tag-featured-bg); color: var(--tag-featured); }
+  .tag-new     { background: var(--tag-new-bg); color: var(--tag-new); }
+
+  .card-body {
+    padding: 0 20px 20px;
+    border-top: 1px solid var(--rule);
+    margin-top: 0;
+  }
+
+  .card-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 10px 24px;
+    padding: 16px 0 12px;
+    font-size: 13px;
+    color: var(--ink-secondary);
+  }
+  .meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.4;
+  }
+  .meta-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--ink-tertiary);
+    flex-shrink: 0;
+    margin-top: 2.5px;
+  }
+  .meta-text {
+    flex: 1;
+  }
+
+  .card-desc {
+    color: var(--ink-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 8px 0 14px;
+  }
+
+  .card-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rule);
+  }
+  .card-links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: color var(--transition);
+  }
+  .card-links a:hover {
+    color: var(--accent-hover);
+  }
+
+  /* ===== FAMILY REFERENCE (collapsible block) ===== */
+  .family-ref {
+    background: var(--bg-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    margin-bottom: 48px;
+    overflow: hidden;
+  }
+  .family-ref summary {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 20px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink-secondary);
+    transition: background var(--transition);
+  }
+  .family-ref summary::-webkit-details-marker { display: none; }
+  .family-ref summary::marker { display: none; content: ''; }
+  .family-ref summary:hover { background: var(--bg-hover); }
+  .family-ref[open] .chevron { transform: rotate(90deg); }
+
+  .fam-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    padding: 0 20px 20px;
+    border-top: 1px solid var(--rule);
+  }
+  .fam-block dt {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-tertiary);
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-top: 12px;
+  }
+  .fam-block dd {
+    font-size: 14px;
+    color: var(--ink-secondary);
+  }
+  .fam-block dd em {
+    color: var(--ink-tertiary);
+    font-style: normal;
+    font-size: 12px;
+    display: block;
+  }
+
+  /* ===== SUBSECTION HEADERS ===== */
+  .sub-header {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 28px 0 12px;
+    color: var(--ink);
+  }
+
+  /* ===== CALLOUT ===== */
+  .callout {
+    background: var(--gold-soft);
+    border-left: 3px solid var(--gold);
+    padding: 14px 18px;
+    margin: 16px 0;
+    font-size: 13px;
+    color: var(--ink-secondary);
+    border-radius: 0 8px 8px 0;
+    line-height: 1.5;
+  }
+  .callout strong { color: var(--ink); }
+
+  /* ===== FOOTER ===== */
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--rule);
+    font-size: 12px;
+    color: var(--ink-tertiary);
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 640px) {
+    .container { padding: 20px 16px 64px; }
+    .masthead h1 { font-size: 28px; }
+    .category-bar-wrapper {
+      margin-left: -16px;
+      margin-right: -16px;
+      padding: 10px 16px;
+      margin-bottom: 24px;
+    }
+    .category-btn { padding: 6px 12px; font-size: 12px; }
+    .card-meta { grid-template-columns: 1fr; }
+    .fam-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ===== PRINT ===== */
+  @media print {
+    .card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+    .card[open] .card-body { display: block; }
+    .category-bar-wrapper { display: none; }
+  }
+
+  .tag-preview-meta {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 10px;
+    letter-spacing: 0.02em;
+    background: #E8E8ED; /* Apple light gray */
+    color: var(--ink-secondary);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-transform: none; /* Keep original casing */
+  }
+  .tag-preview-meta .meta-icon {
+    width: 11px;
+    height: 11px;
+    color: var(--ink-secondary);
+    margin-top: 0;
+  }
+</style>
+</head>
+<body>
+<svg style="display: none;">
+ Location (Map Pin) 
+<symbol fill="none" id="icon-location" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+<circle cx="12" cy="10" r="3"></circle>
+</symbol>
+ Drive (Car) 
+<symbol fill="none" id="icon-drive" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10H4s-3 .6-3.5 1.2C.2 11.5 0 12.1 0 13v3c0 .6.4 1 1 1h2"></path>
+<circle cx="7" cy="17" r="2"></circle>
+<path d="M9 17h6"></path>
+<circle cx="17" cy="17" r="2"></circle>
+</symbol>
+ Time/Schedule (Clock) 
+<symbol fill="none" id="icon-time" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<polyline points="12 6 12 12 16 14"></polyline>
+</symbol>
+ Cost (Dollar) 
+<symbol fill="none" id="icon-cost" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<line x1="12" x2="12" y1="1" y2="23"></line>
+<path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+</symbol>
+ Education (Graduation Cap) 
+<symbol fill="none" id="icon-education" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+<path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path>
+</symbol>
+ Target Audience (User) 
+<symbol fill="none" id="icon-target" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+<circle cx="12" cy="7" r="4"></circle>
+</symbol>
+ Phone 
+<symbol fill="none" id="icon-phone" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+</symbol>
+ Info/Specs 
+<symbol fill="none" id="icon-info" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="10"></circle>
+<line x1="12" x2="12" y1="16" y2="12"></line>
+<line x1="12" x2="12.01" y1="8" y2="8"></line>
+</symbol>
+</svg>
+<div class="container">
+ ============ MASTHEAD ============ 
+<header class="masthead">
+<h1>The Choi Family Manual
+      <span>Living in Georgetown &amp; Austin</span>
+</h1>
+<p class="subtitle">Schools, after-school programs, sports, weekend adventures, restaurants, and everything we need to know about our new home.</p>
+<div class="meta-bar">
+<div><strong>Home</strong>   Georgetown, TX 78633</div>
+<div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
+<div><strong>Updated</strong>   June 22, 2026 (v2.3)</div>
+<div><strong>v2.3</strong></div>
+</div>
+</header>
+ ============ CATEGORY FILTER BAR ============ 
+<div class="category-bar-wrapper">
+<div class="category-bar">
+<button class="category-btn active" data-category="all">All</button>
+<button class="category-btn" data-category="education">School &amp; Care</button>
+<button class="category-btn" data-category="activities">Sports &amp; Activities</button>
+<button class="category-btn" data-category="restaurants">Restaurants</button>
+<button class="category-btn" data-category="parks">Parks &amp; Local</button>
+<button class="category-btn" data-category="services">Services &amp; Community</button>
+<button class="category-btn" data-category="trips">Trips &amp; Events</button>
+<a class="category-btn agent-btn" href="agent.html">AI Agent Instructions →</a>
+</div>
+</div>
+ ============ FAMILY REFERENCE (collapsible) ============ 
+
+ ============ 01 SCHOOLS ============ 
+<section data-category="education" id="schools">
+<div class="section-header">
+<h2>Schools</h2>
+<p>Georgetown ISD. Ford Elementary is walking distance. Benold Middle is a short drive.</p>
+</div>
+<div class="cards">
+<details class="card featured" id="ford-elementary">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Jo Ann Ford Elementary</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Top 10% Texas elementary, walking distance from home. PK–5, 538 students.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-featured">Walking distance</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>2 min · walkable</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">210 Woodlake Dr, Georgetown, TX 78633</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: 2 min · walkable</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-education"></use></svg><span class="meta-text">Grades: PK–5</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-phone"></use></svg><span class="meta-text">Phone: (512) 943-5180</span></div></div>
+<p class="card-desc">Ranked 461st of 4,651 Texas elementary schools. Student-teacher ratio 15:1. Strong Gifted &amp; Talented program (top 15% statewide). Same street as our house — Younger Son can walk or bike.</p>
+<div class="card-links">
+<a href="https://www.georgetownisd.org/ford" target="_blank">Official site →</a>
+<a href="https://www.facebook.com/FordElementaryGISD/" target="_blank">Facebook →</a>
+</div>
+</div>
+</details>
+<details class="card" id="benold-middle">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Douglas Benold Middle School</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Assigned middle school for Older Son. Grades 6–8, ~8 min drive.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~8 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">1401 N Parmer Ranch Blvd, Georgetown, TX 78633</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~8 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-education"></use></svg><span class="meta-text">Grades: 6–8</span></div></div>
+<p class="card-desc">School clubs and sports happen here — soccer, band, theater, robotics. Join clubs early; that's the fastest way for Older Son to make friends at a new school.</p>
+<div class="card-links">
+<a href="https://www.georgetownisd.org/benold" target="_blank">Official site →</a>
+</div>
+</div>
+</details>
+<details class="card" id="georgetown-high">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Georgetown High School</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Future high school for both boys. ~12 min drive. Strong athletics and band.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Future · Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~12 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">2211 N Austin Ave, Georgetown, TX 78626</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~12 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-education"></use></svg><span class="meta-text">Grades: 9–12</span></div></div>
+<p class="card-desc">Assigned high school for both boys eventually. 12,500-seat stadium. Strong football and band programs typical of Texas high schools.</p>
+<div class="card-links">
+<a href="https://www.georgetownisd.org/ghs" target="_blank">Official site →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 02 AFTER-SCHOOL ============ 
+<section data-category="education" id="afterschool">
+<div class="section-header">
+<h2>After-School Care</h2>
+<p>Options for both boys after school ends at ~3 PM. YMCA at Ford Elementary is the standout for Younger Son.</p>
+</div>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>YMCA Y Afterschool at Ford Elementary</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">On-site at Ford Elementary. No pickup needed until 6:30 PM. K–5.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-featured">On-site at school</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$60–80/week</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">210 Woodlake Dr (inside Ford Elementary)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Hours: Mon–Fri, 2:30–6:30 PM</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$60–80/week</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-target"></use></svg><span class="meta-text">Ages: K–5</span></div></div>
+<p class="card-desc">Runs inside the school building — no transportation needed. Homework help, physical activity, STEAM enrichment, snack. Register early — popular slots fill before the school year starts.</p>
+<div class="card-links">
+<a href="https://ymcactx.org/childcare/afterschool/" target="_blank">Register →</a>
+<a href="tel:5122469622">Call: (512) 246-9622</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Boys &amp; Girls Club of Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Backup option, ~12 min. Mentoring, tutoring, sports. Both boys eligible.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~12 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$25–50/year membership</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">1715 N Austin Ave, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~12 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Hours: Mon–Fri 3–6:30 PM; early-out from 1 PM</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$25–50/year membership</span></div></div>
+<p class="card-desc">Backup option if YMCA fills up. Good for Older Son who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.</p>
+<div class="card-links">
+<a href="https://bgctx.org/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Boys+and+Girls+Club+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Middle School Clubs &amp; Sports (Benold)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Older Son's practical after-school path: school clubs, theater, soccer, band.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~8 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free for most clubs</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Benold Middle School campus</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~8 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free for most clubs</span></div></div>
+<p class="card-desc">For Older Son, the social on-ramp at a new school is participating in clubs: theater, robotics, band, art, chess, and athletics: track, cross-country, soccer. Sign up at the start of each semester.</p>
+<div class="card-links">
+<a href="https://benold.georgetownisd.org/" target="_blank">School site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Douglas+Benold+Middle+School+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 03 SPORTS &amp; ACTIVITIES ============ 
+<section data-category="activities" id="sports">
+<div class="section-header">
+<h2>Sports &amp; Activities</h2>
+<p>Ninja Warrior (both love it from Frisco) and soccer. Local options to keep the boys active.</p>
+</div>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Ninja Nation Austin</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Same brand from Frisco. ~30 min drive. Classes, open gym, camps.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-featured">Continuation from Frisco</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~30 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$150–200/month per kid; Open Gym ~$22</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">13420 N Lamar Blvd, Austin, TX 78753</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~30 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$150–200/month per kid; Open Gym ~$22</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Format: Weekly classes, open gym, camps</span></div></div>
+<p class="card-desc">Same brand the boys already love — programs and obstacles will feel familiar. World-class course, coached classes by age/level, open gym, and summer camps. Book a trial class soon after the move.</p>
+<div class="card-links">
+<a href="https://www.austin.ninjanation.com/" target="_blank">Classes &amp; schedule →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Move Sport Ninja Academy</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Former ANW competitor's gym. Pflugerville, ~30 min. Competition-track training.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~30 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">1700 Grand Avenue Pkwy, Pflugerville, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~30 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Coach: Andy Lowes (former American Ninja Warrior)</span></div></div>
+<p class="card-desc">Smaller, more personal than Ninja Nation. Run by a former ANW competitor with 15+ years of gymnastics coaching. Strong fit if the boys want competition-track training.</p>
+<div class="card-links">
+<a href="https://www.movesportninja.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Georgetown Soccer Association (GSA)</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Est. 1981. Rec + Select leagues, ~10 min. Fall &amp; spring seasons.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-featured">Primary soccer choice</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Recreational ~$120–160/season</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Ray Thomas Jr. Fields, 2101 Maple St, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Recreational ~$120–160/season</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Seasons: Fall (Aug–Nov), Spring (Mar–May)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-phone"></use></svg><span class="meta-text">Phone: (512) 868-5913</span></div></div>
+<p class="card-desc">450+ recreational players plus Select/Academy programs (Force FC). US Soccer curriculum, volunteer parent coaches, age-grouped teams. Recreational league is the right starting point. Register 1–2 months before season start.</p>
+<div class="card-links">
+<a href="https://georgetownsoccer.org/recreational/" target="_blank">Recreational →</a>
+<a href="https://georgetownsoccer.org/force-fc-select/" target="_blank">Force FC Select →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>City of Georgetown Youth Soccer League</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Cheaper city-run rec league. $60 resident. San Gabriel Park, Saturday games.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>$60 resident / $170 non-resident</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">San Gabriel Park, 425 E Morrow St</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: $60 resident / $170 non-resident</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-target"></use></svg><span class="meta-text">Ages: 4–13</span></div></div>
+<p class="card-desc">Lower-pressure alternative to GSA. City-run, Saturday games. Good first soccer experience or complement.</p>
+<div class="card-links">
+<a href="https://teamsideline.com/sites/georgetown/content/18818/Youth-Soccer-Homepage" target="_blank">Register →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>AcroTex Gymnastics — Ninja Classes</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Combined gymnastics + ninja in Round Rock. ~25 min. Closer alternative.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Round Rock (multiple locations)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div></div>
+<p class="card-desc">Combined gymnastics + ninja classes. Backup option closer to home if Austin commute gets old.</p>
+<div class="card-links">
+<a href="https://www.acrotex.com/ninja-class/" target="_blank">Ninja class details →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Sport Clips Family YMCA — Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Family membership covers basketball, swim, soccer, gym. ~12 min, ~$80–100/mo.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~12 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Family membership ~$80–100/month</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">1801 NW Inner Loop, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~12 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Family membership ~$80–100/month</span></div></div>
+<p class="card-desc">Basketball, soccer, swim lessons, summer day camps for kids — plus gym and fitness classes for parents. Single family membership covers many programs. Strong value.</p>
+<div class="card-links">
+<a href="https://ymcactx.org/locations/georgetown/" target="_blank">Programs &amp; membership →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 04 THEATER &amp; MUSIC LESSONS ============ 
+<section data-category="activities" id="theater">
+<div class="section-header">
+<h2>Theater, Acting &amp; Music Lessons</h2>
+<p>Older Son loves acting and singing. Younger Son wants to play drums. Programs near Georgetown.</p>
+</div>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Georgetown Palace Theatre — Education Dept.</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Year-round acting, musical theater, voice, improv. Grades 1–12. Downtown, ~10 min.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-featured">Best for acting</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">810 S Austin Ave, Georgetown, TX 78626</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Programs: Acting, musical theater, voice, improv, dance, film &amp; TV, stage combat</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Format: After-school classes, weekend classes, seasonal camps</span></div></div>
+<p class="card-desc">The hub for performing arts in Georgetown. Year-round classes for grades 1–12. After-school and weekend options, plus summer/break camps with early drop-off and late pick-up. Perfect for Older Son's acting and singing interests. Historic 1926 theater on the Square.</p>
+<div class="card-links">
+<a href="https://www.georgetownpalace.com/" target="_blank">Programs &amp; schedule →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Arts Avenue — Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Theater + dance classes downtown. Multiple skill levels.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">610 N Austin Ave, Suite 125, Georgetown, TX 78628</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Theater classes alongside dance programs. Multiple skill levels. Alternative to the Palace Theatre for Older Son's acting interest.</p>
+<div class="card-links">
+<a href="https://artsavenue.org/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>kidsActing Studio</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">16 Austin-area locations (including Round Rock, Cedar Park, Pflugerville). Pre-K through high school.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~15–20 min (to nearest satellite locations)</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">16 Austin metro locations (incl. Round Rock &amp; Cedar Park)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~15–20 min (to nearest satellite locations)</span></div></div>
+<p class="card-desc">Long-running theater program focusing on self-esteem, acting, and musical theater for Pre-K through high school. While their main studio is in Austin, they hold camps and classes at 16 local satellite locations. Convenient nearby options include Cedar Park (Live Oak Unitarian Church, Cedar Park Dance Co.), Round Rock (Grace Presbyterian, The Dance Spot, The Dance Gallery), and Pflugerville (Dance Elements) — all within a 15–20 minute drive from our house.</p>
+<div class="card-links">
+<a href="https://www.kidsactingstudio.com/locations" target="_blank">Locations &amp; schedules →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=kidsActing+Studio+Austin+TX" target="_blank">Google Maps (Austin Main) →</a>
+</div>
+</div>
+</details>
+<h3 class="sub-header">Drum Lessons for Younger Son</h3>
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Austin Drum Lab — Georgetown</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Kid-friendly drum studio in Georgetown. Decades of touring/teaching experience.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-featured">Local &amp; kid-friendly</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Georgetown, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Instructor: Tony Miller (touring/teaching veteran)</span></div></div>
+<p class="card-desc">Run by Tony Miller who has decades of touring and teaching experience. Known for kid-friendly, patient teaching style. Right here in Georgetown — no Austin commute needed for drum lessons.</p>
+<div class="card-links">
+<a href="https://austindrumlab.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Clark's Music Class — Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Private drums, guitar, piano. Patient, positive approach. Georgetown-based.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Georgetown, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Instruments: Drums, guitar, piano</span></div></div>
+<p class="card-desc">Private instruction with a patient, positive approach. Also offers guitar and piano if Younger Son wants to try other instruments later. Serves Georgetown, Round Rock, Hutto area.</p>
+<div class="card-links">
+<a href="https://clarksmusicclass.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Bach to Rock — Cedar Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Private lessons + band rehearsals. Kids perform live. ~25 min.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Cedar Park, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div></div>
+<p class="card-desc">Private drum lessons plus ensemble programs (Band/Glee Club). Kids get to perform live — great for building confidence. Fun, accessible approach for various ages and skill levels.</p>
+<div class="card-links">
+<a href="https://bachtorock.com/" target="_blank">Programs →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>School of Rock — Round Rock</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Private lessons + weekly band rehearsals → live performances. ~20 min.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~20 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Round Rock, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~20 min</span></div></div>
+<p class="card-desc">Combines private lessons with weekly band rehearsals. Students prepare to perform live in front of audiences. Could be great for both Younger Son (drums) and Older Son (singing) to jam together.</p>
+<div class="card-links">
+<a href="https://www.schoolofrock.com/locations/roundrock" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=School+of+Rock+Round+Rock+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 05 GAMING &amp; FUN ============ 
+<section data-category="activities" id="gaming">
+<div class="section-header">
+<h2>Gaming, Esports &amp; Spooky Fun</h2>
+<p>Both boys love Fortnite. Older Son is into Five Nights at Freddy's and horror. Places to play and compete.</p>
+</div>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>The Esports Cave — Cedar Park</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Dedicated gaming center. Tournaments, birthday parties, high-end PCs. ~25 min.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-featured">Best for Fortnite</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Cedar Park, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Format: Open play, tournaments, birthday parties</span></div></div>
+<p class="card-desc">Dedicated facility for gaming with high-end PCs and consoles. Hosts tournaments (including Fortnite), birthday parties, and drop-in sessions. Both boys can play on proper setups with other kids. Great birthday party venue too.</p>
+<div class="card-links">
+<a href="https://theesportscave.com/" target="_blank">Events &amp; pricing →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>XP League — Youth Esports</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Structured youth esports league. Ages 7–17. Coached teams, regional tournaments.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">North Austin area</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-target"></use></svg><span class="meta-text">Ages: 7–17</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Games: Fortnite, Rocket League, Super Smash Bros</span></div></div>
+<p class="card-desc">Professional youth esports experience: structured teams, coaching, regional and national tournaments. Like organized sports but for gaming. Good if the boys want to compete seriously in Fortnite or Rocket League.</p>
+<div class="card-links">
+<a href="https://xpleague.com/" target="_blank">Find a league →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>YMCA eSports Programs</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">YMCA offers Gamers Night Out, eSports Academy. Strategy &amp; sportsmanship focus.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-harang">Older Son</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">CHASCO Family YMCA / Twin Lakes YMCA</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Programs: Intro classes, Gamers Night Out, eSports Academy</span></div></div>
+<p class="card-desc">The YMCA offers structured eSports programs focused on strategy, communication, and sportsmanship. Lower-key than XP League. Check if included with our family membership.</p>
+<div class="card-links">
+<a href="https://ymcactx.org/" target="_blank">YMCA programs →</a>
+</div>
+</div>
+</details>
+<h3 class="sub-header">Horror &amp; Spooky Stuff (Older Son)</h3>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>House of Torment — Austin</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Austin's biggest haunted house. Professional sets &amp; animatronics. Halloween season.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$30–50/person</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Season: September–November (Halloween)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$30–50/person</span></div></div>
+<p class="card-desc">One of Austin's most well-known haunted attractions. Professional sets, animatronics, live actors. High intensity — perfect for Older Son's FNAF/Little Nightmares vibe. Check age recommendations before taking Younger Son.</p>
+<div class="card-links">
+<a href="https://www.houseoftorment.com/" target="_blank">Tickets &amp; info →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Scream Hollow — Smithville</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Wicked Halloween Park — haunted hayrides, multiple attractions. ~1 hr drive.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1 hour</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Smithville, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1 hour</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Season: September–November</span></div></div>
+<p class="card-desc">Extensive Wicked Halloween Park experience with haunted hayrides and multiple themed attractions. Outdoor setting. Combine with a Hill Country drive. Great for Older Son's horror interest.</p>
+<div class="card-links">
+<a href="https://screamhollow.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Escape Rooms — Austin / Round Rock</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Horror-themed &amp; family-friendly escape rooms. Multiple venues in the area.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Options: Escapology (Round Rock, ~20 min), The Escape Game (Austin, ~40 min), 4 Dreams Escape (Austin)</span></div></div>
+<p class="card-desc">Several escape rooms nearby: Escapology in Round Rock has family-friendly private rooms, The Escape Game in Austin has kid-friendly options, and 4 Dreams has creepier themes (zombie labs, abandoned attics) that Older Son would love. Great for birthday parties.</p>
+<div class="card-links">
+<a href="https://www.escapology.com/en/austin-tx" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Escapology+Round+Rock+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 06 GARDENING ============ 
+<section data-category="parks" id="gardening">
+<div class="section-header">
+<h2>Gardening &amp; Plant Shops</h2>
+<p>Older Son loves gardening. Local nurseries and plant shops to buy flowers, learn about native plants, and get supplies.</p>
+</div>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>McIntire's Garden Center</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Local staple since 1976. Native plants, trees, expert advice. Leander Rd.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag tag-featured">Best nursery</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Leander Road, Georgetown, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Since: 1976</span></div></div>
+<p class="card-desc">Georgetown institution since 1976. Wide selection of native and hardy plants, trees, and professional gardening supplies. Knowledgeable staff can help Older Son learn about Texas gardening — different climate from what we're used to. Great for native wildflowers.</p>
+<div class="card-links">
+<a href="https://mcintiresgarden.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Hillside Nursery — Williams Dr</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Full-service garden center on Williams Dr. Plants, flowers, pottery. Closest nursery.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~5 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Williams Drive, Georgetown, TX</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~5 min</span></div></div>
+<p class="card-desc">Right on Williams Drive — probably our closest nursery. Wide variety of plants, flowers, trees, and pottery. Knowledgeable staff. Perfect for quick weekend trips with Older Son to grab flowers.</p>
+<div class="card-links">
+<a href="https://hillsidenurserytx.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Root to Rise Plant Co.</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Boutique houseplant shop near Georgetown Square. Indoor plants, pots, repotting.</p>
+<div class="tag-row">
+<span class="tag tag-harang">Older Son</span>
+<span class="tag tag-new">New find</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Near Georgetown Square</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Cute boutique specializing in houseplants, pots, and plant accessories. They offer repotting services too. Fun for Older Son to browse for indoor plants for his room. Near the Square so combine with a downtown walk.</p>
+<div class="card-links">
+<a href="https://roottoriseplants.com/" target="_blank">Visit site →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 07 GEORGETOWN ============ 
+<section data-category="parks" id="georgetown">
+<div class="section-header">
+<h2>Georgetown — Parks &amp; Daily Life</h2>
+<p>Everything within 15 minutes of home. More nature, water, and free family activities than you'd expect.</p>
+</div>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Lake Georgetown &amp; Trails</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">1,300-acre reservoir. Goodwater Loop Trail, swimming, kayaking. ~10 min.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free entry; $5 parking some days</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free entry; $5 parking some days</span></div></div>
+<p class="card-desc">1,300-acre reservoir surrounded by the Goodwater Loop Trail (26.6 miles total). Cedar Breaks Park has a boat ramp and swimming beach. Russell Park has campsites. Great Saturday outing — fishing, kayaking, hiking, picnicking.</p>
+<div class="card-links">
+<a href="https://www.recreation.gov/camping/gateways/2741" target="_blank">Park details →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>San Gabriel Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">180-acre central park. Playgrounds, splash pad, river, BBQ. Free.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">425 E Morrow St, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free</span></div></div>
+<p class="card-desc">180-acre central park with playgrounds, BBQ pits, splash pad, river access, and trails along the San Gabriel River. Hosts most city festivals and free events. Best free family destination in town.</p>
+<div class="card-links">
+<a href="https://parks.georgetown.org/san-gabriel-park/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=San+Gabriel+Park+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Garey Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">525-acre nature park. Splash pad, dog park, river. $5 vehicle entry.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~15 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>$5 vehicle entry</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">6450 RR 2243, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~15 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: $5 vehicle entry</span></div></div>
+<p class="card-desc">525-acre nature park. Splash pad, dog park, equestrian trails, river access. Hosts Family Nature Fest in April. Often less crowded than San Gabriel Park.</p>
+<div class="card-links">
+<a href="https://gareypark.playgeorgetown.org/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Garey+Park+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Blue Hole Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Natural swimming spot downtown. Limestone bluffs. Free. Get there early.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">100 Blue Hole Park, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free</span></div></div>
+<p class="card-desc">Natural swimming spot on the South San Gabriel River in downtown. Beloved by locals on hot summer days. Limestone bluffs, shaded picnic area. Get there early on weekends — fills up fast.</p>
+<div class="card-links">
+<a href="https://parks.georgetown.org/blue-hole/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Blue+Hole+Park+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Inner Space Cavern</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Underground cave tours. Walking + Wild Cave adventure. ~$15–25.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~12 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$25 adult / $15 child</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">4200 S I-35 Frontage Rd, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~12 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$25 adult / $15 child</span></div></div>
+<p class="card-desc">Underground cave system right off I-35. Multiple tour levels including "Wild Cave" adventure tours where kids can crawl through real passages. Memorable rainy-day option.</p>
+<div class="card-links">
+<a href="https://www.innerspacecavern.com/" target="_blank">Buy tickets →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Georgetown Public Library</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Free kids programs, STEM workshops, summer reading. Library cards for everyone.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free with library card</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">402 W 8th St, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free with library card</span></div></div>
+<p class="card-desc">Modern library with free kids programs — Paws for People (kids read to therapy dogs), STEM workshops, summer reading program. Get library cards for everyone in the first month.</p>
+<div class="card-links">
+<a href="https://georgetowntexas.gov/library/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Georgetown+Public+Library+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Downtown Georgetown Square</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">One of Texas's prettiest squares. Free events most weekends. ~10 min.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Around the Williamson County Courthouse</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">One of the prettiest downtown squares in Texas. Free events almost every weekend: Pistons on the Square (3rd Saturday, classic cars), Second Saturday Market Days (Mar–Nov), Red Poppy Festival (late April), Christmas Stroll. Coffee shops, candy stores, indie boutiques.</p>
+<div class="card-links">
+<a href="https://mainstreet.georgetown.org/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Georgetown+Square+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 08 DAY TRIPS ============ 
+<section data-category="trips" id="daytrips">
+<div class="section-header">
+<h2>Day Trips (Under 1 Hour)</h2>
+<p>Half-day or full-day outings without overnight planning. Great Saturday options.</p>
+</div>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Round Rock — Outlets &amp; Old Settlers Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Outlet mall + 645-acre park. ~20 min. Shopping + outdoor combo.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~20 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~20 min</span></div></div>
+<p class="card-desc">Round Rock has the outlet mall (great for kids' clothes/shoes) and Old Settlers Park (645 acres, baseball complex, fishing pond, playgrounds, disc golf).</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Old+Settlers+Park+Round+Rock+TX" target="_blank">Google Maps (Old Settlers) →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Round+Rock+Premium+Outlets" target="_blank">Google Maps (Outlets) →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Cedar Park / Brushy Creek Lake Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">H-E-B Center (concerts, hockey), Lakeline Mall, splash pad. ~30 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~30 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~30 min</span></div></div>
+<p class="card-desc">Cedar Park has H-E-B Center (concerts, Texas Stars hockey, Austin Spurs basketball), Lakeline Mall, and the gourmet H-E-B. Brushy Creek Lake Park has fishing, paddle boards, and a great splash pad.</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Brushy+Creek+Lake+Park+Cedar+Park+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Typhoon Texas — Pflugerville</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Large water park. Slides, wave pool, lazy river. ~25 min. ~$45/person.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$45/person; season passes available</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$45/person; season passes available</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Season: Mid-May to early September</span></div></div>
+<p class="card-desc">Closest large water park — slides, wave pool, lazy river. Buy season passes if going more than 2× per summer.</p>
+<div class="card-links">
+<a href="https://typhoontexas.com/austin/" target="_blank">Tickets →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Downtown Austin</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Capitol, Lady Bird Lake, Zilker, Barton Springs, bats at sunset. ~40 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min (longer in rush hour)</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min (longer in rush hour)</span></div></div>
+<p class="card-desc">Texas State Capitol (free tours), Lady Bird Lake hike-and-bike trail, Zilker Park, Barton Springs swimming pool, the bats under Congress Bridge at sunset (March–October).</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Downtown+Austin+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Thinkery (Austin Children's Museum)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Hands-on STEM museum. Maker spaces, water tables. Free Wed 4–8 PM. ~40 min.</p>
+<div class="tag-row">
+<span class="tag tag-haneul">Younger Son</span>
+<span class="tag tag-family">Family</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>$16/person; free Wednesdays 4–8 PM</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">1830 Simond Ave, Austin</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: $16/person; free Wednesdays 4–8 PM</span></div></div>
+<p class="card-desc">Hands-on STEM museum aimed at K–5. Maker spaces, water tables, light tables, outdoor garden. Excellent rainy-day Austin destination.</p>
+<div class="card-links">
+<a href="https://thinkeryaustin.org/" target="_blank">Plan visit →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>McKinney Falls State Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Two waterfalls, swimming holes, hiking. $6 adult, kids free. ~55 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~55 min (south Austin)</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>$6/adult, free under 13</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~55 min (south Austin)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: $6/adult, free under 13</span></div></div>
+<p class="card-desc">Two waterfalls, swimming holes, hiking, biking, camping. Less crowded than Barton Springs. Best in spring and fall.</p>
+<div class="card-links">
+<a href="https://tpwd.texas.gov/state-parks/mckinney-falls" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=McKinney+Falls+State+Park" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 09 WEEKEND ADVENTURES ============ 
+<section data-category="trips" id="weekends">
+<div class="section-header">
+<h2>Weekend Adventures (1–3 Hours)</h2>
+<p>Saturday-morning-departure trips. Hill Country starts ~1 hour west; Gulf Coast ~3.5 hours south.</p>
+</div>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Fredericksburg &amp; Hill Country</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">German town, peach orchards, Enchanted Rock, wineries. ~1h 30min west.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag tag-adult">Date weekend</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 30min west</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 30min west</span></div></div>
+<p class="card-desc">German heritage town, peach orchards (summer), wineries, Enchanted Rock State Park (huge granite dome — great climbing/hiking for kids), Luckenbach. Best March–May (wildflowers) and Oct–Nov (cooler).</p>
+<div class="card-links">
+<a href="https://www.visitfredericksburgtx.com/" target="_blank">Visitor site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Fredericksburg+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>San Antonio — Riverwalk, SeaWorld, Six Flags</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">The Alamo, Riverwalk, SeaWorld, Six Flags, SA Zoo. ~1h 30min south.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 30min south</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 30min south</span></div></div>
+<p class="card-desc">The Alamo and Riverwalk are bucket-list. SeaWorld San Antonio and Six Flags Fiesta Texas are both there. San Antonio Zoo is one of the best in Texas. Easy overnight weekend.</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=San+Antonio+River+Walk" target="_blank">Google Maps (Riverwalk) →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Waco — Magnolia, Zoo, Dr Pepper Museum</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Magnolia Market, Cameron Park Zoo, Baylor campus. ~1h 30min north.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 30min north on I-35</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 30min north on I-35</span></div></div>
+<p class="card-desc">Magnolia Market at the Silos (Chip &amp; Joanna Gaines), Dr Pepper Museum, Cameron Park Zoo, Baylor campus. Long day trip or overnight.</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Magnolia+Market+Waco+TX" target="_blank">Google Maps (Magnolia) →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Schlitterbahn New Braunfels</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">One of the world's largest water parks. Comal River runs through it. ~1h 15min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 15min south</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 15min south</span></div></div>
+<p class="card-desc">One of the largest water parks in the world. The Comal River runs through it. Plan for a full day; arrive at opening. Season May–September.</p>
+<div class="card-links">
+<a href="https://www.schlitterbahn.com/new-braunfels" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Schlitterbahn+New+Braunfels" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Gruene — Float the Guadalupe &amp; Dance Hall</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">River tubing + oldest dance hall in Texas (1878). ~1h 15min south.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 15min south</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 15min south</span></div></div>
+<p class="card-desc">Tubing/floating on the Guadalupe or Comal River — peak Texas summer experience. Gruene Hall is the oldest continuously operating dance hall in Texas (1878). Easy combo with a Schlitterbahn weekend.</p>
+<div class="card-links">
+<a href="https://gruenehall.com/" target="_blank">Gruene Hall →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Gruene+Hall+New+Braunfels+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Galveston &amp; Gulf Coast</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Closest beach. Pleasure Pier, Moody Gardens. ~3h 30min. Better as 2–3 night trip.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~3h 30min southeast</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~3h 30min southeast</span></div></div>
+<p class="card-desc">The closest beach. Pleasure Pier, Moody Gardens (pyramid aquarium + rainforest), Schlitterbahn Galveston. Better as a 2–3 night trip than a day trip.</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Galveston+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Dallas / Fort Worth</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Previous home area. Stockyards, Perot Museum, DFW Airport. ~3 hours north.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~3 hours north on I-35</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~3 hours north on I-35</span></div></div>
+<p class="card-desc">Previous home and friends/family. DFW Airport for international travel. Fort Worth Stockyards (cattle drives, rodeo), Perot Museum, Klyde Warren Park.</p>
+<div class="card-links">
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Dallas+TX" target="_blank">Google Maps (Dallas) →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Fort+Worth+TX" target="_blank">Google Maps (Fort Worth) →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Houston — Space Center, Zoo, Museums</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">NASA Space Center, Houston Zoo, museums. ~2h 30min east. Plan 2-day weekend.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~2h 30min east</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~2h 30min east</span></div></div>
+<p class="card-desc">Space Center Houston (NASA), Houston Zoo, Museum of Natural Science, Children's Museum of Houston. Plan for a 2-day weekend to make it worth the drive.</p>
+<div class="card-links">
+<a href="https://spacecenter.org/" target="_blank">Space Center site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Space+Center+Houston" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 10 RESTAURANTS ============ 
+<section data-category="restaurants" id="restaurants">
+<div class="section-header">
+<h2>Restaurants</h2>
+<p>Texas food culture is real. BBQ, Tex-Mex, breakfast tacos, and more. Expand as we explore.</p>
+</div>
+<h3 class="sub-header">Georgetown — Family Favorites</h3>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Monument Cafe</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Local institution. Breakfast all day, garden-fresh, famous chocolate icebox pie. ~10 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">500 S Austin Ave, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-info"></use></svg><span class="meta-text">Vibe: Classic diner with farm-to-table sensibility</span></div></div>
+<p class="card-desc">Local institution. Breakfast all day, garden-fresh sides, famous chocolate icebox pie. Good for Saturday morning family breakfast.</p>
+<div class="card-links">
+<a href="https://themonumentcafe.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Monument+Cafe+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Wildfire Restaurant</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Wood-grilled steaks &amp; seafood on the Square. Upscale but kid-friendly. ~10 min.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag tag-adult">Date night</span>
+<span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">812 S Austin Ave, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Wood-grilled steaks and seafood. On the Square. Upscale but kid-friendly. Good Sunday brunch.</p>
+<div class="card-links">
+<a href="https://wildfiretexas.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Wildfire+Restaurant+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Encantada Cocina + Cantina (Formerly El Monumento)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Upscale Tex-Mex &amp; cocktails. River patio, beautiful modern interior. ~10 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">205 W 2nd St, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Newly opened in place of the beloved El Monumento. Reimagined with upscale modern Tex-Mex, signature hand-shaken margaritas, and a gorgeous patio overlooking the San Gabriel River. Close to the Square.</p>
+<div class="card-links">
+<a href="https://www.encantadagtx.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Encantada+Cocina+Cantina+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>600 Degrees Pizzeria</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Wood-fired Neapolitan pizza downtown. Quick, kid-friendly, parents can have beer. ~10 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Wood-fired Neapolitan pizza, downtown Square. Quick, good for the kids, parents can have a beer.</p>
+<div class="card-links">
+<a href="https://georgetown.600degreespizzeria.com/" target="_blank">Visit site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=600+Degrees+Pizzeria+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Tony &amp; Luigi's</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Italian-American. House-made pasta, big portions, kids' menu. ~10 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~10 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">706 S Main St, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~10 min</span></div></div>
+<p class="card-desc">Italian-American. House-made pasta, big portions, kids' menu. Reliable family dinner spot.</p>
+<div class="card-links">
+<a href="https://www.tonyandluigistx.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Tony+Luigis+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+<h3 class="sub-header">Austin — Worth the Drive</h3>
+<div class="cards">
+<details class="card featured">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Franklin Barbecue</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Most famous BBQ in America. Line up by 9 AM or pre-order online. ~40 min.</p>
+<div class="tag-row"><span class="tag tag-adult">Bucket list</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">900 E 11th St, Austin</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">Hours: Tues–Sun 11 AM–sellout (~2 PM)</span></div></div>
+<p class="card-desc">The most famous BBQ in America. Brisket is the legend. Worth doing once. Skip the wait via online pre-order.</p>
+<div class="card-links">
+<a href="https://franklinbbq.com/" target="_blank">Pre-order →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Terry Black's BBQ</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Excellent BBQ, much shorter line than Franklin. Family-friendly. ~40 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div></div>
+<p class="card-desc">Excellent BBQ, much shorter line than Franklin. Family-friendly. The practical "best BBQ" choice for a regular dinner.</p>
+<div class="card-links">
+<a href="https://www.terryblacksbbq.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Terry+Blacks+BBQ+Austin+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Veracruz All Natural</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Best breakfast tacos in Austin. Migas taco is essential. Multiple locations.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min (multiple locations)</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min (multiple locations)</span></div></div>
+<p class="card-desc">Best breakfast tacos in Austin (according to many). Migas taco is essential. Trailer-turned-empire.</p>
+<div class="card-links">
+<a href="https://veracruzallnatural.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Veracruz+All+Natural+Austin+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Uchi / Uchiko</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Top-tier omakase / modern Japanese. Reservations needed. Special occasion.</p>
+<div class="tag-row"><span class="tag tag-adult">Date night</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div></div>
+<p class="card-desc">Top-tier omakase / modern Japanese. Reservations needed. Special occasion.</p>
+<div class="card-links">
+<a href="https://uchiaustin.com/" target="_blank">Uchi Official →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Uchi+Austin+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Round Rock Donuts</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Since 1926. Famous Texas-size yellow donuts. Saturday morning kid bribery. ~20 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~20 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~20 min</span></div></div>
+<p class="card-desc">Local institution since 1926. Famous "Texas-size" yellow donuts. Saturday morning kid bribery, sorted.</p>
+<div class="card-links">
+<a href="https://roundrockdonuts.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Round+Rock+Donuts+Round+Rock+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Korean Grocery &amp; BBQ — H Mart &amp; North Austin</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">H Mart (Lakeline) grocery + food court, Charm K-BBQ. Massive selection. ~20–25 min.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~20–25 min (N Austin, Lakeline / Howard Ln)</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~20–25 min (N Austin, Lakeline / Howard Ln)</span></div></div>
+<p class="card-desc">H Mart Lakeline is a massive, modern Korean supermarket featuring a incredible food court (Korean BBQ, fried chicken, bakery, noodles). For all-you-can-eat K-BBQ, Charm Korean BBQ (off Howard Lane) is a popular option. Excellent monthly run for groceries and Korean comfort food.</p>
+<div class="card-links">
+<a href="https://www.hmart.com/" target="_blank">H Mart site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=H+Mart+Lakeline+Austin+TX" target="_blank">H Mart Map →</a>
+<a href="http://charmkoreanbbq.com/" target="_blank">Charm K-BBQ →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 11 EVENTS &amp; FESTIVALS ============ 
+<section data-category="trips" id="events">
+<div class="section-header">
+<h2>Events, Festivals &amp; Live Music</h2>
+<p>Austin is the live music capital of the world. Georgetown has its own great festival calendar.</p>
+</div>
+<h3 class="sub-header">Annual Festivals — Mark the Calendar</h3>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Red Poppy Festival (Georgetown)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Georgetown's signature 3-day festival. Parade, live music, Kids' Fun Zone. Free. Late April.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>Free</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: Late April (3 days)</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: Free</span></div></div>
+<p class="card-desc">Georgetown's signature festival. Parade, live music, Kids' Fun Zone, POPP Pup Parade, food trucks. On and around the Square. Don't miss it.</p>
+<div class="card-links">
+<a href="https://redpoppy.georgetown.org/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Georgetown+Square+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>ACL — Austin City Limits</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Major music festival. Two weekends in October, Zilker Park. Kids under 10 free.</p>
+<div class="tag-row">
+<span class="tag tag-family">Family</span>
+<span class="tag tag-adult">Adult</span>
+</div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: Two weekends in October</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">Zilker Park, Austin</span></div></div>
+<p class="card-desc">Major music festival. Kids under 10 free with paying adult. Family stage area. Tickets sell out fast — buy by April.</p>
+<div class="card-links">
+<a href="https://www.aclfestival.com/" target="_blank">aclfestival.com →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>SXSW (Austin)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Massive film/music/tech fest. Mid-March. Many free showcases, but brutal traffic.</p>
+<div class="tag-row"><span class="tag tag-adult">Adult</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: Mid-March</span></div></div>
+<p class="card-desc">Massive film/music/tech festival. Most events need badges, but many free showcases. Austin traffic is brutal during these 10 days — avoid downtown unless attending.</p>
+<div class="card-links">
+<a href="https://www.sxsw.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Austin+Convention+Center" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Texas Renaissance Festival</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Largest Ren Faire in America. Costumes, jousting, dragons. Oct–Nov. ~3 hours.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~3 hours east (Plantersville)</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: Weekends Oct–Nov</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~3 hours east (Plantersville)</span></div></div>
+<p class="card-desc">Largest Ren Faire in America. Costumes, jousting, food, dragons. Both boys will love it. Best as an overnight trip.</p>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Christmas Stroll (Georgetown)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Tree lighting, carriage rides, hot cocoa. First weekend in December.</p>
+<div class="tag-row"><span class="tag tag-family">Family</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: First weekend in December</span></div></div>
+<p class="card-desc">Tree lighting on the Square, carriage rides, hot cocoa, vendor booths. The annual Georgetown holiday tradition.</p>
+<div class="card-links">
+<a href="https://mainstreet.georgetown.org/christmas-stroll/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Georgetown+Square+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Two Step Inn — Country Music Festival</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Major country fest at San Gabriel Park, Georgetown. Top headliners. April.</p>
+<div class="tag-row"><span class="tag tag-adult">Adult</span><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-cost"></use></svg>~$200–400 weekend pass</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-time"></use></svg><span class="meta-text">When: April</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">San Gabriel Park, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-cost"></use></svg><span class="meta-text">Cost: ~$200–400 weekend pass</span></div></div>
+<p class="card-desc">Major country music festival hosted right in town. Top-tier headliners.</p>
+<div class="card-links">
+<a href="https://www.twostepinn.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=San+Gabriel+Park+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+<h3 class="sub-header">Music Venues — Year-Round</h3>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>H-E-B Center at Cedar Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">~8K-seat arena. Touring acts, Texas Stars hockey. ~25 min — closer than Austin.</p><div class_="tag-row"><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div></div>
+<p class="card-desc">Mid-size arena (~8,000 seats). Major touring acts, Texas Stars hockey, Austin Spurs basketball. Closer than driving to Austin's arenas.</p>
+<div class="card-links">
+<a href="https://www.hebcenter.com/" target="_blank">What's on →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Moody Center (Austin)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">New arena on UT campus. Biggest touring acts now play here. ~40 min.</p><div class_="tag-row"><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~40 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~40 min</span></div></div>
+<p class="card-desc">Brand new arena on UT campus. Biggest touring acts play here.</p>
+<div class="card-links">
+<a href="https://moodycenteratx.com/" target="_blank">Schedule →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Gruene Hall</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Oldest dance hall in Texas (1878). Live music, many free shows. ~1h 15min.</p><div class_="tag-row"><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~1h 15min south</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~1h 15min south</span></div></div>
+<p class="card-desc">The oldest continuously operating dance hall in Texas (1878). Pair with tubing the Guadalupe. Many free shows and legends-pass-through nights.</p>
+<div class="card-links">
+<a href="https://gruenehall.com/" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Gruene+Hall+New+Braunfels+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 12 COMMUNITY ============ 
+<section data-category="services" id="community">
+<div class="section-header">
+<h2>Community &amp; Online Resources</h2>
+<p>Where neighbors talk. Join these in the first week. Local Facebook groups beat any news site.</p>
+</div>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Nextdoor</h3>
+<span class="star">★</span>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Neighborhood app. Lost pets, contractor recs, local sales. Download day one.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">The most useful app for the Woodlake/Williams Dr neighborhood. Lost pets, contractor recommendations, package theft alerts, local sales. Download immediately after move-in.</p>
+<div class="card-links">
+<a href="https://nextdoor.com/" target="_blank">nextdoor.com →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>JoAnn Ford Elementary — Facebook</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Official school page. Announcements, events, PTA. Follow before school starts.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">School announcements, event photos, PTA notices. Follow before school year starts.</p>
+<div class="card-links">
+<a href="https://www.facebook.com/FordElementaryGISD/" target="_blank">Visit page →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Cool Moms of Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Active Facebook group. Playdates, restaurant tips, contractor referrals.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">Active local moms group. Playdates, classroom volunteer asks, restaurant tips, contractor referrals. Worth joining for wife.</p>
+<div class="card-links">
+<a href="https://www.facebook.com/groups/coolmomsofgtx/" target="_blank">Join →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>All Things Kids In Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">6K+ followers. Curated family activities, events, classes. Best kids event feed.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">Curated kids events, classes, camps, family activities. The single best feed for "what's happening this weekend for the boys."</p>
+<div class="card-links">
+<a href="https://www.facebook.com/AllThingsKidsInGeorgetownTexas/" target="_blank">Follow →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Do512 Family</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Best weekly roundup of family events in Greater Austin. Subscribe to newsletter.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">Best weekly roundup of family-friendly events in Greater Austin. Newsletter is worth subscribing to.</p>
+<div class="card-links">
+<a href="https://do512family.com/" target="_blank">do512family.com →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Hello Georgetown</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Local news/event blog. Weekly digest of Georgetown happenings.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">Curated weekly digest of Georgetown happenings, restaurant openings, school news, civic issues. More useful than the local paper.</p>
+<div class="card-links">
+<a href="https://www.hellogeorgetown.com/" target="_blank">hellogeorgetown.com →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>City of Georgetown — Parks &amp; Rec</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">All city-run programs: youth sports, swim, library events. Bookmark.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">All city-run programs: youth sports, summer camps, swim lessons, library events.</p>
+<div class="card-links">
+<a href="https://teamsideline.com/sites/georgetown" target="_blank">Sports registration →</a>
+<a href="https://georgetowntexas.gov/parks/" target="_blank">Parks &amp; Rec →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ 13 HOME SERVICES ============ 
+<section data-category="services" id="services">
+<div class="section-header">
+<h2>Home Services &amp; Utilities</h2>
+<p>Infrastructure of daily life. Add referrals as we find good providers.</p>
+</div>
+<div class="cards">
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Georgetown Utility Systems (GUS)</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Municipal electricity. No provider choice. Set up before move-in.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-phone"></use></svg><span class="meta-text">Phone: (512) 930-3640</span></div></div>
+<p class="card-desc">City-owned utility. No retail electricity shopping (unlike Frisco/Oncor). Set up account before move-in.</p>
+<div class="card-links">
+<a href="https://gus.georgetown.org/" target="_blank">gus.georgetown.org →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Internet Options</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Spectrum cable, AT&amp;T Fiber (check our address), Tachus fiber expanding.</p><div class_="tag-row"></div>
+</summary>
+<div class="card-body">
+<p class="card-desc">Check fiber availability at our specific address — best speeds and lowest latency for ML/remote work. Spectrum is the cable backup.</p>
+<div class="card-links">
+<a href="https://www.spectrum.com/" target="_blank">Spectrum →</a>
+<a href="https://www.att.com/internet/fiber/" target="_blank">AT&amp;T Fiber →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Grocery — H-E-B</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">3651 Williams Dr. ~5 min. Texans love H-E-B. Curbside pickup via app.</p><div class_="tag-row"><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~5 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">3651 Williams Dr, Georgetown</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~5 min</span></div></div>
+<p class="card-desc">Texans love H-E-B. Excellent house brand. Curbside pickup via the H-E-B app saves hours weekly.</p>
+<div class="card-links">
+<a href="https://www.heb.com/" target="_blank">HEB Official →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=HEB+Georgetown+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+<details class="card">
+<summary class="card-summary">
+<div class="card-title">
+<h3>Costco — Cedar Park</h3>
+<svg class="chevron" fill="currentColor" viewbox="0 0 20 20"><path d="M7.7 4.3a1 1 0 011.4 0l5 5a1 1 0 010 1.4l-5 5a1 1 0 01-1.4-1.4L12 10 7.7 5.7a1 1 0 010-1.4z"></path></svg>
+</div>
+<p class="card-brief">Closest Costco. Bulk buys, kids' clothes, electronics. ~25 min.</p><div class_="tag-row"><span class="tag-preview-meta"><svg class="meta-icon"><use href="#icon-drive"></use></svg>~25 min</span></div>
+</summary>
+<div class="card-body">
+<div class="card-meta"><div class="meta-item"><svg class="meta-icon"><use href="#icon-location"></use></svg><span class="meta-text">11471 Rock Rose Ave, Austin</span></div><div class="meta-item"><svg class="meta-icon"><use href="#icon-drive"></use></svg><span class="meta-text">Drive: ~25 min</span></div></div>
+<p class="card-desc">Closest Costco. Bulk buys, kids' clothes, electronics. Worth the membership.</p>
+<div class="card-links">
+<a href="https://www.costco.com/warehouse-locations/cedar-park-tx-1152.html" target="_blank">Official site →</a>
+<a href="https://www.google.com/maps/search/?api=1&amp;query=Costco+Cedar+Park+TX" target="_blank">Google Maps →</a>
+</div>
+</div>
+</details>
+</div>
+</section>
+ ============ FOOTER ============ 
+<footer>
+    The Choi Family Manual · v2.3 · [Private Address], Georgetown TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+</footer>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const buttons = document.querySelectorAll('.category-btn[data-category]');
+      const sections = document.querySelectorAll('section[data-category]');
+      
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all buttons
+          buttons.forEach(b => b.classList.remove('active'));
+          // Add active class to clicked button
+          btn.classList.add('active');
+          
+          const targetCategory = btn.getAttribute('data-category');
+          
+          // Show/hide sections
+          sections.forEach(sec => {
+            if (targetCategory === 'all' || sec.getAttribute('data-category') === targetCategory) {
+              sec.style.display = 'block';
+            } else {
+              sec.style.display = 'none';
+            }
+          });
+          
+          // If not 'all', scroll smoothly back to the top of the content filter bar
+          if (targetCategory !== 'all') {
+            const wrapper = document.querySelector('.category-bar-wrapper');
+            if (wrapper) {
+              window.scrollTo({
+                top: wrapper.offsetTop - 10,
+                behavior: 'smooth'
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
