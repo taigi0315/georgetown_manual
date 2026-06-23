@@ -16,6 +16,9 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<!-- Leaflet for the map view (TASK-009); loads lazily, map only inits on demand -->
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet"/>
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>/* ============================================
      DESIGN SYSTEM — Apple-inspired, clean, minimal
      ============================================ */
@@ -300,6 +303,56 @@
     color: #fff;
     border-color: var(--ink);
   }
+
+  .view-toggle {
+    padding: 5px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    background: var(--bg-card);
+    color: var(--ink-secondary);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition);
+  }
+  .view-toggle:hover { background: var(--bg-hover); color: var(--ink); }
+  .view-toggle.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  #mapView {
+    display: none;
+    height: 460px;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 32px;
+    box-shadow: var(--shadow-sm);
+  }
+  #mapView.visible { display: block; }
+  #map { width: 100%; height: 100%; }
+  .map-unavailable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--ink-secondary);
+    font-size: 14px;
+    text-align: center;
+    padding: 24px;
+  }
+  .leaflet-container { font-family: inherit; }
+  .map-popup-title { font-weight: 600; color: var(--ink); display: block; margin-bottom: 4px; }
+  .map-popup-link {
+    color: var(--accent);
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .map-popup-meta { color: var(--ink-secondary); font-size: 12px; }
 
   .no-results {
     display: none;
@@ -757,8 +810,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
-<div><strong>Updated</strong>   June 23, 2026 (v3.5)</div>
-<div><strong>v3.5</strong></div>
+<div><strong>Updated</strong>   June 23, 2026 (v3.6)</div>
+<div><strong>v3.6</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -788,10 +841,12 @@
 <button class="tag-chip tag-new" data-tag="new" type="button">New</button>
 <button class="clear-filters" id="clearFilters" type="button">Clear filters</button>
 <button class="sort-toggle" id="sortDistance" title="Sort visible cards by drive time from home" type="button">↕ Nearest first</button>
+<button class="view-toggle" id="mapToggle" title="Show the filtered places on a map" type="button">🗺 Map</button>
 </div>
 </div>
 </div>
 <div class="no-results" id="noResults">No results. Try a different search or clear the filters.</div>
+<div id="mapView"><div id="map"></div></div>
 <!-- ============ FAMILY REFERENCE (collapsible) ============ -->
 <!-- ============ 01 SCHOOLS ============ -->
 <section data-category="education" id="schools">
@@ -2419,7 +2474,7 @@
 </section>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v3.5 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v3.6 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -2592,6 +2647,101 @@
         sortBtn.classList.toggle('active', sortByDistance);
         sortBtn.textContent = sortByDistance ? '↕ Default order' : '↕ Nearest first';
         applySort();
+      });
+
+      // ----- Map view (TASK-009) -----
+      // Coordinates were geocoded once (Nominatim/OSM) and embedded here, keyed by
+      // each card's DOM order so no per-card markup edits are needed. The map shows
+      // only the currently-visible (filtered) cards that have a known location.
+      const CARD_COORDS = {0:[30.68812,-97.7289],1:[30.67181,-97.68894],2:[30.66346,-97.66387],3:[30.68812,-97.7289],4:[30.65658,-97.67005],5:[30.67181,-97.68894],6:[30.41988,-97.67445],7:[30.46627,-97.64451],8:[30.62595,-97.66374],9:[30.64948,-97.672],10:[30.50859,-97.67881],12:[30.63616,-97.67834],13:[30.64697,-97.67968],15:[30.63702,-97.67756],16:[30.63702,-97.67756],17:[30.52171,-97.82783],18:[30.50859,-97.67881],19:[30.52171,-97.82783],20:[30.3444,-97.69772],23:[30.00563,-97.15591],25:[30.6227,-97.68511],26:[30.65897,-97.68835],27:[30.65532,-97.67257],29:[30.65005,-97.67153],30:[30.65551,-97.68998],31:[30.64286,-97.68164],33:[30.63647,-97.68012],34:[30.63702,-97.67754],39:[30.29758,-97.705],49:[30.63887,-97.6785],50:[30.63604,-97.67833],51:[30.64233,-97.67865],53:[30.63731,-97.67714],54:[30.27015,-97.73128],61:[30.26769,-97.76689],65:[30.65039,-97.67131],78:[30.6712,-97.6989],79:[30.40091,-97.72286]};
+      const HOME = [30.6912, -97.7305]; // Georgetown, TX 78633 (Woodlake)
+      const cardsArr = [...cards];
+      const mapToggle = document.getElementById('mapToggle');
+      const mapView = document.getElementById('mapView');
+      let map = null, markerLayer = null, mapInited = false, mapActive = false;
+
+      function cardTitle(card) {
+        const h = card.querySelector('.card-title h3');
+        return h ? h.textContent.trim() : 'Place';
+      }
+      function cardDrive(card) {
+        return card.dataset.driveMin === '' || card.dataset.driveMin == null
+          ? '' : '~' + card.dataset.driveMin + ' min from home';
+      }
+
+      function ensureMap() {
+        if (mapInited) return map;
+        mapInited = true;
+        if (typeof L === 'undefined') {            // Leaflet failed to load (e.g. offline)
+          document.getElementById('map').innerHTML =
+            '<div class="map-unavailable">Map needs an internet connection. Switch back to the list to keep browsing.</div>';
+          return null;
+        }
+        map = L.map('map', { scrollWheelZoom: false }).setView(HOME, 11);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          maxZoom: 19,
+          attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        markerLayer = L.layerGroup().addTo(map);
+        return map;
+      }
+
+      function renderMarkers() {
+        if (!map || !markerLayer) return;
+        markerLayer.clearLayers();
+        const pts = [];
+        // Home marker
+        L.marker(HOME, { title: 'Home', opacity: 0.9 })
+          .bindPopup('<span class="map-popup-title">🏠 Home</span><span class="map-popup-meta">Georgetown, TX 78633</span>')
+          .addTo(markerLayer);
+        pts.push(HOME);
+        Object.keys(CARD_COORDS).forEach(k => {
+          const card = cardsArr[+k];
+          if (!card || card.style.display === 'none') return; // respect active filters
+          const ll = CARD_COORDS[k];
+          const drive = cardDrive(card);
+          const html = '<span class="map-popup-title">' + cardTitle(card) + '</span>' +
+            (drive ? '<span class="map-popup-meta">' + drive + '</span><br>' : '') +
+            '<a class="map-popup-link" data-idx="' + k + '">Open in list ↓</a>';
+          L.marker(ll, { title: cardTitle(card) }).bindPopup(html).addTo(markerLayer);
+          pts.push(ll);
+        });
+        if (pts.length > 1) {
+          map.fitBounds(pts, { padding: [40, 40], maxZoom: 14 });
+        }
+      }
+
+      function showMap() {
+        mapActive = true;
+        mapToggle.classList.add('active');
+        mapToggle.textContent = '☰ List';
+        sections.forEach(s => { s.style.display = 'none'; });
+        noResults.style.display = 'none';
+        mapView.classList.add('visible');
+        const m = ensureMap();
+        if (m) {
+          setTimeout(() => { m.invalidateSize(); renderMarkers(); }, 0);
+        }
+      }
+      function showList() {
+        mapActive = false;
+        mapToggle.classList.remove('active');
+        mapToggle.textContent = '🗺 Map';
+        mapView.classList.remove('visible');
+        applyFilters(); // restore section/card visibility per active filters
+      }
+      mapToggle.addEventListener('click', () => { mapActive ? showList() : showMap(); });
+
+      // Popup "Open in list" -> back to list view, scroll to and expand the card.
+      mapView.addEventListener('click', (e) => {
+        const link = e.target.closest('.map-popup-link');
+        if (!link) return;
+        const card = cardsArr[+link.dataset.idx];
+        showList();
+        if (card) {
+          card.open = true;
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
       });
     });
   </script>

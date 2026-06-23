@@ -222,6 +222,7 @@ html
 <li><strong>Tag the audience</strong> using exactly the tag set defined below.</li>
 <li><strong>Follow the entry template</strong> exactly. Match the collapsible card structure so layout doesn't break.</li>
 <li><strong>Stamp the verified date</strong> — set <code>data-verified="YYYY-MM"</code> on the card's <code>&lt;details&gt;</code> to the current month whenever you create or re-confirm a card. After 6 months without an update, a "Verify info" badge appears automatically to flag the card for re-checking.</li>
+<li><strong>Update the map coordinates</strong> — the map view uses a <code>CARD_COORDS</code> object in <code>index.html</code> keyed by each card's <em>position</em> (DOM order). If you add, remove, or reorder cards, those keys shift and pins will be wrong: regenerate/realign <code>CARD_COORDS</code> after any structural change, and geocode new places (Nominatim/OSM or Google Maps). This positional fragility goes away once TASK-013 moves coordinates into per-card data in <code>cards.json</code>.</li>
 <li><strong>Update the masthead</strong> — bump the version number (1.x for content adds, 2.0 for restructures) and change <code>LAST UPDATED</code>. Also bump the <code>VERSION</code> constant in <code>sw.js</code> so the PWA cache refreshes for installed users.</li>
 <li><strong>Log the change</strong> in the changelog at the bottom of this page.</li>
 </ol>
@@ -355,6 +356,7 @@ html
 <div class="log-entry"><span class="date">2026-06-23</span><span>v2.9 — Migrated all 80 cards to local actual images. Automated image scraper fetched og:images from official sites, fallback searched on Google, resized to max 800px width using Pillow, and mapped them locally to prevent external 404 links. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v2.8 — Second hotfix for broken image URLs. Conducted an automated HEAD sweep across all 50 unique Unsplash URLs to detect and replace 4 deleted resources (GSA soccer, Inner Space Cavern, H Mart grocery, Dallas skyline) with verified active IDs. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.7 — Hotfixed broken activities placeholder image URL (photo-1471286174243-e85af7368bb1 which was yielding 404) with a valid Unsplash image ID (photo-1507652313519-d4e9174996dd). (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-23</span><span>v3.6 — Added a map view. A toolbar "🗺 Map" toggle shows the currently-filtered places (plus a Home marker) as pins on a Leaflet/OpenStreetMap map; pin popups link back to the card in the list. Coordinates for 38 cards were geocoded once via Nominatim/OSM and embedded as a position-keyed <code>CARD_COORDS</code> object. The map respects active search/tag/category filters and degrades gracefully (clear message) when offline. Note: <code>CARD_COORDS</code> is keyed by card position and must be realigned if cards are added/removed/reordered. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.5 — Made the manual an installable PWA. Added <code>manifest.webmanifest</code> (app name, icons, standalone display), generated app icons (192/512 + maskable + apple-touch), and a conservative <code>sw.js</code> service worker: HTML is network-first (online always fresh, offline falls back to cache) while images/assets are cache-first with background refresh. Lets the family "Add to Home Screen" and open the manual offline in the car. Bump <code>sw.js</code> VERSION on each release. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.4 — Added a "Nearest first" distance sort. Each card's drive time is parsed from its drive meta (handles "~8 min", "~1h 30min", "~3 hours" and ranges) and a toolbar toggle reorders visible cards nearest-first within each section; cards without a drive time sort last, and toggling off restores the original order. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.3 — Added an automated link &amp; image checker (GitHub Action using lychee). Runs weekly, on changes to the HTML/images, and on demand; verifies every external href and every local <code>images/…</code> src, and opens an issue when something breaks. A <code>.lycheeignore</code> excludes bot-blocking domains (social, Google Maps deep links) to avoid false alarms. Directly targets the repeated broken-link/image hotfixes of v2.6–v2.8. (Antigravity AI)</span></div>
@@ -364,7 +366,7 @@ html
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v3.5
+    Choi Family Manual — AI Agent Reference · v3.6
   </footer>
 </div>
 </body>
