@@ -17,7 +17,9 @@
   - iOS Safari "홈 화면에 추가" 안내 힌트(미설치 시 1회 노출).
 
 ## 3. 일정 및 상태
-- 상태: 대기 중
+- 상태: ✅ 완료 (2026-06-23, v3.5)
 - 우선순위: P3
 - 담당자: Antigravity AI
 - 비고: HTTPS 필요 — GitHub Pages는 기본 충족. TASK-013(cards.json) 이후 캐시 목록 확정이 깔끔.
+- 구현 요약: `manifest.webmanifest`(name/short_name/standalone/테마색/아이콘) + Pillow로 생성한 아이콘 4종(192·512·maskable_512·apple_touch 180, 액센트 블루 위치핀). `sw.js` 서비스워커 — **HTML은 network-first**(온라인 최신/오프라인 캐시 폴백), 동일출처 자산은 cache-first+백그라운드 갱신, 폰트는 stale-while-revalidate, activate 시 구버전 캐시 정리. `index.html` head에 manifest/theme-color/apple 메타, load 시 SW 등록(실패는 무시 → 미지원 시 기존과 동일). agent.html에도 PWA 메타 추가. SOP "Update the masthead" 단계에 sw.js VERSION 갱신 규칙 추가.
+- 검증: manifest JSON·sw.js 문법·아이콘/참조 존재·jsdom 스모크(에러 0, 메타 존재, 기존 기능 유지) 통과. **미검증**: 실제 설치/오프라인 동작 — 샌드박스에 HTTPS 브라우저가 없어 못 함. GitHub Pages 배포 후 모바일에서 "홈 화면에 추가" + 비행기모드 확인 필요.

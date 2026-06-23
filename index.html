@@ -6,6 +6,13 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>The Choi Family Manual — Living in Georgetown & Austin</title>
 <meta content="A living document for the Choi family: schools, activities, restaurants, and everything about life in Georgetown & Austin, TX." name="description"/>
+<!-- PWA (TASK-014): installable + offline -->
+<link href="manifest.webmanifest" rel="manifest"/>
+<meta content="#FAFAFA" name="theme-color"/>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="default" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="Choi Manual" name="apple-mobile-web-app-title"/>
+<link href="images/apple_touch_icon.png" rel="apple-touch-icon"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
@@ -684,6 +691,15 @@
       img.src = placeholder(sec ? sec.getAttribute('data-category') : '_default');
     }, true); // capture phase: error events do not bubble
   })();
+
+  /* ===== PWA SERVICE WORKER (TASK-014) =====
+     Registered on load so it never blocks first paint. Failures are swallowed —
+     the site works exactly as before if the SW can't register. */
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('./sw.js').catch(function () {});
+    });
+  }
 </script>
 </head>
 <body>
@@ -741,8 +757,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
-<div><strong>Updated</strong>   June 23, 2026 (v3.4)</div>
-<div><strong>v3.4</strong></div>
+<div><strong>Updated</strong>   June 23, 2026 (v3.5)</div>
+<div><strong>v3.5</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -2403,7 +2419,7 @@
 </section>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v3.4 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v3.5 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
