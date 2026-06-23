@@ -1,0 +1,2883 @@
+{
+  "sections": [
+    {
+      "id": "schools",
+      "category": "education",
+      "title": "Schools",
+      "intro": "Georgetown ISD. Ford Elementary is walking distance. Benold Middle is a short drive.",
+      "cards": [
+        {
+          "id": "ford-elementary",
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/schools_jo_ann_ford_elementary.jpg",
+          "title": "Jo Ann Ford Elementary",
+          "brief": "Top 10% Texas elementary, walking distance from home. PK–5, 538 students.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "featured",
+              "label": "Walking distance"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "2 min · walkable"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "210 Woodlake Dr, Georgetown, TX 78633"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: 2 min · walkable"
+            },
+            {
+              "icon": "education",
+              "text": "Grades: PK–5"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 943-5180"
+            }
+          ],
+          "desc": "Ranked 461st of 4,651 Texas elementary schools. Student-teacher ratio 15:1. Strong Gifted & Talented program (top 15% statewide). Same street as our house — Younger Son can walk or bike.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/ford",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.facebook.com/FordElementaryGISD/",
+              "label": "Facebook"
+            }
+          ]
+        },
+        {
+          "id": "benold-middle",
+          "verified": "2026-06",
+          "image": "images/schools_douglas_benold_middle_school.jpg",
+          "title": "Douglas Benold Middle School",
+          "brief": "Assigned middle school for Older Son. Grades 6–8, ~8 min drive.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~8 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1401 N Parmer Ranch Blvd, Georgetown, TX 78633"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~8 min"
+            },
+            {
+              "icon": "education",
+              "text": "Grades: 6–8"
+            }
+          ],
+          "desc": "School clubs and sports happen here — soccer, band, theater, robotics. Join clubs early; that's the fastest way for Older Son to make friends at a new school.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/benold",
+              "label": "Official site"
+            }
+          ]
+        },
+        {
+          "id": "georgetown-high",
+          "verified": "2026-06",
+          "image": "images/schools_georgetown_high_school.jpg",
+          "title": "Georgetown High School",
+          "brief": "Future high school for both boys. ~12 min drive. Strong athletics and band.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Future · Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~12 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "2211 N Austin Ave, Georgetown, TX 78626"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~12 min"
+            },
+            {
+              "icon": "education",
+              "text": "Grades: 9–12"
+            }
+          ],
+          "desc": "Assigned high school for both boys eventually. 12,500-seat stadium. Strong football and band programs typical of Texas high schools.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/ghs",
+              "label": "Official site"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afterschool",
+      "category": "education",
+      "title": "After-School Care",
+      "intro": "Options for both boys after school ends at ~3 PM. YMCA at Ford Elementary is the standout for Younger Son.",
+      "cards": [
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/afterschool_ymca_y_afterschool_at_ford_elementary.jpg",
+          "title": "YMCA Y Afterschool at Ford Elementary",
+          "brief": "On-site at Ford Elementary. No pickup needed until 6:30 PM. K–5.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "featured",
+              "label": "On-site at school"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "~$60–80/week"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "210 Woodlake Dr (inside Ford Elementary)"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Mon–Fri, 2:30–6:30 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$60–80/week"
+            },
+            {
+              "icon": "target",
+              "text": "Ages: K–5"
+            }
+          ],
+          "desc": "Runs inside the school building — no transportation needed. Homework help, physical activity, STEAM enrichment, snack. Register early — popular slots fill before the school year starts.",
+          "links": [
+            {
+              "href": "https://ymcactx.org/childcare/afterschool/",
+              "label": "Register"
+            },
+            {
+              "href": "tel:5122469622",
+              "label": "Call: (512) 246-9622"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/afterschool_boys_girls_club_of_georgetown.jpg",
+          "title": "Boys & Girls Club of Georgetown",
+          "brief": "Backup option, ~12 min. Mentoring, tutoring, sports. Both boys eligible.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~12 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1715 N Austin Ave, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~12 min"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Mon–Fri 3–6:30 PM; early-out from 1 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$25–50/year membership"
+            }
+          ],
+          "desc": "Backup option if YMCA fills up. Good for Older Son who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.",
+          "links": [
+            {
+              "href": "https://bgctx.org/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Boys+and+Girls+Club+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/afterschool_middle_school_clubs_sports_benold.jpg",
+          "title": "Middle School Clubs & Sports (Benold)",
+          "brief": "Older Son's practical after-school path: school clubs, theater, soccer, band.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~8 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Benold Middle School campus"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~8 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free for most clubs"
+            }
+          ],
+          "desc": "For Older Son, the social on-ramp at a new school is participating in clubs: theater, robotics, band, art, chess, and athletics: track, cross-country, soccer. Sign up at the start of each semester.",
+          "links": [
+            {
+              "href": "https://benold.georgetownisd.org/",
+              "label": "School site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Douglas+Benold+Middle+School+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "category": "activities",
+      "title": "Sports & Activities",
+      "intro": "Ninja Warrior (both love it from Frisco) and soccer. Local options to keep the boys active.",
+      "cards": [
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/sports_ninja_nation_austin.jpg",
+          "title": "Ninja Nation Austin",
+          "brief": "Same brand from Frisco. ~30 min drive. Classes, open gym, camps.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "featured",
+              "label": "Continuation from Frisco"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~30 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "13420 N Lamar Blvd, Austin, TX 78753"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~30 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$150–200/month per kid; Open Gym ~$22"
+            },
+            {
+              "icon": "info",
+              "text": "Format: Weekly classes, open gym, camps"
+            }
+          ],
+          "desc": "Same brand the boys already love — programs and obstacles will feel familiar. World-class course, coached classes by age/level, open gym, and summer camps. Book a trial class soon after the move.",
+          "links": [
+            {
+              "href": "https://www.austin.ninjanation.com/",
+              "label": "Classes & schedule"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/sports_move_sport_ninja_academy.jpg",
+          "title": "Move Sport Ninja Academy",
+          "brief": "Former ANW competitor's gym. Pflugerville, ~30 min. Competition-track training.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~30 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1700 Grand Avenue Pkwy, Pflugerville, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~30 min"
+            },
+            {
+              "icon": "info",
+              "text": "Coach: Andy Lowes (former American Ninja Warrior)"
+            }
+          ],
+          "desc": "Smaller, more personal than Ninja Nation. Run by a former ANW competitor with 15+ years of gymnastics coaching. Strong fit if the boys want competition-track training.",
+          "links": [
+            {
+              "href": "https://www.movesportninja.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/sports_georgetown_soccer_association_gsa.jpg",
+          "title": "Georgetown Soccer Association (GSA)",
+          "brief": "Est. 1981. Rec + Select leagues, ~10 min. Fall & spring seasons.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "featured",
+              "label": "Primary soccer choice"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Ray Thomas Jr. Fields, 2101 Maple St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Recreational ~$120–160/season"
+            },
+            {
+              "icon": "time",
+              "text": "Seasons: Fall (Aug–Nov), Spring (Mar–May)"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 868-5913"
+            }
+          ],
+          "desc": "450+ recreational players plus Select/Academy programs (Force FC). US Soccer curriculum, volunteer parent coaches, age-grouped teams. Recreational league is the right starting point. Register 1–2 months before season start.",
+          "links": [
+            {
+              "href": "https://georgetownsoccer.org/recreational/",
+              "label": "Recreational"
+            },
+            {
+              "href": "https://georgetownsoccer.org/force-fc-select/",
+              "label": "Force FC Select"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/sports_city_of_georgetown_youth_soccer_league.jpg",
+          "title": "City of Georgetown Youth Soccer League",
+          "brief": "Cheaper city-run rec league. $60 resident. San Gabriel Park, Saturday games.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "San Gabriel Park, 425 E Morrow St"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $60 resident / $170 non-resident"
+            },
+            {
+              "icon": "target",
+              "text": "Ages: 4–13"
+            }
+          ],
+          "desc": "Lower-pressure alternative to GSA. City-run, Saturday games. Good first soccer experience or complement.",
+          "links": [
+            {
+              "href": "https://teamsideline.com/sites/georgetown/content/18818/Youth-Soccer-Homepage",
+              "label": "Register"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/sports_acrotex_gymnastics_ninja_classes.jpg",
+          "title": "AcroTex Gymnastics — Ninja Classes",
+          "brief": "Combined gymnastics + ninja in Round Rock. ~25 min. Closer alternative.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Round Rock (multiple locations)"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            }
+          ],
+          "desc": "Combined gymnastics + ninja classes. Backup option closer to home if Austin commute gets old.",
+          "links": [
+            {
+              "href": "https://www.acrotex.com/ninja-class/",
+              "label": "Ninja class details"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/sports_sport_clips_family_ymca_georgetown.jpg",
+          "title": "Sport Clips Family YMCA — Georgetown",
+          "brief": "Family membership covers basketball, swim, soccer, gym. ~12 min, ~$80–100/mo.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~12 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1801 NW Inner Loop, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~12 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Family membership ~$80–100/month"
+            }
+          ],
+          "desc": "Basketball, soccer, swim lessons, summer day camps for kids — plus gym and fitness classes for parents. Single family membership covers many programs. Strong value.",
+          "links": [
+            {
+              "href": "https://ymcactx.org/locations/georgetown/",
+              "label": "Programs & membership"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "theater",
+      "category": "activities",
+      "title": "Theater, Acting & Music Lessons",
+      "intro": "Older Son loves acting and singing. Younger Son wants to play drums. Programs near Georgetown.",
+      "cards": [
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/theater_georgetown_palace_theatre_education_dept.jpg",
+          "title": "Georgetown Palace Theatre — Education Dept.",
+          "brief": "Year-round acting, musical theater, voice, improv. Grades 1–12. Downtown, ~10 min.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "featured",
+              "label": "Best for acting"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "810 S Austin Ave, Georgetown, TX 78626"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "info",
+              "text": "Programs: Acting, musical theater, voice, improv, dance, film & TV, stage combat"
+            },
+            {
+              "icon": "info",
+              "text": "Format: After-school classes, weekend classes, seasonal camps"
+            }
+          ],
+          "desc": "The hub for performing arts in Georgetown. Year-round classes for grades 1–12. After-school and weekend options, plus summer/break camps with early drop-off and late pick-up. Perfect for Older Son's acting and singing interests. Historic 1926 theater on the Square.",
+          "links": [
+            {
+              "href": "https://www.georgetownpalace.com/",
+              "label": "Programs & schedule"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/theater_arts_avenue_georgetown.jpg",
+          "title": "Arts Avenue — Georgetown",
+          "brief": "Theater + dance classes downtown. Multiple skill levels.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "610 N Austin Ave, Suite 125, Georgetown, TX 78628"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Theater classes alongside dance programs. Multiple skill levels. Alternative to the Palace Theatre for Older Son's acting interest.",
+          "links": [
+            {
+              "href": "https://artsavenue.org/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/theater_kidsacting_studio.jpg",
+          "title": "kidsActing Studio",
+          "brief": "16 Austin-area locations (including Round Rock, Cedar Park, Pflugerville). Pre-K through high school.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~15–20 min (to nearest satellite locations)"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "16 Austin metro locations (incl. Round Rock & Cedar Park)"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~15–20 min (to nearest satellite locations)"
+            }
+          ],
+          "desc": "Long-running theater program focusing on self-esteem, acting, and musical theater for Pre-K through high school. While their main studio is in Austin, they hold camps and classes at 16 local satellite locations. Convenient nearby options include Cedar Park (Live Oak Unitarian Church, Cedar Park Dance Co.), Round Rock (Grace Presbyterian, The Dance Spot, The Dance Gallery), and Pflugerville (Dance Elements) — all within a 15–20 minute drive from our house.",
+          "links": [
+            {
+              "href": "https://www.kidsactingstudio.com/locations",
+              "label": "Locations & schedules"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=kidsActing+Studio+Austin+TX",
+              "label": "Google Maps (Austin Main)"
+            }
+          ]
+        },
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/theater_austin_drum_lab_georgetown.jpg",
+          "title": "Austin Drum Lab — Georgetown",
+          "brief": "Kid-friendly drum studio in Georgetown. Decades of touring/teaching experience.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "featured",
+              "label": "Local & kid-friendly"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Georgetown, TX"
+            },
+            {
+              "icon": "info",
+              "text": "Instructor: Tony Miller (touring/teaching veteran)"
+            }
+          ],
+          "desc": "Run by Tony Miller who has decades of touring and teaching experience. Known for kid-friendly, patient teaching style. Right here in Georgetown — no Austin commute needed for drum lessons.",
+          "links": [
+            {
+              "href": "https://austindrumlab.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/theater_clark_s_music_class_georgetown.jpg",
+          "title": "Clark's Music Class — Georgetown",
+          "brief": "Private drums, guitar, piano. Patient, positive approach. Georgetown-based.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Georgetown, TX"
+            },
+            {
+              "icon": "info",
+              "text": "Instruments: Drums, guitar, piano"
+            }
+          ],
+          "desc": "Private instruction with a patient, positive approach. Also offers guitar and piano if Younger Son wants to try other instruments later. Serves Georgetown, Round Rock, Hutto area.",
+          "links": [
+            {
+              "href": "https://clarksmusicclass.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/theater_bach_to_rock_cedar_park.jpg",
+          "title": "Bach to Rock — Cedar Park",
+          "brief": "Private lessons + band rehearsals. Kids perform live. ~25 min.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Cedar Park, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            }
+          ],
+          "desc": "Private drum lessons plus ensemble programs (Band/Glee Club). Kids get to perform live — great for building confidence. Fun, accessible approach for various ages and skill levels.",
+          "links": [
+            {
+              "href": "https://bachtorock.com/",
+              "label": "Programs"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/theater_school_of_rock_round_rock.jpg",
+          "title": "School of Rock — Round Rock",
+          "brief": "Private lessons + weekly band rehearsals → live performances. ~20 min.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~20 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Round Rock, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~20 min"
+            }
+          ],
+          "desc": "Combines private lessons with weekly band rehearsals. Students prepare to perform live in front of audiences. Could be great for both Younger Son (drums) and Older Son (singing) to jam together.",
+          "links": [
+            {
+              "href": "https://www.schoolofrock.com/locations/roundrock",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=School+of+Rock+Round+Rock+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaming",
+      "category": "activities",
+      "title": "Gaming, Esports & Spooky Fun",
+      "intro": "Both boys love Fortnite. Older Son is into Five Nights at Freddy's and horror. Places to play and compete.",
+      "cards": [
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/gaming_the_esports_cave_cedar_park.jpg",
+          "title": "The Esports Cave — Cedar Park",
+          "brief": "Dedicated gaming center. Tournaments, birthday parties, high-end PCs. ~25 min.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "featured",
+              "label": "Best for Fortnite"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Cedar Park, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            },
+            {
+              "icon": "info",
+              "text": "Format: Open play, tournaments, birthday parties"
+            }
+          ],
+          "desc": "Dedicated facility for gaming with high-end PCs and consoles. Hosts tournaments (including Fortnite), birthday parties, and drop-in sessions. Both boys can play on proper setups with other kids. Great birthday party venue too.",
+          "links": [
+            {
+              "href": "https://theesportscave.com/",
+              "label": "Events & pricing"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gaming_xp_league_youth_esports.jpg",
+          "title": "XP League — Youth Esports",
+          "brief": "Structured youth esports league. Ages 7–17. Coached teams, regional tournaments.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "location",
+              "text": "North Austin area"
+            },
+            {
+              "icon": "target",
+              "text": "Ages: 7–17"
+            },
+            {
+              "icon": "info",
+              "text": "Games: Fortnite, Rocket League, Super Smash Bros"
+            }
+          ],
+          "desc": "Professional youth esports experience: structured teams, coaching, regional and national tournaments. Like organized sports but for gaming. Good if the boys want to compete seriously in Fortnite or Rocket League.",
+          "links": [
+            {
+              "href": "https://xpleague.com/",
+              "label": "Find a league"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gaming_ymca_esports_programs.jpg",
+          "title": "YMCA eSports Programs",
+          "brief": "YMCA offers Gamers Night Out, eSports Academy. Strategy & sportsmanship focus.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "location",
+              "text": "CHASCO Family YMCA / Twin Lakes YMCA"
+            },
+            {
+              "icon": "info",
+              "text": "Programs: Intro classes, Gamers Night Out, eSports Academy"
+            }
+          ],
+          "desc": "The YMCA offers structured eSports programs focused on strategy, communication, and sportsmanship. Lower-key than XP League. Check if included with our family membership.",
+          "links": [
+            {
+              "href": "https://ymcactx.org/",
+              "label": "YMCA programs"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gaming_house_of_torment_austin.jpg",
+          "title": "House of Torment — Austin",
+          "brief": "Austin's biggest haunted house. Professional sets & animatronics. Halloween season.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            },
+            {
+              "icon": "time",
+              "text": "Season: September–November (Halloween)"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$30–50/person"
+            }
+          ],
+          "desc": "One of Austin's most well-known haunted attractions. Professional sets, animatronics, live actors. High intensity — perfect for Older Son's FNAF/Little Nightmares vibe. Check age recommendations before taking Younger Son.",
+          "links": [
+            {
+              "href": "https://www.houseoftorment.com/",
+              "label": "Tickets & info"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gaming_scream_hollow_smithville.jpg",
+          "title": "Scream Hollow — Smithville",
+          "brief": "Wicked Halloween Park — haunted hayrides, multiple attractions. ~1 hr drive.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1 hour"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Smithville, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1 hour"
+            },
+            {
+              "icon": "time",
+              "text": "Season: September–November"
+            }
+          ],
+          "desc": "Extensive Wicked Halloween Park experience with haunted hayrides and multiple themed attractions. Outdoor setting. Combine with a Hill Country drive. Great for Older Son's horror interest.",
+          "links": [
+            {
+              "href": "https://screamhollow.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gaming_escape_rooms_austin_round_rock.jpg",
+          "title": "Escape Rooms — Austin / Round Rock",
+          "brief": "Horror-themed & family-friendly escape rooms. Multiple venues in the area.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "info",
+              "text": "Options: Escapology (Round Rock, ~20 min), The Escape Game (Austin, ~40 min), 4 Dreams Escape (Austin)"
+            }
+          ],
+          "desc": "Several escape rooms nearby: Escapology in Round Rock has family-friendly private rooms, The Escape Game in Austin has kid-friendly options, and 4 Dreams has creepier themes (zombie labs, abandoned attics) that Older Son would love. Great for birthday parties.",
+          "links": [
+            {
+              "href": "https://www.escapology.com/en/austin-tx",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Escapology+Round+Rock+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gardening",
+      "category": "parks",
+      "title": "Gardening & Plant Shops",
+      "intro": "Older Son loves gardening. Local nurseries and plant shops to buy flowers, learn about native plants, and get supplies.",
+      "cards": [
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/gardening_mcintire_s_garden_center.jpg",
+          "title": "McIntire's Garden Center",
+          "brief": "Local staple since 1976. Native plants, trees, expert advice. Leander Rd.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Best nursery"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Leander Road, Georgetown, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "info",
+              "text": "Since: 1976"
+            }
+          ],
+          "desc": "Georgetown institution since 1976. Wide selection of native and hardy plants, trees, and professional gardening supplies. Knowledgeable staff can help Older Son learn about Texas gardening — different climate from what we're used to. Great for native wildflowers.",
+          "links": [
+            {
+              "href": "https://mcintiresgarden.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gardening_hillside_nursery_williams_dr.jpg",
+          "title": "Hillside Nursery — Williams Dr",
+          "brief": "Full-service garden center on Williams Dr. Plants, flowers, pottery. Closest nursery.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~5 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Williams Drive, Georgetown, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~5 min"
+            }
+          ],
+          "desc": "Right on Williams Drive — probably our closest nursery. Wide variety of plants, flowers, trees, and pottery. Knowledgeable staff. Perfect for quick weekend trips with Older Son to grab flowers.",
+          "links": [
+            {
+              "href": "https://hillsidenurserytx.com/",
+              "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/gardening_root_to_rise_plant_co.jpg",
+          "title": "Root to Rise Plant Co.",
+          "brief": "Boutique houseplant shop near Georgetown Square. Indoor plants, pots, repotting.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Older Son"
+            },
+            {
+              "type": "new",
+              "label": "New find"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Near Georgetown Square"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Cute boutique specializing in houseplants, pots, and plant accessories. They offer repotting services too. Fun for Older Son to browse for indoor plants for his room. Near the Square so combine with a downtown walk.",
+          "links": [
+            {
+              "href": "https://roottoriseplants.com/",
+              "label": "Visit site"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "georgetown",
+      "category": "parks",
+      "title": "Georgetown — Parks & Daily Life",
+      "intro": "Everything within 15 minutes of home. More nature, water, and free family activities than you'd expect.",
+      "cards": [
+        {
+          "star": true,
+          "verified": "2026-06",
+          "image": "images/georgetown_lake_georgetown_trails.jpg",
+          "title": "Lake Georgetown & Trails",
+          "brief": "1,300-acre reservoir. Goodwater Loop Trail, swimming, kayaking. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free entry; $5 parking some days"
+            }
+          ],
+          "desc": "1,300-acre reservoir surrounded by the Goodwater Loop Trail (26.6 miles total). Cedar Breaks Park has a boat ramp and swimming beach. Russell Park has campsites. Great Saturday outing — fishing, kayaking, hiking, picnicking.",
+          "links": [
+            {
+              "href": "https://www.recreation.gov/camping/gateways/2741",
+              "label": "Park details"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_san_gabriel_park.jpg",
+          "title": "San Gabriel Park",
+          "brief": "180-acre central park. Playgrounds, splash pad, river, BBQ. Free.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "425 E Morrow St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            }
+          ],
+          "desc": "180-acre central park with playgrounds, BBQ pits, splash pad, river access, and trails along the San Gabriel River. Hosts most city festivals and free events. Best free family destination in town.",
+          "links": [
+            {
+              "href": "https://parks.georgetown.org/san-gabriel-park/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=San+Gabriel+Park+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_garey_park.jpg",
+          "title": "Garey Park",
+          "brief": "525-acre nature park. Splash pad, dog park, river. $5 vehicle entry.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~15 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "6450 RR 2243, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~15 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $5 vehicle entry"
+            }
+          ],
+          "desc": "525-acre nature park. Splash pad, dog park, equestrian trails, river access. Hosts Family Nature Fest in April. Often less crowded than San Gabriel Park.",
+          "links": [
+            {
+              "href": "https://gareypark.playgeorgetown.org/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Garey+Park+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_blue_hole_park.jpg",
+          "title": "Blue Hole Park",
+          "brief": "Natural swimming spot downtown. Limestone bluffs. Free. Get there early.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "100 Blue Hole Park, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            }
+          ],
+          "desc": "Natural swimming spot on the South San Gabriel River in downtown. Beloved by locals on hot summer days. Limestone bluffs, shaded picnic area. Get there early on weekends — fills up fast.",
+          "links": [
+            {
+              "href": "https://parks.georgetown.org/blue-hole/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Blue+Hole+Park+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_inner_space_cavern.jpg",
+          "title": "Inner Space Cavern",
+          "brief": "Underground cave tours. Walking + Wild Cave adventure. ~$15–25.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~12 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "4200 S I-35 Frontage Rd, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~12 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$25 adult / $15 child"
+            }
+          ],
+          "desc": "Underground cave system right off I-35. Multiple tour levels including \"Wild Cave\" adventure tours where kids can crawl through real passages. Memorable rainy-day option.",
+          "links": [
+            {
+              "href": "https://www.innerspacecavern.com/",
+              "label": "Buy tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_georgetown_public_library.jpg",
+          "title": "Georgetown Public Library",
+          "brief": "Free kids programs, STEM workshops, summer reading. Library cards for everyone.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "402 W 8th St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free with library card"
+            }
+          ],
+          "desc": "Modern library with free kids programs — Paws for People (kids read to therapy dogs), STEM workshops, summer reading program. Get library cards for everyone in the first month.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/library/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Public+Library+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/georgetown_downtown_georgetown_square.jpg",
+          "title": "Downtown Georgetown Square",
+          "brief": "One of Texas's prettiest squares. Free events most weekends. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Around the Williamson County Courthouse"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "One of the prettiest downtown squares in Texas. Free events almost every weekend: Pistons on the Square (3rd Saturday, classic cars), Second Saturday Market Days (Mar–Nov), Red Poppy Festival (late April), Christmas Stroll. Coffee shops, candy stores, indie boutiques.",
+          "links": [
+            {
+              "href": "https://mainstreet.georgetown.org/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "daytrips",
+      "category": "trips",
+      "title": "Day Trips (Under 1 Hour)",
+      "intro": "Half-day or full-day outings without overnight planning. Great Saturday options.",
+      "cards": [
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_round_rock_outlets_old_settlers_park.jpg",
+          "title": "Round Rock — Outlets & Old Settlers Park",
+          "brief": "Outlet mall + 645-acre park. ~20 min. Shopping + outdoor combo.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~20 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~20 min"
+            }
+          ],
+          "desc": "Round Rock has the outlet mall (great for kids' clothes/shoes) and Old Settlers Park (645 acres, baseball complex, fishing pond, playgrounds, disc golf).",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+Round+Rock+TX",
+              "label": "Google Maps (Old Settlers)"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Round+Rock+Premium+Outlets",
+              "label": "Google Maps (Outlets)"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_cedar_park_brushy_creek_lake_park.jpg",
+          "title": "Cedar Park / Brushy Creek Lake Park",
+          "brief": "H-E-B Center (concerts, hockey), Lakeline Mall, splash pad. ~30 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~30 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~30 min"
+            }
+          ],
+          "desc": "Cedar Park has H-E-B Center (concerts, Texas Stars hockey, Austin Spurs basketball), Lakeline Mall, and the gourmet H-E-B. Brushy Creek Lake Park has fishing, paddle boards, and a great splash pad.",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Brushy+Creek+Lake+Park+Cedar+Park+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_typhoon_texas_pflugerville.jpg",
+          "title": "Typhoon Texas — Pflugerville",
+          "brief": "Large water park. Slides, wave pool, lazy river. ~25 min. ~$45/person.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$45/person; season passes available"
+            },
+            {
+              "icon": "time",
+              "text": "Season: Mid-May to early September"
+            }
+          ],
+          "desc": "Closest large water park — slides, wave pool, lazy river. Buy season passes if going more than 2× per summer.",
+          "links": [
+            {
+              "href": "https://typhoontexas.com/austin/",
+              "label": "Tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_downtown_austin.jpg",
+          "title": "Downtown Austin",
+          "brief": "Capitol, Lady Bird Lake, Zilker, Barton Springs, bats at sunset. ~40 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min (longer in rush hour)"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min (longer in rush hour)"
+            }
+          ],
+          "desc": "Texas State Capitol (free tours), Lady Bird Lake hike-and-bike trail, Zilker Park, Barton Springs swimming pool, the bats under Congress Bridge at sunset (March–October).",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Downtown+Austin+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_thinkery_austin_children_s_museum.jpg",
+          "title": "Thinkery (Austin Children's Museum)",
+          "brief": "Hands-on STEM museum. Maker spaces, water tables. Free Wed 4–8 PM. ~40 min.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1830 Simond Ave, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $16/person; free Wednesdays 4–8 PM"
+            }
+          ],
+          "desc": "Hands-on STEM museum aimed at K–5. Maker spaces, water tables, light tables, outdoor garden. Excellent rainy-day Austin destination.",
+          "links": [
+            {
+              "href": "https://thinkeryaustin.org/",
+              "label": "Plan visit"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/daytrips_mckinney_falls_state_park.jpg",
+          "title": "McKinney Falls State Park",
+          "brief": "Two waterfalls, swimming holes, hiking. $6 adult, kids free. ~55 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~55 min (south Austin)"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~55 min (south Austin)"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $6/adult, free under 13"
+            }
+          ],
+          "desc": "Two waterfalls, swimming holes, hiking, biking, camping. Less crowded than Barton Springs. Best in spring and fall.",
+          "links": [
+            {
+              "href": "https://tpwd.texas.gov/state-parks/mckinney-falls",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=McKinney+Falls+State+Park",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weekends",
+      "category": "trips",
+      "title": "Weekend Adventures (1–3 Hours)",
+      "intro": "Saturday-morning-departure trips. Hill Country starts ~1 hour west; Gulf Coast ~3.5 hours south.",
+      "cards": [
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_fredericksburg_hill_country.jpg",
+          "title": "Fredericksburg & Hill Country",
+          "brief": "German town, peach orchards, Enchanted Rock, wineries. ~1h 30min west.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Date weekend"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 30min west"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 30min west"
+            }
+          ],
+          "desc": "German heritage town, peach orchards (summer), wineries, Enchanted Rock State Park (huge granite dome — great climbing/hiking for kids), Luckenbach. Best March–May (wildflowers) and Oct–Nov (cooler).",
+          "links": [
+            {
+              "href": "https://www.visitfredericksburgtx.com/",
+              "label": "Visitor site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Fredericksburg+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_san_antonio_riverwalk_seaworld_six_flags.jpg",
+          "title": "San Antonio — Riverwalk, SeaWorld, Six Flags",
+          "brief": "The Alamo, Riverwalk, SeaWorld, Six Flags, SA Zoo. ~1h 30min south.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 30min south"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 30min south"
+            }
+          ],
+          "desc": "The Alamo and Riverwalk are bucket-list. SeaWorld San Antonio and Six Flags Fiesta Texas are both there. San Antonio Zoo is one of the best in Texas. Easy overnight weekend.",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=San+Antonio+River+Walk",
+              "label": "Google Maps (Riverwalk)"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_waco_magnolia_zoo_dr_pepper_museum.jpg",
+          "title": "Waco — Magnolia, Zoo, Dr Pepper Museum",
+          "brief": "Magnolia Market, Cameron Park Zoo, Baylor campus. ~1h 30min north.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 30min north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 30min north on I-35"
+            }
+          ],
+          "desc": "Magnolia Market at the Silos (Chip & Joanna Gaines), Dr Pepper Museum, Cameron Park Zoo, Baylor campus. Long day trip or overnight.",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Magnolia+Market+Waco+TX",
+              "label": "Google Maps (Magnolia)"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_schlitterbahn_new_braunfels.jpg",
+          "title": "Schlitterbahn New Braunfels",
+          "brief": "One of the world's largest water parks. Comal River runs through it. ~1h 15min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 15min south"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 15min south"
+            }
+          ],
+          "desc": "One of the largest water parks in the world. The Comal River runs through it. Plan for a full day; arrive at opening. Season May–September.",
+          "links": [
+            {
+              "href": "https://www.schlitterbahn.com/new-braunfels",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Schlitterbahn+New+Braunfels",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_gruene_float_the_guadalupe_dance_hall.jpg",
+          "title": "Gruene — Float the Guadalupe & Dance Hall",
+          "brief": "River tubing + oldest dance hall in Texas (1878). ~1h 15min south.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 15min south"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 15min south"
+            }
+          ],
+          "desc": "Tubing/floating on the Guadalupe or Comal River — peak Texas summer experience. Gruene Hall is the oldest continuously operating dance hall in Texas (1878). Easy combo with a Schlitterbahn weekend.",
+          "links": [
+            {
+              "href": "https://gruenehall.com/",
+              "label": "Gruene Hall"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Gruene+Hall+New+Braunfels+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_galveston_gulf_coast.jpg",
+          "title": "Galveston & Gulf Coast",
+          "brief": "Closest beach. Pleasure Pier, Moody Gardens. ~3h 30min. Better as 2–3 night trip.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~3h 30min southeast"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~3h 30min southeast"
+            }
+          ],
+          "desc": "The closest beach. Pleasure Pier, Moody Gardens (pyramid aquarium + rainforest), Schlitterbahn Galveston. Better as a 2–3 night trip than a day trip.",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Galveston+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_dallas_fort_worth.jpg",
+          "title": "Dallas / Fort Worth",
+          "brief": "Previous home area. Stockyards, Perot Museum, DFW Airport. ~3 hours north.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~3 hours north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~3 hours north on I-35"
+            }
+          ],
+          "desc": "Previous home and friends/family. DFW Airport for international travel. Fort Worth Stockyards (cattle drives, rodeo), Perot Museum, Klyde Warren Park.",
+          "links": [
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Dallas+TX",
+              "label": "Google Maps (Dallas)"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Fort+Worth+TX",
+              "label": "Google Maps (Fort Worth)"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/weekends_houston_space_center_zoo_museums.jpg",
+          "title": "Houston — Space Center, Zoo, Museums",
+          "brief": "NASA Space Center, Houston Zoo, museums. ~2h 30min east. Plan 2-day weekend.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~2h 30min east"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~2h 30min east"
+            }
+          ],
+          "desc": "Space Center Houston (NASA), Houston Zoo, Museum of Natural Science, Children's Museum of Houston. Plan for a 2-day weekend to make it worth the drive.",
+          "links": [
+            {
+              "href": "https://spacecenter.org/",
+              "label": "Space Center site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Space+Center+Houston",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restaurants",
+      "category": "restaurants",
+      "title": "Restaurants",
+      "intro": "Texas food culture is real. BBQ, Tex-Mex, breakfast tacos, and more. Expand as we explore.",
+      "cards": [
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_monument_cafe.jpg",
+          "title": "Monument Cafe",
+          "brief": "Local institution. Breakfast all day, garden-fresh, famous chocolate icebox pie. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "500 S Austin Ave, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "info",
+              "text": "Vibe: Classic diner with farm-to-table sensibility"
+            }
+          ],
+          "desc": "Local institution. Breakfast all day, garden-fresh sides, famous chocolate icebox pie. Good for Saturday morning family breakfast.",
+          "links": [
+            {
+              "href": "https://themonumentcafe.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Monument+Cafe+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_wildfire_restaurant.jpg",
+          "title": "Wildfire Restaurant",
+          "brief": "Wood-grilled steaks & seafood on the Square. Upscale but kid-friendly. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Date night"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "812 S Austin Ave, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Wood-grilled steaks and seafood. On the Square. Upscale but kid-friendly. Good Sunday brunch.",
+          "links": [
+            {
+              "href": "https://wildfiretexas.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Wildfire+Restaurant+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_encantada_cocina_cantina_formerly_el_monumento.jpg",
+          "title": "Encantada Cocina + Cantina (Formerly El Monumento)",
+          "brief": "Upscale Tex-Mex & cocktails. River patio, beautiful modern interior. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "205 W 2nd St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Newly opened in place of the beloved El Monumento. Reimagined with upscale modern Tex-Mex, signature hand-shaken margaritas, and a gorgeous patio overlooking the San Gabriel River. Close to the Square.",
+          "links": [
+            {
+              "href": "https://www.encantadagtx.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Encantada+Cocina+Cantina+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_600_degrees_pizzeria.jpg",
+          "title": "600 Degrees Pizzeria",
+          "brief": "Wood-fired Neapolitan pizza downtown. Quick, kid-friendly, parents can have beer. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Wood-fired Neapolitan pizza, downtown Square. Quick, good for the kids, parents can have a beer.",
+          "links": [
+            {
+              "href": "https://georgetown.600degreespizzeria.com/",
+              "label": "Visit site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=600+Degrees+Pizzeria+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_tony_luigi_s.jpg",
+          "title": "Tony & Luigi's",
+          "brief": "Italian-American. House-made pasta, big portions, kids' menu. ~10 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "706 S Main St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            }
+          ],
+          "desc": "Italian-American. House-made pasta, big portions, kids' menu. Reliable family dinner spot.",
+          "links": [
+            {
+              "href": "https://www.tonyandluigistx.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Tony+Luigis+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "featured": true,
+          "verified": "2026-06",
+          "image": "images/restaurants_franklin_barbecue.jpg",
+          "title": "Franklin Barbecue",
+          "brief": "Most famous BBQ in America. Line up by 9 AM or pre-order online. ~40 min.",
+          "tags": [
+            {
+              "type": "adult",
+              "label": "Bucket list"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "900 E 11th St, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Tues–Sun 11 AM–sellout (~2 PM)"
+            }
+          ],
+          "desc": "The most famous BBQ in America. Brisket is the legend. Worth doing once. Skip the wait via online pre-order.",
+          "links": [
+            {
+              "href": "https://franklinbbq.com/",
+              "label": "Pre-order"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_terry_black_s_bbq.jpg",
+          "title": "Terry Black's BBQ",
+          "brief": "Excellent BBQ, much shorter line than Franklin. Family-friendly. ~40 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            }
+          ],
+          "desc": "Excellent BBQ, much shorter line than Franklin. Family-friendly. The practical \"best BBQ\" choice for a regular dinner.",
+          "links": [
+            {
+              "href": "https://www.terryblacksbbq.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Terry+Blacks+BBQ+Austin+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_veracruz_all_natural.jpg",
+          "title": "Veracruz All Natural",
+          "brief": "Best breakfast tacos in Austin. Migas taco is essential. Multiple locations.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min (multiple locations)"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min (multiple locations)"
+            }
+          ],
+          "desc": "Best breakfast tacos in Austin (according to many). Migas taco is essential. Trailer-turned-empire.",
+          "links": [
+            {
+              "href": "https://veracruzallnatural.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Veracruz+All+Natural+Austin+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_uchi_uchiko.jpg",
+          "title": "Uchi / Uchiko",
+          "brief": "Top-tier omakase / modern Japanese. Reservations needed. Special occasion.",
+          "tags": [
+            {
+              "type": "adult",
+              "label": "Date night"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            }
+          ],
+          "desc": "Top-tier omakase / modern Japanese. Reservations needed. Special occasion.",
+          "links": [
+            {
+              "href": "https://uchiaustin.com/",
+              "label": "Uchi Official"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Uchi+Austin+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_round_rock_donuts.jpg",
+          "title": "Round Rock Donuts",
+          "brief": "Since 1926. Famous Texas-size yellow donuts. Saturday morning kid bribery. ~20 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~20 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~20 min"
+            }
+          ],
+          "desc": "Local institution since 1926. Famous \"Texas-size\" yellow donuts. Saturday morning kid bribery, sorted.",
+          "links": [
+            {
+              "href": "https://roundrockdonuts.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Round+Rock+Donuts+Round+Rock+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/restaurants_korean_grocery_bbq_h_mart_north_austin.jpg",
+          "title": "Korean Grocery & BBQ — H Mart & North Austin",
+          "brief": "H Mart (Lakeline) grocery + food court, Charm K-BBQ. Massive selection. ~20–25 min.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~20–25 min (N Austin, Lakeline / Howard Ln)"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~20–25 min (N Austin, Lakeline / Howard Ln)"
+            }
+          ],
+          "desc": "H Mart Lakeline is a massive, modern Korean supermarket featuring a incredible food court (Korean BBQ, fried chicken, bakery, noodles). For all-you-can-eat K-BBQ, Charm Korean BBQ (off Howard Lane) is a popular option. Excellent monthly run for groceries and Korean comfort food.",
+          "links": [
+            {
+              "href": "https://www.hmart.com/",
+              "label": "H Mart site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=H+Mart+Lakeline+Austin+TX",
+              "label": "H Mart Map"
+            },
+            {
+              "href": "http://charmkoreanbbq.com/",
+              "label": "Charm K-BBQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "category": "trips",
+      "title": "Events, Festivals & Live Music",
+      "intro": "Austin is the live music capital of the world. Georgetown has its own great festival calendar.",
+      "cards": [
+        {
+          "verified": "2026-06",
+          "image": "images/events_red_poppy_festival_georgetown.jpg",
+          "title": "Red Poppy Festival (Georgetown)",
+          "brief": "Georgetown's signature 3-day festival. Parade, live music, Kids' Fun Zone. Free. Late April.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "Free"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: Late April (3 days)"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            }
+          ],
+          "desc": "Georgetown's signature festival. Parade, live music, Kids' Fun Zone, POPP Pup Parade, food trucks. On and around the Square. Don't miss it.",
+          "links": [
+            {
+              "href": "https://redpoppy.georgetown.org/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_acl_austin_city_limits.jpg",
+          "title": "ACL — Austin City Limits",
+          "brief": "Major music festival. Two weekends in October, Zilker Park. Kids under 10 free.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Adult"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: Two weekends in October"
+            },
+            {
+              "icon": "location",
+              "text": "Zilker Park, Austin"
+            }
+          ],
+          "desc": "Major music festival. Kids under 10 free with paying adult. Family stage area. Tickets sell out fast — buy by April.",
+          "links": [
+            {
+              "href": "https://www.aclfestival.com/",
+              "label": "aclfestival.com"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_sxsw_austin.jpg",
+          "title": "SXSW (Austin)",
+          "brief": "Massive film/music/tech fest. Mid-March. Many free showcases, but brutal traffic.",
+          "tags": [
+            {
+              "type": "adult",
+              "label": "Adult"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: Mid-March"
+            }
+          ],
+          "desc": "Massive film/music/tech festival. Most events need badges, but many free showcases. Austin traffic is brutal during these 10 days — avoid downtown unless attending.",
+          "links": [
+            {
+              "href": "https://www.sxsw.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Austin+Convention+Center",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_texas_renaissance_festival.jpg",
+          "title": "Texas Renaissance Festival",
+          "brief": "Largest Ren Faire in America. Costumes, jousting, dragons. Oct–Nov. ~3 hours.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~3 hours east (Plantersville)"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: Weekends Oct–Nov"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~3 hours east (Plantersville)"
+            }
+          ],
+          "desc": "Largest Ren Faire in America. Costumes, jousting, food, dragons. Both boys will love it. Best as an overnight trip.",
+          "links": []
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_christmas_stroll_georgetown.jpg",
+          "title": "Christmas Stroll (Georgetown)",
+          "brief": "Tree lighting, carriage rides, hot cocoa. First weekend in December.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: First weekend in December"
+            }
+          ],
+          "desc": "Tree lighting on the Square, carriage rides, hot cocoa, vendor booths. The annual Georgetown holiday tradition.",
+          "links": [
+            {
+              "href": "https://mainstreet.georgetown.org/christmas-stroll/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_two_step_inn_country_music_festival.jpg",
+          "title": "Two Step Inn — Country Music Festival",
+          "brief": "Major country fest at San Gabriel Park, Georgetown. Top headliners. April.",
+          "tags": [
+            {
+              "type": "adult",
+              "label": "Adult"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "~$200–400 weekend pass"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "When: April"
+            },
+            {
+              "icon": "location",
+              "text": "San Gabriel Park, Georgetown"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$200–400 weekend pass"
+            }
+          ],
+          "desc": "Major country music festival hosted right in town. Top-tier headliners.",
+          "links": [
+            {
+              "href": "https://www.twostepinn.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=San+Gabriel+Park+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_h_e_b_center_at_cedar_park.jpg",
+          "title": "H-E-B Center at Cedar Park",
+          "brief": "~8K-seat arena. Touring acts, Texas Stars hockey. ~25 min — closer than Austin.",
+          "tags": [],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            }
+          ],
+          "desc": "Mid-size arena (~8,000 seats). Major touring acts, Texas Stars hockey, Austin Spurs basketball. Closer than driving to Austin's arenas.",
+          "links": [
+            {
+              "href": "https://www.hebcenter.com/",
+              "label": "What's on"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_moody_center_austin.jpg",
+          "title": "Moody Center (Austin)",
+          "brief": "New arena on UT campus. Biggest touring acts now play here. ~40 min.",
+          "tags": [],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~40 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~40 min"
+            }
+          ],
+          "desc": "Brand new arena on UT campus. Biggest touring acts play here.",
+          "links": [
+            {
+              "href": "https://moodycenteratx.com/",
+              "label": "Schedule"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/events_gruene_hall.jpg",
+          "title": "Gruene Hall",
+          "brief": "Oldest dance hall in Texas (1878). Live music, many free shows. ~1h 15min.",
+          "tags": [],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 15min south"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 15min south"
+            }
+          ],
+          "desc": "The oldest continuously operating dance hall in Texas (1878). Pair with tubing the Guadalupe. Many free shows and legends-pass-through nights.",
+          "links": [
+            {
+              "href": "https://gruenehall.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Gruene+Hall+New+Braunfels+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "category": "services",
+      "title": "Community & Online Resources",
+      "intro": "Where neighbors talk. Join these in the first week. Local Facebook groups beat any news site.",
+      "cards": [
+        {
+          "star": true,
+          "verified": "2026-06",
+          "image": "images/community_nextdoor.jpg",
+          "title": "Nextdoor",
+          "brief": "Neighborhood app. Lost pets, contractor recs, local sales. Download day one.",
+          "tags": [],
+          "meta": [],
+          "desc": "The most useful app for the Woodlake/Williams Dr neighborhood. Lost pets, contractor recommendations, package theft alerts, local sales. Download immediately after move-in.",
+          "links": [
+            {
+              "href": "https://nextdoor.com/",
+              "label": "nextdoor.com"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_joann_ford_elementary_facebook.jpg",
+          "title": "JoAnn Ford Elementary — Facebook",
+          "brief": "Official school page. Announcements, events, PTA. Follow before school starts.",
+          "tags": [],
+          "meta": [],
+          "desc": "School announcements, event photos, PTA notices. Follow before school year starts.",
+          "links": [
+            {
+              "href": "https://www.facebook.com/FordElementaryGISD/",
+              "label": "Visit page"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_cool_moms_of_georgetown.jpg",
+          "title": "Cool Moms of Georgetown",
+          "brief": "Active Facebook group. Playdates, restaurant tips, contractor referrals.",
+          "tags": [],
+          "meta": [],
+          "desc": "Active local moms group. Playdates, classroom volunteer asks, restaurant tips, contractor referrals. Worth joining for wife.",
+          "links": [
+            {
+              "href": "https://www.facebook.com/groups/coolmomsofgtx/",
+              "label": "Join"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_all_things_kids_in_georgetown.jpg",
+          "title": "All Things Kids In Georgetown",
+          "brief": "6K+ followers. Curated family activities, events, classes. Best kids event feed.",
+          "tags": [],
+          "meta": [],
+          "desc": "Curated kids events, classes, camps, family activities. The single best feed for \"what's happening this weekend for the boys.\"",
+          "links": [
+            {
+              "href": "https://www.facebook.com/AllThingsKidsInGeorgetownTexas/",
+              "label": "Follow"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_do512_family.jpg",
+          "title": "Do512 Family",
+          "brief": "Best weekly roundup of family events in Greater Austin. Subscribe to newsletter.",
+          "tags": [],
+          "meta": [],
+          "desc": "Best weekly roundup of family-friendly events in Greater Austin. Newsletter is worth subscribing to.",
+          "links": [
+            {
+              "href": "https://do512family.com/",
+              "label": "do512family.com"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_hello_georgetown.jpg",
+          "title": "Hello Georgetown",
+          "brief": "Local news/event blog. Weekly digest of Georgetown happenings.",
+          "tags": [],
+          "meta": [],
+          "desc": "Curated weekly digest of Georgetown happenings, restaurant openings, school news, civic issues. More useful than the local paper.",
+          "links": [
+            {
+              "href": "https://www.hellogeorgetown.com/",
+              "label": "hellogeorgetown.com"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/community_city_of_georgetown_parks_rec.jpg",
+          "title": "City of Georgetown — Parks & Rec",
+          "brief": "All city-run programs: youth sports, swim, library events. Bookmark.",
+          "tags": [],
+          "meta": [],
+          "desc": "All city-run programs: youth sports, summer camps, swim lessons, library events.",
+          "links": [
+            {
+              "href": "https://teamsideline.com/sites/georgetown",
+              "label": "Sports registration"
+            },
+            {
+              "href": "https://georgetowntexas.gov/parks/",
+              "label": "Parks & Rec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "category": "services",
+      "title": "Home Services & Utilities",
+      "intro": "Infrastructure of daily life. Add referrals as we find good providers.",
+      "cards": [
+        {
+          "verified": "2026-06",
+          "image": "images/services_georgetown_utility_systems_gus.jpg",
+          "title": "Georgetown Utility Systems (GUS)",
+          "brief": "Municipal electricity. No provider choice. Set up before move-in.",
+          "tags": [],
+          "meta": [
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 930-3640"
+            }
+          ],
+          "desc": "City-owned utility. No retail electricity shopping (unlike Frisco/Oncor). Set up account before move-in.",
+          "links": [
+            {
+              "href": "https://gus.georgetown.org/",
+              "label": "gus.georgetown.org"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/services_internet_options.jpg",
+          "title": "Internet Options",
+          "brief": "Spectrum cable, AT&T Fiber (check our address), Tachus fiber expanding.",
+          "tags": [],
+          "meta": [],
+          "desc": "Check fiber availability at our specific address — best speeds and lowest latency for ML/remote work. Spectrum is the cable backup.",
+          "links": [
+            {
+              "href": "https://www.spectrum.com/",
+              "label": "Spectrum"
+            },
+            {
+              "href": "https://www.att.com/internet/fiber/",
+              "label": "AT&T Fiber"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/services_grocery_h_e_b.jpg",
+          "title": "Grocery — H-E-B",
+          "brief": "3651 Williams Dr. ~5 min. Texans love H-E-B. Curbside pickup via app.",
+          "tags": [],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~5 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "3651 Williams Dr, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~5 min"
+            }
+          ],
+          "desc": "Texans love H-E-B. Excellent house brand. Curbside pickup via the H-E-B app saves hours weekly.",
+          "links": [
+            {
+              "href": "https://www.heb.com/",
+              "label": "HEB Official"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=HEB+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-06",
+          "image": "images/services_costco_cedar_park.jpg",
+          "title": "Costco — Cedar Park",
+          "brief": "Closest Costco. Bulk buys, kids' clothes, electronics. ~25 min.",
+          "tags": [],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "11471 Rock Rose Ave, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            }
+          ],
+          "desc": "Closest Costco. Bulk buys, kids' clothes, electronics. Worth the membership.",
+          "links": [
+            {
+              "href": "https://www.costco.com/warehouse-locations/cedar-park-tx-1152.html",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Costco+Cedar+Park+TX",
+              "label": "Google Maps"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
