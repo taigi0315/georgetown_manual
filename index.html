@@ -810,8 +810,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
-<div><strong>Updated</strong>   June 23, 2026 (v3.7)</div>
-<div><strong>v3.7</strong></div>
+<div><strong>Updated</strong>   June 23, 2026 (v3.8)</div>
+<div><strong>v3.8</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -852,7 +852,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v3.7 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v3.8 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -949,6 +949,14 @@
         const anyFilter = searchQuery.trim() !== '' || activeTags.size > 0 || activeCategory !== 'all';
         clearFilters.classList.toggle('visible', anyFilter);
         searchClear.classList.toggle('visible', searchQuery.trim() !== '');
+
+        // When the map is open, keep the list hidden and re-draw the pins so the
+        // map reflects the active filters (otherwise every place stays pinned).
+        if (mapActive) {
+          sections.forEach((s) => { s.style.display = 'none'; });
+          noResults.style.display = 'none';
+          renderMarkers();
+        }
       }
 
       // ----- Category buttons -----
