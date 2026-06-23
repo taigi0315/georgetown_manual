@@ -20,7 +20,14 @@
   - `agent.html`의 "Entry Template" 및 업데이트 절차를 "HTML 편집"에서 "`cards.json`에 객체 추가"로 교체.
 
 ## 3. 일정 및 상태
-- 상태: 대기 중
+- 상태: ✅ 완료 (2026-06-23, v3.7) — `feature/cards-json-refactor` 브랜치
 - 우선순위: P3 (대형 리팩터링, 위험도 높음 — 별도 브랜치/백업 필수)
 - 담당자: Antigravity AI
 - 비고: 이 작업 완료 후 TASK-009(지도 좌표), TASK-011(verified) 등 후속 기능 추가가 크게 쉬워짐.
+- 구현 요약:
+  - jsdom 추출기로 80개 카드 → `cards.json`(섹션 13개 중첩, 95KB). 필드: id?/featured?/star?/verified/image/imageAlt?/title/brief/tags[]/previewMeta?/meta[]/desc/links[].
+  - `index.html`에 렌더러(`renderCard/renderSection/renderAll`) 인라인. `DOMContentLoaded` → `fetch('./cards.json')` → `renderAll()` → `initFeatures()`. 기존 13개 섹션 마크업(852–2474줄)을 `<main id="content">`로 교체.
+  - **검증**: 렌더 출력 vs 원본 DOM **카드 80/80·섹션 13/13 1:1 일치**(정규화 비교, 링크 화살표·target 파생·star·preview 포함). 전체 통합 테스트(fetch→render→검색/태그/정렬/지도/배지) PASS, fetch 실패 graceful PASS, JS 에러 0.
+  - 부수 수정: 원본 `class_="tag-row"` 오타 14개 → `class="tag-row"` 정상화.
+  - `sw.js` SHELL에 `cards.json` 추가(오프라인), VERSION v3.7. `agent.html` SOP·엔트리템플릿을 cards.json 스키마로 전면 개정.
+- ⚠️ 한계: `cards.json`은 http(s)로 서빙해야 함(`file://` 직접 열기 시 fetch 차단 → 안내 메시지). 지도 `CARD_COORDS`는 여전히 카드 위치(index) 기준 — 카드 추가/삭제 시 realign 필요(SOP 명시). **미검증**: 실제 브라우저 렌더 — 배포 후 육안 확인 필요.

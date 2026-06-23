@@ -220,7 +220,7 @@ html
 <li><strong>Verify the information</strong> — search the web for the current address, phone, hours, price, and link. Never invent details. Any new or changed link must pass the automated <code>link-check</code> workflow (lychee) before merging; it also runs weekly and opens an issue if a link or local image breaks.</li>
 <li><strong>Compute drive time</strong> from <code>Georgetown, TX 78633</code>. Use Google Maps or similar; cite typical (non-rush-hour) times.</li>
 <li><strong>Tag the audience</strong> using exactly the tag set defined below.</li>
-<li><strong>Follow the entry template</strong> exactly. Match the collapsible card structure so layout doesn't break.</li>
+<li><strong>Add the card to <code>cards.json</code></strong> — append a card object to the right section's <code>cards</code> array using the schema below. Do <em>not</em> hand-edit card HTML in <code>index.html</code>; the renderer builds it. Validate the JSON before saving.</li>
 <li><strong>Stamp the verified date</strong> — set <code>data-verified="YYYY-MM"</code> on the card's <code>&lt;details&gt;</code> to the current month whenever you create or re-confirm a card. After 6 months without an update, a "Verify info" badge appears automatically to flag the card for re-checking.</li>
 <li><strong>Update the map coordinates</strong> — the map view uses a <code>CARD_COORDS</code> object in <code>index.html</code> keyed by each card's <em>position</em> (DOM order). If you add, remove, or reorder cards, those keys shift and pins will be wrong: regenerate/realign <code>CARD_COORDS</code> after any structural change, and geocode new places (Nominatim/OSM or Google Maps). This positional fragility goes away once TASK-013 moves coordinates into per-card data in <code>cards.json</code>.</li>
 <li><strong>Update the masthead</strong> — bump the version number (1.x for content adds, 2.0 for restructures) and change <code>LAST UPDATED</code>. Also bump the <code>VERSION</code> constant in <code>sw.js</code> so the PWA cache refreshes for installed users.</li>
@@ -245,47 +245,44 @@ html
 <li><code>tag-new</code> — Surprise or newly discovered recommendation the family hasn't specifically asked for</li>
 </ul>
  ===== ENTRY TEMPLATE ===== 
-<h2>Entry Template (Collapsible Card)</h2>
-<p>Every entry in the manual uses a collapsible <code>&lt;details&gt;</code> element. The summary line shows the name, a brief description, and tags. The expanded content shows full details.</p>
-<pre>&lt;details class="card" data-verified="YYYY-MM"&gt;
-  &lt;summary class="card-summary"&gt;
-    &lt;img class="card-thumbnail-img" src="[Image URL]" alt="[Name of Place/Activity]" loading="lazy"&gt;
-    &lt;div class="card-summary-info"&gt;
-      &lt;div class="card-title"&gt;
-        &lt;h3&gt;[NAME OF PLACE/ACTIVITY]&lt;/h3&gt;
-        &lt;!-- Add &lt;span class="star"&gt;★&lt;/span&gt; for top picks --&gt;
-      &lt;/div&gt;
-      &lt;p class="card-brief"&gt;[One-line description visible when collapsed]&lt;/p&gt;
-      &lt;div class="tag-row"&gt;
-        &lt;span class="tag tag-haneul"&gt;Younger Son&lt;/span&gt;
-        &lt;span class="tag tag-harang"&gt;Older Son&lt;/span&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/summary&gt;
-  &lt;div class="card-body"&gt;
-    &lt;img class="card-hero-img" src="[Image URL]" alt="[Name of Place/Activity]" loading="lazy"&gt;
-    &lt;div class="card-meta"&gt;
-      &lt;div class="meta-item"&gt;
-        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-location"&gt;&lt;/use&gt;&lt;/svg&gt;
-        &lt;span class="meta-text"&gt;[Full address or location]&lt;/span&gt;
-      &lt;/div&gt;
-      &lt;div class="meta-item"&gt;
-        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-drive"&gt;&lt;/use&gt;&lt;/svg&gt;
-        &lt;span class="meta-text"&gt;Drive: [~XX min from home]&lt;/span&gt;
-      &lt;/div&gt;
-      &lt;div class="meta-item"&gt;
-        &lt;svg class="meta-icon"&gt;&lt;use href="#icon-cost"&gt;&lt;/use&gt;&lt;/svg&gt;
-        &lt;span class="meta-text"&gt;Cost: [Approx price or range]&lt;/span&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;p class="card-desc"&gt;[2–4 sentence description]&lt;/p&gt;
-    &lt;div class="card-links"&gt;
-      &lt;a href="[URL]" target="_blank"&gt;[Link label] →&lt;/a&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/details&gt;</pre>
+<h2>Entry Template (cards.json)</h2>
+<p><strong>As of v3.7, cards live in <code>cards.json</code>, not in <code>index.html</code>.</strong> The page fetches <code>cards.json</code> and a small renderer in <code>index.html</code> builds the collapsible card markup. To add or edit a place you edit JSON only — never hand-write card HTML. Find the right section object in <code>cards.json</code> (matched by <code>category</code>/<code>id</code>) and add a card object to its <code>cards</code> array, in the position you want it to appear.</p>
+<pre>{
+  "id": "optional-stable-slug",        // optional; most cards omit it
+  "featured": true,                     // optional → adds "featured" class + ★ star
+  "verified": "YYYY-MM",                // month you created/last confirmed this card
+  "image": "images/category_place.jpg", // local image (used for thumbnail AND hero)
+  "imageAlt": "Name of Place",          // optional; defaults to title
+  "title": "Name of Place / Activity",
+  "brief": "One line shown when the card is collapsed.",
+  "tags": [
+    { "type": "haneul",   "label": "Younger Son" },
+    { "type": "harang",   "label": "Older Son" },
+    { "type": "featured", "label": "Walking distance" }
+  ],
+  "previewMeta": { "icon": "drive", "text": "~12 min" },  // optional chip in the summary
+  "meta": [
+    { "icon": "location", "text": "123 Main St, Georgetown, TX 78633" },
+    { "icon": "drive",    "text": "Drive: ~12 min" },
+    { "icon": "cost",     "text": "Cost: $10–15" }
+  ],
+  "desc": "2–4 sentence description shown when expanded.",
+  "links": [
+    { "href": "https://example.com", "label": "Official site" }
+  ]
+}</pre>
 <div class="callout">
-<strong>For featured entries:</strong> Add <code>class="card featured"</code> to the <code>&lt;details&gt;</code> element and include the <code>★</code> star span inside the title.
+<strong>Field rules.</strong>
+  <ul>
+<li><code>tags[].type</code> is the tag class suffix: <code>haneul</code>, <code>harang</code>, <code>family</code>, <code>adult</code>, <code>featured</code>, <code>new</code> (see Tag Vocabulary). <code>label</code> is the visible text.</li>
+<li><code>meta[].icon</code> / <code>previewMeta.icon</code> is an icon name: <code>location</code>, <code>drive</code>, <code>time</code>, <code>cost</code>, <code>education</code>, <code>target</code>, <code>phone</code>, <code>info</code>. Keep the <code>"Drive: …"</code>, <code>"Cost: …"</code> text prefixes — the distance sort and other features read them.</li>
+<li><code>links[]</code>: the renderer auto-adds <code>target="_blank"</code> and a <code>→</code> arrow for <code>http(s)</code> links; <code>tel:</code> links get neither. Don't include the arrow in <code>label</code>.</li>
+<li><code>featured: true</code> shows the ★ star. (A rare card may instead set <code>"star": true</code> without <code>featured</code>.)</li>
+<li>Set <code>image</code> to a local file under <code>images/</code>. If it ever fails to load, the page shows a category placeholder automatically (see image fallback), but the link checker will still flag a missing file.</li>
+</ul>
+</div>
+<div class="warn-callout">
+<strong>Editing constraints.</strong> <code>index.html</code> no longer contains card markup, only the renderer + UI. Validate <code>cards.json</code> is well-formed JSON before committing. Because the map's <code>CARD_COORDS</code> object (in <code>index.html</code>) is keyed by card <em>position</em>, adding/removing/reordering cards shifts those keys — realign <code>CARD_COORDS</code> and geocode any new place. <code>cards.json</code> must be served over http(s); opening <code>index.html</code> via <code>file://</code> blocks the fetch.
   </div>
  ===== STYLE RULES ===== 
 <h2>Style Rules</h2>
@@ -356,6 +353,7 @@ html
 <div class="log-entry"><span class="date">2026-06-23</span><span>v2.9 — Migrated all 80 cards to local actual images. Automated image scraper fetched og:images from official sites, fallback searched on Google, resized to max 800px width using Pillow, and mapped them locally to prevent external 404 links. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v2.8 — Second hotfix for broken image URLs. Conducted an automated HEAD sweep across all 50 unique Unsplash URLs to detect and replace 4 deleted resources (GSA soccer, Inner Space Cavern, H Mart grocery, Dallas skyline) with verified active IDs. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v2.7 — Hotfixed broken activities placeholder image URL (photo-1471286174243-e85af7368bb1 which was yielding 404) with a valid Unsplash image ID (photo-1507652313519-d4e9174996dd). (Antigravity AI)</span></div>
+<div class="log-entry"><span class="date">2026-06-23</span><span>v3.7 — Split data from view (cards.json). All 80 cards were extracted into <code>cards.json</code>; <code>index.html</code> now fetches it and a small embedded renderer rebuilds the card markup on load, so adding/editing a place is a JSON edit instead of touching 160KB of HTML. The renderer was verified to reproduce the original DOM 1:1 (80/80 cards, 13/13 sections), and full integration (search, tags, distance sort, map, badges) was re-verified against the rendered output. Also fixed a pre-existing <code>class_="tag-row"</code> typo on 14 cards. Note: <code>cards.json</code> must be served over http(s) — a <code>file://</code> open shows a friendly fallback message. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.6 — Added a map view. A toolbar "🗺 Map" toggle shows the currently-filtered places (plus a Home marker) as pins on a Leaflet/OpenStreetMap map; pin popups link back to the card in the list. Coordinates for 38 cards were geocoded once via Nominatim/OSM and embedded as a position-keyed <code>CARD_COORDS</code> object. The map respects active search/tag/category filters and degrades gracefully (clear message) when offline. Note: <code>CARD_COORDS</code> is keyed by card position and must be realigned if cards are added/removed/reordered. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.5 — Made the manual an installable PWA. Added <code>manifest.webmanifest</code> (app name, icons, standalone display), generated app icons (192/512 + maskable + apple-touch), and a conservative <code>sw.js</code> service worker: HTML is network-first (online always fresh, offline falls back to cache) while images/assets are cache-first with background refresh. Lets the family "Add to Home Screen" and open the manual offline in the car. Bump <code>sw.js</code> VERSION on each release. (Antigravity AI)</span></div>
 <div class="log-entry"><span class="date">2026-06-23</span><span>v3.4 — Added a "Nearest first" distance sort. Each card's drive time is parsed from its drive meta (handles "~8 min", "~1h 30min", "~3 hours" and ranges) and a toolbar toggle reorders visible cards nearest-first within each section; cards without a drive time sort last, and toggling off restores the original order. (Antigravity AI)</span></div>
@@ -366,7 +364,7 @@ html
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v3.6
+    Choi Family Manual — AI Agent Reference · v3.7
   </footer>
 </div>
 </body>
