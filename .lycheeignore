@@ -1,0 +1,8 @@
+# Domains that commonly return 403/429 to automated checkers (bot protection)
+# even when the link is fine for a real browser. Excluded to avoid false alarms.
+facebook\.com
+instagram\.com
+linkedin\.com
+# Google Maps "search" deep links are generated, not pages that 404; skip them.
+google\.com/maps
+maps\.google\.com

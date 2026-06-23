@@ -1,0 +1,56 @@
+name: Link & Image Check
+
+# Catches dead external links and missing local images automatically so the
+# repeated "broken image/URL" hotfix releases (v2.6–v2.8) don't happen again.
+
+on:
+  schedule:
+    - cron: '0 14 * * 1'        # every Monday 14:00 UTC
+  push:
+    paths:
+      - 'index.html'
+      - 'agent.html'
+      - 'images/**'
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'agent.html'
+      - 'images/**'
+  workflow_dispatch:            # allow manual runs
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  linkcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Checks every href and src in the HTML. Local image paths
+          # (src="images/...") are resolved on disk, so missing files fail too.
+          args: >-
+            --no-progress
+            --include-verbatim
+            --max-retries 3
+            --retry-wait-time 5
+            --timeout 20
+            --accept 200,206,429
+            index.html
+            agent.html
+          fail: false           # don't hard-fail the job; we report via an issue
+          output: ./lychee/out.md
+
+      - name: Open an issue when broken links are found
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: 'Broken links/images detected by link-check'
+          content-filepath: ./lychee/out.md
+          labels: link-check, automated

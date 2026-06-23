@@ -166,6 +166,142 @@
     color: white;
   }
 
+  /* ===== SEARCH + TAG FILTER TOOLBAR ===== */
+  .toolbar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    color: var(--ink-tertiary);
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 36px 9px 36px;
+    border: 1px solid var(--rule);
+    border-radius: 20px;
+    background: var(--bg-card);
+    color: var(--ink);
+    font-size: 14px;
+    font-family: inherit;
+    transition: border-color var(--transition), box-shadow var(--transition);
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  .search-input::-webkit-search-cancel-button { -webkit-appearance: none; }
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(0,113,227,0.12);
+  }
+  .search-clear {
+    position: absolute;
+    right: 10px;
+    display: none;
+    border: none;
+    background: var(--bg-hover);
+    color: var(--ink-secondary);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-clear.visible { display: inline-flex; }
+  .search-clear:hover { background: var(--rule); color: var(--ink); }
+
+  .tag-filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+  .tag-chip {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition);
+  }
+  .tag-chip.tag-haneul  { background: var(--tag-haneul-bg);  color: var(--tag-haneul); }
+  .tag-chip.tag-harang  { background: var(--tag-harang-bg);  color: var(--tag-harang); }
+  .tag-chip.tag-family  { background: var(--tag-family-bg);  color: var(--tag-family); }
+  .tag-chip.tag-adult   { background: var(--tag-adult-bg);   color: var(--tag-adult); }
+  .tag-chip.tag-featured{ background: var(--tag-featured-bg);color: var(--tag-featured); }
+  .tag-chip.tag-new     { background: var(--tag-new-bg);     color: var(--tag-new); }
+  .tag-chip.active { color: #fff; }
+  .tag-chip.tag-haneul.active  { background: var(--tag-haneul); }
+  .tag-chip.tag-harang.active  { background: var(--tag-harang); }
+  .tag-chip.tag-family.active  { background: var(--tag-family); }
+  .tag-chip.tag-adult.active   { background: var(--tag-adult); }
+  .tag-chip.tag-featured.active{ background: var(--tag-featured); }
+  .tag-chip.tag-new.active     { background: var(--tag-new); }
+
+  .clear-filters {
+    display: none;
+    margin-left: 4px;
+    padding: 5px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    background: transparent;
+    color: var(--ink-secondary);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition);
+  }
+  .clear-filters.visible { display: inline-block; }
+  .clear-filters:hover { background: var(--bg-hover); color: var(--ink); }
+
+  .sort-toggle {
+    margin-left: auto;
+    padding: 5px 12px;
+    border: 1px solid var(--rule);
+    border-radius: 16px;
+    background: var(--bg-card);
+    color: var(--ink-secondary);
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all var(--transition);
+  }
+  .sort-toggle:hover { background: var(--bg-hover); color: var(--ink); }
+  .sort-toggle.active {
+    background: var(--ink);
+    color: #fff;
+    border-color: var(--ink);
+  }
+
+  .no-results {
+    display: none;
+    text-align: center;
+    color: var(--ink-secondary);
+    font-size: 15px;
+    padding: 64px 24px;
+  }
+
   /* ===== SECTIONS ===== */
   section {
     margin-bottom: 56px;
@@ -302,6 +438,18 @@
   .tag-adult   { background: var(--tag-adult-bg); color: var(--tag-adult); }
   .tag-featured{ background: var(--tag-featured-bg); color: var(--tag-featured); }
   .tag-new     { background: var(--tag-new-bg); color: var(--tag-new); }
+  .stale-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #FDECEC;
+    color: #C0392B;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
 
   .card-body {
     padding: 0 20px 20px;
@@ -496,6 +644,47 @@
     margin-top: 0;
   }
 </style>
+<script>
+  /* ===== IMAGE FALLBACK (TASK-012) =====
+     Registered in <head> so it also catches images that fail while the
+     page is still parsing. Swaps a broken card image for a dependency-free
+     inline SVG placeholder (no network request -> the fallback can never 404). */
+  (function () {
+    var CAT = {
+      education:  { c: '#0071E3', label: 'School' },
+      activities: { c: '#34C759', label: 'Activities' },
+      restaurants:{ c: '#FF9500', label: 'Food' },
+      parks:      { c: '#2EA7A0', label: 'Parks' },
+      services:   { c: '#5856D6', label: 'Services' },
+      trips:      { c: '#AF8A2E', label: 'Trips' },
+      _default:   { c: '#86868B', label: 'Photo' }
+    };
+    function placeholder(cat) {
+      var m = CAT[cat] || CAT._default;
+      var svg =
+        "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'>" +
+        "<defs><linearGradient id='g' x1='0' y1='0' x2='0' y2='1'>" +
+        "<stop offset='0' stop-color='" + m.c + "' stop-opacity='0.16'/>" +
+        "<stop offset='1' stop-color='" + m.c + "' stop-opacity='0.06'/>" +
+        "</linearGradient></defs>" +
+        "<rect width='400' height='225' fill='url(#g)'/>" +
+        "<path d='M200 66c-20 0-36 16-36 36 0 27 36 58 36 58s36-31 36-58c0-20-16-36-36-36z' fill='" + m.c + "' opacity='0.9'/>" +
+        "<circle cx='200' cy='102' r='13' fill='#fff'/>" +
+        "<text x='200' y='194' font-family='Inter,-apple-system,sans-serif' font-size='17' font-weight='600' text-anchor='middle' fill='" + m.c + "' opacity='0.85'>" + m.label + "</text>" +
+        "</svg>";
+      return 'data:image/svg+xml,' + encodeURIComponent(svg);
+    }
+    document.addEventListener('error', function (e) {
+      var img = e.target;
+      if (!img || img.tagName !== 'IMG' || !img.classList) return;
+      if (!img.classList.contains('card-thumbnail-img') && !img.classList.contains('card-hero-img')) return;
+      if (img.dataset.phApplied) return;        // guard against infinite onerror loop
+      img.dataset.phApplied = '1';
+      var sec = img.closest ? img.closest('section[data-category]') : null;
+      img.src = placeholder(sec ? sec.getAttribute('data-category') : '_default');
+    }, true); // capture phase: error events do not bubble
+  })();
+</script>
 </head>
 <body>
 <svg style="display: none;">
@@ -552,8 +741,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
-<div><strong>Updated</strong>   June 23, 2026 (v2.9)</div>
-<div><strong>v2.9</strong></div>
+<div><strong>Updated</strong>   June 23, 2026 (v3.4)</div>
+<div><strong>v3.4</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -568,7 +757,25 @@
 <button class="category-btn" data-category="trips">Trips & Events</button>
 <a class="category-btn agent-btn" href="agent.html">AI Agent Instructions →</a>
 </div>
+<div class="toolbar">
+<div class="search-box">
+<svg class="search-icon" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3" stroke-linecap="round"></path></svg>
+<input autocomplete="off" class="search-input" id="searchInput" placeholder="Search places, activities, food…" type="search"/>
+<button aria-label="Clear search" class="search-clear" id="searchClear" type="button">✕</button>
 </div>
+<div class="tag-filter-row" id="tagFilterRow">
+<button class="tag-chip tag-haneul" data-tag="haneul" type="button">Younger Son</button>
+<button class="tag-chip tag-harang" data-tag="harang" type="button">Older Son</button>
+<button class="tag-chip tag-family" data-tag="family" type="button">Family</button>
+<button class="tag-chip tag-adult" data-tag="adult" type="button">Adult</button>
+<button class="tag-chip tag-featured" data-tag="featured" type="button">Top Pick</button>
+<button class="tag-chip tag-new" data-tag="new" type="button">New</button>
+<button class="clear-filters" id="clearFilters" type="button">Clear filters</button>
+<button class="sort-toggle" id="sortDistance" title="Sort visible cards by drive time from home" type="button">↕ Nearest first</button>
+</div>
+</div>
+</div>
+<div class="no-results" id="noResults">No results. Try a different search or clear the filters.</div>
 <!-- ============ FAMILY REFERENCE (collapsible) ============ -->
 <!-- ============ 01 SCHOOLS ============ -->
 <section data-category="education" id="schools">
@@ -577,7 +784,7 @@
 <p>Georgetown ISD. Ford Elementary is walking distance. Benold Middle is a short drive.</p>
 </div>
 <div class="cards">
-<details class="card featured" id="ford-elementary">
+<details data-verified="2026-06" class="card featured" id="ford-elementary">
 <summary class="card-summary"><img alt="Jo Ann Ford Elementary" class="card-thumbnail-img" loading="lazy" src="images/schools_jo_ann_ford_elementary.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Jo Ann Ford Elementary</h3>
@@ -599,7 +806,7 @@
 </div>
 </div>
 </details>
-<details class="card" id="benold-middle">
+<details data-verified="2026-06" class="card" id="benold-middle">
 <summary class="card-summary"><img alt="Douglas Benold Middle School" class="card-thumbnail-img" loading="lazy" src="images/schools_douglas_benold_middle_school.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Douglas Benold Middle School</h3>
@@ -618,7 +825,7 @@
 </div>
 </div>
 </details>
-<details class="card" id="georgetown-high">
+<details data-verified="2026-06" class="card" id="georgetown-high">
 <summary class="card-summary"><img alt="Georgetown High School" class="card-thumbnail-img" loading="lazy" src="images/schools_georgetown_high_school.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Georgetown High School</h3>
@@ -646,7 +853,7 @@
 <p>Options for both boys after school ends at ~3 PM. YMCA at Ford Elementary is the standout for Younger Son.</p>
 </div>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="YMCA Y Afterschool at Ford Elementary" class="card-thumbnail-img" loading="lazy" src="images/afterschool_ymca_y_afterschool_at_ford_elementary.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>YMCA Y Afterschool at Ford Elementary</h3>
@@ -668,7 +875,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Boys & Girls Club of Georgetown" class="card-thumbnail-img" loading="lazy" src="images/afterschool_boys_girls_club_of_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Boys & Girls Club of Georgetown</h3>
@@ -689,7 +896,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Middle School Clubs & Sports (Benold)" class="card-thumbnail-img" loading="lazy" src="images/afterschool_middle_school_clubs_sports_benold.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Middle School Clubs & Sports (Benold)</h3>
@@ -718,7 +925,7 @@
 <p>Ninja Warrior (both love it from Frisco) and soccer. Local options to keep the boys active.</p>
 </div>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="Ninja Nation Austin" class="card-thumbnail-img" loading="lazy" src="images/sports_ninja_nation_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Ninja Nation Austin</h3>
@@ -740,7 +947,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Move Sport Ninja Academy" class="card-thumbnail-img" loading="lazy" src="images/sports_move_sport_ninja_academy.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Move Sport Ninja Academy</h3>
@@ -760,7 +967,7 @@
 </div>
 </div>
 </details>
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="Georgetown Soccer Association (GSA)" class="card-thumbnail-img" loading="lazy" src="images/sports_georgetown_soccer_association_gsa.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Georgetown Soccer Association (GSA)</h3>
@@ -783,7 +990,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="City of Georgetown Youth Soccer League" class="card-thumbnail-img" loading="lazy" src="images/sports_city_of_georgetown_youth_soccer_league.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>City of Georgetown Youth Soccer League</h3>
@@ -803,7 +1010,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="AcroTex Gymnastics — Ninja Classes" class="card-thumbnail-img" loading="lazy" src="images/sports_acrotex_gymnastics_ninja_classes.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>AcroTex Gymnastics — Ninja Classes</h3>
@@ -823,7 +1030,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Sport Clips Family YMCA — Georgetown" class="card-thumbnail-img" loading="lazy" src="images/sports_sport_clips_family_ymca_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Sport Clips Family YMCA — Georgetown</h3>
@@ -853,7 +1060,7 @@
 <p>Older Son loves acting and singing. Younger Son wants to play drums. Programs near Georgetown.</p>
 </div>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="Georgetown Palace Theatre — Education Dept." class="card-thumbnail-img" loading="lazy" src="images/theater_georgetown_palace_theatre_education_dept.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Georgetown Palace Theatre — Education Dept.</h3>
@@ -874,7 +1081,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Arts Avenue — Georgetown" class="card-thumbnail-img" loading="lazy" src="images/theater_arts_avenue_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Arts Avenue — Georgetown</h3>
@@ -893,7 +1100,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="kidsActing Studio" class="card-thumbnail-img" loading="lazy" src="images/theater_kidsacting_studio.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>kidsActing Studio</h3>
@@ -915,7 +1122,7 @@
 </div>
 </details>
 <h3 class="sub-header">Drum Lessons for Younger Son</h3>
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="Austin Drum Lab — Georgetown" class="card-thumbnail-img" loading="lazy" src="images/theater_austin_drum_lab_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Austin Drum Lab — Georgetown</h3>
@@ -936,7 +1143,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Clark's Music Class — Georgetown" class="card-thumbnail-img" loading="lazy" src="images/theater_clark_s_music_class_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Clark's Music Class — Georgetown</h3>
@@ -955,7 +1162,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Bach to Rock — Cedar Park" class="card-thumbnail-img" loading="lazy" src="images/theater_bach_to_rock_cedar_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Bach to Rock — Cedar Park</h3>
@@ -975,7 +1182,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="School of Rock — Round Rock" class="card-thumbnail-img" loading="lazy" src="images/theater_school_of_rock_round_rock.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>School of Rock — Round Rock</h3>
@@ -1005,7 +1212,7 @@
 <p>Both boys love Fortnite. Older Son is into Five Nights at Freddy's and horror. Places to play and compete.</p>
 </div>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="The Esports Cave — Cedar Park" class="card-thumbnail-img" loading="lazy" src="images/gaming_the_esports_cave_cedar_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>The Esports Cave — Cedar Park</h3>
@@ -1027,7 +1234,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="XP League — Youth Esports" class="card-thumbnail-img" loading="lazy" src="images/gaming_xp_league_youth_esports.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>XP League — Youth Esports</h3>
@@ -1047,7 +1254,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="YMCA eSports Programs" class="card-thumbnail-img" loading="lazy" src="images/gaming_ymca_esports_programs.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>YMCA eSports Programs</h3>
@@ -1068,7 +1275,7 @@
 </div>
 </details>
 <h3 class="sub-header">Horror & Spooky Stuff (Older Son)</h3>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="House of Torment — Austin" class="card-thumbnail-img" loading="lazy" src="images/gaming_house_of_torment_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>House of Torment — Austin</h3>
@@ -1088,7 +1295,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Scream Hollow — Smithville" class="card-thumbnail-img" loading="lazy" src="images/gaming_scream_hollow_smithville.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Scream Hollow — Smithville</h3>
@@ -1108,7 +1315,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Escape Rooms — Austin / Round Rock" class="card-thumbnail-img" loading="lazy" src="images/gaming_escape_rooms_austin_round_rock.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Escape Rooms — Austin / Round Rock</h3>
@@ -1138,7 +1345,7 @@
 <p>Older Son loves gardening. Local nurseries and plant shops to buy flowers, learn about native plants, and get supplies.</p>
 </div>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="McIntire's Garden Center" class="card-thumbnail-img" loading="lazy" src="images/gardening_mcintire_s_garden_center.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>McIntire's Garden Center</h3>
@@ -1160,7 +1367,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Hillside Nursery — Williams Dr" class="card-thumbnail-img" loading="lazy" src="images/gardening_hillside_nursery_williams_dr.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Hillside Nursery — Williams Dr</h3>
@@ -1180,7 +1387,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Root to Rise Plant Co." class="card-thumbnail-img" loading="lazy" src="images/gardening_root_to_rise_plant_co.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Root to Rise Plant Co.</h3>
@@ -1209,7 +1416,7 @@
 <p>Everything within 15 minutes of home. More nature, water, and free family activities than you'd expect.</p>
 </div>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Lake Georgetown & Trails" class="card-thumbnail-img" loading="lazy" src="images/georgetown_lake_georgetown_trails.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Lake Georgetown & Trails</h3>
@@ -1229,7 +1436,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="San Gabriel Park" class="card-thumbnail-img" loading="lazy" src="images/georgetown_san_gabriel_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>San Gabriel Park</h3>
@@ -1249,7 +1456,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Garey Park" class="card-thumbnail-img" loading="lazy" src="images/georgetown_garey_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Garey Park</h3>
@@ -1269,7 +1476,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Blue Hole Park" class="card-thumbnail-img" loading="lazy" src="images/georgetown_blue_hole_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Blue Hole Park</h3>
@@ -1289,7 +1496,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Inner Space Cavern" class="card-thumbnail-img" loading="lazy" src="images/georgetown_inner_space_cavern.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Inner Space Cavern</h3>
@@ -1308,7 +1515,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Georgetown Public Library" class="card-thumbnail-img" loading="lazy" src="images/georgetown_georgetown_public_library.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Georgetown Public Library</h3>
@@ -1329,7 +1536,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Downtown Georgetown Square" class="card-thumbnail-img" loading="lazy" src="images/georgetown_downtown_georgetown_square.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Downtown Georgetown Square</h3>
@@ -1358,7 +1565,7 @@
 <p>Half-day or full-day outings without overnight planning. Great Saturday options.</p>
 </div>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Round Rock — Outlets & Old Settlers Park" class="card-thumbnail-img" loading="lazy" src="images/daytrips_round_rock_outlets_old_settlers_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Round Rock — Outlets & Old Settlers Park</h3>
@@ -1376,7 +1583,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Cedar Park / Brushy Creek Lake Park" class="card-thumbnail-img" loading="lazy" src="images/daytrips_cedar_park_brushy_creek_lake_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Cedar Park / Brushy Creek Lake Park</h3>
@@ -1393,7 +1600,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Typhoon Texas — Pflugerville" class="card-thumbnail-img" loading="lazy" src="images/daytrips_typhoon_texas_pflugerville.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Typhoon Texas — Pflugerville</h3>
@@ -1410,7 +1617,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Downtown Austin" class="card-thumbnail-img" loading="lazy" src="images/daytrips_downtown_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Downtown Austin</h3>
@@ -1427,7 +1634,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Thinkery (Austin Children's Museum)" class="card-thumbnail-img" loading="lazy" src="images/daytrips_thinkery_austin_children_s_museum.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Thinkery (Austin Children's Museum)</h3>
@@ -1447,7 +1654,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="McKinney Falls State Park" class="card-thumbnail-img" loading="lazy" src="images/daytrips_mckinney_falls_state_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>McKinney Falls State Park</h3>
@@ -1474,7 +1681,7 @@
 <p>Saturday-morning-departure trips. Hill Country starts ~1 hour west; Gulf Coast ~3.5 hours south.</p>
 </div>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Fredericksburg & Hill Country" class="card-thumbnail-img" loading="lazy" src="images/weekends_fredericksburg_hill_country.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Fredericksburg & Hill Country</h3>
@@ -1495,7 +1702,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="San Antonio — Riverwalk, SeaWorld, Six Flags" class="card-thumbnail-img" loading="lazy" src="images/weekends_san_antonio_riverwalk_seaworld_six_flags.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>San Antonio — Riverwalk, SeaWorld, Six Flags</h3>
@@ -1512,7 +1719,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Waco — Magnolia, Zoo, Dr Pepper Museum" class="card-thumbnail-img" loading="lazy" src="images/weekends_waco_magnolia_zoo_dr_pepper_museum.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Waco — Magnolia, Zoo, Dr Pepper Museum</h3>
@@ -1529,7 +1736,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Schlitterbahn New Braunfels" class="card-thumbnail-img" loading="lazy" src="images/weekends_schlitterbahn_new_braunfels.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Schlitterbahn New Braunfels</h3>
@@ -1547,7 +1754,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Gruene — Float the Guadalupe & Dance Hall" class="card-thumbnail-img" loading="lazy" src="images/weekends_gruene_float_the_guadalupe_dance_hall.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Gruene — Float the Guadalupe & Dance Hall</h3>
@@ -1565,7 +1772,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Galveston & Gulf Coast" class="card-thumbnail-img" loading="lazy" src="images/weekends_galveston_gulf_coast.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Galveston & Gulf Coast</h3>
@@ -1582,7 +1789,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Dallas / Fort Worth" class="card-thumbnail-img" loading="lazy" src="images/weekends_dallas_fort_worth.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Dallas / Fort Worth</h3>
@@ -1600,7 +1807,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Houston — Space Center, Zoo, Museums" class="card-thumbnail-img" loading="lazy" src="images/weekends_houston_space_center_zoo_museums.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Houston — Space Center, Zoo, Museums</h3>
@@ -1628,7 +1835,7 @@
 </div>
 <h3 class="sub-header">Georgetown — Family Favorites</h3>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Monument Cafe" class="card-thumbnail-img" loading="lazy" src="images/restaurants_monument_cafe.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Monument Cafe</h3>
@@ -1646,7 +1853,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Wildfire Restaurant" class="card-thumbnail-img" loading="lazy" src="images/restaurants_wildfire_restaurant.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Wildfire Restaurant</h3>
@@ -1667,7 +1874,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Encantada Cocina + Cantina (Formerly El Monumento)" class="card-thumbnail-img" loading="lazy" src="images/restaurants_encantada_cocina_cantina_formerly_el_monumento.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Encantada Cocina + Cantina (Formerly El Monumento)</h3>
@@ -1685,7 +1892,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="600 Degrees Pizzeria" class="card-thumbnail-img" loading="lazy" src="images/restaurants_600_degrees_pizzeria.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>600 Degrees Pizzeria</h3>
@@ -1703,7 +1910,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Tony & Luigi's" class="card-thumbnail-img" loading="lazy" src="images/restaurants_tony_luigi_s.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Tony & Luigi's</h3>
@@ -1724,7 +1931,7 @@
 </div>
 <h3 class="sub-header">Austin — Worth the Drive</h3>
 <div class="cards">
-<details class="card featured">
+<details data-verified="2026-06" class="card featured">
 <summary class="card-summary"><img alt="Franklin Barbecue" class="card-thumbnail-img" loading="lazy" src="images/restaurants_franklin_barbecue.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Franklin Barbecue</h3>
@@ -1742,7 +1949,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Terry Black's BBQ" class="card-thumbnail-img" loading="lazy" src="images/restaurants_terry_black_s_bbq.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Terry Black's BBQ</h3>
@@ -1760,7 +1967,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Veracruz All Natural" class="card-thumbnail-img" loading="lazy" src="images/restaurants_veracruz_all_natural.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Veracruz All Natural</h3>
@@ -1778,7 +1985,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Uchi / Uchiko" class="card-thumbnail-img" loading="lazy" src="images/restaurants_uchi_uchiko.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Uchi / Uchiko</h3>
@@ -1796,7 +2003,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Round Rock Donuts" class="card-thumbnail-img" loading="lazy" src="images/restaurants_round_rock_donuts.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Round Rock Donuts</h3>
@@ -1814,7 +2021,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Korean Grocery & BBQ — H Mart & North Austin" class="card-thumbnail-img" loading="lazy" src="images/restaurants_korean_grocery_bbq_h_mart_north_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Korean Grocery & BBQ — H Mart & North Austin</h3>
@@ -1843,7 +2050,7 @@
 </div>
 <h3 class="sub-header">Annual Festivals — Mark the Calendar</h3>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Red Poppy Festival (Georgetown)" class="card-thumbnail-img" loading="lazy" src="images/events_red_poppy_festival_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Red Poppy Festival (Georgetown)</h3>
@@ -1861,7 +2068,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="ACL — Austin City Limits" class="card-thumbnail-img" loading="lazy" src="images/events_acl_austin_city_limits.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>ACL — Austin City Limits</h3>
@@ -1881,7 +2088,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="SXSW (Austin)" class="card-thumbnail-img" loading="lazy" src="images/events_sxsw_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>SXSW (Austin)</h3>
@@ -1899,7 +2106,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Texas Renaissance Festival" class="card-thumbnail-img" loading="lazy" src="images/events_texas_renaissance_festival.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Texas Renaissance Festival</h3>
@@ -1913,7 +2120,7 @@
 <p class="card-desc">Largest Ren Faire in America. Costumes, jousting, food, dragons. Both boys will love it. Best as an overnight trip.</p>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Christmas Stroll (Georgetown)" class="card-thumbnail-img" loading="lazy" src="images/events_christmas_stroll_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Christmas Stroll (Georgetown)</h3>
@@ -1931,7 +2138,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Two Step Inn — Country Music Festival" class="card-thumbnail-img" loading="lazy" src="images/events_two_step_inn_country_music_festival.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Two Step Inn — Country Music Festival</h3>
@@ -1952,7 +2159,7 @@
 </div>
 <h3 class="sub-header">Music Venues — Year-Round</h3>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="H-E-B Center at Cedar Park" class="card-thumbnail-img" loading="lazy" src="images/events_h_e_b_center_at_cedar_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>H-E-B Center at Cedar Park</h3>
@@ -1968,7 +2175,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Moody Center (Austin)" class="card-thumbnail-img" loading="lazy" src="images/events_moody_center_austin.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Moody Center (Austin)</h3>
@@ -1984,7 +2191,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Gruene Hall" class="card-thumbnail-img" loading="lazy" src="images/events_gruene_hall.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Gruene Hall</h3>
@@ -2010,7 +2217,7 @@
 <p>Where neighbors talk. Join these in the first week. Local Facebook groups beat any news site.</p>
 </div>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Nextdoor" class="card-thumbnail-img" loading="lazy" src="images/community_nextdoor.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Nextdoor</h3>
@@ -2026,7 +2233,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="JoAnn Ford Elementary — Facebook" class="card-thumbnail-img" loading="lazy" src="images/community_joann_ford_elementary_facebook.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>JoAnn Ford Elementary — Facebook</h3>
@@ -2041,7 +2248,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Cool Moms of Georgetown" class="card-thumbnail-img" loading="lazy" src="images/community_cool_moms_of_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Cool Moms of Georgetown</h3>
@@ -2056,7 +2263,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="All Things Kids In Georgetown" class="card-thumbnail-img" loading="lazy" src="images/community_all_things_kids_in_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>All Things Kids In Georgetown</h3>
@@ -2071,7 +2278,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Do512 Family" class="card-thumbnail-img" loading="lazy" src="images/community_do512_family.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Do512 Family</h3>
@@ -2086,7 +2293,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Hello Georgetown" class="card-thumbnail-img" loading="lazy" src="images/community_hello_georgetown.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Hello Georgetown</h3>
@@ -2101,7 +2308,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="City of Georgetown — Parks & Rec" class="card-thumbnail-img" loading="lazy" src="images/community_city_of_georgetown_parks_rec.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>City of Georgetown — Parks & Rec</h3>
@@ -2126,7 +2333,7 @@
 <p>Infrastructure of daily life. Add referrals as we find good providers.</p>
 </div>
 <div class="cards">
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Georgetown Utility Systems (GUS)" class="card-thumbnail-img" loading="lazy" src="images/services_georgetown_utility_systems_gus.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Georgetown Utility Systems (GUS)</h3>
@@ -2142,7 +2349,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Internet Options" class="card-thumbnail-img" loading="lazy" src="images/services_internet_options.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Internet Options</h3>
@@ -2158,7 +2365,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Grocery — H-E-B" class="card-thumbnail-img" loading="lazy" src="images/services_grocery_h_e_b.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Grocery — H-E-B</h3>
@@ -2175,7 +2382,7 @@
 </div>
 </div>
 </details>
-<details class="card">
+<details data-verified="2026-06" class="card">
 <summary class="card-summary"><img alt="Costco — Cedar Park" class="card-thumbnail-img" loading="lazy" src="images/services_costco_cedar_park.jpg"/><div class="card-summary-info">
 <div class="card-title">
 <h3>Costco — Cedar Park</h3>
@@ -2196,43 +2403,179 @@
 </section>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v2.9 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v3.4 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
       const buttons = document.querySelectorAll('.category-btn[data-category]');
       const sections = document.querySelectorAll('section[data-category]');
-      
+      const cards = document.querySelectorAll('details.card');
+      const searchInput = document.getElementById('searchInput');
+      const searchClear = document.getElementById('searchClear');
+      const tagChips = document.querySelectorAll('.tag-chip[data-tag]');
+      const clearFilters = document.getElementById('clearFilters');
+      const noResults = document.getElementById('noResults');
+
+      // ----- Unified filter state -----
+      let activeCategory = 'all';
+      let searchQuery = '';
+      const activeTags = new Set();
+
+      function applyFilters() {
+        const q = searchQuery.trim().toLowerCase();
+        let totalVisible = 0;
+
+        sections.forEach(sec => {
+          const inCat = activeCategory === 'all' || sec.getAttribute('data-category') === activeCategory;
+          let visibleInSection = 0;
+
+          sec.querySelectorAll('details.card').forEach(card => {
+            let show = inCat;
+            // Tag filter (OR across selected tags)
+            if (show && activeTags.size) {
+              show = [...activeTags].some(t => card.querySelector('.tag-' + t));
+            }
+            // Text search
+            if (show && q) {
+              show = (card.textContent || '').toLowerCase().includes(q);
+            }
+            card.style.display = show ? '' : 'none';
+            card.open = show && !!q; // auto-expand matches while searching
+            if (show) visibleInSection++;
+          });
+
+          sec.style.display = (inCat && visibleInSection > 0) ? '' : 'none';
+          totalVisible += visibleInSection;
+        });
+
+        noResults.style.display = totalVisible === 0 ? 'block' : 'none';
+
+        const anyFilter = searchQuery.trim() !== '' || activeTags.size > 0 || activeCategory !== 'all';
+        clearFilters.classList.toggle('visible', anyFilter);
+        searchClear.classList.toggle('visible', searchQuery.trim() !== '');
+      }
+
+      // ----- Category buttons -----
       buttons.forEach(btn => {
         btn.addEventListener('click', () => {
-          // Remove active class from all buttons
           buttons.forEach(b => b.classList.remove('active'));
-          // Add active class to clicked button
           btn.classList.add('active');
-          
-          const targetCategory = btn.getAttribute('data-category');
-          
-          // Show/hide sections
-          sections.forEach(sec => {
-            if (targetCategory === 'all' || sec.getAttribute('data-category') === targetCategory) {
-              sec.style.display = 'block';
-            } else {
-              sec.style.display = 'none';
-            }
-          });
-          
-          // If not 'all', scroll smoothly back to the top of the content filter bar
-          if (targetCategory !== 'all') {
+          activeCategory = btn.getAttribute('data-category');
+          applyFilters();
+          if (activeCategory !== 'all') {
             const wrapper = document.querySelector('.category-bar-wrapper');
-            if (wrapper) {
-              window.scrollTo({
-                top: wrapper.offsetTop - 10,
-                behavior: 'smooth'
-              });
-            }
+            if (wrapper) window.scrollTo({ top: wrapper.offsetTop - 10, behavior: 'smooth' });
           }
         });
+      });
+
+      // ----- Search input (debounced) -----
+      let debounce;
+      searchInput.addEventListener('input', () => {
+        clearTimeout(debounce);
+        debounce = setTimeout(() => { searchQuery = searchInput.value; applyFilters(); }, 120);
+      });
+      searchInput.addEventListener('keydown', e => {
+        if (e.key === 'Escape') { searchInput.value = ''; searchQuery = ''; applyFilters(); }
+      });
+      searchClear.addEventListener('click', () => {
+        searchInput.value = ''; searchQuery = ''; applyFilters(); searchInput.focus();
+      });
+
+      // ----- Tag chips (multi-select) -----
+      tagChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+          const tag = chip.getAttribute('data-tag');
+          if (activeTags.has(tag)) { activeTags.delete(tag); chip.classList.remove('active'); }
+          else { activeTags.add(tag); chip.classList.add('active'); }
+          applyFilters();
+        });
+      });
+
+      // ----- Clear all filters -----
+      clearFilters.addEventListener('click', () => {
+        searchInput.value = ''; searchQuery = '';
+        activeTags.clear();
+        tagChips.forEach(c => c.classList.remove('active'));
+        activeCategory = 'all';
+        buttons.forEach(b => b.classList.toggle('active', b.getAttribute('data-category') === 'all'));
+        applyFilters();
+      });
+
+      // ----- Stale-card badge (TASK-011) -----
+      // Cards carry data-verified="YYYY-MM". Once a card hasn't been verified
+      // in STALE_MONTHS, show a "Verify info" badge so out-of-date prices/hours
+      // surface for review. Fresh cards show nothing (no noise).
+      const STALE_MONTHS = 6;
+      const now = new Date();
+      cards.forEach(card => {
+        const v = card.getAttribute('data-verified');
+        const m = v && /^(\d{4})-(\d{2})$/.exec(v);
+        if (!m) return;
+        const ageMonths = (now.getFullYear() - +m[1]) * 12 + (now.getMonth() - (+m[2] - 1));
+        if (ageMonths < STALE_MONTHS) return;
+        const row = card.querySelector('.tag-row');
+        if (!row || row.querySelector('.stale-badge')) return;
+        const badge = document.createElement('span');
+        badge.className = 'stale-badge';
+        badge.textContent = '⚠︎ Verify info';
+        badge.title = 'Last verified ' + v + ' — details may be out of date';
+        row.appendChild(badge);
+      });
+
+      // ----- Sort by distance (TASK-009) -----
+      // Parse drive time from each card's #icon-drive meta and let the user
+      // reorder visible cards nearest-first. Cards without a drive time sort last.
+      function parseDriveMin(card) {
+        let s = '';
+        const uses = card.querySelectorAll('use');
+        for (const u of uses) {
+          if ((u.getAttribute('href') || '') === '#icon-drive') {
+            const item = u.closest('.meta-item') || u.closest('.tag-preview-meta');
+            if (item) { s = item.textContent; break; }
+          }
+        }
+        if (!s) return null;
+        let total = 0, found = false;
+        const h = s.match(/(\d+(?:\.\d+)?)\s*h(?:ours?|r)?\b/i);
+        if (h) { total += parseFloat(h[1]) * 60; found = true; }
+        const mm = s.match(/(\d+)\s*min/i);
+        if (mm) { total += parseInt(mm[1], 10); found = true; }
+        return found ? Math.round(total) : null;
+      }
+
+      // Stamp each card with its drive time and its original DOM position.
+      document.querySelectorAll('.cards').forEach(container => {
+        [...container.querySelectorAll('details.card')].forEach((card, i) => {
+          card.dataset.order = i;
+          const d = parseDriveMin(card);
+          card.dataset.driveMin = d == null ? '' : d;
+        });
+      });
+
+      const sortBtn = document.getElementById('sortDistance');
+      let sortByDistance = false;
+      function applySort() {
+        document.querySelectorAll('.cards').forEach(container => {
+          const items = [...container.querySelectorAll('details.card')];
+          items.sort((a, b) => {
+            if (sortByDistance) {
+              const da = a.dataset.driveMin === '' ? Infinity : +a.dataset.driveMin;
+              const db = b.dataset.driveMin === '' ? Infinity : +b.dataset.driveMin;
+              if (da !== db) return da - db;
+              return +a.dataset.order - +b.dataset.order; // stable tie-break
+            }
+            return +a.dataset.order - +b.dataset.order;    // restore original order
+          });
+          items.forEach(card => container.appendChild(card));
+        });
+      }
+      sortBtn.addEventListener('click', () => {
+        sortByDistance = !sortByDistance;
+        sortBtn.classList.toggle('active', sortByDistance);
+        sortBtn.textContent = sortByDistance ? '↕ Default order' : '↕ Nearest first';
+        applySort();
       });
     });
   </script>
