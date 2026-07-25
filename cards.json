@@ -1803,6 +1803,296 @@
           ]
         },
         {
+          "verified": "2026-07",
+          "image": "images/weekends_waco_lions_park_kiddieland.jpg",
+          "title": "Waco Lions Park & Kiddieland",
+          "brief": "Vintage 1965 kiddie amusement park — carousel, Ferris wheel, mini train, go-karts, putt-putt. Rides ~$2.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 25min north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1716 N 42nd St, Waco, TX 76708"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 25min north on I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: no gate fee · rides $2 (6 for $10) · train $3 · putt-putt $5"
+            },
+            {
+              "icon": "time",
+              "text": "Seasonal: roughly Mar–Oct, mostly Fri–Sun — check before driving up"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (254) 772-3541"
+            }
+          ],
+          "desc": "Nonprofit amusement park run by the Waco Founder Lions Club since 1965 — carousel, Ferris wheel, mini train, go-karts and putt-putt at prices from another decade. Squarely Younger Son's speed; Older Son will still do go-karts and putt-putt. No admission fee, you pay per ride. Hours are seasonal and weekend-heavy, so verify on their page before making the drive.",
+          "links": [
+            {
+              "href": "https://kiddielandwaco.com",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.facebook.com/KiddieLandWacoLionsPark/",
+              "label": "Facebook (hours)"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Waco+Lions+Park+Kiddieland+1716+N+42nd+St+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-07",
+          "image": "images/weekends_waco_mammoth_national_monument.jpg",
+          "title": "Waco Mammoth National Monument",
+          "brief": "Real ice-age mammoth fossils in a climate-controlled dig shelter. Grounds free, tours $5–6.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 30min north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "6220 Steinbeck Bend Dr, Waco, TX 76708"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 30min north on I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: grounds free · dig shelter tour $6 adult / $5 youth (4–17), under 4 free"
+            },
+            {
+              "icon": "time",
+              "text": "Open daily 9am–5pm"
+            }
+          ],
+          "desc": "National Park Service site built over the nation's only recorded nursery herd of Columbian mammoths — you see the real fossils exactly where they were found, from a walkway above the dig pit. Guided tours leave every 30 minutes, no reservation, and run about 45 minutes — the right length for kids. Ten minutes from Cameron Park and the zoo, so it stacks easily into a Waco day.",
+          "links": [
+            {
+              "href": "https://www.nps.gov/waco/index.htm",
+              "label": "Official site (NPS)"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Waco+Mammoth+National+Monument",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-07",
+          "image": "images/weekends_waco_surf.jpg",
+          "title": "Waco Surf",
+          "brief": "Surf lagoon, cable wakeboarding, lazy river and big slides. Water park from $14 (kids).",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New find"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 35min north via I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "5347 Old Mexia Rd, Waco, TX 76705"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 35min north via I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: water park from $14 kids · family pass $99 (2 adults + 2 kids) · surf sessions extra"
+            },
+            {
+              "icon": "time",
+              "text": "Summer season (roughly May–mid Sep) · weekdays 12–6, weekends 11–7"
+            }
+          ],
+          "desc": "The former BSR Cable Park, now a full surf resort: man-made wave lagoon with lessons, cable park for wakeboarding, lazy river, sandy beach and some genuinely big slides. The water-park side fits both boys; surfing or the new Shredmill standing wave is the splurge. Book online — summer weekends sell out — and there are on-site cabins if it turns into an overnight.",
+          "links": [
+            {
+              "href": "https://www.wacosurf.com",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Waco+Surf+5347+Old+Mexia+Rd+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-07",
+          "image": "images/weekends_mayborn_museum_complex.jpg",
+          "title": "Mayborn Museum Complex",
+          "brief": "Baylor's natural history museum with 17 hands-on discovery rooms. $8–10, best rainy-day option in Waco.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "haneul",
+              "label": "Younger Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 20min north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1300 S University Parks Dr, Waco, TX 76706"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 20min north on I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $10 adult / $8 kids 2–12"
+            },
+            {
+              "icon": "time",
+              "text": "Mon–Sat 10am–5pm · Sun 1pm–5pm"
+            }
+          ],
+          "desc": "Baylor University's science and natural history museum — the draw for kids is two floors of themed discovery rooms where everything is meant to be touched. Solid dinosaur and geology exhibits, plus a walk-through historic village outside. The best indoor play in Waco when it's 100° or pouring, and it's five minutes from Magnolia Market.",
+          "links": [
+            {
+              "href": "https://mayborn.web.baylor.edu",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Mayborn+Museum+Complex+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-07",
+          "image": "images/weekends_cameron_park_waco.jpg",
+          "title": "Cameron Park (Waco)",
+          "brief": "416-acre river park: 20 miles of trails, 100-ft cliffs, Jacob's Ladder stair climb. Free.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 25min north on I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Along the Brazos River, Waco, TX 76708 — trailheads off University Parks Dr & Cameron Park Dr"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 25min north on I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            }
+          ],
+          "desc": "One of the largest city parks in Texas, on 100-foot bluffs where the Bosque meets the Brazos. Twenty miles of ski-style color-graded trails (green to double black) that mountain bikers drive hours for, plus the 88-step Jacob's Ladder climb and clifftop river overlooks — very Ninja Warrior friendly. It wraps around Cameron Park Zoo, so the two combine into one stop. Bring water; the black trails are legitimately steep.",
+          "links": [
+            {
+              "href": "https://www.waco-texas.com/Departments/Parks-Recreation/Cameron-Park",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Cameron+Park+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-07",
+          "image": "images/weekends_homestead_craft_village.jpg",
+          "title": "Homestead Craft Village",
+          "brief": "Working craft village: blacksmith, pottery, woodworking, 1760 gristmill and heritage gardens. Free to visit.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "harang",
+              "label": "Older Son"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 35min north via I-35"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "608 Dry Creek Rd, Waco, TX 76705"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 35min north via I-35"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free to visit · craft classes and food extra"
+            },
+            {
+              "icon": "time",
+              "text": "Mon–Sat 10am–5pm · closed Sun"
+            }
+          ],
+          "desc": "An 18-acre working homestead village where craftspeople actually demonstrate blacksmithing, pottery, woodworking, cheese-making and fiber arts, centered on a restored 1760 gristmill. The herb and vegetable gardens are squarely Older Son territory, and the deli/café does very good from-scratch food. Free to wander; the Homestead Fair over Thanksgiving weekend is the big annual event and worth planning around.",
+          "links": [
+            {
+              "href": "https://www.homesteadcraftvillage.com",
+              "label": "Official site"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Homestead+Craft+Village+608+Dry+Creek+Rd+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
           "verified": "2026-06",
           "image": "images/weekends_schlitterbahn_new_braunfels.jpg",
           "title": "Schlitterbahn New Braunfels",
