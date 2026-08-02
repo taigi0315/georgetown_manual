@@ -716,6 +716,7 @@
       restaurants:{ c: '#FF9500', label: 'Food' },
       parks:      { c: '#2EA7A0', label: 'Parks' },
       services:   { c: '#5856D6', label: 'Services' },
+      deadlines:  { c: '#E0453A', label: 'Deadline' },
       trips:      { c: '#AF8A2E', label: 'Trips' },
       _default:   { c: '#86868B', label: 'Photo' }
     };
@@ -809,15 +810,16 @@
 <p class="subtitle">Schools, after-school programs, sports, weekend adventures, restaurants, and everything we need to know about our new home.</p>
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
-<div><strong>Family</strong>   Older Son (11) · Younger Son (8)</div>
-<div><strong>Updated</strong>   July 25, 2026 (v3.9)</div>
-<div><strong>v3.9</strong></div>
+<div><strong>Family</strong>   Harang (11) · Hanung (8)</div>
+<div><strong>Updated</strong>   August 2, 2026 (v4.0)</div>
+<div><strong>v4.0</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
 <div class="category-bar-wrapper">
 <div class="category-bar">
 <button class="category-btn active" data-category="all">All</button>
+<button class="category-btn" data-category="deadlines">⏰ Deadlines</button>
 <button class="category-btn" data-category="education">School & Care</button>
 <button class="category-btn" data-category="activities">Sports & Activities</button>
 <button class="category-btn" data-category="restaurants">Restaurants</button>
@@ -833,8 +835,8 @@
 <button aria-label="Clear search" class="search-clear" id="searchClear" type="button">✕</button>
 </div>
 <div class="tag-filter-row" id="tagFilterRow">
-<button class="tag-chip tag-haneul" data-tag="haneul" type="button">Younger Son</button>
-<button class="tag-chip tag-harang" data-tag="harang" type="button">Older Son</button>
+<button class="tag-chip tag-haneul" data-tag="haneul" type="button">Hanung</button>
+<button class="tag-chip tag-harang" data-tag="harang" type="button">Harang</button>
 <button class="tag-chip tag-family" data-tag="family" type="button">Family</button>
 <button class="tag-chip tag-adult" data-tag="adult" type="button">Adult</button>
 <button class="tag-chip tag-featured" data-tag="featured" type="button">Top Pick</button>
@@ -852,7 +854,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v3.9 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v4.0 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -1085,7 +1087,7 @@
       // Coordinates were geocoded once (Nominatim/OSM) and embedded here, keyed by
       // each card's DOM order so no per-card markup edits are needed. The map shows
       // only the currently-visible (filtered) cards that have a known location.
-      const CARD_COORDS = {0:[30.68812,-97.7289],1:[30.67181,-97.68894],2:[30.66346,-97.66387],3:[30.68812,-97.7289],4:[30.65658,-97.67005],5:[30.67181,-97.68894],6:[30.41988,-97.67445],7:[30.46627,-97.64451],8:[30.62595,-97.66374],9:[30.64948,-97.672],10:[30.50859,-97.67881],12:[30.63616,-97.67834],13:[30.64697,-97.67968],15:[30.63702,-97.67756],16:[30.63702,-97.67756],17:[30.52171,-97.82783],18:[30.50859,-97.67881],19:[30.52171,-97.82783],20:[30.3444,-97.69772],23:[30.00563,-97.15591],25:[30.6227,-97.68511],26:[30.65897,-97.68835],27:[30.65532,-97.67257],29:[30.65005,-97.67153],30:[30.65551,-97.68998],31:[30.64286,-97.68164],33:[30.63647,-97.68012],34:[30.63702,-97.67754],39:[30.29758,-97.705],44:[31.5526,-97.17132],45:[31.60611,-97.17552],46:[31.61739,-97.00068],47:[31.5528,-97.1183],48:[31.585,-97.154],55:[30.63887,-97.6785],56:[30.63604,-97.67833],57:[30.64233,-97.67865],59:[30.63731,-97.67714],60:[30.27015,-97.73128],67:[30.26769,-97.76689],71:[30.65039,-97.67131],84:[30.6712,-97.6989],85:[30.40091,-97.72286]};
+      const CARD_COORDS = {7:[30.68812,-97.7289],8:[30.67181,-97.68894],9:[30.66346,-97.66387],10:[30.68812,-97.7289],11:[30.65658,-97.67005],12:[30.67181,-97.68894],13:[30.41988,-97.67445],14:[30.46627,-97.64451],15:[30.62595,-97.66374],16:[30.64948,-97.672],19:[30.50859,-97.67881],21:[30.63616,-97.67834],23:[30.64697,-97.67968],25:[30.63702,-97.67756],28:[30.63702,-97.67756],29:[30.52171,-97.82783],30:[30.50859,-97.67881],31:[30.52171,-97.82783],32:[30.3444,-97.69772],35:[30.00563,-97.15591],38:[30.6227,-97.68511],39:[30.65897,-97.68835],40:[30.65532,-97.67257],44:[30.65005,-97.67153],45:[30.65551,-97.68998],46:[30.64286,-97.68164],48:[30.63647,-97.68012],49:[30.63702,-97.67754],54:[30.29758,-97.705],59:[31.5526,-97.17132],60:[31.60611,-97.17552],61:[31.61739,-97.00068],62:[31.5528,-97.1183],63:[31.585,-97.154],70:[30.63887,-97.6785],71:[30.63604,-97.67833],72:[30.64233,-97.67865],74:[30.63731,-97.67714],75:[30.27015,-97.73128],82:[30.26769,-97.76689],86:[30.65039,-97.67131],99:[30.6712,-97.6989],100:[30.40091,-97.72286]};
       const HOME = [30.6912, -97.7305]; // Georgetown, TX 78633 (Woodlake)
       const cardsArr = [...cards];
       const mapToggle = document.getElementById('mapToggle');
