@@ -1,6 +1,288 @@
 {
   "sections": [
     {
+      "id": "deadlines",
+      "category": "deadlines",
+      "title": "Registration Deadlines",
+      "intro": "As of Aug 2, 2026 — first day of school is Aug 19 (last day May 28, 2027). 🔴 3 items need action NOW. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
+      "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/deadlines_gisd_enrollment.jpg",
+          "title": "GISD New Student Enrollment",
+          "brief": "🔴 Due Aug 17 — enroll both boys or they can't start on day one.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Do this first"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Due Mon Aug 17"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Due: Mon Aug 17, 2026 · first day of school Aug 19"
+            },
+            {
+              "icon": "info",
+              "text": "Bring: proof of residency, birth certificates, immunization records, prior school records"
+            }
+          ],
+          "desc": "New-student enrollment must be complete by Aug 17 for the boys to attend the first day — walk-in enrollment is closed the morning of the first day until 1 PM, so there's no showing up and sorting it out. Gather the documents once and do both kids together. Do this first: Harang's electives (Theatre, Choir) are chosen during schedule building, and late pickers get whatever sections are left.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/",
+              "label": "GISD"
+            },
+            {
+              "href": "tel:5129435090",
+              "label": "Benold: 512-943-5090"
+            },
+            {
+              "href": "tel:5129435180",
+              "label": "Ford: 512-943-5180"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/deadlines_rankone_athletics.jpg",
+          "title": "RankOne Athletic Forms + Physical",
+          "brief": "🔴 Before Aug 19 — online forms + current physical required for Harang's Pre-Athletics.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "featured",
+              "label": "Before school starts"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Before Aug 19"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Due: before the first day of school (Aug 19)"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $8/yr catastrophic insurance"
+            },
+            {
+              "icon": "info",
+              "text": "Only Georgetown HS trainers can clear a student — don't leave it to week one"
+            }
+          ],
+          "desc": "Harang can't participate in Benold Pre-Athletics until every RankOne form is submitted online and a current physical is on file. Only GHS trainers can clear a student, so a last-minute scramble risks him sitting out. Pre-Athletics is where the tennis path starts this year — see the Benold card for why that matters.",
+          "links": [
+            {
+              "href": "https://georgetownisd.rankone.com",
+              "label": "RankOne portal"
+            },
+            {
+              "href": "tel:5129435090",
+              "label": "Benold: 512-943-5090"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/deadlines_palace_ppc_auditions.jpg",
+          "title": "Palace Performance Company Auditions",
+          "brief": "🔴 August 2026 — exact date unpublished ⚠ — call 512-869-7469 this week.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "featured",
+              "label": "Call this week"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "⚠ August — date not published"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "⚠ Auditions held every August — exact 2026 date not published"
+            },
+            {
+              "icon": "info",
+              "text": "Year-long advanced theatre commitment"
+            }
+          ],
+          "desc": "The Palace's advanced track: a year-long company with auditions every August. The exact 2026 date isn't published anywhere — which is exactly why the call has to happen now, not after school starts. If PPC doesn't happen this year, regular fall Palace classes are the fallback, and full classes often free up waitlist spots in the final week (24 hours to claim by email).",
+          "links": [
+            {
+              "href": "https://www.georgetownpalace.org/education/",
+              "label": "Palace Education"
+            },
+            {
+              "href": "tel:5128697469",
+              "label": "Call: 512-869-7469"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/deadlines_benold_electives.jpg",
+          "title": "Benold Electives — Theatre & Choir",
+          "brief": "🟠 Chosen at enrollment during schedule building — late means full sections.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "At enrollment"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Due: during schedule building at enrollment"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ 6th-grade after-school theatre schedule unconfirmed (site is login-gated) — ask when enrolling"
+            }
+          ],
+          "desc": "Theatre (led by Glen Meadows) and Choir are picked while building Harang's schedule at enrollment — not add-later options once sections fill. The program site sits behind a GISD login, so the enrollment appointment is the moment to ask everything: section availability, after-school schedule, and how 6th graders fit in.",
+          "links": [
+            {
+              "href": "tel:5129435090",
+              "label": "Benold: 512-943-5090"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/deadlines_ymca_afterschool.jpg",
+          "title": "YMCA Y Afterschool at Ford — Register",
+          "brief": "🟢 Open now, rolling — register in person to start sooner than next Monday.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Open now"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "2026–27 registration open · rolling"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Current rate not published — confirm when calling"
+            }
+          ],
+          "desc": "Registration for 2026–27 is open and Ford is confirmed on the YMCA's Georgetown campus list. The online system defaults your start date to the following Monday — register in person if Hanung needs to start sooner. Full program details on the After-School Care card.",
+          "links": [
+            {
+              "href": "https://ymcactx.org/childcare/afterschool/",
+              "label": "Register online"
+            },
+            {
+              "href": "tel:5122469622",
+              "label": "YMCA: 512-246-9622"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/deadlines_fall_soccer.jpg",
+          "title": "Fall Rec Soccer — Registration Closed",
+          "brief": "⚫ Closed ~Jul 5 — one call to GSA about a late add, otherwise spring (~January).",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Closed · spring ~Jan"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Closed: registration ran mid-May–Jul 5 · spring opens ~January"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Late add unconfirmed — worth one call"
+            }
+          ],
+          "desc": "Fall recreational soccer registration closed around July 5 (Force FC's uniform deadline was June 30). The realistic play: one call to GSA asking about a late add — ⚠ unconfirmed they'll take one. If not, spring registration opens around January; put a reminder in the calendar now so this doesn't repeat.",
+          "links": [
+            {
+              "href": "tel:5128685913",
+              "label": "GSA: 512-868-5913"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/deadlines_benold_tennis.jpg",
+          "title": "Benold Tennis Tryouts — Aug 2027",
+          "brief": "🟠 Real tryouts start in 7th grade — this school year is the bridge.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "August 2027"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Tryouts: August 2027 (7th grade and up only)"
+            }
+          ],
+          "desc": "Benold fields no 6th-grade tennis team — tryouts start in 7th grade. The bridge this year: Pre-Athletics runs a tennis skills rotation three days a week, and Georgetown Tennis Center lessons plus GTA Jr. Team Tennis (see Sports) add the match experience a tryout will demand. Benold has courts on campus, so the goal is concrete and close.",
+          "links": [
+            {
+              "href": "tel:5129435090",
+              "label": "Benold: 512-943-5090"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "schools",
       "category": "education",
       "title": "Schools",
@@ -9,14 +291,14 @@
         {
           "id": "ford-elementary",
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/schools_jo_ann_ford_elementary.jpg",
           "title": "Jo Ann Ford Elementary",
           "brief": "Top 10% Texas elementary, walking distance from home. PK–5, 538 students.",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "featured",
@@ -45,7 +327,7 @@
               "text": "Phone: (512) 943-5180"
             }
           ],
-          "desc": "Ranked 461st of 4,651 Texas elementary schools. Student-teacher ratio 15:1. Strong Gifted & Talented program (top 15% statewide). Same street as our house — Younger Son can walk or bike.",
+          "desc": "Ranked 461st of 4,651 Texas elementary schools. Student-teacher ratio 15:1. Strong Gifted & Talented program (top 15% statewide). Principal is Meredith Gandy. Same street as our house — Hanung can walk or bike. Hanung starts 3rd grade here Aug 19 — enrollment must be done by Aug 17 (see Deadlines).",
           "links": [
             {
               "href": "https://www.georgetownisd.org/ford",
@@ -59,14 +341,14 @@
         },
         {
           "id": "benold-middle",
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/schools_douglas_benold_middle_school.jpg",
           "title": "Douglas Benold Middle School",
-          "brief": "Assigned middle school for Older Son. Grades 6–8, ~8 min drive.",
+          "brief": "Harang's middle school — 6th grade starts Aug 19. Grades 6–8, ~8 min drive.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -85,26 +367,34 @@
             {
               "icon": "education",
               "text": "Grades: 6–8"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 943-5090"
             }
           ],
-          "desc": "School clubs and sports happen here — soccer, band, theater, robotics. Join clubs early; that's the fastest way for Older Son to make friends at a new school.",
+          "desc": "Harang starts 6th grade here Aug 19. Activities: Theatre, Choir, Band, Orchestra, Student Council, NJHS, UIL, athletics, cheer — Theatre and Choir are electives picked during schedule building, so choose them at enrollment. The tennis path is the thing to know: 6th graders take Pre-Athletics, not UIL teams. Tennis IS in its 3-day-a-week skills rotation (forehand, backhand, serving, alongside volleyball/basketball/soccer/track; the other 2 days are speed, agility and weights), but real tryouts start in 7th grade — tennis, volleyball, basketball, soccer (cross country, powerlifting and track have none). Benold has courts on campus. Outside lessons this year (see Sports) are the bridge that makes the Aug 2027 tryout viable.",
           "links": [
             {
               "href": "https://www.georgetownisd.org/benold",
               "label": "Official site"
+            },
+            {
+              "href": "tel:5129435090",
+              "label": "Call: (512) 943-5090"
             }
           ]
         },
         {
           "id": "georgetown-high",
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/schools_georgetown_high_school.jpg",
           "title": "Georgetown High School",
           "brief": "Future high school for both boys. ~12 min drive. Strong athletics and band.",
           "tags": [
             {
               "type": "harang",
-              "label": "Future · Older Son"
+              "label": "Future · Harang"
             }
           ],
           "previewMeta": {
@@ -125,7 +415,7 @@
               "text": "Grades: 9–12"
             }
           ],
-          "desc": "Assigned high school for both boys eventually. 12,500-seat stadium. Strong football and band programs typical of Texas high schools.",
+          "desc": "Assigned high school for both boys eventually. Enrollment ~2,083, UIL Class 5A, 12,500-seat stadium. Strong football and band, and — relevant if Harang stays with theatre — GHS has won state titles in One Act Play.",
           "links": [
             {
               "href": "https://www.georgetownisd.org/ghs",
@@ -139,18 +429,18 @@
       "id": "afterschool",
       "category": "education",
       "title": "After-School Care",
-      "intro": "Options for both boys after school ends at ~3 PM. YMCA at Ford Elementary is the standout for Younger Son.",
+      "intro": "Options for both boys after school ends at ~3 PM. YMCA at Ford Elementary is the standout for Hanung.",
       "cards": [
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/afterschool_ymca_y_afterschool_at_ford_elementary.jpg",
           "title": "YMCA Y Afterschool at Ford Elementary",
-          "brief": "On-site at Ford Elementary. No pickup needed until 6:30 PM. K–5.",
+          "brief": "On-site at Ford. 2026–27 registration is OPEN now. No pickup needed until 6:30 PM.",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "featured",
@@ -158,8 +448,8 @@
             }
           ],
           "previewMeta": {
-            "icon": "cost",
-            "text": "~$60–80/week"
+            "icon": "time",
+            "text": "Registration open now"
           },
           "meta": [
             {
@@ -171,15 +461,15 @@
               "text": "Hours: Mon–Fri, 2:30–6:30 PM"
             },
             {
-              "icon": "cost",
-              "text": "Cost: ~$60–80/week"
-            },
-            {
               "icon": "target",
               "text": "Ages: K–5"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ⚠ 2026 rate not published (was ~$60–80/week) — confirm when calling"
             }
           ],
-          "desc": "Runs inside the school building — no transportation needed. Homework help, physical activity, STEAM enrichment, snack. Register early — popular slots fill before the school year starts.",
+          "desc": "Runs inside the school building — no transportation needed. Homework help, physical activity, STEAM enrichment, snack. 2026–27 registration is open and Ford is confirmed on the YMCA's Georgetown campus list. One quirk: the online system defaults your start date to the following Monday — register in person at the Y if Hanung needs to start sooner. ⚠ Confirm this year's rate on the phone.",
           "links": [
             {
               "href": "https://ymcactx.org/childcare/afterschool/",
@@ -199,11 +489,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -228,7 +518,7 @@
               "text": "Cost: ~$25–50/year membership"
             }
           ],
-          "desc": "Backup option if YMCA fills up. Good for Older Son who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.",
+          "desc": "Backup option if YMCA fills up. Good for Harang who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.",
           "links": [
             {
               "href": "https://bgctx.org/",
@@ -244,11 +534,11 @@
           "verified": "2026-06",
           "image": "images/afterschool_middle_school_clubs_sports_benold.jpg",
           "title": "Middle School Clubs & Sports (Benold)",
-          "brief": "Older Son's practical after-school path: school clubs, theater, soccer, band.",
+          "brief": "Harang's practical after-school path: school clubs, theater, soccer, band.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -269,7 +559,7 @@
               "text": "Cost: Free for most clubs"
             }
           ],
-          "desc": "For Older Son, the social on-ramp at a new school is participating in clubs: theater, robotics, band, art, chess, and athletics: track, cross-country, soccer. Sign up at the start of each semester.",
+          "desc": "For Harang, the social on-ramp at a new school is participating in clubs: theater, robotics, band, art, chess, and athletics: track, cross-country, soccer. Sign up at the start of each semester.",
           "links": [
             {
               "href": "https://benold.georgetownisd.org/",
@@ -298,11 +588,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "featured",
@@ -347,11 +637,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -382,18 +672,18 @@
         },
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/sports_georgetown_soccer_association_gsa.jpg",
           "title": "Georgetown Soccer Association (GSA)",
-          "brief": "Est. 1981. Rec + Select leagues, ~10 min. Fall & spring seasons.",
+          "brief": "⚫ Fall 2026 registration CLOSED (~Jul 5). Call about a late add or target spring (~Jan).",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "featured",
@@ -426,7 +716,7 @@
               "text": "Phone: (512) 868-5913"
             }
           ],
-          "desc": "450+ recreational players plus Select/Academy programs (Force FC). US Soccer curriculum, volunteer parent coaches, age-grouped teams. Recreational league is the right starting point. Register 1–2 months before season start.",
+          "desc": "450+ recreational players plus Select/Academy programs (Force FC). US Soccer curriculum, volunteer parent coaches, age-grouped teams. Heads up: fall 2026 registration ran mid-May to ~July 5 and is closed (Force FC's uniform deadline was June 30). ⚠ Unconfirmed whether they'll take a late add — worth one call. Otherwise spring registration opens around January; set a reminder.",
           "links": [
             {
               "href": "https://georgetownsoccer.org/recreational/",
@@ -435,6 +725,10 @@
             {
               "href": "https://georgetownsoccer.org/force-fc-select/",
               "label": "Force FC Select"
+            },
+            {
+              "href": "tel:5128685913",
+              "label": "Call: (512) 868-5913"
             }
           ]
         },
@@ -446,11 +740,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -484,6 +778,93 @@
           ]
         },
         {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/sports_georgetown_tennis_center.jpg",
+          "title": "Georgetown Tennis Center",
+          "brief": "City-run courts + junior lessons 10 min away. Pre-register — no drop-ins.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "featured",
+              "label": "Bridge to Benold tryouts"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "400 Serenada Dr, Georgetown, TX 78628"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 931-2444"
+            },
+            {
+              "icon": "info",
+              "text": "All players must pre-register — may need to call to have an account created"
+            }
+          ],
+          "desc": "The city's tennis center: private and group lessons, clinics, junior programs and tournaments. Everyone must pre-register — no walk-up drop-ins — and you may need to call first to get an account created. Coach Zach is a Georgetown High grad and former varsity player who reached USTA Champ Level as a junior (USPTR certified) — the right coach to aim Harang at next August's Benold tryouts.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/parks/programs/tennis.php",
+              "label": "Official site"
+            },
+            {
+              "href": "tel:5129312444",
+              "label": "Call: (512) 931-2444"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/sports_gta_jr_team_tennis.jpg",
+          "title": "GTA — USTA Jr. Team Tennis",
+          "brief": "League match play, ages 4–18 — the closest thing to the school team he can't join yet.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~10 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min (plays at Georgetown courts)"
+            },
+            {
+              "icon": "target",
+              "text": "Ages: 4–18"
+            },
+            {
+              "icon": "time",
+              "text": "⚠ Fall league start date not published — check the site"
+            }
+          ],
+          "desc": "Georgetown Tennis Association's USTA Jr. Team Tennis combines tennis with team-sport structure — serving, rallying and scoring learned through actual match play. Since Benold has no 6th-grade team, this is the best substitute year: a team environment, real matches, USTA structure. ⚠ Fall league start date isn't published yet — check the site or ask at the Tennis Center.",
+          "links": [
+            {
+              "href": "https://georgetowntennis.org/jr-programs/",
+              "label": "Jr. programs"
+            }
+          ]
+        },
+        {
           "verified": "2026-06",
           "image": "images/sports_acrotex_gymnastics_ninja_classes.jpg",
           "title": "AcroTex Gymnastics — Ninja Classes",
@@ -491,11 +872,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -528,11 +909,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -571,18 +952,18 @@
       "id": "theater",
       "category": "activities",
       "title": "Theater, Acting & Music Lessons",
-      "intro": "Older Son loves acting and singing. Younger Son wants to play drums. Programs near Georgetown.",
+      "intro": "Harang loves acting and singing. Hanung wants to play drums. Programs near Georgetown.",
       "cards": [
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/theater_georgetown_palace_theatre_education_dept.jpg",
           "title": "Georgetown Palace Theatre — Education Dept.",
           "brief": "Year-round acting, musical theater, voice, improv. Grades 1–12. Downtown, ~10 min.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "featured",
@@ -596,7 +977,7 @@
           "meta": [
             {
               "icon": "location",
-              "text": "810 S Austin Ave, Georgetown, TX 78626"
+              "text": "Doug Smith Performance Center, 206 W 2nd St, Georgetown, TX 78626"
             },
             {
               "icon": "drive",
@@ -609,13 +990,62 @@
             {
               "icon": "info",
               "text": "Format: After-school classes, weekend classes, seasonal camps"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "The hub for performing arts in Georgetown. Year-round classes for grades 1–12. After-school and weekend options, plus summer/break camps with early drop-off and late pick-up. Perfect for Older Son's acting and singing interests. Historic 1926 theater on the Square.",
+          "desc": "The hub for performing arts in Georgetown — established 2005, serving thousands of Central Texas students. Acting, voice, dance, improv, sketch, stage combat, even magic, ages 4–adult, and every session ends in a public performance. The advanced track is the Palace Performance Company: a year-long commitment with auditions every August — the 2026 date isn't published, so call now (see Deadlines). Pro tip: if a class shows full, join the waitlist — spots often open in the final week before registration closes, with 24 hours to claim by email.",
           "links": [
             {
-              "href": "https://www.georgetownpalace.com/",
-              "label": "Programs & schedule"
+              "href": "https://www.georgetownpalace.org/education/",
+              "label": "Education programs"
+            },
+            {
+              "href": "tel:5128697469",
+              "label": "Call: (512) 869-7469"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/theater_benold_theatre_choir.jpg",
+          "title": "Benold Theatre & Choir",
+          "brief": "On-campus theatre elective + student activity, led by Glen Meadows. Free.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "Free · on campus"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Benold Middle School, 1401 N Parmer Ranch Blvd"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Program site requires GISD login — details open up once enrolled"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 943-5090"
+            }
+          ],
+          "desc": "Theatre runs at Benold as both an elective and a student activity, led by Glen Meadows; Choir is separate and also available. Both are chosen during schedule building — lock them in at enrollment (see Deadlines). Free, on campus, and stacks fine with evening Palace classes.",
+          "links": [
+            {
+              "href": "tel:5129435090",
+              "label": "Call: (512) 943-5090"
             }
           ]
         },
@@ -627,7 +1057,7 @@
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -644,7 +1074,7 @@
               "text": "Drive: ~10 min"
             }
           ],
-          "desc": "Theater classes alongside dance programs. Multiple skill levels. Alternative to the Palace Theatre for Older Son's acting interest.",
+          "desc": "Theater classes alongside dance programs. Multiple skill levels. Alternative to the Palace Theatre for Harang's acting interest.",
           "links": [
             {
               "href": "https://artsavenue.org/",
@@ -653,18 +1083,18 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/theater_kidsacting_studio.jpg",
           "title": "kidsActing Studio",
           "brief": "16 Austin-area locations (including Round Rock, Cedar Park, Pflugerville). Pre-K through high school.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             }
           ],
           "previewMeta": {
@@ -681,11 +1111,11 @@
               "text": "Drive: ~15–20 min (to nearest satellite locations)"
             }
           ],
-          "desc": "Long-running theater program focusing on self-esteem, acting, and musical theater for Pre-K through high school. While their main studio is in Austin, they hold camps and classes at 16 local satellite locations. Convenient nearby options include Cedar Park (Live Oak Unitarian Church, Cedar Park Dance Co.), Round Rock (Grace Presbyterian, The Dance Spot, The Dance Gallery), and Pflugerville (Dance Elements) — all within a 15–20 minute drive from our house.",
+          "desc": "Long-running theater program focusing on self-esteem, acting, and musical theater for Pre-K through high school. While their main studio is in Austin, they hold camps and classes at 16 local satellite locations. Convenient nearby options include Cedar Park (Live Oak Unitarian Church, Cedar Park Dance Co.), Round Rock (Grace Presbyterian, The Dance Spot, The Dance Gallery), and Pflugerville (Dance Elements) — all within a 15–20 minute drive from our house. Think of this as the backup if Palace scheduling conflicts — after-school classes, break camps, and staged productions, ages 3–19. ⚠ Georgetown-area fall semester dates unconfirmed — check the site.",
           "links": [
             {
-              "href": "https://www.kidsactingstudio.com/locations",
-              "label": "Locations & schedules"
+              "href": "https://www.kidsactingstudio.com/semester-classes",
+              "label": "Semester classes"
             },
             {
               "href": "https://www.google.com/maps/search/?api=1&query=kidsActing+Studio+Austin+TX",
@@ -702,7 +1132,7 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "featured",
@@ -728,6 +1158,77 @@
           ]
         },
         {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/theater_georgetown_music_sessions.jpg",
+          "title": "Georgetown Music Sessions — Drums",
+          "brief": "Wesley Bennett — local drum teacher with years of glowing parent reviews. ~$30–45/lesson.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Start here for drums"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "~$30–45/lesson"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Georgetown, TX"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$30–45/lesson ⚠ confirm current rate"
+            },
+            {
+              "icon": "info",
+              "text": "Month-to-month, no contracts · in-person or Zoom"
+            }
+          ],
+          "desc": "Wesley Bennett teaches drums month-to-month — no long contracts — in person or over Zoom, with years of consistently positive parent reviews. The sensible start for Hanung: sticks and a practice pad (~$25) for the first stretch before any drum kit enters the house. ⚠ Confirm the current rate when booking.",
+          "links": [
+            {
+              "href": "https://georgetownmusicsessions.com/drum",
+              "label": "Drum lessons"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/theater_benold_band_orchestra.jpg",
+          "title": "Benold Band & Orchestra",
+          "brief": "Percussion continuation for Hanung once he reaches Benold (2029).",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Future · Hanung"
+            }
+          ],
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Benold Middle School, 1401 N Parmer Ranch Blvd"
+            },
+            {
+              "icon": "info",
+              "text": "Future — Hanung reaches 6th grade in 2029"
+            }
+          ],
+          "desc": "When Hanung reaches Benold, Band is the school continuation of drums — the program keeps a Future Members page and a private-lessons directory. Nothing to do now except keep the private lessons going so he places well into percussion.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/benold",
+              "label": "Benold"
+            }
+          ]
+        },
+        {
           "verified": "2026-06",
           "image": "images/theater_clark_s_music_class_georgetown.jpg",
           "title": "Clark's Music Class — Georgetown",
@@ -735,7 +1236,7 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             }
           ],
           "meta": [
@@ -748,7 +1249,7 @@
               "text": "Instruments: Drums, guitar, piano"
             }
           ],
-          "desc": "Private instruction with a patient, positive approach. Also offers guitar and piano if Younger Son wants to try other instruments later. Serves Georgetown, Round Rock, Hutto area.",
+          "desc": "Private instruction with a patient, positive approach. Also offers guitar and piano if Hanung wants to try other instruments later. Serves Georgetown, Round Rock, Hutto area.",
           "links": [
             {
               "href": "https://clarksmusicclass.com/",
@@ -764,11 +1265,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -794,18 +1295,18 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/theater_school_of_rock_round_rock.jpg",
           "title": "School of Rock — Round Rock",
           "brief": "Private lessons + weekly band rehearsals → live performances. ~20 min.",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -820,9 +1321,13 @@
             {
               "icon": "drive",
               "text": "Drive: ~20 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$300+/mo"
             }
           ],
-          "desc": "Combines private lessons with weekly band rehearsals. Students prepare to perform live in front of audiences. Could be great for both Younger Son (drums) and Older Son (singing) to jam together.",
+          "desc": "Private lesson plus weekly band rehearsal, building to real live concerts. At ~$300+/month it's a much bigger commitment than private lessons — the sensible sequence is a year with a private drum teacher first, then this if Hanung is hooked. Harang could join the same program on vocals, which would be genuinely fun.",
           "links": [
             {
               "href": "https://www.schoolofrock.com/locations/roundrock",
@@ -840,26 +1345,22 @@
       "id": "gaming",
       "category": "activities",
       "title": "Gaming, Esports & Spooky Fun",
-      "intro": "Both boys love Fortnite. Older Son is into Five Nights at Freddy's and horror. Places to play and compete.",
+      "intro": "Both boys love Fortnite. Harang is into Five Nights at Freddy's and horror. Places to play and compete.",
       "cards": [
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/gaming_the_esports_cave_cedar_park.jpg",
           "title": "The Esports Cave — Cedar Park",
-          "brief": "Dedicated gaming center. Tournaments, birthday parties, high-end PCs. ~25 min.",
+          "brief": "⚠ In transition — Austin location closed; Cedar Park running limited events while moving venues.",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
-            },
-            {
-              "type": "featured",
-              "label": "Best for Fortnite"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -880,33 +1381,33 @@
               "text": "Format: Open play, tournaments, birthday parties"
             }
           ],
-          "desc": "Dedicated facility for gaming with high-end PCs and consoles. Hosts tournaments (including Fortnite), birthday parties, and drop-in sessions. Both boys can play on proper setups with other kids. Great birthday party venue too.",
+          "desc": "Status check (Aug 2026): the Austin (Anderson Mill) location has closed, and the Cedar Park operation is in transition — running limited events while moving to a new venue in the Cedar Park area. Historically ran a monthly third-Saturday Fortnite tournament with prizes (~$6/hr open play) — that may return, but ⚠ verify on their events calendar before promising the boys anything. Players need their own Epic account for tournaments.",
           "links": [
             {
               "href": "https://theesportscave.com/",
-              "label": "Events & pricing"
+              "label": "Events calendar — check status"
             }
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/gaming_xp_league_youth_esports.jpg",
           "title": "XP League — Youth Esports",
           "brief": "Structured youth esports league. Ages 7–17. Coached teams, regional tournaments.",
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "meta": [
             {
               "icon": "location",
-              "text": "North Austin area"
+              "text": "XPL Austin: 8127 Mesa Dr, Austin — ~35 min"
             },
             {
               "icon": "target",
@@ -915,13 +1416,17 @@
             {
               "icon": "info",
               "text": "Games: Fortnite, Rocket League, Super Smash Bros"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~35 min"
             }
           ],
-          "desc": "Professional youth esports experience: structured teams, coaching, regional and national tournaments. Like organized sports but for gaming. Good if the boys want to compete seriously in Fortnite or Rocket League.",
+          "desc": "Coached competitive leagues rather than open play — structured teams, an emphasis on growth and character development, regional and national tournaments. Like organized sports but for gaming. With the Esports Cave in flux, this is currently the most reliable competitive Fortnite outlet for both boys.",
           "links": [
             {
-              "href": "https://xpleague.com/",
-              "label": "Find a league"
+              "href": "https://xpleague.com/texas-austin/",
+              "label": "XPL Austin"
             }
           ]
         },
@@ -933,11 +1438,11 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "meta": [
@@ -966,7 +1471,7 @@
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -991,7 +1496,7 @@
               "text": "Cost: ~$30–50/person"
             }
           ],
-          "desc": "One of Austin's most well-known haunted attractions. Professional sets, animatronics, live actors. High intensity — perfect for Older Son's FNAF/Little Nightmares vibe. Check age recommendations before taking Younger Son.",
+          "desc": "One of Austin's most well-known haunted attractions. Professional sets, animatronics, live actors. High intensity — perfect for Harang's FNAF/Little Nightmares vibe. Check age recommendations before taking Hanung.",
           "links": [
             {
               "href": "https://www.houseoftorment.com/",
@@ -1007,7 +1512,7 @@
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -1032,11 +1537,52 @@
               "text": "Season: September–November"
             }
           ],
-          "desc": "Extensive Wicked Halloween Park experience with haunted hayrides and multiple themed attractions. Outdoor setting. Combine with a Hill Country drive. Great for Older Son's horror interest.",
+          "desc": "Extensive Wicked Halloween Park experience with haunted hayrides and multiple themed attractions. Outdoor setting. Combine with a Hill Country drive. Great for Harang's horror interest.",
           "links": [
             {
               "href": "https://screamhollow.com/",
               "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/gaming_fright_fest_fiesta_texas.jpg",
+          "title": "Fright Fest — Six Flags Fiesta Texas",
+          "brief": "October haunted-park season in San Antonio — kid zones clearly split from teen+ scare zones.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~1h 30min south"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 30min south (San Antonio)"
+            },
+            {
+              "icon": "time",
+              "text": "Seasonal: October weekends [Ends: Nov 2026]"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: park admission — check site for date pricing"
+            }
+          ],
+          "desc": "The closest big 'horror, but actually fine for kids' event: Fiesta Texas splits Fright Fest into clearly kid-friendly daytime zones and teen+ scare zones after dark, so Harang gets the FNAF-adjacent thrill without the trauma. For the rest of spooky season: Scream Hollow (listed above) is the better all-ages haunted attraction, House of Torment is the intense one, and Alamo Drafthouse in Austin runs themed screenings year-round. Texas Renaissance Festival (see Events) is costumes and spectacle rather than horror.",
+          "links": [
+            {
+              "href": "https://www.sixflags.com/fiestatexas",
+              "label": "Fright Fest"
             }
           ]
         },
@@ -1048,7 +1594,7 @@
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -1061,7 +1607,7 @@
               "text": "Options: Escapology (Round Rock, ~20 min), The Escape Game (Austin, ~40 min), 4 Dreams Escape (Austin)"
             }
           ],
-          "desc": "Several escape rooms nearby: Escapology in Round Rock has family-friendly private rooms, The Escape Game in Austin has kid-friendly options, and 4 Dreams has creepier themes (zombie labs, abandoned attics) that Older Son would love. Great for birthday parties.",
+          "desc": "Several escape rooms nearby: Escapology in Round Rock has family-friendly private rooms, The Escape Game in Austin has kid-friendly options, and 4 Dreams has creepier themes (zombie labs, abandoned attics) that Harang would love. Great for birthday parties.",
           "links": [
             {
               "href": "https://www.escapology.com/en/austin-tx",
@@ -1079,18 +1625,18 @@
       "id": "gardening",
       "category": "parks",
       "title": "Gardening & Plant Shops",
-      "intro": "Older Son loves gardening. Local nurseries and plant shops to buy flowers, learn about native plants, and get supplies.",
+      "intro": "Harang loves gardening. Local nurseries and plant shops to buy flowers, learn about native plants, and get supplies.",
       "cards": [
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/gardening_mcintire_s_garden_center.jpg",
           "title": "McIntire's Garden Center",
           "brief": "Local staple since 1976. Native plants, trees, expert advice. Leander Rd.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -1119,7 +1665,7 @@
               "text": "Since: 1976"
             }
           ],
-          "desc": "Georgetown institution since 1976. Wide selection of native and hardy plants, trees, and professional gardening supplies. Knowledgeable staff can help Older Son learn about Texas gardening — different climate from what we're used to. Great for native wildflowers.",
+          "desc": "Family-run Georgetown institution since 1976 — trees, shrubs, bedding plants, herbs, natives, perennials, cactus, roses and organic fertilizers, with a Certified Texas Nursery Professional on staff. Knowledgeable enough to teach Harang Texas gardening properly. Good natives to start the yard with: salvia, lantana, esperanza, Mexican feathergrass.",
           "links": [
             {
               "href": "https://mcintiresgarden.com/",
@@ -1128,14 +1674,14 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-08",
           "image": "images/gardening_hillside_nursery_williams_dr.jpg",
           "title": "Hillside Nursery — Williams Dr",
           "brief": "Full-service garden center on Williams Dr. Plants, flowers, pottery. Closest nursery.",
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -1149,18 +1695,26 @@
           "meta": [
             {
               "icon": "location",
-              "text": "Williams Drive, Georgetown, TX"
+              "text": "5901 Williams Dr, Georgetown, TX 78633"
             },
             {
               "icon": "drive",
               "text": "Drive: ~5 min"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 930-1300"
             }
           ],
-          "desc": "Right on Williams Drive — probably our closest nursery. Wide variety of plants, flowers, trees, and pottery. Knowledgeable staff. Perfect for quick weekend trips with Older Son to grab flowers.",
+          "desc": "Right on Williams Drive — our closest nursery. Garden center plus landscape services, wide variety of plants, flowers, trees, and pottery. Perfect for quick weekend trips with Harang to grab flowers.",
           "links": [
             {
               "href": "https://hillsidenurserytx.com/",
               "label": "Visit site"
+            },
+            {
+              "href": "tel:5129301300",
+              "label": "Call: (512) 930-1300"
             }
           ]
         },
@@ -1172,7 +1726,7 @@
           "tags": [
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             },
             {
               "type": "new",
@@ -1193,11 +1747,93 @@
               "text": "Drive: ~10 min"
             }
           ],
-          "desc": "Cute boutique specializing in houseplants, pots, and plant accessories. They offer repotting services too. Fun for Older Son to browse for indoor plants for his room. Near the Square so combine with a downtown walk.",
+          "desc": "Cute boutique specializing in houseplants, pots, and plant accessories. They offer repotting services too. Fun for Harang to browse for indoor plants for his room. Near the Square so combine with a downtown walk.",
           "links": [
             {
               "href": "https://roottoriseplants.com/",
               "label": "Visit site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/gardening_hill_country_water_gardens.jpg",
+          "title": "Hill Country Water Gardens & Nursery",
+          "brief": "Five-acre destination nursery with show ponds, streams and fountains — more botanical garden than store.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~25 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1407 N Bell Blvd, Cedar Park, TX 78613"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 260-5050"
+            }
+          ],
+          "desc": "Five acres of show ponds, disappearing streams, fountains, fish and garden art — worth wandering even when you're not buying anything. If the yard ever gets a pond or fountain, this is where it starts; they do consultation, design and installation too. Easy pairing with a Brushy Creek outing.",
+          "links": [
+            {
+              "href": "https://hillcountrywatergardens.com/",
+              "label": "Official site"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/gardening_lady_bird_wildflower_center.jpg",
+          "title": "Lady Bird Johnson Wildflower Center",
+          "brief": "284 acres of native Texas plants in SW Austin. Peak season March–May. ~$12/$6.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~50 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "4801 La Crosse Ave, Austin, TX 78739"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~50 min"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: ~$12 adult / $6 child · family memberships available"
+            }
+          ],
+          "desc": "The University of Texas's 284-acre botanic garden of native Texas plants — the definitive answer to 'what should we plant here'. Spring wildflower season (March–May) is the peak and worth the drive on its own; make it a half-day with lunch in Austin. A family membership pays off if Harang gets serious about natives.",
+          "links": [
+            {
+              "href": "https://www.wildflower.org/",
+              "label": "Official site"
             }
           ]
         }
@@ -1411,7 +2047,7 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "family",
@@ -1629,7 +2265,7 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             },
             {
               "type": "family",
@@ -1814,7 +2450,7 @@
             },
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             }
           ],
           "previewMeta": {
@@ -1843,7 +2479,7 @@
               "text": "Phone: (254) 772-3541"
             }
           ],
-          "desc": "Nonprofit amusement park run by the Waco Founder Lions Club since 1965 — carousel, Ferris wheel, mini train, go-karts and putt-putt at prices from another decade. Squarely Younger Son's speed; Older Son will still do go-karts and putt-putt. No admission fee, you pay per ride. Hours are seasonal and weekend-heavy, so verify on their page before making the drive.",
+          "desc": "Nonprofit amusement park run by the Waco Founder Lions Club since 1965 — carousel, Ferris wheel, mini train, go-karts and putt-putt at prices from another decade. Squarely Hanung's speed; Harang will still do go-karts and putt-putt. No admission fee, you pay per ride. Hours are seasonal and weekend-heavy, so verify on their page before making the drive.",
           "links": [
             {
               "href": "https://kiddielandwaco.com",
@@ -1965,7 +2601,7 @@
             },
             {
               "type": "haneul",
-              "label": "Younger Son"
+              "label": "Hanung"
             }
           ],
           "previewMeta": {
@@ -2055,7 +2691,7 @@
             },
             {
               "type": "harang",
-              "label": "Older Son"
+              "label": "Harang"
             }
           ],
           "previewMeta": {
@@ -2080,7 +2716,7 @@
               "text": "Mon–Sat 10am–5pm · closed Sun"
             }
           ],
-          "desc": "An 18-acre working homestead village where craftspeople actually demonstrate blacksmithing, pottery, woodworking, cheese-making and fiber arts, centered on a restored 1760 gristmill. The herb and vegetable gardens are squarely Older Son territory, and the deli/café does very good from-scratch food. Free to wander; the Homestead Fair over Thanksgiving weekend is the big annual event and worth planning around.",
+          "desc": "An 18-acre working homestead village where craftspeople actually demonstrate blacksmithing, pottery, woodworking, cheese-making and fiber arts, centered on a restored 1760 gristmill. The herb and vegetable gardens are squarely Harang territory, and the deli/café does very good from-scratch food. Free to wander; the Homestead Fair over Thanksgiving weekend is the big annual event and worth planning around.",
           "links": [
             {
               "href": "https://www.homesteadcraftvillage.com",
