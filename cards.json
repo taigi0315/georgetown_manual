@@ -574,6 +574,163 @@
       ]
     },
     {
+      "id": "schoolcalendar",
+      "category": "education",
+      "title": "School Calendar & Camps",
+      "intro": "GISD 2026–27 dates and the camp registration windows that open months early. The fall soccer signup closed before we knew it existed — this section exists so that doesn't happen again.",
+      "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/school_calendar.jpg",
+          "title": "GISD 2026–27 Calendar at a Glance",
+          "brief": "School Aug 19 – May 28. Big gaps: Thanksgiving week, Dec 21–Jan 6, Spring Break Mar 15–19.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Plan childcare from this"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Aug 19 – May 28"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "First day: Wed Aug 19, 2026 · Last day: Fri May 28, 2027 (early release)"
+            },
+            {
+              "icon": "time",
+              "text": "Student holidays: Sep 7 (Labor Day), Sep 21, Oct 12"
+            },
+            {
+              "icon": "time",
+              "text": "Thanksgiving: Nov 23–27 · Winter break: Dec 21–Jan 6 (return Jan 7)"
+            },
+            {
+              "icon": "time",
+              "text": "Spring break: Mar 15–19, 2027 · Early release: Dec 18 and May 28"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ GISD approved new school start times for 2026–27 — confirm Ford and Benold bell times at enrollment"
+            }
+          ],
+          "desc": "The three stretches that need a childcare plan are Thanksgiving week, the two-and-a-half weeks from Dec 21 to Jan 6, and Spring Break in March. Note the single-day student holidays too (Sep 21 and Oct 12) — those are the good days to schedule dentist and doctor appointments instead of pulling the boys out of class. One thing to verify: the district approved new start times along with this calendar, so don't assume the bell schedule matches what you're used to.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
+              "label": "Official GISD calendar"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/school_summer_camps.jpg",
+          "title": "Summer Camps — Registration Opens in February",
+          "brief": "Palace theatre camps open in February and fill fast. Set a January reminder; don't repeat the soccer miss.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Set a Jan reminder"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Register: February"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Palace camps: registration opens February, spots fill fast"
+            },
+            {
+              "icon": "time",
+              "text": "Camp days: Mon–Fri 9am–4pm · early drop-off 7:30am, late pickup 5:30/6:30pm for a fee"
+            },
+            {
+              "icon": "target",
+              "text": "Palace: incoming grades 1–12 · musical theatre, dance, acting, improv"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ 2027 dates and prices not published yet — check in January"
+            }
+          ],
+          "desc": "Georgetown Palace runs full-day camps June through August built around rehearsing and performing an actual show — the obvious summer answer for Harang, and the extended-hours option makes it work as real childcare. YMCA of Central Texas runs day camps as the general-purpose alternative for Hanung. The thing to internalize: February is the deadline that matters, not May. Put a reminder in the calendar for early January so you're deciding rather than scrambling.",
+          "links": [
+            {
+              "href": "http://www.georgetownpalace.org/camps/",
+              "label": "Palace camps"
+            },
+            {
+              "href": "https://ymcactx.org/camp/day-outdoor/",
+              "label": "YMCA of Central Texas camps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/school_break_camps.jpg",
+          "title": "Winter & Spring Break Coverage",
+          "brief": "Dec 21–Jan 6 and Mar 15–19 are the two gaps that need a plan. Break camps open ~6 weeks ahead.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Dec & March"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Winter break: Dec 21, 2026 – Jan 6, 2027 · Spring break: Mar 15–19, 2027"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Break-camp dates typically post ~6 weeks out — check Palace, kidsActing and the YMCA in early November and early February"
+            }
+          ],
+          "desc": "Winter break is the hard one at over two weeks. Palace and kidsActing both run break camps, and the YMCA covers the rest; none of them publish dates far ahead, so the move is to check in early November and again in early February. Worth noting the boys will happily do nothing for two weeks — the question is whether the adults can.",
+          "links": [
+            {
+              "href": "http://www.georgetownpalace.org/camps/",
+              "label": "Palace camps"
+            },
+            {
+              "href": "https://www.kidsactingstudio.com/semester-classes",
+              "label": "kidsActing"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sports",
       "category": "activities",
       "title": "Sports & Activities",
@@ -3577,6 +3734,167 @@
       ]
     },
     {
+      "id": "medical",
+      "category": "services",
+      "title": "Medical & Dental",
+      "intro": "Who to call when someone is sick or hurt. Set up the routine ones before you need the urgent ones. ⚠ Confirm each office takes our insurance on the first call.",
+      "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/medical_urgent_vs_er.jpg",
+          "title": "Urgent Care vs ER — Start Here",
+          "brief": "Broken bones, stitches, fevers → urgent care. Head injury, trouble breathing, uncontrolled bleeding → ER, or 911.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Read before you need it"
+            }
+          ],
+          "previewMeta": {
+            "icon": "info",
+            "text": "Decision card"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Urgent care: St. David's CareNow, 1205 S I-35 · ~12 min"
+            },
+            {
+              "icon": "time",
+              "text": "CareNow hours: Mon–Fri 8am–8pm · Sat 8am–7pm · Sun 8am–5pm"
+            },
+            {
+              "icon": "location",
+              "text": "ER: St. David's Georgetown Hospital, 2000 Scenic Dr · ~12 min · open 24/7"
+            }
+          ],
+          "desc": "The rule that saves money and hours: urgent care handles sprains, cuts needing stitches, fevers, ear infections and the after-school injuries that look scary but aren't. Go straight to the ER (or call 911) for head injuries with confusion or vomiting, trouble breathing, bleeding that won't stop, or anything involving the neck or spine. Note the gap — CareNow closes at 8pm on weekdays and 5pm Sunday, so anything later is the ER by default. St. David's Georgetown is a Level IV Trauma Center and Certified Primary Stroke Center.",
+          "links": [
+            {
+              "href": "https://www.stdavids.com/locations/st-davids-georgetown-hospital",
+              "label": "St. David's Georgetown"
+            },
+            {
+              "href": "tel:5129435000",
+              "label": "Hospital main: 512-943-5000"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/medical_pediatrics.jpg",
+          "title": "Georgetown Pediatrics & Family Medicine",
+          "brief": "Accepting new patients, birth–18, 5 min away on Williams Dr. Call to establish care before someone gets sick.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Closest pediatrician"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~5 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "4841 Williams Dr, Bldg C Ste 105, Georgetown, TX 78633"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~5 min"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Mon–Fri 8am–5pm"
+            },
+            {
+              "icon": "target",
+              "text": "Ages: birth through 18"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 730-3957"
+            }
+          ],
+          "desc": "Confirmed accepting new pediatric patients, and it's the closest practice to the house — same stretch of Williams Dr as Hillside Nursery. Both boys can be seen here. They're part of the Austin Health Partners network, which opens up evening and weekend appointments beyond their own Mon–Fri hours. Establish care now: new-patient slots take weeks, and you don't want to be doing paperwork during a fever. ⚠ Confirm insurance on the first call.",
+          "links": [
+            {
+              "href": "https://georgetowndocs.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "tel:5127303957",
+              "label": "Call: (512) 730-3957"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/medical_dentistry.jpg",
+          "title": "Georgetown Pediatric Dentistry & Orthodontics",
+          "brief": "Kids' dentist and orthodontist under one roof on Williams Dr — worth it with Harang at brace-consult age.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~6 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "4507 Williams Dr, Georgetown, TX 78633"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~6 min"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Mon–Thu 8am–4:30pm · Fri 8am–1pm · closed weekends"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 869-4100"
+            }
+          ],
+          "desc": "Treats infants through young adults and does orthodontics in the same practice — which matters right now, since 11 is when most kids get their first orthodontic evaluation. Handling both without a second referral office is the real convenience here. Weekday-only hours mean cleanings will cost school time; book the early slots and use the Oct 12 and Sep 21 student holidays if you can. ⚠ Confirm insurance.",
+          "links": [
+            {
+              "href": "https://www.gtownkids.com/contact-us",
+              "label": "Official site"
+            },
+            {
+              "href": "tel:5128694100",
+              "label": "Call: (512) 869-4100"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "community",
       "category": "services",
       "title": "Community & Online Resources",
@@ -3689,6 +4007,138 @@
             {
               "href": "https://georgetowntexas.gov/parks/",
               "label": "Parks & Rec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "korean",
+      "category": "services",
+      "title": "Korean Community & Language",
+      "intro": "Keeping Korean in the boys' lives — Saturday school, churches, and community in the Austin area. Everything here is a 35–50 min drive; H Mart is filed under Restaurants.",
+      "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/korean_school.jpg",
+          "title": "Austin Korean School (한글학교)",
+          "brief": "Saturday Korean school since 1986 — language, history and culture, ages 4+. ~45 min south.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "The main option"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~45 min · Saturdays"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Webb Middle School, 601 E St Johns Ave, Austin, TX 78752"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Saturdays during spring & fall semesters"
+            },
+            {
+              "icon": "target",
+              "text": "Ages 4 and up"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Registration windows and tuition not reliably published — call or check the site before planning around it"
+            }
+          ],
+          "desc": "A non-profit, non-religious Saturday school running since 1986, serving ~150 students with 24 teachers out of Webb Middle School. Beyond language it covers Korean history and culture through traditional dance, music and crafts — which lands better with kids than worksheets do. Be honest about the cost: it's a 45-minute drive each way and it eats the Saturday, so it only works if the whole family commits. ⚠ The registration dates floating around online look stale — confirm the current semester directly before counting on a spot.",
+          "links": [
+            {
+              "href": "http://homepy.korean.net/~koreanschoolatx/www/english/registrationeng.htm",
+              "label": "Registration info"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/korean_churches.jpg",
+          "title": "Korean Churches — Austin Area",
+          "brief": "Several established Korean congregations 35–50 min south, Protestant and Catholic.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~35–50 min"
+          },
+          "meta": [
+            {
+              "icon": "drive",
+              "text": "Drive: ~35–50 min (Austin / Round Rock area)"
+            },
+            {
+              "icon": "info",
+              "text": "Austin Korean Presbyterian Church (AKPC) · The Lord's Church of Austin · The Blessing Church (Baptist) · 성 김대건 Korean Catholic Church"
+            }
+          ],
+          "desc": "The Austin area has several long-established Korean congregations across denominations — AKPC and the Lord's Church of Austin are among the larger ones, with The Blessing Church on the Baptist side and 성 김대건 for Catholic families. Worth knowing even setting faith aside: Korean churches are usually where the community's practical network lives — childcare recommendations, tutoring, holiday events. The Austin Korean Association keeps a current list of congregations.",
+          "links": [
+            {
+              "href": "https://www.austinkoreanassociation.com/en/establishment-worship",
+              "label": "Church directory"
+            },
+            {
+              "href": "https://akpc.org/",
+              "label": "AKPC"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/korean_community.jpg",
+          "title": "Korean American Association of Austin",
+          "brief": "The community hub — events, Chuseok and Seollal gatherings, and a way in for a family new to the area.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Adult"
+            }
+          ],
+          "previewMeta": {
+            "icon": "info",
+            "text": "Community org"
+          },
+          "meta": [
+            {
+              "icon": "info",
+              "text": "Austin-area Korean community organization · events and directory"
+            }
+          ],
+          "desc": "The umbrella organization for the Austin Korean community — the practical value is the events calendar (Chuseok, Seollal, cultural festivals) and knowing who to ask when you want a Korean-speaking dentist, tutor, or barber. Georgetown is far enough north that the community won't find you; this is how you find it.",
+          "links": [
+            {
+              "href": "https://www.austinkoreanassociation.com/",
+              "label": "Austin Korean Association"
             }
           ]
         }
