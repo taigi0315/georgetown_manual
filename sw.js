@@ -1,10 +1,13 @@
 /* Service worker for The Choi Family Manual (TASK-014).
    Conservative strategy so the family is never stuck on a stale page:
-   - HTML  -> network-first (online always gets the latest; offline falls back to cache)
-   - same-origin assets (images, manifest, icons) -> cache-first with background refresh
+   - HTML       -> network-first (online always gets the latest; offline falls back to cache)
+   - cards.json -> network-first (it IS the content, and the News section changes weekly;
+                   cache-first here served a fresh page shell with stale data, so new
+                   sections rendered empty until a second visit)
+   - other same-origin assets (images, manifest, icons) -> cache-first with background refresh
    - cross-origin (Google Fonts) -> stale-while-revalidate, best-effort
    Bump VERSION on each release to invalidate old caches. */
-const VERSION = 'v4.1';
+const VERSION = 'v4.2';
 const SHELL_CACHE = 'choi-shell-' + VERSION;
 const RUNTIME_CACHE = 'choi-runtime-' + VERSION;
 
@@ -46,9 +49,13 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
   const isHTML = req.mode === 'navigate' ||
     (req.headers.get('accept') || '').includes('text/html');
+  // cards.json is content, not a static asset — always try the network first so a
+  // freshly-deployed section (e.g. the weekly News refresh) never renders empty.
+  const isData = url.origin === self.location.origin &&
+    url.pathname.endsWith('/cards.json');
 
-  // HTML: network-first.
-  if (isHTML) {
+  // HTML + card data: network-first.
+  if (isHTML || isData) {
     event.respondWith(
       fetch(req)
         .then((res) => {
@@ -56,7 +63,9 @@ self.addEventListener('fetch', (event) => {
           caches.open(SHELL_CACHE).then((c) => c.put(req, copy)).catch(() => {});
           return res;
         })
-        .catch(() => caches.match(req).then((r) => r || caches.match('./index.html')))
+        // Offline: serve the cached copy. Only navigations fall back to the shell —
+        // handing index.html to a cards.json request would break JSON parsing.
+        .catch(() => caches.match(req).then((r) => r || (isData ? undefined : caches.match('./index.html'))))
     );
     return;
   }
