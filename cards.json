@@ -3804,6 +3804,237 @@
           ]
         }
       ]
+    },
+    {
+      "id": "news",
+      "category": "news",
+      "title": "📰 Georgetown News",
+      "intro": "What's going on in Georgetown this week — refreshed every Monday. Week of Aug 3–9, 2026.",
+      "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/news_events.jpg",
+          "title": "First Friday on the Square — Tonight",
+          "brief": "Fri Aug 7, evening — live music, late shopping and food trucks around the courthouse square.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Tonight"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Tonight · Fri Aug 7"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square"
+            },
+            {
+              "icon": "time",
+              "text": "First Friday of every month, evening"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free to wander"
+            }
+          ],
+          "desc": "The monthly community night out: the square stays open late with live music, after-hours shopping and plenty of dinner options. Easy first outing of the school-shopping weekend — park once and walk. Repeats the first Friday of every month, so if this one's missed, September's is four weeks out.",
+          "links": [
+            {
+              "href": "https://dgagtx.org/First-Friday",
+              "label": "First Friday"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_openings.jpg",
+          "title": "Summer Moon Coffee Opens Saturday",
+          "brief": "Sat Aug 8 — Georgetown's first Summer Moon, in Bluebonnet Plaza (1312 W University Ave).",
+          "tags": [
+            {
+              "type": "adult",
+              "label": "Adult"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Opens Sat Aug 8"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Bluebonnet Plaza, 1312 W University Ave, Ste 102"
+            },
+            {
+              "icon": "time",
+              "text": "Opens: Sat Aug 8, 2026"
+            }
+          ],
+          "desc": "The Austin wood-fired coffee chain (famous for its sweet 'Moon Milk') opens its first Georgetown shop Saturday. Worth knowing beyond the coffee: Bluebonnet Plaza is the new Hwy 29 development that's also bringing Shake Shack and Velvet Taco to town — this corner is about to get busy.",
+          "links": [
+            {
+              "href": "https://locations.summermooncoffee.com/locations/university-ave-georgetown/",
+              "label": "Location & hours"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_city.jpg",
+          "title": "Water Tastes Like Chlorine? It's Maintenance",
+          "brief": "Aug 3–Sep 3 — annual system flush. Chlorine smell and brief discoloration are normal and safe.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Aug 3 – Sep 3"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Runs: Aug 3 – Sep 3, 2026 (Round Rock, Leander, Cedar Park on the same schedule)"
+            }
+          ],
+          "desc": "The city's annual water-system maintenance moved to August this year. Expect a stronger chlorine smell and occasionally a green or brown tint for brief periods — it's disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter in the fridge covers the taste for the month.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
+              "label": "City notice"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_community.jpg",
+          "title": "Kittens in the Library — Monday",
+          "brief": "Mon Aug 10, 11am–1pm — shelter kittens available to meet (and adopt) at the public library.",
+          "tags": [
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Mon Aug 10 · 11am–1pm"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Georgetown Public Library, 402 W 8th St"
+            },
+            {
+              "icon": "time",
+              "text": "Mon Aug 10 · 11:00am–1:00pm"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free (adoptions via Georgetown Animal Shelter)"
+            }
+          ],
+          "desc": "The Georgetown Animal Shelter brings adoptable kittens to the library for two hours Monday. Zero-commitment cuteness, dangerous levels of 'can we keep one'. Last free-form fun Monday before school-prep week kicks in.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/newslist.php",
+              "label": "City news"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_arts.jpg",
+          "title": "'42nd Street' at the Palace — Through Aug 30",
+          "brief": "The big tap-dance musical on the Springer Stage — good scouting trip before Harang's Palace classes.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Through Aug 30"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Springer Stage, Georgetown Palace Theatre"
+            },
+            {
+              "icon": "time",
+              "text": "Runs through Aug 30, 2026"
+            }
+          ],
+          "desc": "The classic backstage musical runs weekends through the end of August. Beyond a fun family show, it's a smart scouting trip: this is the stage and the company Harang would be working toward through Palace Education and PPC — let him see the ceiling before auditions.",
+          "links": [
+            {
+              "href": "https://www.georgetownpalace.com/",
+              "label": "Tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_school.jpg",
+          "title": "Backpack Bash Sat Aug 15 · School Starts Aug 19",
+          "brief": "Free BBQ + backpack giveaway Sat Aug 15, noon, 1003 S Austin Ave — then it's go time.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Aug 15 · noon"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "1003 S Austin Ave, Georgetown"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Aug 15, 12:00pm · first day of school Wed Aug 19"
+            }
+          ],
+          "desc": "Community back-to-school BBQ and backpack giveaway next Saturday at noon. It's also the unofficial deadline for our own countdown: enrollment must be done by Aug 17 and RankOne forms before the 19th — everything is tracked in the Deadlines tab up top.",
+          "links": [
+            {
+              "href": "https://allevents.in/georgetown-tx/all",
+              "label": "Event listing"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

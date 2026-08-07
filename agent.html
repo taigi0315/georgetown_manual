@@ -339,9 +339,19 @@ html
 <li>Preserve existing entries unless the user asks for removal.</li>
 <li>Use the collapsible <code>&lt;details&gt;</code> card pattern for every new entry.</li>
 </ul>
+<h2>Weekly "Georgetown News" Update (automated)</h2>
+<p>A scheduled agent refreshes the <code>news</code> section every Monday. Protocol:</p>
+<ol>
+<li><strong>Scope:</strong> edit ONLY the <code>news</code> section in <code>cards.json</code> (id <code>news</code>, category <code>news</code>). It must stay the LAST section — that keeps every position-keyed <code>CARD_COORDS</code> pin valid without remapping. Do not touch other sections.</li>
+<li><strong>Research this week's Georgetown news</strong> via web search. Primary sources: <code>georgetowntexas.gov/newslist.php</code>, <code>communityimpact.com/georgetown</code>, <code>wilcosun.com</code>, <code>hellogeorgetown.com</code>, <code>dgagtx.org</code> (First Friday), <code>allevents.in/georgetown-tx</code>. Verify every date — never carry a stale year forward.</li>
+<li><strong>Replace the section's cards</strong> with 4–7 items for the coming week: city notices that affect the house, openings/closings, family events, school-adjacent dates. Update the intro's "Week of …" range. Honest, practical tone; English only; tag Harang/Hanung/Family/Adult per the vocabulary above.</li>
+<li><strong>Images:</strong> reuse the existing topic placeholders — <code>images/news_events.jpg</code>, <code>news_openings.jpg</code>, <code>news_city.jpg</code>, <code>news_community.jpg</code>, <code>news_arts.jpg</code>, <code>news_school.jpg</code>. Do not add per-story images.</li>
+<li><strong>Ship it:</strong> validate <code>cards.json</code>, bump the minor version in the <code>index.html</code> masthead and <code>sw.js</code> <code>VERSION</code>, add a changelog line below, commit on a fresh <code>claude/news-week-YYYYMMDD</code> branch, push, open a PR to <code>main</code> and merge it so GitHub Pages deploys.</li>
+</ol>
  ===== CHANGELOG ===== 
 <h2>Changelog</h2>
 <div class="changelog">
+<div class="log-entry"><span class="date">2026-08-07</span><span>v4.1 — New "📰 Georgetown News" tab: a <code>news</code> section (kept last in <code>cards.json</code> so CARD_COORDS never shifts) + category filter button, seeded with the week of Aug 3–9 (First Friday, Summer Moon opening, water-system maintenance Aug 3–Sep 3, Kittens in the Library, “42nd Street” at the Palace, Backpack Bash / school countdown). Added the automated Weekly News SOP above and 6 reusable topic images. A scheduled agent refreshes the section every Monday. (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-08-02</span><span>v4.0 — Merged the Aug 2, 2026 research brief. (1) New "Registration Deadlines" section + ⏰ category filter: 7 date-tracked cards (GISD enrollment due Aug 17, RankOne athletics forms, Palace Performance Company auditions, Benold electives, YMCA afterschool, closed fall soccer, Aug 2027 tennis tryouts), with ⚠ markers on unverified dates/rates and tap-to-call tel: links. (2) Replaced "Harang"/"Hanung" placeholders: tag labels and all copy now use the boys' names Harang (11) and Hanung (8). (3) 8 new cards: Georgetown Tennis Center + GTA Jr. Team Tennis (the bridge to Benold's 7th-grade tryouts), Benold Theatre &amp; Choir, Georgetown Music Sessions drums, Benold Band &amp; Orchestra (future), Fright Fest Fiesta Texas, Hill Country Water Gardens, Lady Bird Johnson Wildflower Center. (4) Updated 13 existing cards, incl. the Benold tennis-path explanation (6th = Pre-Athletics, real tryouts 7th grade) and a status correction: Esports Cave Austin is CLOSED and Cedar Park is in transition — brief's recommendation adapted rather than copied. CARD_COORDS remapped (43 pins) for the new positions. Deadline card images are generated placeholders (environment blocks photo downloads). (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-07-25</span><span>v3.9 — Added 6 Waco-area cards to Weekend Adventures (user request + discovery sweep): Waco Lions Park &amp; Kiddieland (requested via Google Maps link), Waco Mammoth National Monument, Waco Surf, Mayborn Museum Complex, Cameron Park, and Homestead Craft Village. Realigned position-keyed <code>CARD_COORDS</code> (+6 shift for all cards after the weekends section) and added pins for the 5 geocodable new places. Note: card images are generated placeholders — network policy in the update environment blocked photo downloads; replace with real photos on a future pass. (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-06-22</span><span>v1.0 — Initial document created. Sections populated based on family briefing and Georgetown/Austin web research.</span></div>
@@ -367,7 +377,7 @@ html
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v4.0
+    Choi Family Manual — AI Agent Reference · v4.1
   </footer>
 </div>
 </body>
