@@ -4259,8 +4259,70 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown this week — refreshed every Monday. Week of Aug 3–9, 2026.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 7–16, 2026.",
       "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "image": "images/news_otaku_festival.jpg",
+          "title": "Otaku Food & Anime Festival — Waco, Aug 15–16",
+          "brief": "Free two-day Asian food + anime festival. 100+ vendors, cosplay contest, sumo. Last weekend before school.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Next weekend"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat–Sun Aug 15–16 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Richland Mall, 6001 W Waco Dr, Waco, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1h 25min north on I-35"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Aug 15: 11am–7:30pm · Sun Aug 16: 11am–5:30pm"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free admission + free parking · bring CASH for food stalls"
+            },
+            {
+              "icon": "info",
+              "text": "100+ vendors · cosplay contest · sumo tournament · voice actors · photo ops"
+            }
+          ],
+          "desc": "Free two-day anime and Asian food festival at Richland Mall — Filipino, Japanese and Thai street food, Taiwanese boba, baos, noodles, Vietnamese grilled chicken, plus 100+ food and merch vendors. This is squarely both boys' territory: anime, cosplay contests, a sumo tournament and voice actors, with food the family actually wants to eat. Bring cash — many stalls don't take cards. Timing is the selling point: it's the last free weekend before school starts Aug 19, and it stacks with the Waco cards below (Kiddieland, Mammoth, Cameron Park) into one full day. Sunday closes earlier at 5:30pm.",
+          "links": [
+            {
+              "href": "https://www.facebook.com/otakufoodfestival/",
+              "label": "Facebook (@otakufoodfestival)"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Richland+Mall+6001+W+Waco+Dr+Waco+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
         {
           "verified": "2026-08",
           "featured": true,
@@ -4476,7 +4538,7 @@
               "text": "Sat Aug 15, 12:00pm · first day of school Wed Aug 19"
             }
           ],
-          "desc": "Community back-to-school BBQ and backpack giveaway next Saturday at noon. It's also the unofficial deadline for our own countdown: enrollment must be done by Aug 17 and RankOne forms before the 19th — everything is tracked in the Deadlines tab up top.",
+          "desc": "Community back-to-school BBQ and backpack giveaway Saturday at noon. Heads up: it collides with the Otaku festival in Waco the same day — Backpack Bash is a quick local stop, the festival is a half-day drive, so pick one or do the Bash at noon and skip Waco. It's also the unofficial deadline for our own countdown: enrollment must be done by Aug 17 and RankOne forms before the 19th — all tracked in the Deadlines tab up top.",
           "links": [
             {
               "href": "https://allevents.in/georgetown-tx/all",
