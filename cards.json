@@ -4259,14 +4259,72 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 7–16, 2026.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 14–21, 2026. 🔴 School starts Wed Aug 19 — enrollment closes Mon Aug 17.",
       "cards": [
         {
           "verified": "2026-08",
           "featured": true,
+          "image": "images/news_school.jpg",
+          "title": "🔴 School Starts Wed Aug 19 — Enrollment Closes Mon Aug 17",
+          "brief": "Two days left. Enrollment must be complete Monday or the boys can't attend the first day.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Act now"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Deadline Mon Aug 17"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Enrollment deadline: Mon Aug 17 · First day: Wed Aug 19"
+            },
+            {
+              "icon": "info",
+              "text": "Walk-in enrollment is closed the morning of the first day until 1 PM — there is no fixing this on Aug 19"
+            },
+            {
+              "icon": "info",
+              "text": "Harang also needs RankOne athletic forms + a current physical before Aug 19 for Pre-Athletics"
+            },
+            {
+              "icon": "phone",
+              "text": "Benold (512) 943-5090 · Ford (512) 943-5180"
+            }
+          ],
+          "desc": "This is the week it all comes due. Enrollment for both boys must be finished by Monday — proof of residency, birth certificates, immunization records and prior school records. Harang's RankOne forms and physical have to be in before Wednesday or he sits out Pre-Athletics, and only GHS trainers can clear him. If anything is still open, Monday morning is the last clean window. Full checklist is in the ⏰ Deadlines tab.",
+          "links": [
+            {
+              "href": "https://georgetownisd.rankone.com",
+              "label": "RankOne portal"
+            },
+            {
+              "href": "tel:5129435090",
+              "label": "Benold: 512-943-5090"
+            },
+            {
+              "href": "tel:5129435180",
+              "label": "Ford: 512-943-5180"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "featured": true,
           "image": "images/news_otaku_festival.jpg",
-          "title": "Otaku Food & Anime Festival — Waco, Aug 15–16",
-          "brief": "Free two-day Asian food + anime festival. 100+ vendors, cosplay contest, sumo. Last weekend before school.",
+          "title": "Otaku Food & Anime Festival — Waco, This Sat & Sun",
+          "brief": "Tomorrow and Sunday. Free, 100+ Asian food and anime vendors, cosplay, sumo. Last free weekend before school.",
           "tags": [
             {
               "type": "harang",
@@ -4282,12 +4340,12 @@
             },
             {
               "type": "featured",
-              "label": "Next weekend"
+              "label": "This weekend"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat–Sun Aug 15–16 · free"
+            "text": "Sat–Sun · free"
           },
           "meta": [
             {
@@ -4304,14 +4362,14 @@
             },
             {
               "icon": "cost",
-              "text": "Cost: Free admission + free parking · bring CASH for food stalls"
+              "text": "Cost: Free admission + free parking · bring CASH"
             },
             {
               "icon": "info",
-              "text": "100+ vendors · cosplay contest · sumo tournament · voice actors · photo ops"
+              "text": "100+ vendors · cosplay contest · sumo tournament · voice actors"
             }
           ],
-          "desc": "Free two-day anime and Asian food festival at Richland Mall — Filipino, Japanese and Thai street food, Taiwanese boba, baos, noodles, Vietnamese grilled chicken, plus 100+ food and merch vendors. This is squarely both boys' territory: anime, cosplay contests, a sumo tournament and voice actors, with food the family actually wants to eat. Bring cash — many stalls don't take cards. Timing is the selling point: it's the last free weekend before school starts Aug 19, and it stacks with the Waco cards below (Kiddieland, Mammoth, Cameron Park) into one full day. Sunday closes earlier at 5:30pm.",
+          "desc": "It's this weekend. Filipino, Japanese and Thai street food, Taiwanese boba, baos, Vietnamese grilled chicken, plus cosplay contests and a sumo tournament — squarely both boys' territory, and the food is what the family actually wants to eat. Bring cash, many stalls don't take cards. Sunday is the calmer day and closes at 5:30. Note it collides with the Backpack Bash on Saturday; Sunday avoids the conflict entirely and pairs well with the Waco cards below.",
           "links": [
             {
               "href": "https://www.facebook.com/otakufoodfestival/",
@@ -4325,118 +4383,14 @@
         },
         {
           "verified": "2026-08",
-          "featured": true,
-          "image": "images/news_events.jpg",
-          "title": "First Friday on the Square — Tonight",
-          "brief": "Fri Aug 7, evening — live music, late shopping and food trucks around the courthouse square.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Tonight"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Tonight · Fri Aug 7"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Downtown Georgetown Square"
-            },
-            {
-              "icon": "time",
-              "text": "First Friday of every month, evening"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free to wander"
-            }
-          ],
-          "desc": "The monthly community night out: the square stays open late with live music, after-hours shopping and plenty of dinner options. Easy first outing of the school-shopping weekend — park once and walk. Repeats the first Friday of every month, so if this one's missed, September's is four weeks out.",
-          "links": [
-            {
-              "href": "https://dgagtx.org/First-Friday",
-              "label": "First Friday"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "image": "images/news_openings.jpg",
-          "title": "Summer Moon Coffee Opens Saturday",
-          "brief": "Sat Aug 8 — Georgetown's first Summer Moon, in Bluebonnet Plaza (1312 W University Ave).",
-          "tags": [
-            {
-              "type": "adult",
-              "label": "Adult"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Opens Sat Aug 8"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Bluebonnet Plaza, 1312 W University Ave, Ste 102"
-            },
-            {
-              "icon": "time",
-              "text": "Opens: Sat Aug 8, 2026"
-            }
-          ],
-          "desc": "The Austin wood-fired coffee chain (famous for its sweet 'Moon Milk') opens its first Georgetown shop Saturday. Worth knowing beyond the coffee: Bluebonnet Plaza is the new Hwy 29 development that's also bringing Shake Shack and Velvet Taco to town — this corner is about to get busy.",
-          "links": [
-            {
-              "href": "https://locations.summermooncoffee.com/locations/university-ave-georgetown/",
-              "label": "Location & hours"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "image": "images/news_city.jpg",
-          "title": "Water Tastes Like Chlorine? It's Maintenance",
-          "brief": "Aug 3–Sep 3 — annual system flush. Chlorine smell and brief discoloration are normal and safe.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Aug 3 – Sep 3"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Runs: Aug 3 – Sep 3, 2026 (Round Rock, Leander, Cedar Park on the same schedule)"
-            }
-          ],
-          "desc": "The city's annual water-system maintenance moved to August this year. Expect a stronger chlorine smell and occasionally a green or brown tint for brief periods — it's disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter in the fridge covers the taste for the month.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
-              "label": "City notice"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
           "image": "images/news_community.jpg",
-          "title": "Kittens in the Library — Monday",
-          "brief": "Mon Aug 10, 11am–1pm — shelter kittens available to meet (and adopt) at the public library.",
+          "title": "Backpack Bash — Sat Aug 15, Noon",
+          "brief": "Free back-to-school BBQ and backpack giveaway on S Austin Ave. Collides with the Waco festival.",
           "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
             {
               "type": "haneul",
               "label": "Hanung"
@@ -4448,35 +4402,109 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Mon Aug 10 · 11am–1pm"
+            "text": "Sat noon · free"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Georgetown Public Library, 402 W 8th St"
+              "text": "1003 S Austin Ave, Georgetown"
             },
             {
               "icon": "time",
-              "text": "Mon Aug 10 · 11:00am–1:00pm"
+              "text": "Sat Aug 15, from 12:00pm"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free (adoptions via Georgetown Animal Shelter)"
+              "text": "Cost: Free"
             }
           ],
-          "desc": "The Georgetown Animal Shelter brings adoptable kittens to the library for two hours Monday. Zero-commitment cuteness, dangerous levels of 'can we keep one'. Last free-form fun Monday before school-prep week kicks in.",
+          "desc": "Community back-to-school BBQ with a backpack giveaway — a quick, free local stop right before school starts. It overlaps the Otaku festival in Waco, so the clean split is Bash on Saturday and Waco on Sunday.",
           "links": [
             {
-              "href": "https://georgetowntexas.gov/newslist.php",
-              "label": "City news"
+              "href": "https://allevents.in/georgetown-tx/this-weekend",
+              "label": "Event listing"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_events.jpg",
+          "title": "Free Yoga in San Gabriel Park — Sat 9am",
+          "brief": "Flow Yoga Georgetown runs a free outdoor session Saturday morning. Go early, it's August.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Adult"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat 9am · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "San Gabriel Park, Georgetown"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Aug 15, from 9:00am"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Bring your own mat and water — confirm with Flow Yoga if weather looks bad"
+            }
+          ],
+          "desc": "Flow Yoga Georgetown hosts a free session in San Gabriel Park. Realistically an adults' thing, and 9am is already warm in August — but it's free, it's five minutes away, and it pairs with a walk along the river before the day heats up.",
+          "links": [
+            {
+              "href": "https://allevents.in/georgetown-tx/this-weekend",
+              "label": "Event listing"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "image": "images/news_city.jpg",
+          "title": "Water Maintenance Continues Through Sep 3",
+          "brief": "Chlorine smell and occasional tint are normal — the annual flush runs three more weeks.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Through Sep 3"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Runs: Aug 3 – Sep 3, 2026 (Round Rock, Leander, Cedar Park on the same schedule)"
+            }
+          ],
+          "desc": "Still ongoing. Expect a stronger chlorine smell and occasionally a green or brown tint for brief periods — it's disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter handles the taste for the rest of the month.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
+              "label": "City notice"
             }
           ]
         },
         {
           "verified": "2026-08",
           "image": "images/news_arts.jpg",
-          "title": "'42nd Street' at the Palace — Through Aug 30",
-          "brief": "The big tap-dance musical on the Springer Stage — good scouting trip before Harang's Palace classes.",
+          "title": "'42nd Street' at the Palace — Closes Aug 30",
+          "brief": "Two weekends left. Worth seeing before Harang's Palace classes start.",
           "tags": [
             {
               "type": "harang",
@@ -4498,51 +4526,14 @@
             },
             {
               "icon": "time",
-              "text": "Runs through Aug 30, 2026"
+              "text": "Runs through Aug 30, 2026 — two weekends left"
             }
           ],
-          "desc": "The classic backstage musical runs weekends through the end of August. Beyond a fun family show, it's a smart scouting trip: this is the stage and the company Harang would be working toward through Palace Education and PPC — let him see the ceiling before auditions.",
+          "desc": "The tap-dance musical closes Aug 30, so there are two weekends left. Beyond a fun night out, it's a scouting trip: this is the stage and company Harang would be working toward through Palace Education and PPC. Easier to fit in now than once school and rehearsals start.",
           "links": [
             {
               "href": "https://www.georgetownpalace.com/",
               "label": "Tickets"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "image": "images/news_school.jpg",
-          "title": "Backpack Bash Sat Aug 15 · School Starts Aug 19",
-          "brief": "Free BBQ + backpack giveaway Sat Aug 15, noon, 1003 S Austin Ave — then it's go time.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Aug 15 · noon"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "1003 S Austin Ave, Georgetown"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Aug 15, 12:00pm · first day of school Wed Aug 19"
-            }
-          ],
-          "desc": "Community back-to-school BBQ and backpack giveaway Saturday at noon. Heads up: it collides with the Otaku festival in Waco the same day — Backpack Bash is a quick local stop, the festival is a half-day drive, so pick one or do the Bash at noon and skip Waco. It's also the unofficial deadline for our own countdown: enrollment must be done by Aug 17 and RankOne forms before the 19th — all tracked in the Deadlines tab up top.",
-          "links": [
-            {
-              "href": "https://allevents.in/georgetown-tx/all",
-              "label": "Event listing"
             }
           ]
         }
