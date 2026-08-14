@@ -4317,7 +4317,8 @@
               "href": "tel:5129435180",
               "label": "Ford: 512-943-5180"
             }
-          ]
+          ],
+          "expires": "2026-08-19"
         },
         {
           "verified": "2026-08",
@@ -4379,7 +4380,8 @@
               "href": "https://www.google.com/maps/search/?api=1&query=Richland+Mall+6001+W+Waco+Dr+Waco+TX",
               "label": "Google Maps"
             }
-          ]
+          ],
+          "expires": "2026-08-16"
         },
         {
           "verified": "2026-08",
@@ -4424,7 +4426,8 @@
               "href": "https://allevents.in/georgetown-tx/this-weekend",
               "label": "Event listing"
             }
-          ]
+          ],
+          "expires": "2026-08-15"
         },
         {
           "verified": "2026-08",
@@ -4469,7 +4472,8 @@
               "href": "https://allevents.in/georgetown-tx/this-weekend",
               "label": "Event listing"
             }
-          ]
+          ],
+          "expires": "2026-08-15"
         },
         {
           "verified": "2026-08",
@@ -4498,7 +4502,8 @@
               "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
               "label": "City notice"
             }
-          ]
+          ],
+          "expires": "2026-09-03"
         },
         {
           "verified": "2026-08",
@@ -4535,9 +4540,11 @@
               "href": "https://www.georgetownpalace.com/",
               "label": "Tickets"
             }
-          ]
+          ],
+          "expires": "2026-08-30"
         }
-      ]
+      ],
+      "staleAfter": "2026-08-25"
     }
   ]
 }
