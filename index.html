@@ -362,6 +362,17 @@
     padding: 64px 24px;
   }
 
+  /* Shown when a section's weekly refresh looks overdue (see NEWS AUTO-EXPIRY). */
+  .stale-notice {
+    margin-top: 10px;
+    padding: 10px 14px;
+    border-left: 3px solid var(--tag-adult);
+    background: var(--tag-adult-bg);
+    color: var(--ink);
+    font-size: 13px;
+    border-radius: 0 8px 8px 0;
+  }
+
   /* ===== SECTIONS ===== */
   section {
     margin-bottom: 56px;
@@ -812,8 +823,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Harang (11) · Hanung (8)</div>
-<div><strong>Updated</strong>   August 14, 2026 (v4.5)</div>
-<div><strong>v4.5</strong></div>
+<div><strong>Updated</strong>   August 14, 2026 (v4.6)</div>
+<div><strong>v4.6</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -856,7 +867,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v4.5 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v4.6 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -898,11 +909,40 @@
         '<div class="card-meta">' + meta + '</div>' +
         '<p class="card-desc">' + esc(c.desc) + '</p>' + links + '</div></details>';
     }
+    /* ===== NEWS AUTO-EXPIRY =====
+       The weekly news refresh is automated, and automation fails silently.
+       A card that says "tonight" days after the fact is worse than no card —
+       it makes the whole page untrustworthy. So the page defends itself:
+       any card with an "expires" date in the past is dropped at render time,
+       and if the section's own "staleAfter" has passed we say so plainly
+       instead of quietly serving last week's news. */
+    function todayISO() {
+      var d = new Date();
+      return d.getFullYear() + '-' +
+        String(d.getMonth() + 1).padStart(2, '0') + '-' +
+        String(d.getDate()).padStart(2, '0');
+    }
+    function isExpired(dateStr) {
+      // Plain string compare is safe and timezone-proof for YYYY-MM-DD.
+      return typeof dateStr === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(dateStr) &&
+             dateStr < todayISO();
+    }
     function renderSection(s) {
       var idAttr = s.id ? ' id="' + esc(s.id) + '"' : '';
+      var cards = (s.cards || []).filter(function (c) { return !isExpired(c.expires); });
+      var dropped = (s.cards || []).length - cards.length;
+      var notice = '';
+      if (isExpired(s.staleAfter)) {
+        notice = '<p class="stale-notice">⚠ This section hasn\'t been refreshed since ' +
+          esc(s.staleAfter) + ' — the weekly update may not have run. Treat anything here as unconfirmed.</p>';
+      } else if (dropped > 0 && cards.length === 0) {
+        notice = '<p class="stale-notice">⚠ Everything here has already happened and was hidden. ' +
+          'The weekly update may not have run.</p>';
+      }
       return '<section data-category="' + esc(s.category) + '"' + idAttr + '>' +
-        '<div class="section-header"><h2>' + esc(s.title) + '</h2><p>' + esc(s.intro) + '</p></div>' +
-        '<div class="cards">' + s.cards.map(renderCard).join('') + '</div></section>';
+        '<div class="section-header"><h2>' + esc(s.title) + '</h2><p>' + esc(s.intro) + '</p>' +
+        notice + '</div>' +
+        '<div class="cards">' + cards.map(renderCard).join('') + '</div></section>';
     }
     function renderAll(data) { return data.sections.map(renderSection).join(''); }
 
