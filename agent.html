@@ -352,6 +352,7 @@ html
  ===== CHANGELOG ===== 
 <h2>Changelog</h2>
 <div class="changelog">
+<div class="log-entry"><span class="date">2026-08-17</span><span>v4.7 — Weekly news refresh for Aug 17–23, and the first one delivered by the scheduled Routine (the earlier fresh-session Routine fired twice and committed nothing; rebinding it to the working session fixed it). Headline: GISD bell times for 2026–27 are confirmed — Ford 7:30am–2:45pm, Benold 9:10am–4:25pm, GHS 8:20am–3:35pm — which resolves the ⚠ left on the GISD calendar card and surfaces a 1h40 gap between the two boys' start times. Also: enrollment closes today, check bus routes before Wednesday, confirm the YMCA afterschool start against Ford's earlier 2:45 release. Expired cards (Otaku festival, Backpack Bash, free yoga) had already been auto-hidden by the v4.6 safety net and were removed from the data. (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-08-14</span><span>v4.6 — The page now defends itself against a failed weekly update. News cards carry an <code>expires</code> date and are dropped at render time once it passes, so a "tonight" card can never linger days late; the news section carries <code>staleAfter</code>, and once that passes a visible warning appears instead of the page quietly serving old news. Motivated by the Aug 10 scheduled run firing but committing nothing — last week's events sat on the page for five days and nothing indicated anything was wrong. Verified against five simulated dates (Aug 14/17/20/26 and Sep 10). (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-08-14</span><span>v4.5 — Manual news refresh for the week of Aug 14–21 after the Aug 10 scheduled run fired but produced no commit. Removed three expired cards that were still showing (First Friday Aug 7, Summer Moon opening Aug 8, Kittens in the Library Aug 10) and led with the school-start countdown: enrollment closes Mon Aug 17, first day Wed Aug 19. Also made the expiry rule explicit in the Weekly News SOP — delete every past-dated card BEFORE adding new ones, keeping only still-running items with updated wording. A stale "tonight" card makes the whole page look untrusted. (Claude Code)</span></div>
 <div class="log-entry"><span class="date">2026-08-09</span><span>v4.4 — Added the Otaku Food &amp; Anime Festival (Richland Mall, Waco, Aug 15–16, free, 100+ Asian food/anime vendors, cosplay + sumo) to the News tab, and flagged that it collides with the Backpack Bash the same Saturday. Root cause of the miss: the weekly news scope was Georgetown-only, so a major regional event 1h25 away was never searched for — and it was announced on Facebook, which ordinary news search does not index. Widened the Weekly News SOP and the scheduled Routine to cover a ~2 hour radius (Austin, Round Rock, Cedar Park, Waco, San Antonio, New Braunfels), to search Facebook/Instagram event pages and aggregators explicitly, and to rate Asian/Korean food, anime and cultural festivals as high-priority for this family. (Claude Code)</span></div>
@@ -383,7 +384,7 @@ html
 <div class="log-entry"><span class="date">[YYYY-MM-DD]</span><span>[Description of change, by whom — agent name, what was added/removed]</span></div>
 </div>
 <footer>
-    Choi Family Manual — AI Agent Reference · v4.6
+    Choi Family Manual — AI Agent Reference · v4.7
   </footer>
 </div>
 </body>

@@ -621,11 +621,11 @@
               "text": "Spring break: Mar 15–19, 2027 · Early release: Dec 18 and May 28"
             },
             {
-              "icon": "info",
-              "text": "⚠ GISD approved new school start times for 2026–27 — confirm Ford and Benold bell times at enrollment"
+              "icon": "time",
+              "text": "Bell times 2026–27: Ford 7:30am–2:45pm · Benold 9:10am–4:25pm · GHS 8:20am–3:35pm"
             }
           ],
-          "desc": "The three stretches that need a childcare plan are Thanksgiving week, the two-and-a-half weeks from Dec 21 to Jan 6, and Spring Break in March. Note the single-day student holidays too (Sep 21 and Oct 12) — those are the good days to schedule dentist and doctor appointments instead of pulling the boys out of class. One thing to verify: the district approved new start times along with this calendar, so don't assume the bell schedule matches what you're used to.",
+          "desc": "The three stretches that need a childcare plan are Thanksgiving week, the two-and-a-half weeks from Dec 21 to Jan 6, and Spring Break in March. Note the single-day student holidays too (Sep 21 and Oct 12) — those are the good days to schedule dentist and doctor appointments instead of pulling the boys out of class. Bell times changed for 2026–27 and are now confirmed: Ford runs 7:30–2:45 and Benold 9:10–4:25, which leaves a 1h40 gap between the two drop-offs — see the News tab.",
           "links": [
             {
               "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
@@ -4259,14 +4259,15 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 14–21, 2026. 🔴 School starts Wed Aug 19 — enrollment closes Mon Aug 17.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 17–23, 2026. 🔴 Enrollment closes TODAY · school starts Wednesday with NEW bell times.",
       "cards": [
         {
           "verified": "2026-08",
           "featured": true,
+          "expires": "2026-08-17",
           "image": "images/news_school.jpg",
-          "title": "🔴 School Starts Wed Aug 19 — Enrollment Closes Mon Aug 17",
-          "brief": "Two days left. Enrollment must be complete Monday or the boys can't attend the first day.",
+          "title": "🔴 Enrollment Closes TODAY — Mon Aug 17",
+          "brief": "Last day. If either boy isn't enrolled by end of today, they can't attend Wednesday's first day.",
           "tags": [
             {
               "type": "harang",
@@ -4278,32 +4279,32 @@
             },
             {
               "type": "featured",
-              "label": "Act now"
+              "label": "Today"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Deadline Mon Aug 17"
+            "text": "Deadline today"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Enrollment deadline: Mon Aug 17 · First day: Wed Aug 19"
+              "text": "Deadline: today, Mon Aug 17 · First day: Wed Aug 19"
             },
             {
               "icon": "info",
-              "text": "Walk-in enrollment is closed the morning of the first day until 1 PM — there is no fixing this on Aug 19"
+              "text": "Walk-in enrollment is closed the morning of the first day until 1 PM — this cannot be fixed on Wednesday"
             },
             {
               "icon": "info",
-              "text": "Harang also needs RankOne athletic forms + a current physical before Aug 19 for Pre-Athletics"
+              "text": "Harang also needs RankOne forms + physical before Wednesday for Pre-Athletics"
             },
             {
               "icon": "phone",
               "text": "Benold (512) 943-5090 · Ford (512) 943-5180"
             }
           ],
-          "desc": "This is the week it all comes due. Enrollment for both boys must be finished by Monday — proof of residency, birth certificates, immunization records and prior school records. Harang's RankOne forms and physical have to be in before Wednesday or he sits out Pre-Athletics, and only GHS trainers can clear him. If anything is still open, Monday morning is the last clean window. Full checklist is in the ⏰ Deadlines tab.",
+          "desc": "Final day. Both boys need enrollment complete: proof of residency, birth certificates, immunization records, prior school records. Harang's RankOne athletic forms and physical also have to be in before Wednesday — only GHS trainers can clear him, so there's no same-day fix. If anything is still open, call this morning rather than this afternoon.",
           "links": [
             {
               "href": "https://georgetownisd.rankone.com",
@@ -4317,15 +4318,15 @@
               "href": "tel:5129435180",
               "label": "Ford: 512-943-5180"
             }
-          ],
-          "expires": "2026-08-19"
+          ]
         },
         {
           "verified": "2026-08",
           "featured": true,
-          "image": "images/news_otaku_festival.jpg",
-          "title": "Otaku Food & Anime Festival — Waco, This Sat & Sun",
-          "brief": "Tomorrow and Sunday. Free, 100+ Asian food and anime vendors, cosplay, sumo. Last free weekend before school.",
+          "expires": "2026-08-28",
+          "image": "images/news_school.jpg",
+          "title": "⏰ NEW Bell Times — Ford 7:30, Benold 9:10",
+          "brief": "Confirmed for 2026-27. Ford starts 10 min earlier; there's a 1h40 gap between the two boys' start times.",
           "tags": [
             {
               "type": "harang",
@@ -4341,53 +4342,45 @@
             },
             {
               "type": "featured",
-              "label": "This weekend"
+              "label": "Plan the morning"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat–Sun · free"
+            "text": "Ford 7:30 · Benold 9:10"
           },
           "meta": [
             {
-              "icon": "location",
-              "text": "Richland Mall, 6001 W Waco Dr, Waco, TX"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~1h 25min north on I-35"
+              "icon": "time",
+              "text": "Elementary (Hanung/Ford): 7:30am – 2:45pm (was 7:40 – 3:03)"
             },
             {
               "icon": "time",
-              "text": "Sat Aug 15: 11am–7:30pm · Sun Aug 16: 11am–5:30pm"
+              "text": "Middle (Harang/Benold): 9:10am – 4:25pm (was 9:00 – 4:20)"
             },
             {
-              "icon": "cost",
-              "text": "Cost: Free admission + free parking · bring CASH"
+              "icon": "time",
+              "text": "High school: 8:20am – 3:35pm"
             },
             {
               "icon": "info",
-              "text": "100+ vendors · cosplay contest · sumo tournament · voice actors"
+              "text": "Elementary now ends 18 minutes earlier — afterschool pickup shifts too"
             }
           ],
-          "desc": "It's this weekend. Filipino, Japanese and Thai street food, Taiwanese boba, baos, Vietnamese grilled chicken, plus cosplay contests and a sumo tournament — squarely both boys' territory, and the food is what the family actually wants to eat. Bring cash, many stalls don't take cards. Sunday is the calmer day and closes at 5:30. Note it collides with the Backpack Bash on Saturday; Sunday avoids the conflict entirely and pairs well with the Waco cards below.",
+          "desc": "This resolves the bell-time question flagged when the calendar was added. The awkward part: Hanung has to be at Ford by 7:30 while Harang doesn't start at Benold until 9:10 — a 1 hour 40 minute gap, so one parent is either doing two trips or Harang is waiting somewhere for over an hour. Worth deciding this week rather than improvising Wednesday morning. Elementary also releases 18 minutes earlier than last year at 2:45.",
           "links": [
             {
-              "href": "https://www.facebook.com/otakufoodfestival/",
-              "label": "Facebook (@otakufoodfestival)"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Richland+Mall+6001+W+Waco+Dr+Waco+TX",
-              "label": "Google Maps"
+              "href": "https://www.georgetownisd.org/about-gisd/about-us/school-hours",
+              "label": "Official school hours"
             }
-          ],
-          "expires": "2026-08-16"
+          ]
         },
         {
           "verified": "2026-08",
-          "image": "images/news_community.jpg",
-          "title": "Backpack Bash — Sat Aug 15, Noon",
-          "brief": "Free back-to-school BBQ and backpack giveaway on S Austin Ave. Collides with the Waco festival.",
+          "expires": "2026-08-21",
+          "image": "images/news_school.jpg",
+          "title": "Check Bus Routes Before Wednesday",
+          "brief": "GISD updated routes all summer alongside the new bell schedule — don't assume last year's stop.",
           "tags": [
             {
               "type": "harang",
@@ -4396,90 +4389,78 @@
             {
               "type": "haneul",
               "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat noon · free"
+            "text": "Before Wed"
           },
           "meta": [
             {
-              "icon": "location",
-              "text": "1003 S Austin Ave, Georgetown"
+              "icon": "info",
+              "text": "Routes changed with the new bell schedule and post close to the start of school"
             },
             {
-              "icon": "time",
-              "text": "Sat Aug 15, from 12:00pm"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free"
+              "icon": "phone",
+              "text": "Benold (512) 943-5090 · Ford (512) 943-5180"
             }
           ],
-          "desc": "Community back-to-school BBQ with a backpack giveaway — a quick, free local stop right before school starts. It overlaps the Otaku festival in Waco, so the clean split is Bash on Saturday and Waco on Sunday.",
+          "desc": "Bus routes were revised over the summer to match the new bell times, and GISD posts them late — often only days before school starts. Check the assigned stop and pickup time for both boys now. Ford is walking distance so Hanung may not need a bus at all, but Benold is an 8-minute drive and worth confirming.",
           "links": [
             {
-              "href": "https://allevents.in/georgetown-tx/this-weekend",
-              "label": "Event listing"
+              "href": "https://www.georgetownisd.org/parents/back-to-school/back-to-school",
+              "label": "Back-to-school info"
             }
-          ],
-          "expires": "2026-08-15"
+          ]
         },
         {
           "verified": "2026-08",
-          "image": "images/news_events.jpg",
-          "title": "Free Yoga in San Gabriel Park — Sat 9am",
-          "brief": "Flow Yoga Georgetown runs a free outdoor session Saturday morning. Go early, it's August.",
+          "expires": "2026-08-24",
+          "image": "images/news_community.jpg",
+          "title": "Confirm YMCA Afterschool Start Time",
+          "brief": "Ford now releases at 2:45, not 3:03 — worth one call to confirm the Y adjusted.",
           "tags": [
             {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "adult",
-              "label": "Adult"
+              "type": "haneul",
+              "label": "Hanung"
             }
           ],
           "previewMeta": {
-            "icon": "time",
-            "text": "Sat 9am · free"
+            "icon": "phone",
+            "text": "One call"
           },
           "meta": [
             {
-              "icon": "location",
-              "text": "San Gabriel Park, Georgetown"
-            },
-            {
               "icon": "time",
-              "text": "Sat Aug 15, from 9:00am"
+              "text": "Ford release moved to 2:45pm (18 min earlier)"
             },
             {
-              "icon": "cost",
-              "text": "Cost: Free"
+              "icon": "phone",
+              "text": "YMCA: (512) 246-9622"
             },
             {
               "icon": "info",
-              "text": "⚠ Bring your own mat and water — confirm with Flow Yoga if weather looks bad"
+              "text": "⚠ Confirm the program's new start time and this year's rate on the same call"
             }
           ],
-          "desc": "Flow Yoga Georgetown hosts a free session in San Gabriel Park. Realistically an adults' thing, and 9am is already warm in August — but it's free, it's five minutes away, and it pairs with a walk along the river before the day heats up.",
+          "desc": "The Y's afterschool program runs inside Ford, so the earlier 2:45 release shifts their start. Almost certainly handled on their end, but it's a one-minute call and the alternative is Hanung unsupervised for 18 minutes on day one. Confirm the rate at the same time — it was never published.",
           "links": [
             {
-              "href": "https://allevents.in/georgetown-tx/this-weekend",
-              "label": "Event listing"
+              "href": "https://ymcactx.org/childcare/afterschool/",
+              "label": "Y Afterschool"
+            },
+            {
+              "href": "tel:5122469622",
+              "label": "Call: (512) 246-9622"
             }
-          ],
-          "expires": "2026-08-15"
+          ]
         },
         {
           "verified": "2026-08",
+          "expires": "2026-09-03",
           "image": "images/news_city.jpg",
           "title": "Water Maintenance Continues Through Sep 3",
-          "brief": "Chlorine smell and occasional tint are normal — the annual flush runs three more weeks.",
+          "brief": "Chlorine smell and occasional tint are normal — about two and a half weeks left.",
           "tags": [
             {
               "type": "family",
@@ -4496,20 +4477,20 @@
               "text": "Runs: Aug 3 – Sep 3, 2026 (Round Rock, Leander, Cedar Park on the same schedule)"
             }
           ],
-          "desc": "Still ongoing. Expect a stronger chlorine smell and occasionally a green or brown tint for brief periods — it's disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter handles the taste for the rest of the month.",
+          "desc": "Still running. Stronger chlorine smell and occasionally a green or brown tint for brief periods — disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter handles the taste for the remaining couple of weeks.",
           "links": [
             {
               "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
               "label": "City notice"
             }
-          ],
-          "expires": "2026-09-03"
+          ]
         },
         {
           "verified": "2026-08",
+          "expires": "2026-08-30",
           "image": "images/news_arts.jpg",
-          "title": "'42nd Street' at the Palace — Closes Aug 30",
-          "brief": "Two weekends left. Worth seeing before Harang's Palace classes start.",
+          "title": "'42nd Street' at the Palace — Final Two Weekends",
+          "brief": "Closes Aug 30. Harder to fit in once school and rehearsals start, so this or next weekend.",
           "tags": [
             {
               "type": "harang",
@@ -4522,7 +4503,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Through Aug 30"
+            "text": "Closes Aug 30"
           },
           "meta": [
             {
@@ -4531,20 +4512,19 @@
             },
             {
               "icon": "time",
-              "text": "Runs through Aug 30, 2026 — two weekends left"
+              "text": "Closes Aug 30 — this weekend and next"
             }
           ],
-          "desc": "The tap-dance musical closes Aug 30, so there are two weekends left. Beyond a fun night out, it's a scouting trip: this is the stage and company Harang would be working toward through Palace Education and PPC. Easier to fit in now than once school and rehearsals start.",
+          "desc": "Two weekends left. Worth doing as a scouting trip: this is the stage and company Harang would be working toward through Palace Education and PPC. Once school starts Wednesday, weekends fill up fast — if it's going to happen, it's one of these two.",
           "links": [
             {
               "href": "https://www.georgetownpalace.com/",
               "label": "Tickets"
             }
-          ],
-          "expires": "2026-08-30"
+          ]
         }
       ],
-      "staleAfter": "2026-08-25"
+      "staleAfter": "2026-08-28"
     }
   ]
 }

@@ -7,7 +7,7 @@
    - other same-origin assets (images, manifest, icons) -> cache-first with background refresh
    - cross-origin (Google Fonts) -> stale-while-revalidate, best-effort
    Bump VERSION on each release to invalidate old caches. */
-const VERSION = 'v4.6';
+const VERSION = 'v4.7';
 const SHELL_CACHE = 'choi-shell-' + VERSION;
 const RUNTIME_CACHE = 'choi-runtime-' + VERSION;
 
