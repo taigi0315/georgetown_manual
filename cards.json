@@ -4259,15 +4259,15 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 17–23, 2026. 🔴 Enrollment closes TODAY · school starts Wednesday with NEW bell times.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 24–30, 2026. Second week of school; Labor Day is the first day off.",
       "cards": [
         {
           "verified": "2026-08",
           "featured": true,
-          "expires": "2026-08-17",
-          "image": "images/news_school.jpg",
-          "title": "🔴 Enrollment Closes TODAY — Mon Aug 17",
-          "brief": "Last day. If either boy isn't enrolled by end of today, they can't attend Wednesday's first day.",
+          "expires": "2026-09-20",
+          "image": "images/news_events.jpg",
+          "title": "🦇 Bat Bridge Is at Peak Right Now — Go Before Late September",
+          "brief": "1.5M bats emerge at sunset off Congress Ave. Late August is the best of the whole year. Free.",
           "tags": [
             {
               "type": "harang",
@@ -4278,63 +4278,63 @@
               "label": "Hanung"
             },
             {
+              "type": "family",
+              "label": "Family"
+            },
+            {
               "type": "featured",
-              "label": "Today"
+              "label": "Season ends soon"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Deadline today"
+            "text": "Peak now · free"
           },
           "meta": [
             {
+              "icon": "location",
+              "text": "Congress Ave Bridge, Austin — free viewing lawn on the south side by the Statesman"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
               "icon": "time",
-              "text": "Deadline: today, Mon Aug 17 · First day: Wed Aug 19"
+              "text": "Emergence between sunset and dark — roughly 7:30–8:30pm; arrive 30 min early for a spot"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free (paid boat tours exist; the lawn is just as good)"
             },
             {
               "icon": "info",
-              "text": "Walk-in enrollment is closed the morning of the first day until 1 PM — this cannot be fixed on Wednesday"
-            },
-            {
-              "icon": "info",
-              "text": "Harang also needs RankOne forms + physical before Wednesday for Pre-Athletics"
-            },
-            {
-              "icon": "phone",
-              "text": "Benold (512) 943-5090 · Ford (512) 943-5180"
+              "text": "Bats migrate south starting late September — this window closes"
             }
           ],
-          "desc": "Final day. Both boys need enrollment complete: proof of residency, birth certificates, immunization records, prior school records. Harang's RankOne athletic forms and physical also have to be in before Wednesday — only GHS trainers can clear him, so there's no same-day fix. If anything is still open, call this morning rather than this afternoon.",
+          "desc": "North America's largest urban bat colony, and mid-to-late August is genuinely the best time all year: this year's pups have started flying, so the emergence is at its biggest. It's a school night drive, but it's free, it takes about 20 minutes once it starts, and both boys are the right age for it. Park south of the river and walk — traffic around the bridge at dusk is the worst part. If it doesn't happen in the next few weeks it waits until spring.",
           "links": [
             {
-              "href": "https://georgetownisd.rankone.com",
-              "label": "RankOne portal"
+              "href": "https://www.austinbats.org/",
+              "label": "Viewing guide"
             },
             {
-              "href": "tel:5129435090",
-              "label": "Benold: 512-943-5090"
-            },
-            {
-              "href": "tel:5129435180",
-              "label": "Ford: 512-943-5180"
+              "href": "https://www.google.com/maps/search/?api=1&query=Congress+Avenue+Bridge+Bat+Observation+Area+Austin+TX",
+              "label": "Google Maps"
             }
           ]
         },
         {
           "verified": "2026-08",
           "featured": true,
-          "expires": "2026-08-28",
-          "image": "images/news_school.jpg",
-          "title": "⏰ NEW Bell Times — Ford 7:30, Benold 9:10",
-          "brief": "Confirmed for 2026-27. Ford starts 10 min earlier; there's a 1h40 gap between the two boys' start times.",
+          "expires": "2026-08-30",
+          "image": "images/news_arts.jpg",
+          "title": "'42nd Street' — FINAL Weekend at the Palace",
+          "brief": "Closes Aug 30. Last chance to see the stage Harang would be working toward.",
           "tags": [
             {
               "type": "harang",
               "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
             },
             {
               "type": "family",
@@ -4342,163 +4342,7 @@
             },
             {
               "type": "featured",
-              "label": "Plan the morning"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Ford 7:30 · Benold 9:10"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Elementary (Hanung/Ford): 7:30am – 2:45pm (was 7:40 – 3:03)"
-            },
-            {
-              "icon": "time",
-              "text": "Middle (Harang/Benold): 9:10am – 4:25pm (was 9:00 – 4:20)"
-            },
-            {
-              "icon": "time",
-              "text": "High school: 8:20am – 3:35pm"
-            },
-            {
-              "icon": "info",
-              "text": "Elementary now ends 18 minutes earlier — afterschool pickup shifts too"
-            }
-          ],
-          "desc": "This resolves the bell-time question flagged when the calendar was added. The awkward part: Hanung has to be at Ford by 7:30 while Harang doesn't start at Benold until 9:10 — a 1 hour 40 minute gap, so one parent is either doing two trips or Harang is waiting somewhere for over an hour. Worth deciding this week rather than improvising Wednesday morning. Elementary also releases 18 minutes earlier than last year at 2:45.",
-          "links": [
-            {
-              "href": "https://www.georgetownisd.org/about-gisd/about-us/school-hours",
-              "label": "Official school hours"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-08-21",
-          "image": "images/news_school.jpg",
-          "title": "Check Bus Routes Before Wednesday",
-          "brief": "GISD updated routes all summer alongside the new bell schedule — don't assume last year's stop.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Before Wed"
-          },
-          "meta": [
-            {
-              "icon": "info",
-              "text": "Routes changed with the new bell schedule and post close to the start of school"
-            },
-            {
-              "icon": "phone",
-              "text": "Benold (512) 943-5090 · Ford (512) 943-5180"
-            }
-          ],
-          "desc": "Bus routes were revised over the summer to match the new bell times, and GISD posts them late — often only days before school starts. Check the assigned stop and pickup time for both boys now. Ford is walking distance so Hanung may not need a bus at all, but Benold is an 8-minute drive and worth confirming.",
-          "links": [
-            {
-              "href": "https://www.georgetownisd.org/parents/back-to-school/back-to-school",
-              "label": "Back-to-school info"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-08-24",
-          "image": "images/news_community.jpg",
-          "title": "Confirm YMCA Afterschool Start Time",
-          "brief": "Ford now releases at 2:45, not 3:03 — worth one call to confirm the Y adjusted.",
-          "tags": [
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            }
-          ],
-          "previewMeta": {
-            "icon": "phone",
-            "text": "One call"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Ford release moved to 2:45pm (18 min earlier)"
-            },
-            {
-              "icon": "phone",
-              "text": "YMCA: (512) 246-9622"
-            },
-            {
-              "icon": "info",
-              "text": "⚠ Confirm the program's new start time and this year's rate on the same call"
-            }
-          ],
-          "desc": "The Y's afterschool program runs inside Ford, so the earlier 2:45 release shifts their start. Almost certainly handled on their end, but it's a one-minute call and the alternative is Hanung unsupervised for 18 minutes on day one. Confirm the rate at the same time — it was never published.",
-          "links": [
-            {
-              "href": "https://ymcactx.org/childcare/afterschool/",
-              "label": "Y Afterschool"
-            },
-            {
-              "href": "tel:5122469622",
-              "label": "Call: (512) 246-9622"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-09-03",
-          "image": "images/news_city.jpg",
-          "title": "Water Maintenance Continues Through Sep 3",
-          "brief": "Chlorine smell and occasional tint are normal — about two and a half weeks left.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Through Sep 3"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Runs: Aug 3 – Sep 3, 2026 (Round Rock, Leander, Cedar Park on the same schedule)"
-            }
-          ],
-          "desc": "Still running. Stronger chlorine smell and occasionally a green or brown tint for brief periods — disinfectant conversion, not a problem, and the water stays safe to drink. A pitcher filter handles the taste for the remaining couple of weeks.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
-              "label": "City notice"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-08-30",
-          "image": "images/news_arts.jpg",
-          "title": "'42nd Street' at the Palace — Final Two Weekends",
-          "brief": "Closes Aug 30. Harder to fit in once school and rehearsals start, so this or next weekend.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "family",
-              "label": "Family"
+              "label": "Last chance"
             }
           ],
           "previewMeta": {
@@ -4511,20 +4355,146 @@
               "text": "Springer Stage, Georgetown Palace Theatre"
             },
             {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
               "icon": "time",
-              "text": "Closes Aug 30 — this weekend and next"
+              "text": "Final performances this weekend — closes Sun Aug 30"
             }
           ],
-          "desc": "Two weekends left. Worth doing as a scouting trip: this is the stage and company Harang would be working toward through Palace Education and PPC. Once school starts Wednesday, weekends fill up fast — if it's going to happen, it's one of these two.",
+          "desc": "This is it — the run ends Sunday. Worth going as a scouting trip: this is the stage and the company Harang would be aiming at through Palace Education and the Performance Company. Two weekends were mentioned last week and one of them is gone, so if it's happening, it's now.",
           "links": [
             {
               "href": "https://www.georgetownpalace.com/",
               "label": "Tickets"
             }
           ]
+        },
+        {
+          "verified": "2026-08",
+          "expires": "2026-09-14",
+          "image": "images/news_arts.jpg",
+          "title": "Palace Fall Classes — Ask Now That School Has Settled",
+          "brief": "Ages 6–18: acting, voice, dance, improv, stage combat, musical theatre. ⚠ Fall dates not published.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "phone",
+            "text": "Call to confirm"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Doug Smith Performance Center, 206 W 2nd St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "info",
+              "text": "Fall session: acting, dance, voice, improv, sketch & stand-up, stage combat, musical theatre"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Fall 2026 start dates and pricing not published — call (512) 869-7469"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 869-7469"
+            }
+          ],
+          "desc": "Now that the first week of school is behind us and the schedule is real, this is the moment to lock in Harang's fall theatre class. Fall sessions run for ages 6–18 and every session ends in a performance. Dates aren't posted, so this needs a phone call rather than a website visit — and remember the waitlist trick: full classes often free up in the final week before registration closes, with 24 hours to claim by email.",
+          "links": [
+            {
+              "href": "https://www.georgetownpalace.org/education/",
+              "label": "Palace Education"
+            },
+            {
+              "href": "tel:5128697469",
+              "label": "Call: (512) 869-7469"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "expires": "2026-09-07",
+          "image": "images/news_school.jpg",
+          "title": "Labor Day Sep 7 — First Day Off Since School Started",
+          "brief": "Three-day weekend Sep 5–7. First real window for a trip since Aug 19.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sep 5–7"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Mon Sep 7 — district closed, all schools and offices"
+            },
+            {
+              "icon": "info",
+              "text": "Next student holidays after this: Sep 21 and Oct 12"
+            }
+          ],
+          "desc": "The first three-day weekend of the school year, and the first chance at an overnight since school started. Two weeks out is about right for booking anything in the Hill Country or on the coast — see the Weekend Adventures section. Worth noting Labor Day is peak crowding everywhere within two hours of Austin, so the calmer play is a day trip plus the bat bridge.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
+              "label": "GISD calendar"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "expires": "2026-09-03",
+          "image": "images/news_city.jpg",
+          "title": "Water Maintenance — Final Week, Ends Sep 3",
+          "brief": "Last stretch of the annual flush. Chlorine taste should be gone by Thursday next week.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Ends Sep 3"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Ends Thu Sep 3, 2026 (started Aug 3)"
+            }
+          ],
+          "desc": "Final week of the city's annual water-system maintenance. The stronger chlorine smell and occasional tint wrap up Sep 3 — after that the taste goes back to normal and the pitcher filter can go back in the cupboard.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
+              "label": "City notice"
+            }
+          ]
         }
       ],
-      "staleAfter": "2026-08-28"
+      "staleAfter": "2026-09-04"
     }
   ]
 }
