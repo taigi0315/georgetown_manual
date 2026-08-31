@@ -4259,15 +4259,70 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 24–30, 2026. Second week of school; Labor Day is the first day off.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 31 – Sep 6, 2026, plus Labor Day weekend.",
       "cards": [
+        {
+          "verified": "2026-08",
+          "featured": true,
+          "expires": "2026-09-07",
+          "image": "images/news_events.jpg",
+          "title": "Labor Day Weekend Downtown — Music Fri, Sidewalk Sale Fri–Mon",
+          "brief": "Free live music on the courthouse lawn Fri Sep 4, plus a four-day sidewalk sale on the Square.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "adult",
+              "label": "Adult"
+            },
+            {
+              "type": "featured",
+              "label": "This weekend"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri Sep 4 – Mon Sep 7"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square / courthouse lawn"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "First Friday music: Fri Sep 4, 6–8pm · Sidewalk sale: Fri Sep 4 – Mon Sep 7"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free (bring chairs or a blanket for the music)"
+            }
+          ],
+          "desc": "Two things stack on the Square this weekend. First Friday music runs on the courthouse lawn 6–8pm — free, bring your own chairs — and the merchants' sidewalk sale runs all four days as they clear space before the holiday season. The music is the better family hour; the sale is more of an adults' wander. Ten minutes from the house and costs nothing, which makes it the low-effort option if the long weekend stays local.",
+          "links": [
+            {
+              "href": "https://visit.georgetown.org/",
+              "label": "Visit Georgetown"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Texas+Courthouse+Square",
+              "label": "Google Maps"
+            }
+          ]
+        },
         {
           "verified": "2026-08",
           "featured": true,
           "expires": "2026-09-20",
           "image": "images/news_events.jpg",
-          "title": "🦇 Bat Bridge Is at Peak Right Now — Go Before Late September",
-          "brief": "1.5M bats emerge at sunset off Congress Ave. Late August is the best of the whole year. Free.",
+          "title": "🦇 Bat Bridge — About Three Weeks Left",
+          "brief": "Bats head south from late September. Labor Day weekend is the obvious window before they go.",
           "tags": [
             {
               "type": "harang",
@@ -4283,17 +4338,17 @@
             },
             {
               "type": "featured",
-              "label": "Season ends soon"
+              "label": "Closing window"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Peak now · free"
+            "text": "~3 weeks left · free"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Congress Ave Bridge, Austin — free viewing lawn on the south side by the Statesman"
+              "text": "Congress Ave Bridge, Austin — free lawn on the south side by the Statesman"
             },
             {
               "icon": "drive",
@@ -4301,18 +4356,18 @@
             },
             {
               "icon": "time",
-              "text": "Emergence between sunset and dark — roughly 7:30–8:30pm; arrive 30 min early for a spot"
+              "text": "Emergence between sunset and dark, roughly 7:30–8:30pm; arrive 30 min early"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free (paid boat tours exist; the lawn is just as good)"
+              "text": "Cost: Free"
             },
             {
               "icon": "info",
-              "text": "Bats migrate south starting late September — this window closes"
+              "text": "Colony migrates south starting late September"
             }
           ],
-          "desc": "North America's largest urban bat colony, and mid-to-late August is genuinely the best time all year: this year's pups have started flying, so the emergence is at its biggest. It's a school night drive, but it's free, it takes about 20 minutes once it starts, and both boys are the right age for it. Park south of the river and walk — traffic around the bridge at dusk is the worst part. If it doesn't happen in the next few weeks it waits until spring.",
+          "desc": "Still worth doing and the clock is now real — the colony starts leaving in late September, so this is roughly the last three weeks. The long weekend is the natural slot since it isn't a school night. Park south of the river and walk; the traffic right at the bridge at dusk is the only annoying part. If it slips past September it waits until spring.",
           "links": [
             {
               "href": "https://www.austinbats.org/",
@@ -4326,48 +4381,77 @@
         },
         {
           "verified": "2026-08",
-          "featured": true,
-          "expires": "2026-08-30",
-          "image": "images/news_arts.jpg",
-          "title": "'42nd Street' — FINAL Weekend at the Palace",
-          "brief": "Closes Aug 30. Last chance to see the stage Harang would be working toward.",
+          "expires": "2026-09-07",
+          "image": "images/news_school.jpg",
+          "title": "Labor Day Mon Sep 7 — School and City Offices Closed",
+          "brief": "First day off since school started. GISD closed, city offices and facilities closed.",
           "tags": [
             {
               "type": "harang",
               "label": "Harang"
             },
             {
-              "type": "family",
-              "label": "Family"
+              "type": "haneul",
+              "label": "Hanung"
             },
             {
-              "type": "featured",
-              "label": "Last chance"
+              "type": "family",
+              "label": "Family"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Closes Aug 30"
+            "text": "Mon Sep 7"
           },
           "meta": [
             {
-              "icon": "location",
-              "text": "Springer Stage, Georgetown Palace Theatre"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
+              "icon": "time",
+              "text": "Mon Sep 7 — GISD closed (all schools and district offices)"
             },
             {
               "icon": "time",
-              "text": "Final performances this weekend — closes Sun Aug 30"
+              "text": "City of Georgetown offices and facilities also closed"
+            },
+            {
+              "icon": "info",
+              "text": "Next student holidays: Sep 21 and Oct 12"
             }
           ],
-          "desc": "This is it — the run ends Sunday. Worth going as a scouting trip: this is the stage and the company Harang would be aiming at through Palace Education and the Performance Company. Two weekends were mentioned last week and one of them is gone, so if it's happening, it's now.",
+          "desc": "The first three-day weekend of the school year. Worth knowing the city side shuts too, so anything needing a city office or facility has to happen before Friday. After this the next days off are Sep 21 and Oct 12 — both single-day student holidays, which are the good slots for dentist and doctor appointments.",
           "links": [
             {
-              "href": "https://www.georgetownpalace.com/",
-              "label": "Tickets"
+              "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
+              "label": "GISD calendar"
+            }
+          ]
+        },
+        {
+          "verified": "2026-08",
+          "expires": "2026-09-03",
+          "image": "images/news_city.jpg",
+          "title": "Water Maintenance Ends This Thursday, Sep 3",
+          "brief": "Last few days of the chlorine flush. Taste should be back to normal by the weekend.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Ends Thu Sep 3"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Ends Thu Sep 3, 2026 (ran since Aug 3)"
+            }
+          ],
+          "desc": "Final few days. The stronger chlorine smell and occasional tint wrap up Thursday, so the water should taste normal again by the long weekend and the pitcher filter can go back in the cupboard.",
+          "links": [
+            {
+              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
+              "label": "City notice"
             }
           ]
         },
@@ -4375,8 +4459,8 @@
           "verified": "2026-08",
           "expires": "2026-09-14",
           "image": "images/news_arts.jpg",
-          "title": "Palace Fall Classes — Ask Now That School Has Settled",
-          "brief": "Ages 6–18: acting, voice, dance, improv, stage combat, musical theatre. ⚠ Fall dates not published.",
+          "title": "Palace Fall Classes — Still Unanswered, Call This Week",
+          "brief": "Harang's fall theatre slot is the one open item. ⚠ Dates still not published anywhere.",
           "tags": [
             {
               "type": "harang",
@@ -4398,18 +4482,18 @@
             },
             {
               "icon": "info",
-              "text": "Fall session: acting, dance, voice, improv, sketch & stand-up, stage combat, musical theatre"
+              "text": "Fall session: acting, dance, voice, improv, sketch & stand-up, stage combat, musical theatre (ages 6–18)"
             },
             {
               "icon": "info",
-              "text": "⚠ Fall 2026 start dates and pricing not published — call (512) 869-7469"
+              "text": "⚠ Fall 2026 dates and pricing still not published online — phone only"
             },
             {
               "icon": "phone",
               "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "Now that the first week of school is behind us and the schedule is real, this is the moment to lock in Harang's fall theatre class. Fall sessions run for ages 6–18 and every session ends in a performance. Dates aren't posted, so this needs a phone call rather than a website visit — and remember the waitlist trick: full classes often free up in the final week before registration closes, with 24 hours to claim by email.",
+          "desc": "Carrying this over because it's still the one loose end. Three weeks into the school year the schedule is settled enough to commit, and fall classes fill from the inside — nothing useful is posted online, so it takes a call. Ask about the waitlist too: full classes often free up in the final week before registration closes, with 24 hours to claim by email.",
           "links": [
             {
               "href": "https://www.georgetownpalace.org/education/",
@@ -4420,81 +4504,9 @@
               "label": "Call: (512) 869-7469"
             }
           ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-09-07",
-          "image": "images/news_school.jpg",
-          "title": "Labor Day Sep 7 — First Day Off Since School Started",
-          "brief": "Three-day weekend Sep 5–7. First real window for a trip since Aug 19.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sep 5–7"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Mon Sep 7 — district closed, all schools and offices"
-            },
-            {
-              "icon": "info",
-              "text": "Next student holidays after this: Sep 21 and Oct 12"
-            }
-          ],
-          "desc": "The first three-day weekend of the school year, and the first chance at an overnight since school started. Two weeks out is about right for booking anything in the Hill Country or on the coast — see the Weekend Adventures section. Worth noting Labor Day is peak crowding everywhere within two hours of Austin, so the calmer play is a day trip plus the bat bridge.",
-          "links": [
-            {
-              "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
-              "label": "GISD calendar"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-09-03",
-          "image": "images/news_city.jpg",
-          "title": "Water Maintenance — Final Week, Ends Sep 3",
-          "brief": "Last stretch of the annual flush. Chlorine taste should be gone by Thursday next week.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Ends Sep 3"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Ends Thu Sep 3, 2026 (started Aug 3)"
-            }
-          ],
-          "desc": "Final week of the city's annual water-system maintenance. The stronger chlorine smell and occasional tint wrap up Sep 3 — after that the taste goes back to normal and the pitcher filter can go back in the cupboard.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
-              "label": "City notice"
-            }
-          ]
         }
       ],
-      "staleAfter": "2026-09-04"
+      "staleAfter": "2026-09-11"
     }
   ]
 }
