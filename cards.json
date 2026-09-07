@@ -4259,70 +4259,78 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Aug 31 – Sep 6, 2026, plus Labor Day weekend.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 7–13, 2026. Back to school Tuesday after Labor Day.",
       "cards": [
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "featured": true,
-          "expires": "2026-09-07",
+          "expires": "2026-09-12",
           "image": "images/news_events.jpg",
-          "title": "Labor Day Weekend Downtown — Music Fri, Sidewalk Sale Fri–Mon",
-          "brief": "Free live music on the courthouse lawn Fri Sep 4, plus a four-day sidewalk sale on the Square.",
+          "title": "Round Rock Family Campout — Fri–Sat Sep 11–12 · Register TODAY",
+          "brief": "14th annual overnight campout at Old Settlers Park. Advance registration required — it may already be full.",
           "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
             {
               "type": "family",
               "label": "Family"
             },
             {
-              "type": "adult",
-              "label": "Adult"
-            },
-            {
               "type": "featured",
-              "label": "This weekend"
+              "label": "Register now"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri Sep 4 – Mon Sep 7"
+            "text": "Fri–Sat · register first"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Downtown Georgetown Square / courthouse lawn"
+              "text": "Old Settlers Park, 3103 Aten Loop, Round Rock"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~10 min"
+              "text": "Drive: ~25 min"
             },
             {
               "icon": "time",
-              "text": "First Friday music: Fri Sep 4, 6–8pm · Sidewalk sale: Fri Sep 4 – Mon Sep 7"
+              "text": "Fri Sep 11 evening through Sat Sep 12 morning"
+            },
+            {
+              "icon": "info",
+              "text": "Includes Friday dinner, Saturday pancake & sausage breakfast, s'mores and a t-shirt (vegetarian on request)"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free (bring chairs or a blanket for the music)"
+              "text": "⚠ 2026 price not published — check the city page or call before counting on a spot"
             }
           ],
-          "desc": "Two things stack on the Square this weekend. First Friday music runs on the courthouse lawn 6–8pm — free, bring your own chairs — and the merchants' sidewalk sale runs all four days as they clear space before the holiday season. The music is the better family hour; the sale is more of an adults' wander. Ten minutes from the house and costs nothing, which makes it the low-effort option if the long weekend stays local.",
+          "desc": "The city's 14th annual family campout, and the boys are exactly the right age for it — tents, campfire, s'mores, pancakes in the morning, twenty-five minutes from home so a bailout at 2am is survivable. Old Settlers Park is already familiar from the day-trips section. The catch: advance registration is required and this is Friday, so it may already be closed or full. Worth a look today rather than Thursday.",
           "links": [
             {
-              "href": "https://visit.georgetown.org/",
-              "label": "Visit Georgetown"
+              "href": "https://www.roundrocktexas.gov/event/family-campout/",
+              "label": "City event page"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Texas+Courthouse+Square",
+              "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+3103+Aten+Loop+Round+Rock+TX",
               "label": "Google Maps"
             }
           ]
         },
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "featured": true,
           "expires": "2026-09-20",
           "image": "images/news_events.jpg",
-          "title": "🦇 Bat Bridge — About Three Weeks Left",
-          "brief": "Bats head south from late September. Labor Day weekend is the obvious window before they go.",
+          "title": "🦇 Bat Bridge — Roughly Two Weeks Left",
+          "brief": "Colony starts leaving late September. This is about the last clear window until spring.",
           "tags": [
             {
               "type": "harang",
@@ -4343,7 +4351,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "~3 weeks left · free"
+            "text": "~2 weeks left · free"
           },
           "meta": [
             {
@@ -4364,10 +4372,10 @@
             },
             {
               "icon": "info",
-              "text": "Colony migrates south starting late September"
+              "text": "Migration south begins late September"
             }
           ],
-          "desc": "Still worth doing and the clock is now real — the colony starts leaving in late September, so this is roughly the last three weeks. The long weekend is the natural slot since it isn't a school night. Park south of the river and walk; the traffic right at the bridge at dusk is the only annoying part. If it slips past September it waits until spring.",
+          "desc": "Down from three weeks to about two. It's been carried on this list for a month because it's free, it's genuinely impressive, and it disappears until spring — but it now needs an actual date on the calendar rather than good intentions. A school-night run works: leave around 6:30, home by 9:30.",
           "links": [
             {
               "href": "https://www.austinbats.org/",
@@ -4380,11 +4388,11 @@
           ]
         },
         {
-          "verified": "2026-08",
-          "expires": "2026-09-07",
+          "verified": "2026-09",
+          "expires": "2026-09-21",
           "image": "images/news_school.jpg",
-          "title": "Labor Day Mon Sep 7 — School and City Offices Closed",
-          "brief": "First day off since school started. GISD closed, city offices and facilities closed.",
+          "title": "Student Holiday Mon Sep 21 — Book Appointments Now",
+          "brief": "No school in two weeks. The right day for dentist and doctor visits instead of pulling them from class.",
           "tags": [
             {
               "type": "harang",
@@ -4401,66 +4409,40 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Mon Sep 7"
+            "text": "Mon Sep 21"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Mon Sep 7 — GISD closed (all schools and district offices)"
-            },
-            {
-              "icon": "time",
-              "text": "City of Georgetown offices and facilities also closed"
+              "text": "Mon Sep 21 — student holiday (staff professional learning)"
             },
             {
               "icon": "info",
-              "text": "Next student holidays: Sep 21 and Oct 12"
+              "text": "Next one after this: Mon Oct 12"
+            },
+            {
+              "icon": "phone",
+              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
             }
           ],
-          "desc": "The first three-day weekend of the school year. Worth knowing the city side shuts too, so anything needing a city office or facility has to happen before Friday. After this the next days off are Sep 21 and Oct 12 — both single-day student holidays, which are the good slots for dentist and doctor appointments.",
+          "desc": "Two weeks out, and it's the first real chance to get both boys to a dentist or doctor without missing class — both practices are weekday-only, so these single student holidays are the whole solution. They also book up precisely because every other GISD family has the same idea. Calling this week beats calling next week.",
           "links": [
             {
-              "href": "https://www.georgetownisd.org/about-gisd/district-calendar/district-calendar",
-              "label": "GISD calendar"
+              "href": "tel:5127303957",
+              "label": "Pediatrics: 512-730-3957"
+            },
+            {
+              "href": "tel:5128694100",
+              "label": "Dentistry: 512-869-4100"
             }
           ]
         },
         {
-          "verified": "2026-08",
-          "expires": "2026-09-03",
-          "image": "images/news_city.jpg",
-          "title": "Water Maintenance Ends This Thursday, Sep 3",
-          "brief": "Last few days of the chlorine flush. Taste should be back to normal by the weekend.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Ends Thu Sep 3"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Ends Thu Sep 3, 2026 (ran since Aug 3)"
-            }
-          ],
-          "desc": "Final few days. The stronger chlorine smell and occasional tint wrap up Thursday, so the water should taste normal again by the long weekend and the pitcher filter can go back in the cupboard.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/utilities/water/annual_system_maintenance.php",
-              "label": "City notice"
-            }
-          ]
-        },
-        {
-          "verified": "2026-08",
-          "expires": "2026-09-14",
+          "verified": "2026-09",
+          "expires": "2026-09-25",
           "image": "images/news_arts.jpg",
-          "title": "Palace Fall Classes — Still Unanswered, Call This Week",
-          "brief": "Harang's fall theatre slot is the one open item. ⚠ Dates still not published anywhere.",
+          "title": "Palace Fall Classes — Fourth Week Unanswered",
+          "brief": "Harang's fall theatre slot is still the one loose end. Nothing is posted online; it takes a call.",
           "tags": [
             {
               "type": "harang",
@@ -4493,7 +4475,7 @@
               "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "Carrying this over because it's still the one loose end. Three weeks into the school year the schedule is settled enough to commit, and fall classes fill from the inside — nothing useful is posted online, so it takes a call. Ask about the waitlist too: full classes often free up in the final week before registration closes, with 24 hours to claim by email.",
+          "desc": "Being blunt since this has carried four weeks running: the fall session is well under way by now, and every week without a call is a week of it filling up. Nothing useful is posted online — the Palace runs registration by phone and waitlist. Five minutes on the phone settles whether this is happening this semester or waiting for spring.",
           "links": [
             {
               "href": "https://www.georgetownpalace.org/education/",
@@ -4504,9 +4486,55 @@
               "label": "Call: (512) 869-7469"
             }
           ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-10-12",
+          "image": "images/news_arts.jpg",
+          "title": "New Exhibit at Georgetown Art Center — Opens Sep 12",
+          "brief": "Caroline Walker's 'Interlocking Paths', free, downtown, runs through Oct 12.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "Free · downtown"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Georgetown Art Center, downtown Square"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Sep 12 – Oct 12, 2026"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            }
+          ],
+          "desc": "A new show opens at the Art Center on the Square and runs a month. It's free and it's twenty minutes of walking around, which makes it a reasonable add-on to any downtown trip rather than a destination on its own. Fits naturally with the sidewalk-sale-and-Square routine.",
+          "links": [
+            {
+              "href": "https://georgetownartcenter.org/",
+              "label": "Georgetown Art Center"
+            }
+          ]
         }
       ],
-      "staleAfter": "2026-09-11"
+      "staleAfter": "2026-09-18"
     }
   ]
 }
