@@ -738,10 +738,10 @@
       "cards": [
         {
           "featured": true,
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/sports_ninja_nation_austin.jpg",
-          "title": "Ninja Nation Austin",
-          "brief": "Same brand from Frisco. ~30 min drive. Classes, open gym, camps.",
+          "title": "Octo Ninja (formerly Ninja Nation Austin)",
+          "brief": "Rebranded from Ninja Nation in 2026 — same gym, now locally owned. ~40 min. Classes, open gym, camps.",
           "tags": [
             {
               "type": "haneul",
@@ -758,36 +758,52 @@
           ],
           "previewMeta": {
             "icon": "drive",
-            "text": "~30 min"
+            "text": "~40 min"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "13420 N Lamar Blvd, Austin, TX 78753"
+              "text": "6500 N Lamar Blvd, Ste B, Austin, TX 78752"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~30 min"
+              "text": "Drive: ~40 min"
+            },
+            {
+              "icon": "time",
+              "text": "Hours: Mon–Fri 3–6pm · Sat–Sun 11am–6pm"
             },
             {
               "icon": "cost",
-              "text": "Cost: ~$150–200/month per kid; Open Gym ~$22"
+              "text": "Cost: Open gym from $20/hr (ages 5+) · ⚠ monthly class pricing not published since the rebrand — call"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 270-0760"
             },
             {
               "icon": "info",
-              "text": "Format: Weekly classes, open gym, camps"
+              "text": "Format: Weekly classes, open gym, camps, birthday parties"
             }
           ],
-          "desc": "Same brand the boys already love — programs and obstacles will feel familiar. World-class course, coached classes by age/level, open gym, and summer camps. Book a trial class soon after the move.",
+          "desc": "Rebranded in 2026 from Ninja Nation Austin to Octo Ninja — it left the national chain and is now an independent, locally owned Austin gym at the same address. Same building, same obstacle course, so the boys will recognize it from Frisco even though the name on the door changed. Two things the old card had wrong: the address is 6500 N Lamar (not 13420), which makes it ~40 minutes rather than 30, and the monthly pricing hasn't been republished since the rebrand — open gym is $20/hr, but call before assuming the old $150–200/month still holds.",
           "links": [
             {
-              "href": "https://www.austin.ninjanation.com/",
-              "label": "Classes & schedule"
+              "href": "https://octoninja.com/",
+              "label": "Official site"
+            },
+            {
+              "href": "https://octoninja.com/our-gym",
+              "label": "About the gym"
+            },
+            {
+              "href": "tel:5122700760",
+              "label": "Call: (512) 270-0760"
             }
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/sports_move_sport_ninja_academy.jpg",
           "title": "Move Sport Ninja Academy",
           "brief": "Former ANW competitor's gym. Pflugerville, ~30 min. Competition-track training.",
@@ -819,7 +835,7 @@
               "text": "Coach: Andy Lowes (former American Ninja Warrior)"
             }
           ],
-          "desc": "Smaller, more personal than Ninja Nation. Run by a former ANW competitor with 15+ years of gymnastics coaching. Strong fit if the boys want competition-track training.",
+          "desc": "Smaller, more personal than Octo Ninja. Run by a former ANW competitor with 15+ years of gymnastics coaching. Strong fit if the boys want competition-track training.",
           "links": [
             {
               "href": "https://www.movesportninja.com/",
