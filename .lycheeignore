@@ -6,3 +6,19 @@ linkedin\.com
 # Google Maps "search" deep links are generated, not pages that 404; skip them.
 google\.com/maps
 maps\.google\.com
+# The card renderer in index.html builds markup by string concatenation, e.g.
+#   '<a href="' + esc(l.href) + '"' ...     '<img ... src="' + img + '"/>'
+# lychee --include-verbatim reads the raw source and treats those JS fragments
+# as href/src values, reporting them as phantom file:// "not found" errors.
+# It opened a fresh issue on every run. These are code, not links.
+# Patterns match the URL as lychee reports it (space -> %20).
+esc\(l\.href\)
+%20\+%20img%20\+%20
+# The card renderer in index.html builds markup by string concatenation, e.g.
+#   '<a href="' + esc(l.href) + '"' ...     '<img ... src="' + img + '"/>'
+# lychee --include-verbatim reads the raw source and treats those JS fragments
+# as href/src values, reporting them as phantom file:// "not found" errors.
+# It opened a fresh issue on every run (60 so far). These are code, not links.
+# Patterns match the URL as lychee reports it (space -> %20).
+esc\(l\.href\)
+%20\+%20img%20\+%20
