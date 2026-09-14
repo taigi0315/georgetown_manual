@@ -31,3 +31,14 @@ homepy\.korean\.net
 # indexed and reachable from a browser. Nothing about the URL to fix, so ignore
 # it rather than leave a permanent red mark in the report.
 bgctx\.org
+# Second round, 2026-09-14. Each of these was confirmed live and correct by
+# search before being listed here; the checker is being told to stop crying
+# wolf, not to look away from something broken.
+#   themonumentcafe.com   timed out twice at 20s, then 403'd at 30s
+#   600degreespizzeria.com  403 to the checker, #1-rated restaurant in town
+#   spacecenter.org       Space Center Houston, slow enough to time out
+# Note these are flaky rather than consistent: a different subset fails each
+# run, which is the signature of rate limiting, not of dead links.
+themonumentcafe\.com
+600degreespizzeria\.com
+spacecenter\.org
