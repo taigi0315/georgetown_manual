@@ -4,14 +4,13 @@
       "id": "deadlines",
       "category": "deadlines",
       "title": "Registration Deadlines",
-      "intro": "As of Aug 2, 2026 — first day of school is Aug 19 (last day May 28, 2027). 🔴 3 items need action NOW. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
+      "intro": "Updated Sep 14, 2026 — school has been in session since Aug 19 (last day May 28, 2027). The August rush is over: those items are marked ⚫ closed and kept as a record of what was due and what it took. 🟢 1 still open, 🟠 2 coming. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
       "cards": [
         {
-          "verified": "2026-08",
-          "featured": true,
+          "verified": "2026-09",
           "image": "images/deadlines_gisd_enrollment.jpg",
           "title": "GISD New Student Enrollment",
-          "brief": "🔴 Due Aug 17 — enroll both boys or they can't start on day one.",
+          "brief": "⚫ Closed Aug 17 — both boys enrolled and in class since Aug 19. Kept for the document list.",
           "tags": [
             {
               "type": "harang",
@@ -20,27 +19,23 @@
             {
               "type": "haneul",
               "label": "Hanung"
-            },
-            {
-              "type": "featured",
-              "label": "Do this first"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Due Mon Aug 17"
+            "text": "Closed Aug 17"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Due: Mon Aug 17, 2026 · first day of school Aug 19"
+              "text": "Closed: Mon Aug 17, 2026 · school started Aug 19"
             },
             {
               "icon": "info",
               "text": "Bring: proof of residency, birth certificates, immunization records, prior school records"
             }
           ],
-          "desc": "New-student enrollment must be complete by Aug 17 for the boys to attend the first day — walk-in enrollment is closed the morning of the first day until 1 PM, so there's no showing up and sorting it out. Gather the documents once and do both kids together. Do this first: Harang's electives (Theatre, Choir) are chosen during schedule building, and late pickers get whatever sections are left.",
+          "desc": "⚫ Done for 2026–27. Kept because the next time this matters — a move, a transfer, or a new campus — the document list is the whole job: proof of residency, birth certificates, immunization records, prior school records. Note for next time: walk-in enrollment is closed the morning of the first day until 1 PM, so there is no showing up and sorting it out. Address and contact changes during the year go through the campus front office, not re-enrollment.",
           "links": [
             {
               "href": "https://www.georgetownisd.org/",
@@ -57,29 +52,24 @@
           ]
         },
         {
-          "verified": "2026-08",
-          "featured": true,
+          "verified": "2026-09",
           "image": "images/deadlines_rankone_athletics.jpg",
           "title": "RankOne Athletic Forms + Physical",
-          "brief": "🔴 Before Aug 19 — online forms + current physical required for Harang's Pre-Athletics.",
+          "brief": "⚫ Cleared before Aug 19 — but the physical expires. Same forms come due again next summer.",
           "tags": [
             {
               "type": "harang",
               "label": "Harang"
-            },
-            {
-              "type": "featured",
-              "label": "Before school starts"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Before Aug 19"
+            "text": "Closed · renews next summer"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Due: before the first day of school (Aug 19)"
+              "text": "Closed: was due before Aug 19 · renews each school year"
             },
             {
               "icon": "cost",
@@ -90,7 +80,7 @@
               "text": "Only Georgetown HS trainers can clear a student — don't leave it to week one"
             }
           ],
-          "desc": "Harang can't participate in Benold Pre-Athletics until every RankOne form is submitted online and a current physical is on file. Only GHS trainers can clear a student, so a last-minute scramble risks him sitting out. Pre-Athletics is where the tennis path starts this year — see the Benold card for why that matters.",
+          "desc": "⚫ Done for this year — Harang is cleared for Benold Pre-Athletics. Two things to carry forward: a physical is good for one school year, so a new one is needed before Aug 2027, and only Georgetown HS trainers can clear a student. That matters more next summer than it did this one, because Aug 2027 is when real tennis tryouts start.",
           "links": [
             {
               "href": "https://georgetownisd.rankone.com",
@@ -103,36 +93,31 @@
           ]
         },
         {
-          "verified": "2026-08",
-          "featured": true,
+          "verified": "2026-09",
           "image": "images/deadlines_palace_ppc_auditions.jpg",
           "title": "Palace Performance Company Auditions",
-          "brief": "🔴 August 2026 — exact date unpublished ⚠ — call 512-869-7469 this week.",
+          "brief": "⚫ August auditions have passed. Next round Aug 2027. Fall classes are still the live question.",
           "tags": [
             {
               "type": "harang",
               "label": "Harang"
-            },
-            {
-              "type": "featured",
-              "label": "Call this week"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "⚠ August — date not published"
+            "text": "Passed · next Aug 2027"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "⚠ Auditions held every August — exact 2026 date not published"
+              "text": "⚫ Auditions are held every August — the 2026 round has passed"
             },
             {
               "icon": "info",
               "text": "Year-long advanced theatre commitment"
             }
           ],
-          "desc": "The Palace's advanced track: a year-long company with auditions every August. The exact 2026 date isn't published anywhere — which is exactly why the call has to happen now, not after school starts. If PPC doesn't happen this year, regular fall Palace classes are the fallback, and full classes often free up waitlist spots in the final week (24 hours to claim by email).",
+          "desc": "⚫ The year-long advanced company auditioned in August; that window is shut until next August. The fallback is the regular fall Palace class session, and that is still unresolved — see the News section. ⚠ Fall 2026 dates and pricing are phone-only, and four weeks of calling has not produced an answer. Worth knowing: full classes often free up waitlist spots in the final week, with 24 hours to claim by email.",
           "links": [
             {
               "href": "https://www.georgetownpalace.org/education/",
@@ -145,10 +130,10 @@
           ]
         },
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "image": "images/deadlines_benold_electives.jpg",
           "title": "Benold Electives — Theatre & Choir",
-          "brief": "🟠 Chosen at enrollment during schedule building — late means full sections.",
+          "brief": "⚫ Set at enrollment. Schedule changes now go through the counselor, not the elective form.",
           "tags": [
             {
               "type": "harang",
@@ -157,12 +142,12 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "At enrollment"
+            "text": "Set for this year"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Due: during schedule building at enrollment"
+              "text": "Closed: chosen during schedule building at enrollment"
             },
             {
               "icon": "info",
@@ -178,10 +163,10 @@
           ]
         },
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "image": "images/deadlines_ymca_afterschool.jpg",
           "title": "YMCA Y Afterschool at Ford — Register",
-          "brief": "🟢 Open now, rolling — register in person to start sooner than next Monday.",
+          "brief": "🟢 Still the only open one — rolling enrollment, register in person to start sooner.",
           "tags": [
             {
               "type": "haneul",
@@ -215,10 +200,10 @@
           ]
         },
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "image": "images/deadlines_fall_soccer.jpg",
           "title": "Fall Rec Soccer — Registration Closed",
-          "brief": "⚫ Closed ~Jul 5 — one call to GSA about a late add, otherwise spring (~January).",
+          "brief": "🟠 Fall is over as an option. Spring registration opens ~January — that is the one to catch.",
           "tags": [
             {
               "type": "harang",
@@ -236,7 +221,7 @@
           "meta": [
             {
               "icon": "time",
-              "text": "Closed: registration ran mid-May–Jul 5 · spring opens ~January"
+              "text": "Fall closed Jul 5 · spring registration opens ~January 2027"
             },
             {
               "icon": "info",
@@ -535,6 +520,59 @@
             {
               "href": "tel:5128683700",
               "label": "Call (512) 868-3700"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "image": "images/afterschool_middle_school_clubs_sports_benold.jpg",
+          "title": "ASAP — After School Action Program at Benold",
+          "brief": "Free-standing after-school program on Benold's own campus. Tutoring, drama, martial arts, outdoor rec. ~8 min.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "drive",
+            "text": "~8 min"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Douglas Benold Middle School, 1401 N Parmer Ranch Blvd, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~8 min"
+            },
+            {
+              "icon": "phone",
+              "text": "(512) 943-5000 ext. 6925"
+            },
+            {
+              "icon": "info",
+              "text": "Open to all GISD 6th–8th graders · a parent must register in person at the campus"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Cost and daily hours not published online — ask when registering"
+            }
+          ],
+          "desc": "Run by The Georgetown Project with GISD, on every middle school campus — which means Harang does not have to be driven anywhere for it. Programming is broader than homework help: tutoring, drama, photography, dance, martial arts, club time and outdoor recreation. This is the closest thing to a default after-school answer for a Benold 6th grader, and it sat unlisted on this page until Sept 2026. ⚠ Registration is in person by a parent or guardian at the school — it cannot be done online — and neither the fee nor the pickup time is published, so call the extension above before going.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/asap",
+              "label": "GISD ASAP"
+            },
+            {
+              "href": "https://www.georgetownproject.org/programs/",
+              "label": "The Georgetown Project"
+            },
+            {
+              "href": "tel:5129435000",
+              "label": "Call: (512) 943-5000 ext. 6925"
             }
           ]
         },
@@ -4307,15 +4345,120 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 7–13, 2026. Back to school Tuesday after Labor Day.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 14–20, 2026. A busy weekend: two things Saturday, two things Sunday, and they conflict — pick one a day. Last week's expired items have been removed.",
       "cards": [
         {
           "verified": "2026-09",
+          "expires": "2026-09-21",
+          "image": "images/news_school.jpg",
+          "title": "Student Holiday This Coming Monday, Sep 21",
+          "brief": "One week out. If the dentist and the doctor are still unbooked, today is the day to call.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "featured",
+              "label": "Call today"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Mon Sep 21 · no school"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Mon Sep 21 — student holiday (staff professional learning)"
+            },
+            {
+              "icon": "info",
+              "text": "Next one after this: Mon Oct 12"
+            },
+            {
+              "icon": "phone",
+              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
+            }
+          ],
+          "desc": "No school next Monday — staff professional learning. It has been on this list for two weeks precisely so it doesn't turn into a scramble, and a week out is the last point where a good appointment slot is still likely. The next student holiday after this is Mon Oct 12, which is a full district holiday.",
+          "links": [
+            {
+              "href": "tel:5127303957",
+              "label": "Pediatrics: 512-730-3957"
+            },
+            {
+              "href": "tel:5128694100",
+              "label": "Dentistry: 512-869-4100"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-09-19",
+          "image": "images/news_community.jpg",
+          "title": "Fiesta Georgetown — Sat Sep 19, 1–3 PM",
+          "brief": "Hispanic Heritage Month celebration run by The Georgetown Project. Local, short, and worth a look.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Sep 19 · 1–3 PM"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Sat Sep 19, 1 – 3 PM"
+            },
+            {
+              "icon": "location",
+              "text": "⚠ Venue not confirmed — listings point at the Boys & Girls Club of Georgetown; call before driving"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Admission not published"
+            },
+            {
+              "icon": "info",
+              "text": "Hosted by The Georgetown Project, the local youth nonprofit"
+            }
+          ],
+          "desc": "Hispanic Heritage Month runs Sep 15 – Oct 15, and this is Georgetown's own event for it. Two hours, in town, and the sort of thing that puts you in a room with other Georgetown families rather than tourists. ⚠ The date and time are confirmed; the venue and cost are not — the Boys & Girls Club number is the one to call, and it overlaps with the Taichung festival in Austin, so this is an either/or.",
+          "links": [
+            {
+              "href": "https://www.georgetownproject.org/",
+              "label": "The Georgetown Project"
+            },
+            {
+              "href": "tel:5128683700",
+              "label": "Boys & Girls Club: (512) 868-3700"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
           "featured": true,
-          "expires": "2026-09-12",
-          "image": "images/news_events.jpg",
-          "title": "Round Rock Family Campout — Fri–Sat Sep 11–12 · Register TODAY",
-          "brief": "14th annual overnight campout at Old Settlers Park. Advance registration required — it may already be full.",
+          "expires": "2026-09-19",
+          "image": "images/news_community.jpg",
+          "title": "Austin–Taichung 40th Anniversary — Sat Sep 19, Free",
+          "brief": "Taiwanese street food, boba, cultural performances and kids' activities at the Asian American Resource Center. Free.",
           "tags": [
             {
               "type": "harang",
@@ -4331,43 +4474,168 @@
             },
             {
               "type": "featured",
-              "label": "Register now"
+              "label": "This Saturday"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri–Sat · register first"
+            "text": "Sat Sep 19 · free"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Old Settlers Park, 3103 Aten Loop, Round Rock"
+              "text": "Asian American Resource Center, 8401 Cameron Rd, Austin, TX 78754"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~25 min"
+              "text": "Drive: ~40 min south"
             },
             {
               "icon": "time",
-              "text": "Fri Sep 11 evening through Sat Sep 12 morning"
-            },
-            {
-              "icon": "info",
-              "text": "Includes Friday dinner, Saturday pancake & sausage breakfast, s'mores and a t-shirt (vegetarian on request)"
+              "text": "Sat Sep 19, 11:30 AM – 2:30 PM (program may run to 3 PM)"
             },
             {
               "icon": "cost",
-              "text": "⚠ 2026 price not published — check the city page or call before counting on a spot"
-            }
-          ],
-          "desc": "The city's 14th annual family campout, and the boys are exactly the right age for it — tents, campfire, s'mores, pancakes in the morning, twenty-five minutes from home so a bailout at 2am is survivable. Old Settlers Park is already familiar from the day-trips section. The catch: advance registration is required and this is Friday, so it may already be closed or full. Worth a look today rather than Thursday.",
-          "links": [
-            {
-              "href": "https://www.roundrocktexas.gov/event/family-campout/",
-              "label": "City event page"
+              "text": "Cost: Free · sponsored by the City of Austin"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+3103+Aten+Loop+Round+Rock+TX",
+              "icon": "info",
+              "text": "Live performances, community and cultural booths, Taiwanese street food and boba, raffle drawings"
+            }
+          ],
+          "desc": "Austin and Taichung have been sister cities for 40 years, and this is the anniversary event. Not Korean, but it is the closest thing to a large, free, family-friendly Asian community festival within an easy drive this month, and the AARC is worth knowing about on its own — it runs programming year-round. Midday, so it doesn't eat the whole Saturday.",
+          "links": [
+            {
+              "href": "https://www.austintexas.gov/aarc/events",
+              "label": "AARC events"
+            },
+            {
+              "href": "https://www.austinsistercities.com/events",
+              "label": "Austin Sister Cities"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Asian+American+Resource+Center+8401+Cameron+Rd+Austin+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "featured": true,
+          "expires": "2026-09-20",
+          "image": "images/news_arts.jpg",
+          "title": "Austin Museum Day — Sun Sep 20, 35+ Museums Free",
+          "brief": "One day a year every participating Austin museum drops admission. The Bullock and the Blanton are both in.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "This Sunday"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sun Sep 20 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "35+ venues across greater Austin — Bullock Texas State History Museum, Blanton Museum of Art, Austin History Center and more"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Sun Sep 20 — hours vary by museum, check the list before leaving"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free admission at participating venues"
+            },
+            {
+              "icon": "info",
+              "text": "29th year · guided and self-guided tours plus activities for all ages"
+            }
+          ],
+          "desc": "The single best value day of the Austin year for this family: normally the Bullock alone is around $13 a head. Pick two museums that are close to each other rather than trying to do four — the Bullock and the Blanton are both near the Capitol and walkable from one parking spot. ⚠ A few venues ask for a timed reservation, so check the official list the day before rather than showing up cold.",
+          "links": [
+            {
+              "href": "https://www.austinmuseums.org/this-years-amd",
+              "label": "Participating museums"
+            },
+            {
+              "href": "https://www.austintexas.org/event/austin-museum-day/382084/",
+              "label": "Visit Austin listing"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-09-20",
+          "image": "images/news_city.jpg",
+          "title": "Williamson Museum — Tex Avery Animation Day, Sun Sep 20",
+          "brief": "Animation crafts and the story of the Taylor-born animator behind Bugs Bunny and Daffy Duck. Ten minutes from home.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sun Sep 20 · 1–4 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "The Williamson Museum, 716 S Austin Ave, Georgetown, TX 78626"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Sun Sep 20, 1 – 4 PM · drop in"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Admission for this event not published — the museum is normally free or donation-based; call to confirm"
+            },
+            {
+              "icon": "info",
+              "text": "Also showing: 'Lights, Camera, Williamson County' — shows and movies filmed locally"
+            }
+          ],
+          "desc": "Tex Avery grew up in Taylor, twenty minutes east of here, and went on to create Bugs Bunny, Daffy Duck and Porky Pig — a genuinely good local-history hook for both boys. Same afternoon as Austin Museum Day, which is the real decision: this is ten minutes away and low effort, Austin is a day out. Doing both is not realistic.",
+          "links": [
+            {
+              "href": "https://williamsonmuseum.org/",
+              "label": "Williamson Museum"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Williamson+Museum+716+S+Austin+Ave+Georgetown+TX",
               "label": "Google Maps"
             }
           ]
@@ -4377,8 +4645,8 @@
           "featured": true,
           "expires": "2026-09-20",
           "image": "images/news_events.jpg",
-          "title": "🦇 Bat Bridge — Roughly Two Weeks Left",
-          "brief": "Colony starts leaving late September. This is about the last clear window until spring.",
+          "title": "🦇 Bat Bridge — Last Clear Weekend",
+          "brief": "Migration starts late September. This weekend is realistically the last good one until spring.",
           "tags": [
             {
               "type": "harang",
@@ -4399,7 +4667,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "~2 weeks left · free"
+            "text": "Last weekend · free"
           },
           "meta": [
             {
@@ -4420,10 +4688,10 @@
             },
             {
               "icon": "info",
-              "text": "Migration south begins late September"
+              "text": "Migration south begins late September — after this, spring"
             }
           ],
-          "desc": "Down from three weeks to about two. It's been carried on this list for a month because it's free, it's genuinely impressive, and it disappears until spring — but it now needs an actual date on the calendar rather than good intentions. A school-night run works: leave around 6:30, home by 9:30.",
+          "desc": "Carried on this list for a month and now out of runway: the colony begins heading south in late September. Sat or Sun works better than a school night at this point — leave around 6:30, home by 9:30. If it doesn't happen this weekend, it's a spring item, and that's fine — but stop planning it.",
           "links": [
             {
               "href": "https://www.austinbats.org/",
@@ -4437,10 +4705,10 @@
         },
         {
           "verified": "2026-09",
-          "expires": "2026-09-21",
-          "image": "images/news_school.jpg",
-          "title": "Student Holiday Mon Sep 21 — Book Appointments Now",
-          "brief": "No school in two weeks. The right day for dentist and doctor visits instead of pulling them from class.",
+          "expires": "2026-09-25",
+          "image": "images/news_community.jpg",
+          "title": "추석 Chuseok Falls on Friday, Sep 25",
+          "brief": "Eleven days out. Songpyeon ingredients and a Korean grocery run are the only things that need lead time.",
           "tags": [
             {
               "type": "harang",
@@ -4457,31 +4725,27 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Mon Sep 21"
+            "text": "Fri Sep 25"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Mon Sep 21 — student holiday (staff professional learning)"
+              "text": "Chuseok: Friday, Sep 25, 2026 (lunar 8/15) · the holiday period in Korea runs Sep 24–26"
             },
             {
               "icon": "info",
-              "text": "Next one after this: Mon Oct 12"
+              "text": "A school day here — the boys will be in class"
             },
             {
-              "icon": "phone",
-              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
+              "icon": "info",
+              "text": "⚠ No Austin-area public Chuseok event found for 2026 as of this update"
             }
           ],
-          "desc": "Two weeks out, and it's the first real chance to get both boys to a dentist or doctor without missing class — both practices are weekday-only, so these single student holidays are the whole solution. They also book up precisely because every other GISD family has the same idea. Calling this week beats calling next week.",
+          "desc": "Korean Thanksgiving lands on a Friday this year, which makes a Friday dinner or a Saturday gathering the realistic shape of it. The only thing with a lead time is the shopping: rice flour, sesame, chestnuts and short ribs are a Korean grocery trip, not an H-E-B trip. See the Korean Community section for the Austin store list. Nothing public is confirmed locally this year — if a church or community group announces something, it usually goes up the week before, so this stays on the list until the day.",
           "links": [
             {
-              "href": "tel:5127303957",
-              "label": "Pediatrics: 512-730-3957"
-            },
-            {
-              "href": "tel:5128694100",
-              "label": "Dentistry: 512-869-4100"
+              "href": "https://publicholidays.co.kr/chuseok/",
+              "label": "Chuseok dates"
             }
           ]
         },
@@ -4489,8 +4753,8 @@
           "verified": "2026-09",
           "expires": "2026-09-25",
           "image": "images/news_arts.jpg",
-          "title": "Palace Fall Classes — Fourth Week Unanswered",
-          "brief": "Harang's fall theatre slot is still the one loose end. Nothing is posted online; it takes a call.",
+          "title": "Palace Fall Classes — Fifth Week Unanswered",
+          "brief": "Harang's fall theatre slot is still the one genuinely open question on this page.",
           "tags": [
             {
               "type": "harang",
@@ -4523,7 +4787,7 @@
               "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "Being blunt since this has carried four weeks running: the fall session is well under way by now, and every week without a call is a week of it filling up. Nothing useful is posted online — the Palace runs registration by phone and waitlist. Five minutes on the phone settles whether this is happening this semester or waiting for spring.",
+          "desc": "Five weeks of calling with nothing posted online and no answer. At this point the honest read is that the fall session may already be underway or full. Two things worth trying this week: ask specifically about a waitlist rather than a class, and ask when the spring session opens so this doesn't repeat. ⚠ Fall 2026 dates and pricing are still unpublished — phone only.",
           "links": [
             {
               "href": "https://www.georgetownpalace.org/education/",
@@ -4540,7 +4804,7 @@
           "expires": "2026-10-12",
           "image": "images/news_arts.jpg",
           "title": "New Exhibit at Georgetown Art Center — Opens Sep 12",
-          "brief": "Caroline Walker's 'Interlocking Paths', free, downtown, runs through Oct 12.",
+          "brief": "Caroline Walker's 'Interlocking Paths' — free, downtown, up through Oct 12. Pairs with the Square.",
           "tags": [
             {
               "type": "harang",
@@ -4582,7 +4846,7 @@
           ]
         }
       ],
-      "staleAfter": "2026-09-18"
+      "staleAfter": "2026-09-25"
     }
   ]
 }
