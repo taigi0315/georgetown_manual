@@ -47,10 +47,76 @@ jobs:
           fail: false           # don't hard-fail the job; we report via an issue
           output: ./lychee/out.md
 
-      - name: Open an issue when broken links are found
-        if: steps.lychee.outputs.exit_code != 0
-        uses: peter-evans/create-issue-from-file@v5
+      # Keep ONE tracking issue instead of filing a new one per run.
+      #
+      # Previously this step was peter-evans/create-issue-from-file, which always
+      # creates. Combined with four trigger paths hitting the same commit (PR run,
+      # feature-branch push, push to main, weekly schedule) it accumulated 60 open
+      # issues — and real breakage would have been indistinguishable from the pile.
+      #
+      # Now: update the existing issue in place, create one only if none is open,
+      # and close it automatically when the links come back green. Issue filing is
+      # limited to main so PR and branch runs still report pass/fail in the Actions
+      # UI without touching the issue tracker.
+      - name: Report link status in a single tracking issue
+        if: github.ref == 'refs/heads/main'
+        uses: actions/github-script@v7
+        env:
+          LYCHEE_EXIT_CODE: ${{ steps.lychee.outputs.exit_code }}
         with:
-          title: 'Broken links/images detected by link-check'
-          content-filepath: ./lychee/out.md
-          labels: link-check, automated
+          script: |
+            const fs = require('fs');
+            const { owner, repo } = context.repo;
+            const TITLE = 'Broken links/images detected by link-check';
+            const failed = process.env.LYCHEE_EXIT_CODE !== '0';
+            const sha = context.sha.slice(0, 7);
+            const runUrl =
+              `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+
+            const open = (await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', labels: 'link-check', per_page: 100,
+            })).data.filter((i) => !i.pull_request);
+
+            if (!failed) {
+              for (const issue of open) {
+                await github.rest.issues.createComment({
+                  owner, repo, issue_number: issue.number,
+                  body: `All links and images passed on ${sha}. Closing automatically — this will reopen if something breaks again.\n\n[Run](${runUrl})`,
+                });
+                await github.rest.issues.update({
+                  owner, repo, issue_number: issue.number,
+                  state: 'closed', state_reason: 'completed',
+                });
+              }
+              core.info(open.length
+                ? `All links passed; closed ${open.length} issue(s).`
+                : 'All links passed; nothing open.');
+              return;
+            }
+
+            const report = fs.existsSync('./lychee/out.md')
+              ? fs.readFileSync('./lychee/out.md', 'utf8')
+              : '_lychee produced no report file._';
+            const body = [
+              `Last checked **${new Date().toISOString()}** on ${sha} ([run](${runUrl})).`,
+              '',
+              'This issue is updated in place on every run and closes itself once the',
+              'links pass again, so there is only ever one of it.',
+              '',
+              '---',
+              '',
+              report,
+            ].join('\n');
+
+            if (open.length) {
+              await github.rest.issues.update({
+                owner, repo, issue_number: open[0].number, body,
+              });
+              core.info(`Updated existing issue #${open[0].number}.`);
+            } else {
+              const created = await github.rest.issues.create({
+                owner, repo, title: TITLE, body,
+                labels: ['link-check', 'automated'],
+              });
+              core.info(`Opened issue #${created.data.number}.`);
+            }
