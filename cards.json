@@ -549,7 +549,7 @@
             },
             {
               "icon": "phone",
-              "text": "(512) 943-5000 ext. 6925"
+              "text": "(512) 943-5000 ext. 6925 · ASAP cell (512) 677-2912 · thornellc@georgetownisd.org"
             },
             {
               "icon": "info",
@@ -560,19 +560,23 @@
               "text": "⚠ Cost and daily hours not published online — ask when registering"
             }
           ],
-          "desc": "Run by The Georgetown Project with GISD, on every middle school campus — which means Harang does not have to be driven anywhere for it. Programming is broader than homework help: tutoring, drama, photography, dance, martial arts, club time and outdoor recreation. This is the closest thing to a default after-school answer for a Benold 6th grader, and it sat unlisted on this page until Sept 2026. ⚠ Registration is in person by a parent or guardian at the school — it cannot be done online — and neither the fee nor the pickup time is published, so call the extension above before going.",
+          "desc": "Run by The Georgetown Project with GISD, on every middle school campus — which means Harang does not have to be driven anywhere for it. Programming is broader than homework help: tutoring, drama, photography, dance, martial arts, club time and outdoor recreation. This is the closest thing to a default after-school answer for a Benold 6th grader, and it sat unlisted on this page until Sept 2026. ⚠ Registration is in person by a parent or guardian at the school — it cannot be done online — and neither the fee nor the pickup time is published, so call before going. GISD’s own /asap page 404s, so the working contacts are the phone numbers and email above.",
           "links": [
             {
-              "href": "https://www.georgetownisd.org/asap",
-              "label": "GISD ASAP"
-            },
-            {
               "href": "https://www.georgetownproject.org/programs/",
-              "label": "The Georgetown Project"
+              "label": "The Georgetown Project — programs"
             },
             {
-              "href": "tel:5129435000",
-              "label": "Call: (512) 943-5000 ext. 6925"
+              "href": "https://benold.georgetownisd.org/",
+              "label": "Benold Middle School"
+            },
+            {
+              "href": "tel:5126772912",
+              "label": "ASAP cell: (512) 677-2912"
+            },
+            {
+              "href": "mailto:thornellc@georgetownisd.org",
+              "label": "Email ASAP"
             }
           ]
         },

@@ -12,12 +12,20 @@ on:
       - 'agent.html'
       - 'cards.json'
       - 'images/**'
+      # Changing what the checker ignores, or how it runs, should re-run it —
+      # otherwise an .lycheeignore edit lands unverified until the next Monday.
+      - '.lycheeignore'
+      - '.github/workflows/link-check.yml'
   pull_request:
     paths:
       - 'index.html'
       - 'agent.html'
       - 'cards.json'
       - 'images/**'
+      # Changing what the checker ignores, or how it runs, should re-run it —
+      # otherwise an .lycheeignore edit lands unverified until the next Monday.
+      - '.lycheeignore'
+      - '.github/workflows/link-check.yml'
   workflow_dispatch:            # allow manual runs
 
 permissions:
