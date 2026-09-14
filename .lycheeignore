@@ -22,3 +22,15 @@ esc\(l\.href\)
 # Patterns match the URL as lychee reports it (space -> %20).
 esc\(l\.href\)
 %20\+%20img%20\+%20
+# Sites that return 403/401 to automated checkers but load fine in a browser.
+# Confirmed against the first full cards.json scan (2026-09-14). Listing them
+# keeps the report meaningful — without this the weekly run reports 8 "errors"
+# that are all healthy, and real breakage hides among them.
+do512family\.com
+costco\.com
+heb\.com
+schoolofrock\.com
+spectrum\.com
+waco-texas\.com
+wildflower\.org
+homepy\.korean\.net

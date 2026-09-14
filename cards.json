@@ -482,7 +482,7 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/afterschool_boys_girls_club_of_georgetown.jpg",
           "title": "Boys & Girls Club of Georgetown",
           "brief": "Backup option, ~12 min. Mentoring, tutoring, sports. Both boys eligible.",
@@ -521,7 +521,7 @@
           "desc": "Backup option if YMCA fills up. Good for Harang who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.",
           "links": [
             {
-              "href": "https://bgctx.org/",
+              "href": "https://www.bgctx.org/Georgetown/Georgetownbgctx",
               "label": "Official site"
             },
             {
@@ -1001,10 +1001,10 @@
           ]
         },
         {
-          "verified": "2026-08",
+          "verified": "2026-09",
           "image": "images/sports_gta_jr_team_tennis.jpg",
-          "title": "GTA — USTA Jr. Team Tennis",
-          "brief": "League match play, ages 4–18 — the closest thing to the school team he can't join yet.",
+          "title": "Junior Team Tennis — via Georgetown Tennis Center",
+          "brief": "League match play for juniors, booked through the city tennis center. ⚠ Season dates not published — call.",
           "tags": [
             {
               "type": "harang",
@@ -1017,23 +1017,39 @@
           },
           "meta": [
             {
+              "icon": "location",
+              "text": "Georgetown Tennis Center, 400 Serenada Dr, Georgetown, TX 78628"
+            },
+            {
               "icon": "drive",
-              "text": "Drive: ~10 min (plays at Georgetown courts)"
+              "text": "Drive: ~10 min"
             },
             {
               "icon": "target",
-              "text": "Ages: 4–18"
+              "text": "Juniors — ability-grouped"
             },
             {
-              "icon": "time",
-              "text": "⚠ Fall league start date not published — check the site"
+              "icon": "phone",
+              "text": "Phone: (512) 931-2444"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Junior league season dates not published — ask when booking lessons"
             }
           ],
-          "desc": "Georgetown Tennis Association's USTA Jr. Team Tennis combines tennis with team-sport structure — serving, rallying and scoring learned through actual match play. Since Benold has no 6th-grade team, this is the best substitute year: a team environment, real matches, USTA structure. ⚠ Fall league start date isn't published yet — check the site or ask at the Tennis Center.",
+          "desc": "Correction: this card previously pointed at the Georgetown Tennis Association — which is Georgetown, KENTUCKY, not Texas. Wrong state, wrong organization. The real local route to junior league play is the city's tennis center on Serenada Dr, which runs the junior programs and can point to USTA team tennis in Central Texas. Same purpose as before: Benold fields no 6th-grade team, so league match play this year is what makes next August's tryout realistic. Everything must be pre-registered — no drop-ins.",
           "links": [
             {
-              "href": "https://georgetowntennis.org/jr-programs/",
-              "label": "Jr. programs"
+              "href": "https://georgetowntexas.gov/parks/programs/tennis.php",
+              "label": "City tennis programs"
+            },
+            {
+              "href": "https://playtennis.usta.com/georgetown-tennis-center",
+              "label": "USTA — Georgetown Tennis Center"
+            },
+            {
+              "href": "tel:5129312444",
+              "label": "Call: (512) 931-2444"
             }
           ]
         },
@@ -2020,7 +2036,7 @@
       "cards": [
         {
           "star": true,
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/georgetown_lake_georgetown_trails.jpg",
           "title": "Lake Georgetown & Trails",
           "brief": "1,300-acre reservoir. Goodwater Loop Trail, swimming, kayaking. ~10 min.",
@@ -2047,13 +2063,13 @@
           "desc": "1,300-acre reservoir surrounded by the Goodwater Loop Trail (26.6 miles total). Cedar Breaks Park has a boat ramp and swimming beach. Russell Park has campsites. Great Saturday outing — fishing, kayaking, hiking, picnicking.",
           "links": [
             {
-              "href": "https://www.recreation.gov/camping/gateways/2741",
+              "href": "https://www.swf-wc.usace.army.mil/georgetown/Recreation/Camping/",
               "label": "Park details"
             }
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/georgetown_san_gabriel_park.jpg",
           "title": "San Gabriel Park",
           "brief": "180-acre central park. Playgrounds, splash pad, river, BBQ. Free.",
@@ -2084,7 +2100,7 @@
           "desc": "180-acre central park with playgrounds, BBQ pits, splash pad, river access, and trails along the San Gabriel River. Hosts most city festivals and free events. Best free family destination in town.",
           "links": [
             {
-              "href": "https://parks.georgetown.org/san-gabriel-park/",
+              "href": "https://georgetowntexas.gov/parks/parks_and_trails/",
               "label": "Official site"
             },
             {
@@ -2094,7 +2110,7 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/georgetown_garey_park.jpg",
           "title": "Garey Park",
           "brief": "525-acre nature park. Splash pad, dog park, river. $5 vehicle entry.",
@@ -2125,7 +2141,7 @@
           "desc": "525-acre nature park. Splash pad, dog park, equestrian trails, river access. Hosts Family Nature Fest in April. Often less crowded than San Gabriel Park.",
           "links": [
             {
-              "href": "https://gareypark.playgeorgetown.org/",
+              "href": "https://georgetowntexas.gov/parks/garey_park/",
               "label": "Official site"
             },
             {
@@ -2135,7 +2151,7 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/georgetown_blue_hole_park.jpg",
           "title": "Blue Hole Park",
           "brief": "Natural swimming spot downtown. Limestone bluffs. Free. Get there early.",
@@ -2166,7 +2182,7 @@
           "desc": "Natural swimming spot on the South San Gabriel River in downtown. Beloved by locals on hot summer days. Limestone bluffs, shaded picnic area. Get there early on weekends — fills up fast.",
           "links": [
             {
-              "href": "https://parks.georgetown.org/blue-hole/",
+              "href": "https://georgetowntexas.gov/parks/parks_and_trails/",
               "label": "Official site"
             },
             {
@@ -2612,7 +2628,7 @@
           ]
         },
         {
-          "verified": "2026-07",
+          "verified": "2026-09",
           "image": "images/weekends_waco_lions_park_kiddieland.jpg",
           "title": "Waco Lions Park & Kiddieland",
           "brief": "Vintage 1965 kiddie amusement park — carousel, Ferris wheel, mini train, go-karts, putt-putt. Rides ~$2.",
@@ -2652,15 +2668,11 @@
               "text": "Phone: (254) 772-3541"
             }
           ],
-          "desc": "Nonprofit amusement park run by the Waco Founder Lions Club since 1965 — carousel, Ferris wheel, mini train, go-karts and putt-putt at prices from another decade. Squarely Hanung's speed; Harang will still do go-karts and putt-putt. No admission fee, you pay per ride. Hours are seasonal and weekend-heavy, so verify on their page before making the drive.",
+          "desc": "Nonprofit amusement park run by the Waco Founder Lions Club since 1965 — carousel, Ferris wheel, mini train, go-karts and putt-putt at prices from another decade. Squarely Hanung's speed; Harang will still do go-karts and putt-putt. No admission fee, you pay per ride. Hours are seasonal and weekend-heavy, so verify on their Facebook page before making the drive — their old website (kiddielandwaco.com) is dead, so Facebook is now the only live source.",
           "links": [
             {
-              "href": "https://kiddielandwaco.com",
-              "label": "Official site"
-            },
-            {
               "href": "https://www.facebook.com/KiddieLandWacoLionsPark/",
-              "label": "Facebook (hours)"
+              "label": "Facebook (hours & status)"
             },
             {
               "href": "https://www.google.com/maps/search/?api=1&query=Waco+Lions+Park+Kiddieland+1716+N+42nd+St+Waco+TX",
@@ -3475,7 +3487,7 @@
       "intro": "Austin is the live music capital of the world. Georgetown has its own great festival calendar.",
       "cards": [
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/events_red_poppy_festival_georgetown.jpg",
           "title": "Red Poppy Festival (Georgetown)",
           "brief": "Georgetown's signature 3-day festival. Parade, live music, Kids' Fun Zone. Free. Late April.",
@@ -3502,7 +3514,7 @@
           "desc": "Georgetown's signature festival. Parade, live music, Kids' Fun Zone, POPP Pup Parade, food trucks. On and around the Square. Don't miss it.",
           "links": [
             {
-              "href": "https://redpoppy.georgetown.org/",
+              "href": "https://georgetowntexas.gov/parks/special_events/",
               "label": "Official site"
             },
             {
@@ -4544,7 +4556,7 @@
           "desc": "A new show opens at the Art Center on the Square and runs a month. It's free and it's twenty minutes of walking around, which makes it a reasonable add-on to any downtown trip rather than a destination on its own. Fits naturally with the sidewalk-sale-and-Square routine.",
           "links": [
             {
-              "href": "https://georgetownartcenter.org/",
+              "href": "https://georgetowntexas.gov/government/arts_and_culture/the_georgetown_art_center/",
               "label": "Georgetown Art Center"
             }
           ]
