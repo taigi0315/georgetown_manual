@@ -485,7 +485,7 @@
           "verified": "2026-09",
           "image": "images/afterschool_boys_girls_club_of_georgetown.jpg",
           "title": "Boys & Girls Club of Georgetown",
-          "brief": "Backup option, ~12 min. Mentoring, tutoring, sports. Both boys eligible.",
+          "brief": "Backup option, ~8 min off Williams Dr. Mentoring, tutoring, sports. Both boys eligible.",
           "tags": [
             {
               "type": "haneul",
@@ -498,35 +498,43 @@
           ],
           "previewMeta": {
             "icon": "drive",
-            "text": "~12 min"
+            "text": "~8 min"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "1715 N Austin Ave, Georgetown"
+              "text": "1100 Thousand Oaks Blvd, Georgetown, TX 78628"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~12 min"
+              "text": "Drive: ~8 min"
             },
             {
               "icon": "time",
-              "text": "Hours: Mon–Fri 3–6:30 PM; early-out from 1 PM"
+              "text": "Hours: after school until early evening ⚠ call to confirm"
+            },
+            {
+              "icon": "phone",
+              "text": "(512) 868-3700"
             },
             {
               "icon": "cost",
               "text": "Cost: ~$25–50/year membership"
             }
           ],
-          "desc": "Backup option if YMCA fills up. Good for Harang who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available.",
+          "desc": "Backup option if YMCA fills up. Good for Harang who's past elementary YMCA. Mentoring, tutoring, sports, summer camp. Transportation from some schools may be available. Address corrected Sept 2026 — an earlier version of this card listed 1715 N Austin Ave, which is not the club. ⚠ Daily hours and the current membership fee aren't published clearly online; call before you go.",
           "links": [
             {
               "href": "https://www.bgctx.org/Georgetown/Georgetownbgctx",
               "label": "Official site"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=Boys+and+Girls+Club+Georgetown+TX",
+              "href": "https://www.google.com/maps/search/?api=1&query=Boys+and+Girls+Club+of+Georgetown+1100+Thousand+Oaks+Blvd",
               "label": "Google Maps"
+            },
+            {
+              "href": "tel:5128683700",
+              "label": "Call (512) 868-3700"
             }
           ]
         },
@@ -3083,7 +3091,7 @@
       "intro": "Texas food culture is real. BBQ, Tex-Mex, breakfast tacos, and more. Expand as we explore.",
       "cards": [
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/restaurants_monument_cafe.jpg",
           "title": "Monument Cafe",
           "brief": "Local institution. Breakfast all day, garden-fresh, famous chocolate icebox pie. ~10 min.",
@@ -3107,19 +3115,31 @@
               "text": "Drive: ~10 min"
             },
             {
+              "icon": "time",
+              "text": "Hours: daily 7 AM – 3 PM"
+            },
+            {
               "icon": "info",
               "text": "Vibe: Classic diner with farm-to-table sensibility"
+            },
+            {
+              "icon": "phone",
+              "text": "(512) 930-9586"
             }
           ],
           "desc": "Local institution. Breakfast all day, garden-fresh sides, famous chocolate icebox pie. Good for Saturday morning family breakfast.",
           "links": [
             {
-              "href": "https://themonumentcafe.com/",
+              "href": "https://www.themonumentcafe.com/",
               "label": "Official site"
             },
             {
               "href": "https://www.google.com/maps/search/?api=1&query=Monument+Cafe+Georgetown+TX",
               "label": "Google Maps"
+            },
+            {
+              "href": "tel:5129309586",
+              "label": "Call (512) 930-9586"
             }
           ]
         },

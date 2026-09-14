@@ -43,13 +43,19 @@ jobs:
           # It was missing from this list, so from v3.7 until now the checker was
           # validating 11 links and reporting "all passed" while card links rotted
           # unchecked. Keep cards.json here.
+          #
+          # --accept includes 202: a few hosts (georgetowndocs.com, xpleague.com)
+          # answer automated requests with "202 Accepted" from their bot filter
+          # instead of the page. That is not breakage, and treating it as an error
+          # buries the links that really are dead. timeout is 30s because slow
+          # small-business hosts were timing out at 20s while loading fine.
           args: >-
             --no-progress
             --include-verbatim
             --max-retries 3
             --retry-wait-time 5
-            --timeout 20
-            --accept 200,206,429
+            --timeout 30
+            --accept 200,202,206,429
             index.html
             agent.html
             cards.json
