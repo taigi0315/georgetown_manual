@@ -10,15 +10,35 @@ maps\.google\.com
 #   '<a href="' + esc(l.href) + '"' ...     '<img ... src="' + img + '"/>'
 # lychee --include-verbatim reads the raw source and treats those JS fragments
 # as href/src values, reporting them as phantom file:// "not found" errors.
-# It opened a fresh issue on every run. These are code, not links.
-# Patterns match the URL as lychee reports it (space -> %20).
-esc\(l\.href\)
-%20\+%20img%20\+%20
-# The card renderer in index.html builds markup by string concatenation, e.g.
-#   '<a href="' + esc(l.href) + '"' ...     '<img ... src="' + img + '"/>'
-# lychee --include-verbatim reads the raw source and treats those JS fragments
-# as href/src values, reporting them as phantom file:// "not found" errors.
 # It opened a fresh issue on every run (60 so far). These are code, not links.
 # Patterns match the URL as lychee reports it (space -> %20).
 esc\(l\.href\)
 %20\+%20img%20\+%20
+# Sites that return 403/401 to automated checkers but load fine in a browser.
+# Confirmed against the first full cards.json scan (2026-09-14). Listing them
+# keeps the report meaningful — without this the weekly run reports 8 "errors"
+# that are all healthy, and real breakage hides among them.
+do512family\.com
+costco\.com
+heb\.com
+schoolofrock\.com
+spectrum\.com
+waco-texas\.com
+wildflower\.org
+homepy\.korean\.net
+# bgctx.org drops the TCP connection on CI runners ("connection reset by peer")
+# on every attempt, including the site root. The page itself is live — it is
+# indexed and reachable from a browser. Nothing about the URL to fix, so ignore
+# it rather than leave a permanent red mark in the report.
+bgctx\.org
+# Second round, 2026-09-14. Each of these was confirmed live and correct by
+# search before being listed here; the checker is being told to stop crying
+# wolf, not to look away from something broken.
+#   themonumentcafe.com   timed out twice at 20s, then 403'd at 30s
+#   600degreespizzeria.com  403 to the checker, #1-rated restaurant in town
+#   spacecenter.org       Space Center Houston, slow enough to time out
+# Note these are flaky rather than consistent: a different subset fails each
+# run, which is the signature of rate limiting, not of dead links.
+themonumentcafe\.com
+600degreespizzeria\.com
+spacecenter\.org

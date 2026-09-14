@@ -10,12 +10,22 @@ on:
     paths:
       - 'index.html'
       - 'agent.html'
+      - 'cards.json'
       - 'images/**'
+      # Changing what the checker ignores, or how it runs, should re-run it —
+      # otherwise an .lycheeignore edit lands unverified until the next Monday.
+      - '.lycheeignore'
+      - '.github/workflows/link-check.yml'
   pull_request:
     paths:
       - 'index.html'
       - 'agent.html'
+      - 'cards.json'
       - 'images/**'
+      # Changing what the checker ignores, or how it runs, should re-run it —
+      # otherwise an .lycheeignore edit lands unverified until the next Monday.
+      - '.lycheeignore'
+      - '.github/workflows/link-check.yml'
   workflow_dispatch:            # allow manual runs
 
 permissions:
@@ -33,17 +43,30 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          # Checks every href and src in the HTML. Local image paths
-          # (src="images/...") are resolved on disk, so missing files fail too.
+          # Checks every href and src. Local image paths (images/...) are
+          # resolved on disk, so missing files fail too.
+          #
+          # cards.json is the important one: since v3.7 the card data — and with
+          # it ~180 of the ~190 links on the site — lives there, not in the HTML.
+          # It was missing from this list, so from v3.7 until now the checker was
+          # validating 11 links and reporting "all passed" while card links rotted
+          # unchecked. Keep cards.json here.
+          #
+          # --accept includes 202: a few hosts (georgetowndocs.com, xpleague.com)
+          # answer automated requests with "202 Accepted" from their bot filter
+          # instead of the page. That is not breakage, and treating it as an error
+          # buries the links that really are dead. timeout is 30s because slow
+          # small-business hosts were timing out at 20s while loading fine.
           args: >-
             --no-progress
             --include-verbatim
             --max-retries 3
             --retry-wait-time 5
-            --timeout 20
-            --accept 200,206,429
+            --timeout 30
+            --accept 200,202,206,429
             index.html
             agent.html
+            cards.json
           fail: false           # don't hard-fail the job; we report via an issue
           output: ./lychee/out.md
 
