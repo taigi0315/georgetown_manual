@@ -4,7 +4,7 @@
       "id": "deadlines",
       "category": "deadlines",
       "title": "Registration Deadlines",
-      "intro": "Updated Sep 14, 2026 — school has been in session since Aug 19 (last day May 28, 2027). The August rush is over: those items are marked ⚫ closed and kept as a record of what was due and what it took. 🟢 1 still open, 🟠 2 coming. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
+      "intro": "Updated Sep 21, 2026 — school year underway since Aug 19 (last day May 28, 2027). Nothing is due in the next three weeks. 🟢 1 open now (YMCA, rolling), 🟠 2 ahead: spring soccer opens ~January and Benold tennis tryouts are Aug 2027. August's items are ⚫ closed and kept as a record of what each took. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
       "cards": [
         {
           "verified": "2026-09",
@@ -4349,65 +4349,65 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 14–20, 2026. A busy weekend: two things Saturday, two things Sunday, and they conflict — pick one a day. Last week's expired items have been removed.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 21–27, 2026. Four things land on Saturday the 26th and one of them is in town; pick one. Chuseok is Friday. And Williams Dr is under construction for the next year, which is the item that will actually change daily driving.",
       "cards": [
         {
           "verified": "2026-09",
-          "expires": "2026-09-21",
-          "image": "images/news_school.jpg",
-          "title": "Student Holiday This Coming Monday, Sep 21",
-          "brief": "One week out. If the dentist and the doctor are still unbooked, today is the day to call.",
+          "featured": true,
+          "expires": "2026-10-31",
+          "image": "images/news_city.jpg",
+          "title": "🚧 Williams Drive Construction — Left Turns Are Going Away",
+          "brief": "Started Sep 16 and runs into late 2027. The center turn lane is being removed, so left turns across Williams Dr stop in the work zone.",
           "tags": [
             {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "featured",
-              "label": "Call today"
+              "type": "family",
+              "label": "Family"
             }
           ],
           "previewMeta": {
-            "icon": "time",
-            "text": "Mon Sep 21 · no school"
+            "icon": "info",
+            "text": "Now – late 2027"
           },
           "meta": [
             {
+              "icon": "location",
+              "text": "Williams Dr, Austin Ave to Jim Hogg Rd · first phase Serenada Dr to Lakeway Dr"
+            },
+            {
               "icon": "time",
-              "text": "Mon Sep 21 — student holiday (staff professional learning)"
+              "text": "Began Sep 16, 2026 · anticipated complete late 2027"
             },
             {
               "icon": "info",
-              "text": "Next one after this: Mon Oct 12"
+              "text": "Raised center median, street lighting, signal and intersection upgrades, new waterline, bike and pedestrian improvements"
+            },
+            {
+              "icon": "info",
+              "text": "Existing center turn lane is removed — left turns across Williams Dr no longer allowed in the work section. Driveways stay open but some movements change"
             },
             {
               "icon": "phone",
-              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
+              "text": "City project line: (512) 354-2627 · williamsdrive@georgetowntexas.gov"
             }
           ],
-          "desc": "No school next Monday — staff professional learning. It has been on this list for two weeks precisely so it doesn't turn into a scramble, and a week out is the last point where a good appointment slot is still likely. The next student holiday after this is Mon Oct 12, which is a full district holiday.",
+          "desc": "This is the road the family uses for almost everything — H-E-B, the pediatrician, the pediatric dentist, Hillside Nursery and the route toward Serenada are all on or off Williams Dr. Losing the center turn lane is the part that will actually change driving: turns that used to be one move become a right, a loop and a light. Worth an extra five minutes in the estimate for anything on Williams Dr for the next year, and worth checking which side of the road a destination is on before leaving. This is a long-running condition rather than an event, so it stays here for a few weeks and then belongs in a permanent card.",
           "links": [
             {
-              "href": "tel:5127303957",
-              "label": "Pediatrics: 512-730-3957"
+              "href": "https://georgetowntexas.gov/",
+              "label": "City of Georgetown"
             },
             {
-              "href": "tel:5128694100",
-              "label": "Dentistry: 512-869-4100"
+              "href": "tel:5123542627",
+              "label": "Call: (512) 354-2627"
             }
-          ],
-          "featured": true
+          ]
         },
         {
           "verified": "2026-09",
-          "expires": "2026-09-19",
+          "expires": "2026-09-26",
           "image": "images/news_community.jpg",
-          "title": "Fiesta Georgetown — Sat Sep 19, 1–3 PM",
-          "brief": "Hispanic Heritage Month celebration run by The Georgetown Project. Local, short, and worth a look.",
+          "title": "추석 Chuseok Is This Friday, Sep 25",
+          "brief": "Four days out — and there is finally somewhere to go for it: the same full moon is being celebrated in Austin on Saturday.",
           "tags": [
             {
               "type": "harang",
@@ -4420,49 +4420,46 @@
             {
               "type": "family",
               "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "This week"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat Sep 19 · 1–3 PM"
+            "text": "Fri Sep 25"
           },
           "meta": [
             {
               "icon": "time",
-              "text": "Sat Sep 19, 1 – 3 PM"
-            },
-            {
-              "icon": "location",
-              "text": "⚠ Venue not confirmed — listings point at the Boys & Girls Club of Georgetown; call before driving"
-            },
-            {
-              "icon": "cost",
-              "text": "⚠ Admission not published"
+              "text": "Chuseok: Friday, Sep 25, 2026 (lunar 8/15) · the holiday runs Sep 24–26 in Korea"
             },
             {
               "icon": "info",
-              "text": "Hosted by The Georgetown Project, the local youth nonprofit"
-            }
-          ],
-          "desc": "Hispanic Heritage Month runs Sep 15 – Oct 15, and this is Georgetown's own event for it. Two hours, in town, and the sort of thing that puts you in a room with other Georgetown families rather than tourists. ⚠ The date and time are confirmed; the venue and cost are not — the Boys & Girls Club number is the one to call, and it overlaps with the Taichung festival in Austin, so this is an either/or.",
-          "links": [
-            {
-              "href": "https://www.georgetownproject.org/",
-              "label": "The Georgetown Project"
+              "text": "A normal school day here — the boys will be in class Friday"
             },
             {
-              "href": "tel:5128683700",
-              "label": "Boys & Girls Club: (512) 868-3700"
+              "icon": "info",
+              "text": "The Austin Chinese Culture Festival on Sat Sep 26 marks the same Mid-Autumn full moon — see the card below"
             }
-          ]
+          ],
+          "desc": "Korean Thanksgiving falls on a Friday this year, so a Friday dinner and a Saturday outing is the natural shape of it. Last week this card said no local event was confirmed; that has changed. Mid-Autumn is the same lunar festival across Korea, China and Vietnam, and Austin's Chinese Culture Festival lands on the Saturday — not Korean, but the same moon, and a real reason to be out of the house instead of just eating at home. The shopping is still the only thing with lead time: rice flour, sesame, chestnuts and short ribs are a Korean grocery run, not an H-E-B run. See the Korean Community section for the Austin store list.",
+          "links": [
+            {
+              "href": "https://publicholidays.co.kr/chuseok/",
+              "label": "Chuseok dates"
+            }
+          ],
+          "featured": true
         },
         {
           "verified": "2026-09",
           "featured": true,
-          "expires": "2026-09-19",
+          "expires": "2026-09-26",
           "image": "images/news_community.jpg",
-          "title": "Austin–Taichung 40th Anniversary — Sat Sep 19, Free",
-          "brief": "Taiwanese street food, boba, cultural performances and kids' activities at the Asian American Resource Center. Free.",
+          "title": "Austin Chinese Culture Festival — Sat Sep 26, Free",
+          "brief": "Mid-Autumn Festival: lion dance, opera, martial arts, and Chinese and Asian food. Free, indoors, and the same moon as Chuseok.",
           "tags": [
             {
               "type": "harang",
@@ -4483,12 +4480,12 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat Sep 19 · free"
+            "text": "Sat Sep 26 · free"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Asian American Resource Center, 8401 Cameron Rd, Austin, TX 78754"
+              "text": "Austin ISD Performing Arts Center, 1500 Barbara Jordan Blvd, Austin, TX 78723"
             },
             {
               "icon": "drive",
@@ -4496,195 +4493,7 @@
             },
             {
               "icon": "time",
-              "text": "Sat Sep 19, 11:30 AM – 2:30 PM (program may run to 3 PM)"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free · sponsored by the City of Austin"
-            },
-            {
-              "icon": "info",
-              "text": "Live performances, community and cultural booths, Taiwanese street food and boba, raffle drawings"
-            }
-          ],
-          "desc": "Austin and Taichung have been sister cities for 40 years, and this is the anniversary event. Not Korean, but it is the closest thing to a large, free, family-friendly Asian community festival within an easy drive this month, and the AARC is worth knowing about on its own — it runs programming year-round. Midday, so it doesn't eat the whole Saturday.",
-          "links": [
-            {
-              "href": "https://www.austintexas.gov/aarc/events",
-              "label": "AARC events"
-            },
-            {
-              "href": "https://www.austinsistercities.com/events",
-              "label": "Austin Sister Cities"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Asian+American+Resource+Center+8401+Cameron+Rd+Austin+TX",
-              "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "featured": true,
-          "expires": "2026-09-20",
-          "image": "images/news_arts.jpg",
-          "title": "Austin Museum Day — Sun Sep 20, 35+ Museums Free",
-          "brief": "One day a year every participating Austin museum drops admission. The Bullock and the Blanton are both in.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "This Sunday"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sun Sep 20 · free"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "35+ venues across greater Austin — Bullock Texas State History Museum, Blanton Museum of Art, Austin History Center and more"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Sun Sep 20 — hours vary by museum, check the list before leaving"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free admission at participating venues"
-            },
-            {
-              "icon": "info",
-              "text": "29th year · guided and self-guided tours plus activities for all ages"
-            }
-          ],
-          "desc": "The single best value day of the Austin year for this family: normally the Bullock alone is around $13 a head. Pick two museums that are close to each other rather than trying to do four — the Bullock and the Blanton are both near the Capitol and walkable from one parking spot. ⚠ A few venues ask for a timed reservation, so check the official list the day before rather than showing up cold.",
-          "links": [
-            {
-              "href": "https://www.austinmuseums.org/this-years-amd",
-              "label": "Participating museums"
-            },
-            {
-              "href": "https://www.austintexas.org/event/austin-museum-day/382084/",
-              "label": "Visit Austin listing"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "expires": "2026-09-20",
-          "image": "images/news_city.jpg",
-          "title": "Williamson Museum — Tex Avery Animation Day, Sun Sep 20",
-          "brief": "Animation crafts and the story of the Taylor-born animator behind Bugs Bunny and Daffy Duck. Ten minutes from home.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sun Sep 20 · 1–4 PM"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "The Williamson Museum, 716 S Austin Ave, Georgetown, TX 78626"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "time",
-              "text": "Sun Sep 20, 1 – 4 PM · drop in"
-            },
-            {
-              "icon": "cost",
-              "text": "⚠ Admission for this event not published — the museum is normally free or donation-based; call to confirm"
-            },
-            {
-              "icon": "info",
-              "text": "Also showing: 'Lights, Camera, Williamson County' — shows and movies filmed locally"
-            }
-          ],
-          "desc": "Tex Avery grew up in Taylor, twenty minutes east of here, and went on to create Bugs Bunny, Daffy Duck and Porky Pig — a genuinely good local-history hook for both boys. Same afternoon as Austin Museum Day, which is the real decision: this is ten minutes away and low effort, Austin is a day out. Doing both is not realistic.",
-          "links": [
-            {
-              "href": "https://williamsonmuseum.org/",
-              "label": "Williamson Museum"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Williamson+Museum+716+S+Austin+Ave+Georgetown+TX",
-              "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "featured": true,
-          "expires": "2026-09-20",
-          "image": "images/news_events.jpg",
-          "title": "🦇 Bat Bridge — Last Clear Weekend",
-          "brief": "Migration starts late September. This weekend is realistically the last good one until spring.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Closing window"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Last weekend · free"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Congress Ave Bridge, Austin — free lawn on the south side by the Statesman"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Emergence between sunset and dark, roughly 7:30–8:30pm; arrive 30 min early"
+              "text": "Sat Sep 26, from 12 PM ⚠ end time not published"
             },
             {
               "icon": "cost",
@@ -4692,27 +4501,152 @@
             },
             {
               "icon": "info",
-              "text": "Migration south begins late September — after this, spring"
-            }
-          ],
-          "desc": "Carried on this list for a month and now out of runway: the colony begins heading south in late September. Sat or Sun works better than a school night at this point — leave around 6:30, home by 9:30. If it doesn't happen this weekend, it's a spring item, and that's fine — but stop planning it.",
-          "links": [
-            {
-              "href": "https://www.austinbats.org/",
-              "label": "Viewing guide"
+              "text": "Lion dance, Chinese music, dance, opera and martial arts, cultural exhibits, community booths, family games, Chinese and Asian food"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=Congress+Avenue+Bridge+Bat+Observation+Area+Austin+TX",
+              "icon": "info",
+              "text": "10-year anniversary of the Austin Chinese-American Network"
+            }
+          ],
+          "desc": "The closest thing to a Mid-Autumn celebration within reach, and it happens the day after Chuseok. Indoors at a real performing arts center, which makes it a better bet than an outdoor festival in a Texas September. Free, so there is no cost to leaving early if the boys are done. ⚠ A couple of listings put this at the Seaholm Intake Facility instead; the performing arts center is what the event's own listings and the Austin visitor calendar say, but it is worth a look at the page before driving.",
+          "links": [
+            {
+              "href": "https://austinchineseamericannetwork.org/",
+              "label": "Austin Chinese-American Network"
+            },
+            {
+              "href": "https://www.austinchronicle.com/events/community/events/austin-chinese-culture-festival-2398905/",
+              "label": "Austin Chronicle listing"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Austin+ISD+Performing+Arts+Center+1500+Barbara+Jordan+Blvd",
               "label": "Google Maps"
             }
           ]
         },
         {
           "verified": "2026-09",
-          "expires": "2026-09-25",
-          "image": "images/news_community.jpg",
-          "title": "추석 Chuseok Falls on Friday, Sep 25",
-          "brief": "Eleven days out. Songpyeon ingredients and a Korean grocery run are the only things that need lead time.",
+          "featured": true,
+          "expires": "2026-09-26",
+          "image": "images/news_events.jpg",
+          "title": "Library Con — Sat Sep 26, Free Comics, Cosplay and Gaming",
+          "brief": "10th year. Panels, crafts, cosplay contest, gaming, comic artists and voice actors. Free, all ages, ~40 min.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "This Saturday"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Sep 26 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Pflugerville Public Library, 1008 W Pfluger St, Pflugerville, TX 78660"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~35 min southeast"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Sep 26, 10 AM – 6 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free · all ages"
+            },
+            {
+              "icon": "info",
+              "text": "Cosplay contest registration 10 AM – 2 PM, online or at the door, for teens and adults"
+            },
+            {
+              "icon": "info",
+              "text": "Cosplay classes for beginners, embellishment, and cosplay on a budget"
+            }
+          ],
+          "desc": "This is the category that got missed with the Otaku festival, so it is on the list early. A free, library-run comic and gaming convention is a much gentler first con than a paid one in a convention center — eight hours of programming, no ticket, and you can leave whenever. Note the date carefully: the 9th one was Sat Sep 27 in 2025 and several listings still repeat that. The 10th is Saturday Sep 26, 2026.",
+          "links": [
+            {
+              "href": "https://library.pflugervilletx.gov/events-classes/annual-events",
+              "label": "Library Con"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Pflugerville+Public+Library+1008+W+Pfluger+St",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-09-26",
+          "image": "images/news_city.jpg",
+          "title": "Georgetown Garden Show — Sat Sep 26, Free, In Town",
+          "brief": "Composting, tree planting, water conservation and beekeeping demos, plus plant vendors. Ten minutes away.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Sep 26 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Light & Waterworks District Plaza, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Sep 26, 10 AM – 3 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "Live demonstrations on composting, tree planting, water conservation and beekeeping · plant and garden vendors"
+            }
+          ],
+          "desc": "Late September is when fall planting actually starts here, so the timing is right rather than decorative. The short version of why it is worth an hour: local demonstrations tell you what survives a Georgetown summer, which is not what a national gardening site will tell you. It is also the cheapest of the four things happening this Saturday — free, in town, and done by lunch.",
+          "links": [
+            {
+              "href": "https://visit.georgetown.org/",
+              "label": "Visit Georgetown"
+            },
+            {
+              "href": "https://www.georgetowngardenclub.org/events.html",
+              "label": "Georgetown Garden Club"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-11-08",
+          "image": "images/news_events.jpg",
+          "title": "Sweet Eats Fall Festival — Open Now Through Nov 8",
+          "brief": "Corn maze, pumpkin patch, pig races and Friday/Saturday fireworks in October. In Georgetown, and not cheap.",
           "tags": [
             {
               "type": "harang",
@@ -4728,37 +4662,53 @@
             }
           ],
           "previewMeta": {
-            "icon": "time",
-            "text": "Fri Sep 25"
+            "icon": "cost",
+            "text": "$19.95–24.95"
           },
           "meta": [
             {
+              "icon": "location",
+              "text": "Sweet Eats Adventure Farm, 14400 E State Hwy 29, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min east"
+            },
+            {
               "icon": "time",
-              "text": "Chuseok: Friday, Sep 25, 2026 (lunar 8/15) · the holiday period in Korea runs Sep 24–26"
+              "text": "Sep 19 – Nov 8, 2026"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: $19.95–24.95 general admission, includes the 30+ attractions"
             },
             {
               "icon": "info",
-              "text": "A school day here — the boys will be in class"
+              "text": "4.5-acre corn maze, 40+ pumpkin varieties, wagon and pony rides, petting zoo, apple cannons, daily pig races"
             },
             {
               "icon": "info",
-              "text": "⚠ No Austin-area public Chuseok event found for 2026 as of this update"
+              "text": "Fireworks every Friday and Saturday night in October except Halloween night · weekend fire show, falconry and Zoofari in October"
             }
           ],
-          "desc": "Korean Thanksgiving lands on a Friday this year, which makes a Friday dinner or a Saturday gathering the realistic shape of it. The only thing with a lead time is the shopping: rice flour, sesame, chestnuts and short ribs are a Korean grocery trip, not an H-E-B trip. See the Korean Community section for the Austin store list. Nothing public is confirmed locally this year — if a church or community group announces something, it usually goes up the week before, so this stays on the list until the day.",
+          "desc": "Worth doing once a season, not repeatedly — about $80–100 for the four of us before anything is bought inside, which is real money for a farm afternoon. Two ways to make it land better: go in October when the fireworks and the weekend shows are running, and go on a weekday if you can. Mon Oct 12 is a GISD district holiday, which is the obvious candidate — same festival, no weekend crowd.",
           "links": [
             {
-              "href": "https://publicholidays.co.kr/chuseok/",
-              "label": "Chuseok dates"
+              "href": "https://www.sweeteats.com/austin-fall-festival/",
+              "label": "Fall Festival"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Sweet+Eats+Adventure+Farm+14400+E+State+Hwy+29+Georgetown+TX",
+              "label": "Google Maps"
             }
           ]
         },
         {
           "verified": "2026-09",
-          "expires": "2026-09-25",
+          "expires": "2026-10-09",
           "image": "images/news_arts.jpg",
-          "title": "Palace Fall Classes — Fifth Week Unanswered",
-          "brief": "Harang's fall theatre slot is still the one genuinely open question on this page.",
+          "title": "Palace Fall Classes — Sixth Week Unanswered",
+          "brief": "Six weeks, no answer, nothing posted. Time to stop treating this as a fall question and ask about spring.",
           "tags": [
             {
               "type": "harang",
@@ -4791,7 +4741,7 @@
               "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "Five weeks of calling with nothing posted online and no answer. At this point the honest read is that the fall session may already be underway or full. Two things worth trying this week: ask specifically about a waitlist rather than a class, and ask when the spring session opens so this doesn't repeat. ⚠ Fall 2026 dates and pricing are still unpublished — phone only.",
+          "desc": "Six weeks of calling with nothing published and no callback. The fall session has almost certainly started without Harang, and continuing to chase it is now the wrong use of the effort. Two questions that are still worth one call: is there a waitlist for anything mid-session, and when does spring registration open — spring is the realistic target now. ⚠ Fall 2026 dates and pricing were never published; the department is phone-only. If this is still unanswered next week, the honest move is to treat the Palace as closed for the year and look at Arts Avenue instead.",
           "links": [
             {
               "href": "https://www.georgetownpalace.org/education/",
@@ -4807,8 +4757,8 @@
           "verified": "2026-09",
           "expires": "2026-10-12",
           "image": "images/news_arts.jpg",
-          "title": "New Exhibit at Georgetown Art Center — Opens Sep 12",
-          "brief": "Caroline Walker's 'Interlocking Paths' — free, downtown, up through Oct 12. Pairs with the Square.",
+          "title": "Georgetown Art Center — 'Interlocking Paths' Through Oct 12",
+          "brief": "Caroline Walker's free exhibit downtown has about three weeks left. Pairs with anything else on the Square.",
           "tags": [
             {
               "type": "harang",
@@ -4850,7 +4800,7 @@
           ]
         }
       ],
-      "staleAfter": "2026-09-25"
+      "staleAfter": "2026-10-02"
     }
   ]
 }
