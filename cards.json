@@ -3504,10 +3504,10 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/restaurants_korean_grocery_bbq_h_mart_north_austin.jpg",
-          "title": "Korean Grocery & BBQ — H Mart & North Austin",
-          "brief": "H Mart (Lakeline) grocery + food court, Charm K-BBQ. Massive selection. ~20–25 min.",
+          "title": "Korean Grocery & BBQ — H Mart Lakeline",
+          "brief": "H Mart plus Manna Korean in the same shopping center. Charm K-BBQ has closed. ~20–25 min.",
           "tags": [
             {
               "type": "family",
@@ -3520,23 +3520,47 @@
           },
           "meta": [
             {
+              "icon": "location",
+              "text": "Parkline center, 11301 Lakeline Blvd, Austin, TX 78717 — H Mart and Manna Korean (Unit 7) share it"
+            },
+            {
               "icon": "drive",
-              "text": "Drive: ~20–25 min (N Austin, Lakeline / Howard Ln)"
+              "text": "Drive: ~25 min southwest (Lakeline Blvd at US-183)"
+            },
+            {
+              "icon": "time",
+              "text": "H Mart: daily 8 AM – 10 PM · Manna: Sun–Thu 11 AM – 10 PM, Fri–Sat 11 AM – 11 PM"
+            },
+            {
+              "icon": "phone",
+              "text": "H Mart (737) 717-6900"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Charm Korean BBQ (Howard Ln) is permanently closed — confirmed Sep 2026"
+            },
+            {
+              "icon": "info",
+              "text": "⚠ Whether Manna’s Lakeline location does all-you-can-eat is not published — call first if that is the point of the trip"
             }
           ],
-          "desc": "H Mart Lakeline is a massive, modern Korean supermarket featuring a incredible food court (Korean BBQ, fried chicken, bakery, noodles). For all-you-can-eat K-BBQ, Charm Korean BBQ (off Howard Lane) is a popular option. Excellent monthly run for groceries and Korean comfort food.",
+          "desc": "H Mart Lakeline is the anchor: a full Korean supermarket with a food court doing BBQ, fried chicken, bakery and noodles, in the Parkline center at Lakeline and 183. Worth a monthly run, and it is where to go before Chuseok or Seollal — rice flour, sesame, chestnuts, short ribs. The useful part is that Manna Korean sits in the same center, so groceries and a sit-down dinner with tabletop grilling are one stop, not two. Correction, Sept 2026: this card used to send you to Charm Korean BBQ on Howard Lane for all-you-can-eat. Charm has closed permanently — the link was still here and still looked fine until the checker found the server gone. For a dedicated all-you-can-eat night, Gangnam and Gen are the names that come up; both are further south, both are worth reserving on a weekend, and both run a 90–120 minute table limit at peak.",
           "links": [
             {
               "href": "https://www.hmart.com/",
-              "label": "H Mart site"
+              "label": "H Mart"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=H+Mart+Lakeline+Austin+TX",
-              "label": "H Mart Map"
+              "href": "https://www.mannaaustin.com/",
+              "label": "Manna Korean"
             },
             {
-              "href": "http://charmkoreanbbq.com/",
-              "label": "Charm K-BBQ"
+              "href": "tel:7377176900",
+              "label": "H Mart: (737) 717-6900"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=H+Mart+11301+Lakeline+Blvd+Austin+TX",
+              "label": "Google Maps"
             }
           ]
         }
