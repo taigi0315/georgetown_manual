@@ -42,3 +42,7 @@ bgctx\.org
 themonumentcafe\.com
 600degreespizzeria\.com
 spacecenter\.org
+# dgagtx.org (Downtown Georgetown Association, First Friday) answers the
+# checker with 404 on a page that is live and indexed — it runs on Wild
+# Apricot, which is hostile to automated requests. Verified Sep 2026.
+dgagtx\.org

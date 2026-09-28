@@ -1186,10 +1186,10 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/sports_sport_clips_family_ymca_georgetown.jpg",
-          "title": "Sport Clips Family YMCA — Georgetown",
-          "brief": "Family membership covers basketball, swim, soccer, gym. ~12 min, ~$80–100/mo.",
+          "title": "YMCA Georgetown — Programs Only, No Building Until 2027",
+          "brief": "Not a gym. A storefront office running after-school care and camps. The real facility opens late 2027.",
           "tags": [
             {
               "type": "haneul",
@@ -1205,28 +1205,52 @@
             }
           ],
           "previewMeta": {
-            "icon": "drive",
-            "text": "~12 min"
+            "icon": "info",
+            "text": "No gym or pool yet"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "1801 NW Inner Loop, Georgetown"
+              "text": "Sport Clips Family YMCA, 3010 Williams Dr, Suite 210, Georgetown, TX 78628"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~12 min"
+              "text": "Drive: ~8 min — on the Williams Dr construction stretch"
+            },
+            {
+              "icon": "info",
+              "text": "Runs after-school childcare inside GISD elementary schools, youth programs and summer day camps · no gym, no pool, no fitness floor"
+            },
+            {
+              "icon": "info",
+              "text": "New 55,000 sq ft full-service facility at 6200 Williams Dr — broke ground May 29, 2026, about an 18-month build, expected late 2027"
+            },
+            {
+              "icon": "info",
+              "text": "For a gym and pool now: CHASCO Family YMCA in Round Rock or Twin Lakes YMCA in Cedar Park"
             },
             {
               "icon": "cost",
-              "text": "Cost: Family membership ~$80–100/month"
+              "text": "⚠ Membership rate not confirmed — an earlier version of this card said ~$80–100/month with no source. Call before assuming"
+            },
+            {
+              "icon": "phone",
+              "text": "(512) 246-9622"
             }
           ],
-          "desc": "Basketball, soccer, swim lessons, summer day camps for kids — plus gym and fitness classes for parents. Single family membership covers many programs. Strong value.",
+          "desc": "Corrected Sept 2026, and the correction matters. This card used to describe basketball, swim lessons, a gym and fitness classes for parents at 1801 NW Inner Loop. None of that is right: the Georgetown Y has no building of its own. It is a storefront office on Williams Dr, and what it actually delivers is childcare inside the elementary schools, youth programs and summer camps — which is genuinely useful, and is what the Ford after-school card is about.\n\nThe first full-service Y in Georgetown — 55,000 sq ft, $36 million — broke ground in May 2026 at 6200 Williams Dr and is expected to open in late 2027. Until then, a family membership bought for the gym would be used in Round Rock or Cedar Park, not here. Worth knowing before paying for one.",
           "links": [
             {
               "href": "https://ymcactx.org/locations/georgetown/",
-              "label": "Programs & membership"
+              "label": "Georgetown YMCA"
+            },
+            {
+              "href": "https://ymcactx.org/locations/",
+              "label": "All YMCA locations"
+            },
+            {
+              "href": "tel:5122469622",
+              "label": "Call: (512) 246-9622"
             }
           ]
         }
@@ -1727,7 +1751,7 @@
           ]
         },
         {
-          "verified": "2026-06",
+          "verified": "2026-09",
           "image": "images/gaming_ymca_esports_programs.jpg",
           "title": "YMCA eSports Programs",
           "brief": "YMCA offers Gamers Night Out, eSports Academy. Strategy & sportsmanship focus.",
@@ -1751,7 +1775,7 @@
               "text": "Programs: Intro classes, Gamers Night Out, eSports Academy"
             }
           ],
-          "desc": "The YMCA offers structured eSports programs focused on strategy, communication, and sportsmanship. Lower-key than XP League. Check if included with our family membership.",
+          "desc": "The YMCA offers structured eSports programs focused on strategy, communication and sportsmanship — lower-key than XP League. Note these run at CHASCO (Round Rock) and Twin Lakes (Cedar Park), not in Georgetown, because Georgetown has no Y building until late 2027. ⚠ Whether a membership is required, and what it covers, is not published — ask when calling.",
           "links": [
             {
               "href": "https://ymcactx.org/",
