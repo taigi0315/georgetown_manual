@@ -4,7 +4,7 @@
       "id": "deadlines",
       "category": "deadlines",
       "title": "Registration Deadlines",
-      "intro": "Updated Sep 21, 2026 — school year underway since Aug 19 (last day May 28, 2027). Nothing is due in the next three weeks. 🟢 1 open now (YMCA, rolling), 🟠 2 ahead: spring soccer opens ~January and Benold tennis tryouts are Aug 2027. August's items are ⚫ closed and kept as a record of what each took. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
+      "intro": "Updated Sep 28, 2026 — school year underway since Aug 19 (last day May 28, 2027). Nothing is due in the next three weeks. 🟢 1 open now (YMCA, rolling), 🟠 3 ahead: Palace spring classes (watch from January), spring soccer (~January) and Benold tennis tryouts (Aug 2027). August's items are ⚫ closed and kept as a record of what each took. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
       "cards": [
         {
           "verified": "2026-09",
@@ -262,6 +262,51 @@
             {
               "href": "tel:5129435090",
               "label": "Benold: 512-943-5090"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "image": "images/deadlines_palace_ppc_auditions.jpg",
+          "title": "Palace Spring Classes — Register in January",
+          "brief": "🟠 The fall session was missed entirely. Spring runs early March; registration is a January job.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Watch from January"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Spring session runs roughly early March – mid-April, six weeks, skipping spring break"
+            },
+            {
+              "icon": "time",
+              "text": "⚠ Spring 2027 registration opening date not published — watch the portal from early January"
+            },
+            {
+              "icon": "info",
+              "text": "Register on the Galore portal, not the theatre website — that mistake cost the whole fall session"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Current tuition not published"
+            }
+          ],
+          "desc": "Written down because fall 2026 was lost the slow way: seven weeks of calling a phone line and watching a website that never lists classes, while registration sat open on a third-party portal. Nothing was due and nothing was refused — the session simply started without Harang. The fix is a calendar entry, not more effort: check the portal in early January, and again in early February. Six weeks of classes ending in a public performance is the whole point, and it is a small window.",
+          "links": [
+            {
+              "href": "https://georgetownpalacetheatre.getgalore.com/",
+              "label": "Class portal (Galore)"
+            },
+            {
+              "href": "tel:5128697469",
+              "label": "Call: (512) 869-7469"
             }
           ]
         }
@@ -1195,7 +1240,7 @@
       "cards": [
         {
           "featured": true,
-          "verified": "2026-08",
+          "verified": "2026-09",
           "image": "images/theater_georgetown_palace_theatre_education_dept.jpg",
           "title": "Georgetown Palace Theatre — Education Dept.",
           "brief": "Year-round acting, musical theater, voice, improv. Grades 1–12. Downtown, ~10 min.",
@@ -1228,6 +1273,10 @@
             },
             {
               "icon": "info",
+              "text": "Classes are listed and registered on the Galore portal — not on georgetownpalace.org"
+            },
+            {
+              "icon": "info",
               "text": "Format: After-school classes, weekend classes, seasonal camps"
             },
             {
@@ -1235,8 +1284,16 @@
               "text": "Phone: (512) 869-7469"
             }
           ],
-          "desc": "The hub for performing arts in Georgetown — established 2005, serving thousands of Central Texas students. Acting, voice, dance, improv, sketch, stage combat, even magic, ages 4–adult, and every session ends in a public performance. The advanced track is the Palace Performance Company: a year-long commitment with auditions every August — the 2026 date isn't published, so call now (see Deadlines). Pro tip: if a class shows full, join the waitlist — spots often open in the final week before registration closes, with 24 hours to claim by email.",
+          "desc": "The hub for performing arts in Georgetown — established 2005. Acting, voice, dance, improv, sketch, stage combat, even magic, ages 4–adult, and every session ends in a public performance. The advanced track is the Palace Performance Company: a year-long commitment with auditions every August.\n\nFound Sept 2026, after seven weeks of unanswered calls: the class catalogue and registration do not live on the theatre's own website. They are on a third-party portal (Galore, with some listings on Summersault). That is why the main site and the phone produced nothing while sessions were running. Check the portal first from now on. ⚠ What is currently listed for fall 2026 could not be confirmed from outside — open the portal and look.\n\nSession shape, from the spring 2026 catalogue: six weeks, early March to mid-April, skipping spring break. So spring registration is a January–February job, not a March one. Pro tip that still holds: if a class shows full, join the waitlist — spots often open in the final week, with 24 hours to claim by email.",
           "links": [
+            {
+              "href": "https://georgetownpalacetheatre.getgalore.com/",
+              "label": "Class portal (Galore)"
+            },
+            {
+              "href": "https://www.gosummersault.com/austin-tx/georgetown-palace-theatre",
+              "label": "Listings (Summersault)"
+            },
             {
               "href": "https://www.georgetownpalace.org/education/",
               "label": "Education programs"
@@ -4373,15 +4430,327 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 21–27, 2026. Four things land on Saturday the 26th and one of them is in town; pick one. Chuseok is Friday. And Williams Dr is under construction for the next year, which is the item that will actually change daily driving.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 28 – Oct 4, 2026. October opens Friday: First Friday on the Square, pumpkin season starting at two places, and Sweet Eats' fireworks beginning. Two things further out need deciding now — the Houston Korean festival on Oct 10–11, and whether the anime concert is worth $240.",
       "cards": [
         {
           "verified": "2026-09",
+          "expires": "2026-10-16",
+          "image": "images/news_arts.jpg",
+          "title": "Palace Classes — Found It. The Website Was Never the Place.",
+          "brief": "Seven weeks of calling, and the answer was that registration lives on a different site entirely.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "featured",
+              "label": "Answered"
+            }
+          ],
+          "previewMeta": {
+            "icon": "info",
+            "text": "Check the portal"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Doug Smith Performance Center, 206 W 2nd St, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "info",
+              "text": "Classes are catalogued and registered on the Galore portal, with some listings on Summersault — georgetownpalace.org never lists them"
+            },
+            {
+              "icon": "info",
+              "text": "Spring sessions run about six weeks, early March to mid-April, skipping spring break"
+            },
+            {
+              "icon": "phone",
+              "text": "Phone: (512) 869-7469"
+            }
+          ],
+          "desc": "Seven weeks of calls produced nothing because the calls were the wrong tool. The Palace's class catalogue and registration are on a third-party portal; the theatre's own website and phone line are not where sessions get listed or filled. ⚠ Whether anything is still open for fall could not be confirmed from here — that takes opening the portal, which is a five-minute job rather than another week of voicemail. Realistically fall has gone, and the value of this discovery is spring: register in January, not March. That is now written into the Deadlines section so it does not depend on anyone remembering.",
+          "links": [
+            {
+              "href": "https://georgetownpalacetheatre.getgalore.com/",
+              "label": "Class portal (Galore)"
+            },
+            {
+              "href": "https://www.gosummersault.com/austin-tx/georgetown-palace-theatre",
+              "label": "Listings (Summersault)"
+            },
+            {
+              "href": "tel:5128697469",
+              "label": "Call: (512) 869-7469"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "verified": "2026-09",
           "featured": true,
+          "expires": "2026-10-02",
+          "image": "images/news_city.jpg",
+          "title": "First Friday on the Square — Fri Oct 2, Free",
+          "brief": "Live music, shops open late, food on the Square. Monthly, free, ten minutes away, and it runs through November.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "This Friday"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri Oct 2 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square, around the Williamson County Courthouse"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Oct 2 evening · first Friday of every month, live music March through November"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "Shops stay open after hours; cafes and restaurants on and around the Square"
+            }
+          ],
+          "desc": "The lowest-effort family evening on this page: no tickets, no registration, no drive worth the name, and you can leave after twenty minutes if it is not landing. Worth knowing it is monthly and free — it is the default answer to a Friday with nothing planned, and there are only two left this year with live music before the season ends in November.",
+          "links": [
+            {
+              "href": "https://dgagtx.org/First-Friday",
+              "label": "Downtown Georgetown Association"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "featured": true,
+          "expires": "2026-10-11",
+          "image": "images/news_community.jpg",
+          "title": "Korean Festival Houston — Oct 10–11, Free. Worth the Drive.",
+          "brief": "The biggest Korean festival in Texas. Free, two days, Discovery Green. It is a real drive — decide this week.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Plan now"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Oct 10–11 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Discovery Green, 1500 McKinney St, Houston, TX 77010"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~2 hr 45 min east — this is an overnight, not a day trip"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Oct 10, 10 AM – 9 PM · Sun Oct 11, 11 AM – 8 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free general admission, no ticket required · paid VIP tent seating available"
+            },
+            {
+              "icon": "info",
+              "text": "17th year · K-pop headliner Big Ocean, traditional Korean performers, K-Showcase, K-pop dance competition, Korean food vendors"
+            }
+          ],
+          "desc": "This is the one worth planning around. Central Texas has no Korean festival at this scale — the closest thing this year was a Chinese Mid-Autumn event and a Taiwanese anniversary, both good, neither Korean. Houston's is free, two full days, and built around exactly the food and music the boys should grow up thinking of as ordinary rather than exotic. The cost is the drive and a hotel night, so it needs deciding this week rather than the Thursday before. Saturday is the longer day and carries the headliner; if it is one night, go Saturday and drive back Sunday.",
+          "links": [
+            {
+              "href": "https://www.kfesthouston.com/",
+              "label": "Korean Festival Houston"
+            },
+            {
+              "href": "https://www.kfesthouston.com/schedule",
+              "label": "Performance schedule"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Discovery+Green+1500+McKinney+St+Houston+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-10-31",
+          "image": "images/news_events.jpg",
+          "title": "Round Rock Pumpkin Festival — Opens Fri Oct 2",
+          "brief": "The cheaper pumpkin option. Free parking, lots of free games, and a pumpkin patch at Old Settlers Park through Halloween.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Oct 2–31 · Fri–Mon"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Old Settlers Park, Round Rock"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~25 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Oct 2 – 31 · Fridays through Mondays, 10 AM – 7 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "⚠ Admission not published — many attractions are free, some need tickets bought on site (card or Apple Pay only). Parking is free"
+            },
+            {
+              "icon": "info",
+              "text": "Thousands of pumpkins, pumpkin painting, bouncy house, corn pit, slime station, barrel train, farm animals, fire trucks, face painting"
+            },
+            {
+              "icon": "info",
+              "text": "A portion of proceeds goes to Austin Pets Alive and the Old Settlers Association"
+            }
+          ],
+          "desc": "Worth listing next to Sweet Eats rather than instead of it, because they are different trips. Sweet Eats is a paid gate — about $80–100 for four before anything is bought — with a corn maze and fireworks. This is a park with free parking, a lot of free games and a ticket tent for the rest, which means you can do an hour for the price of a few tickets. Note the Monday opening: Mon Oct 12 is a GISD district holiday and this is open that day.",
+          "links": [
+            {
+              "href": "https://roundrockpumpkinfestival.com/",
+              "label": "Round Rock Pumpkin Festival"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+Round+Rock+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-10-09",
+          "image": "images/news_arts.jpg",
+          "title": "My Hero Academia in Concert — Fri Oct 9, Austin",
+          "brief": "Live 15-piece band playing the anime score at Bass Concert Hall. Real money — decide now or let it go.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "$59–119/seat"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Bass Concert Hall, University of Texas, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Oct 9, 7:30 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: about $59–119 per seat — roughly $240–475 for four"
+            },
+            {
+              "icon": "info",
+              "text": "15-piece live band playing Yuki Hayashi’s score with visuals from all eight seasons"
+            },
+            {
+              "icon": "phone",
+              "text": "Texas Performing Arts box office: (512) 471-1122"
+            }
+          ],
+          "desc": "On the page because anime rates high in this house, and off the page as a default because of the price. Four seats is $240 at the cheap end, which is a lot for two hours on a school night ending near 10 PM — and Oct 9 is a Friday, so at least that part works. The honest call: this is worth it only if both boys actually know the show. If they do, buy through Texas Performing Arts rather than a resale site; if they do not, skip it without guilt and put the money toward the Houston trip below.",
+          "links": [
+            {
+              "href": "https://texasperformingarts.org/event/my-hero-academia-2026-bass-concert-hall-austin-texas/",
+              "label": "Texas Performing Arts"
+            },
+            {
+              "href": "tel:5124711122",
+              "label": "Box office: (512) 471-1122"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
           "expires": "2026-10-31",
           "image": "images/news_city.jpg",
           "title": "🚧 Williams Drive Construction — Left Turns Are Going Away",
-          "brief": "Started Sep 16 and runs into late 2027. The center turn lane is being removed, so left turns across Williams Dr stop in the work zone.",
+          "brief": "Two weeks in. The center turn lane is going away between Serenada and Lakeway — left turns across Williams Dr stop there.",
           "tags": [
             {
               "type": "family",
@@ -4428,249 +4797,10 @@
         },
         {
           "verified": "2026-09",
-          "expires": "2026-09-26",
-          "image": "images/news_community.jpg",
-          "title": "추석 Chuseok Is This Friday, Sep 25",
-          "brief": "Four days out — and there is finally somewhere to go for it: the same full moon is being celebrated in Austin on Saturday.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "This week"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Fri Sep 25"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Chuseok: Friday, Sep 25, 2026 (lunar 8/15) · the holiday runs Sep 24–26 in Korea"
-            },
-            {
-              "icon": "info",
-              "text": "A normal school day here — the boys will be in class Friday"
-            },
-            {
-              "icon": "info",
-              "text": "The Austin Chinese Culture Festival on Sat Sep 26 marks the same Mid-Autumn full moon — see the card below"
-            }
-          ],
-          "desc": "Korean Thanksgiving falls on a Friday this year, so a Friday dinner and a Saturday outing is the natural shape of it. Last week this card said no local event was confirmed; that has changed. Mid-Autumn is the same lunar festival across Korea, China and Vietnam, and Austin's Chinese Culture Festival lands on the Saturday — not Korean, but the same moon, and a real reason to be out of the house instead of just eating at home. The shopping is still the only thing with lead time: rice flour, sesame, chestnuts and short ribs are a Korean grocery run, not an H-E-B run. See the Korean Community section for the Austin store list.",
-          "links": [
-            {
-              "href": "https://publicholidays.co.kr/chuseok/",
-              "label": "Chuseok dates"
-            }
-          ],
-          "featured": true
-        },
-        {
-          "verified": "2026-09",
-          "featured": true,
-          "expires": "2026-09-26",
-          "image": "images/news_community.jpg",
-          "title": "Austin Chinese Culture Festival — Sat Sep 26, Free",
-          "brief": "Mid-Autumn Festival: lion dance, opera, martial arts, and Chinese and Asian food. Free, indoors, and the same moon as Chuseok.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "This Saturday"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Sep 26 · free"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Austin ISD Performing Arts Center, 1500 Barbara Jordan Blvd, Austin, TX 78723"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~40 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Sep 26, from 12 PM ⚠ end time not published"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free"
-            },
-            {
-              "icon": "info",
-              "text": "Lion dance, Chinese music, dance, opera and martial arts, cultural exhibits, community booths, family games, Chinese and Asian food"
-            },
-            {
-              "icon": "info",
-              "text": "10-year anniversary of the Austin Chinese-American Network"
-            }
-          ],
-          "desc": "The closest thing to a Mid-Autumn celebration within reach, and it happens the day after Chuseok. Indoors at a real performing arts center, which makes it a better bet than an outdoor festival in a Texas September. Free, so there is no cost to leaving early if the boys are done. ⚠ A couple of listings put this at the Seaholm Intake Facility instead; the performing arts center is what the event's own listings and the Austin visitor calendar say, but it is worth a look at the page before driving.",
-          "links": [
-            {
-              "href": "https://austinchineseamericannetwork.org/",
-              "label": "Austin Chinese-American Network"
-            },
-            {
-              "href": "https://www.austinchronicle.com/events/community/events/austin-chinese-culture-festival-2398905/",
-              "label": "Austin Chronicle listing"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Austin+ISD+Performing+Arts+Center+1500+Barbara+Jordan+Blvd",
-              "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "featured": true,
-          "expires": "2026-09-26",
-          "image": "images/news_events.jpg",
-          "title": "Library Con — Sat Sep 26, Free Comics, Cosplay and Gaming",
-          "brief": "10th year. Panels, crafts, cosplay contest, gaming, comic artists and voice actors. Free, all ages, ~40 min.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "This Saturday"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Sep 26 · free"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Pflugerville Public Library, 1008 W Pfluger St, Pflugerville, TX 78660"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~35 min southeast"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Sep 26, 10 AM – 6 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free · all ages"
-            },
-            {
-              "icon": "info",
-              "text": "Cosplay contest registration 10 AM – 2 PM, online or at the door, for teens and adults"
-            },
-            {
-              "icon": "info",
-              "text": "Cosplay classes for beginners, embellishment, and cosplay on a budget"
-            }
-          ],
-          "desc": "This is the category that got missed with the Otaku festival, so it is on the list early. A free, library-run comic and gaming convention is a much gentler first con than a paid one in a convention center — eight hours of programming, no ticket, and you can leave whenever. Note the date carefully: the 9th one was Sat Sep 27 in 2025 and several listings still repeat that. The 10th is Saturday Sep 26, 2026.",
-          "links": [
-            {
-              "href": "https://library.pflugervilletx.gov/events-classes/annual-events",
-              "label": "Library Con"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Pflugerville+Public+Library+1008+W+Pfluger+St",
-              "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "expires": "2026-09-26",
-          "image": "images/news_city.jpg",
-          "title": "Georgetown Garden Show — Sat Sep 26, Free, In Town",
-          "brief": "Composting, tree planting, water conservation and beekeeping demos, plus plant vendors. Ten minutes away.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Sep 26 · free"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Light & Waterworks District Plaza, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Sep 26, 10 AM – 3 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free"
-            },
-            {
-              "icon": "info",
-              "text": "Live demonstrations on composting, tree planting, water conservation and beekeeping · plant and garden vendors"
-            }
-          ],
-          "desc": "Late September is when fall planting actually starts here, so the timing is right rather than decorative. The short version of why it is worth an hour: local demonstrations tell you what survives a Georgetown summer, which is not what a national gardening site will tell you. It is also the cheapest of the four things happening this Saturday — free, in town, and done by lunch.",
-          "links": [
-            {
-              "href": "https://visit.georgetown.org/",
-              "label": "Visit Georgetown"
-            },
-            {
-              "href": "https://www.georgetowngardenclub.org/events.html",
-              "label": "Georgetown Garden Club"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
           "expires": "2026-11-08",
           "image": "images/news_events.jpg",
           "title": "Sweet Eats Fall Festival — Open Now Through Nov 8",
-          "brief": "Corn maze, pumpkin patch, pig races and Friday/Saturday fireworks in October. In Georgetown, and not cheap.",
+          "brief": "Corn maze and pumpkin patch, open now. The Friday and Saturday fireworks start this week, with October.",
           "tags": [
             {
               "type": "harang",
@@ -4715,7 +4845,7 @@
               "text": "Fireworks every Friday and Saturday night in October except Halloween night · weekend fire show, falconry and Zoofari in October"
             }
           ],
-          "desc": "Worth doing once a season, not repeatedly — about $80–100 for the four of us before anything is bought inside, which is real money for a farm afternoon. Two ways to make it land better: go in October when the fireworks and the weekend shows are running, and go on a weekday if you can. Mon Oct 12 is a GISD district holiday, which is the obvious candidate — same festival, no weekend crowd.",
+          "desc": "Worth doing once a season, not repeatedly — about $80–100 for the four of us before anything is bought inside. October is when it earns the ticket: fireworks every Friday and Saturday night except Halloween, plus the fire show, falconry and Zoofari on weekends, none of which were running in September. Best play is still a weekday: Mon Oct 12 is a GISD district holiday — same festival, no weekend crowd.",
           "links": [
             {
               "href": "https://www.sweeteats.com/austin-fall-festival/",
@@ -4729,60 +4859,10 @@
         },
         {
           "verified": "2026-09",
-          "expires": "2026-10-09",
-          "image": "images/news_arts.jpg",
-          "title": "Palace Fall Classes — Sixth Week Unanswered",
-          "brief": "Six weeks, no answer, nothing posted. Time to stop treating this as a fall question and ask about spring.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            }
-          ],
-          "previewMeta": {
-            "icon": "phone",
-            "text": "Call to confirm"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Doug Smith Performance Center, 206 W 2nd St, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "info",
-              "text": "Fall session: acting, dance, voice, improv, sketch & stand-up, stage combat, musical theatre (ages 6–18)"
-            },
-            {
-              "icon": "info",
-              "text": "⚠ Fall 2026 dates and pricing still not published online — phone only"
-            },
-            {
-              "icon": "phone",
-              "text": "Phone: (512) 869-7469"
-            }
-          ],
-          "desc": "Six weeks of calling with nothing published and no callback. The fall session has almost certainly started without Harang, and continuing to chase it is now the wrong use of the effort. Two questions that are still worth one call: is there a waitlist for anything mid-session, and when does spring registration open — spring is the realistic target now. ⚠ Fall 2026 dates and pricing were never published; the department is phone-only. If this is still unanswered next week, the honest move is to treat the Palace as closed for the year and look at Arts Avenue instead.",
-          "links": [
-            {
-              "href": "https://www.georgetownpalace.org/education/",
-              "label": "Palace Education"
-            },
-            {
-              "href": "tel:5128697469",
-              "label": "Call: (512) 869-7469"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
           "expires": "2026-10-12",
           "image": "images/news_arts.jpg",
           "title": "Georgetown Art Center — 'Interlocking Paths' Through Oct 12",
-          "brief": "Caroline Walker's free exhibit downtown has about three weeks left. Pairs with anything else on the Square.",
+          "brief": "Caroline Walker's free exhibit downtown closes Oct 12. Two weekends left, and it is ten minutes away.",
           "tags": [
             {
               "type": "harang",
@@ -4824,7 +4904,7 @@
           ]
         }
       ],
-      "staleAfter": "2026-10-02"
+      "staleAfter": "2026-10-09"
     }
   ]
 }
