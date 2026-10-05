@@ -4,7 +4,7 @@
       "id": "deadlines",
       "category": "deadlines",
       "title": "Registration Deadlines",
-      "intro": "Updated Sep 28, 2026 — school year underway since Aug 19 (last day May 28, 2027). Nothing is due in the next three weeks. 🟢 1 open now (YMCA, rolling), 🟠 3 ahead: Palace spring classes (watch from January), spring soccer (~January) and Benold tennis tryouts (Aug 2027). August's items are ⚫ closed and kept as a record of what each took. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
+      "intro": "Updated Oct 5, 2026 — school year underway since Aug 19 (last day May 28, 2027). Nothing is due in the next three weeks. 🟢 1 open now (YMCA, rolling), 🟠 3 ahead: Palace spring classes (watch the portal from early January), spring soccer (~January) and Benold tennis tryouts (Aug 2027). February is the month that matters most — summer camps open and fill fast. August's items are ⚫ closed and kept as a record of what each took. ⚠ = date or rate not published — call to confirm. Every number is tap-to-call.",
       "cards": [
         {
           "verified": "2026-09",
@@ -4454,74 +4454,15 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Sep 28 – Oct 4, 2026. October opens Friday: First Friday on the Square, pumpkin season starting at two places, and Sweet Eats' fireworks beginning. Two things further out need deciding now — the Houston Korean festival on Oct 10–11, and whether the anime concert is worth $240.",
+      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Oct 5–11, 2026. Korean Festival Houston is this weekend and the hotel is the only thing standing in the way. Market Days is Saturday in town, Monday the 12th is a full district holiday, and two free Halloween dates are worth holding now.",
       "cards": [
         {
-          "verified": "2026-09",
-          "expires": "2026-10-16",
-          "image": "images/news_arts.jpg",
-          "title": "Palace Classes — Found It. The Website Was Never the Place.",
-          "brief": "Seven weeks of calling, and the answer was that registration lives on a different site entirely.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "featured",
-              "label": "Answered"
-            }
-          ],
-          "previewMeta": {
-            "icon": "info",
-            "text": "Check the portal"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Doug Smith Performance Center, 206 W 2nd St, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "info",
-              "text": "Classes are catalogued and registered on the Galore portal, with some listings on Summersault — georgetownpalace.org never lists them"
-            },
-            {
-              "icon": "info",
-              "text": "Spring sessions run about six weeks, early March to mid-April, skipping spring break"
-            },
-            {
-              "icon": "phone",
-              "text": "Phone: (512) 869-7469"
-            }
-          ],
-          "desc": "Seven weeks of calls produced nothing because the calls were the wrong tool. The Palace's class catalogue and registration are on a third-party portal; the theatre's own website and phone line are not where sessions get listed or filled. ⚠ Whether anything is still open for fall could not be confirmed from here — that takes opening the portal, which is a five-minute job rather than another week of voicemail. Realistically fall has gone, and the value of this discovery is spring: register in January, not March. That is now written into the Deadlines section so it does not depend on anyone remembering.",
-          "links": [
-            {
-              "href": "https://georgetownpalacetheatre.getgalore.com/",
-              "label": "Class portal (Galore)"
-            },
-            {
-              "href": "https://www.gosummersault.com/austin-tx/georgetown-palace-theatre",
-              "label": "Listings (Summersault)"
-            },
-            {
-              "href": "tel:5128697469",
-              "label": "Call: (512) 869-7469"
-            }
-          ],
-          "featured": true
-        },
-        {
-          "verified": "2026-09",
+          "verified": "2026-10",
           "featured": true,
-          "expires": "2026-10-02",
-          "image": "images/news_city.jpg",
-          "title": "First Friday on the Square — Fri Oct 2, Free",
-          "brief": "Live music, shops open late, food on the Square. Monthly, free, ten minutes away, and it runs through November.",
+          "expires": "2026-10-12",
+          "image": "images/news_school.jpg",
+          "title": "District Holiday Next Monday, Oct 12 — Use It",
+          "brief": "No school Monday. Both pumpkin festivals are open on a weekday, and the Art Center exhibit closes that same day.",
           "tags": [
             {
               "type": "harang",
@@ -4537,44 +4478,40 @@
             },
             {
               "type": "featured",
-              "label": "This Friday"
+              "label": "Next Monday"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri Oct 2 · free"
+            "text": "Mon Oct 12 · no school"
           },
           "meta": [
             {
-              "icon": "location",
-              "text": "Downtown Georgetown Square, around the Williamson County Courthouse"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
               "icon": "time",
-              "text": "Fri Oct 2 evening · first Friday of every month, live music March through November"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free"
+              "text": "Mon Oct 12 — GISD district holiday, offices closed as well as schools"
             },
             {
               "icon": "info",
-              "text": "Shops stay open after hours; cafes and restaurants on and around the Square"
-            }
-          ],
-          "desc": "The lowest-effort family evening on this page: no tickets, no registration, no drive worth the name, and you can leave after twenty minutes if it is not landing. Worth knowing it is monthly and free — it is the default answer to a Friday with nothing planned, and there are only two left this year with live music before the season ends in November.",
-          "links": [
-            {
-              "href": "https://dgagtx.org/First-Friday",
-              "label": "Downtown Georgetown Association"
+              "text": "Round Rock Pumpkin Festival runs Fridays through Mondays, so it is open — and empty — that day"
             },
             {
-              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
-              "label": "Google Maps"
+              "icon": "info",
+              "text": "Sweet Eats is open daily through Nov 8"
+            },
+            {
+              "icon": "info",
+              "text": "Last day for 'Interlocking Paths' at the Georgetown Art Center, free, downtown"
+            },
+            {
+              "icon": "phone",
+              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
+            }
+          ],
+          "desc": "A full district holiday, not just a student one, which means the whole day is free rather than a half-measure. Three ways to spend it, in rough order of value: a pumpkin festival on a Monday when every other family is at work and school; a weekday doctor or dentist appointment, which is the whole reason these days are worth planning ahead; or twenty minutes downtown to catch the Art Center exhibit on its closing day. The next district day off after this is Thanksgiving week.",
+          "links": [
+            {
+              "href": "https://www.georgetownisd.org/",
+              "label": "GISD calendar"
             }
           ]
         },
@@ -4583,8 +4520,8 @@
           "featured": true,
           "expires": "2026-10-11",
           "image": "images/news_community.jpg",
-          "title": "Korean Festival Houston — Oct 10–11, Free. Worth the Drive.",
-          "brief": "The biggest Korean festival in Texas. Free, two days, Discovery Green. It is a real drive — decide this week.",
+          "title": "Korean Festival Houston — This Weekend, Oct 10–11, Free",
+          "brief": "It is this Saturday and Sunday. If the hotel is not booked by midweek, this becomes next year.",
           "tags": [
             {
               "type": "harang",
@@ -4600,12 +4537,12 @@
             },
             {
               "type": "featured",
-              "label": "Plan now"
+              "label": "This weekend"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Oct 10–11 · free"
+            "text": "Sat–Sun · free"
           },
           "meta": [
             {
@@ -4629,7 +4566,7 @@
               "text": "17th year · K-pop headliner Big Ocean, traditional Korean performers, K-Showcase, K-pop dance competition, Korean food vendors"
             }
           ],
-          "desc": "This is the one worth planning around. Central Texas has no Korean festival at this scale — the closest thing this year was a Chinese Mid-Autumn event and a Taiwanese anniversary, both good, neither Korean. Houston's is free, two full days, and built around exactly the food and music the boys should grow up thinking of as ordinary rather than exotic. The cost is the drive and a hotel night, so it needs deciding this week rather than the Thursday before. Saturday is the longer day and carries the headliner; if it is one night, go Saturday and drive back Sunday.",
+          "desc": "Decision week is over — this is the weekend. Free entry, no ticket needed, two full days at Discovery Green, and nothing at this scale exists closer. Saturday is the longer day and carries the headliner, so if it is one night, drive Saturday morning and come back Sunday. The only real obstacle is a hotel on a Friday-booked weekend, so that is the thing to settle in the next day or two rather than Thursday. If it does not happen this year, the festival is annual and this card will be back in October 2027 — but the boys will be a year older each time this gets deferred.",
           "links": [
             {
               "href": "https://www.kfesthouston.com/",
@@ -4646,11 +4583,185 @@
           ]
         },
         {
+          "verified": "2026-10",
+          "expires": "2026-10-10",
+          "image": "images/news_city.jpg",
+          "title": "Market Days on the Square — Sat Oct 10, Free",
+          "brief": "Second Saturday: artisans, food trucks and live music downtown, 9:30 to 4. Free, and free parking.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Oct 10 · free"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Oct 10, 9:30 AM – 4 PM · second Saturday of every month, March through November"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "Free parking: 5th and Main · 9th and Main · 7th and Rock · 5th and Austin Ave (next to Monument Cafe) · library lot on 8th"
+            },
+            {
+              "icon": "info",
+              "text": "Artisan, craft and cottage-food vendors, food trucks, live local musicians all day"
+            }
+          ],
+          "desc": "The monthly companion to First Friday, and the better one for a morning. Pair it with breakfast at Monument Cafe — the 5th and Austin lot is next door and free — and the whole thing costs what you spend on food. Two of these left this year before the season ends in November. Worth noting it is the same Saturday as the Houston festival, so realistically it is one or the other.",
+          "links": [
+            {
+              "href": "https://www.dgagtx.org/Market-Days",
+              "label": "Market Days"
+            },
+            {
+              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
+              "label": "Google Maps"
+            }
+          ]
+        },
+        {
+          "verified": "2026-09",
+          "expires": "2026-10-09",
+          "image": "images/news_arts.jpg",
+          "title": "My Hero Academia in Concert — Fri Oct 9, Austin",
+          "brief": "This Friday. Last call — $240 at the cheap end for four, and the honest answer is probably no.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "cost",
+            "text": "$59–119/seat"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Bass Concert Hall, University of Texas, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Oct 9, 7:30 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: about $59–119 per seat — roughly $240–475 for four"
+            },
+            {
+              "icon": "info",
+              "text": "15-piece live band playing Yuki Hayashi’s score with visuals from all eight seasons"
+            },
+            {
+              "icon": "phone",
+              "text": "Texas Performing Arts box office: (512) 471-1122"
+            }
+          ],
+          "desc": "Friday night, and the decision point is now. Four seats is $240 at the low end for about two hours, ending near 10 PM. It is also the night before the Houston drive, if Houston is happening — doing both is not realistic. The honest call stands: worth it only if both boys actually know the show well enough to recognise the music. If they do not, skip it without guilt. Buy through Texas Performing Arts rather than a resale site.",
+          "links": [
+            {
+              "href": "https://texasperformingarts.org/event/my-hero-academia-2026-bass-concert-hall-austin-texas/",
+              "label": "Texas Performing Arts"
+            },
+            {
+              "href": "tel:5124711122",
+              "label": "Box office: (512) 471-1122"
+            }
+          ]
+        },
+        {
+          "verified": "2026-10",
+          "expires": "2026-10-29",
+          "image": "images/news_events.jpg",
+          "title": "Halloween in Georgetown — Two Dates to Hold Now",
+          "brief": "Candy Crawl Sun Oct 25 and the city Trick or Treat Trail Thu Oct 29. Both free, both in town, both easy to miss.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Oct 25 & Oct 29 · free"
+          },
+          "meta": [
+            {
+              "icon": "time",
+              "text": "Downtown Candy Crawl — Sun Oct 25, 1 – 4 PM, on and around the Square"
+            },
+            {
+              "icon": "time",
+              "text": "Trick or Treat Trail — Thu Oct 29, 5 – 7 PM, San Gabriel Park"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min to either"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free"
+            },
+            {
+              "icon": "info",
+              "text": "Trick or Treat Trail adds games, arts and crafts, Touch-A-Truck and food trucks"
+            }
+          ],
+          "desc": "Three weeks out, and on the list now because costume decisions have a lead time and because both of these are the kind of free local thing that gets discovered the day after. Two separate events, two different flavours: the Candy Crawl is trick-or-treating at downtown businesses on a Sunday afternoon, and the city's Trick or Treat Trail is a park event on the Thursday before Halloween with more to do than collect candy. Doing both is fine — they are four days apart. ⚠ One widely-listed 'Masquerade on Main & Mill' on Oct 26 was checked and dropped: it is Georgetown, Ontario, not Georgetown, Texas.",
+          "links": [
+            {
+              "href": "https://dgagtx.org/Candy-Crawl",
+              "label": "Downtown Candy Crawl"
+            },
+            {
+              "href": "https://georgetowntexas.gov/business_detail_T22_R193.php",
+              "label": "Trick or Treat Trail"
+            }
+          ]
+        },
+        {
           "verified": "2026-09",
           "expires": "2026-10-31",
           "image": "images/news_events.jpg",
           "title": "Round Rock Pumpkin Festival — Opens Fri Oct 2",
-          "brief": "The cheaper pumpkin option. Free parking, lots of free games, and a pumpkin patch at Old Settlers Park through Halloween.",
+          "brief": "Open Fridays through Mondays all month — including the Oct 12 holiday, which is the quiet way to do it.",
           "tags": [
             {
               "type": "harang",
@@ -4704,118 +4815,6 @@
             {
               "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+Round+Rock+TX",
               "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "expires": "2026-10-09",
-          "image": "images/news_arts.jpg",
-          "title": "My Hero Academia in Concert — Fri Oct 9, Austin",
-          "brief": "Live 15-piece band playing the anime score at Bass Concert Hall. Real money — decide now or let it go.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "cost",
-            "text": "$59–119/seat"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Bass Concert Hall, University of Texas, Austin"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Fri Oct 9, 7:30 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: about $59–119 per seat — roughly $240–475 for four"
-            },
-            {
-              "icon": "info",
-              "text": "15-piece live band playing Yuki Hayashi’s score with visuals from all eight seasons"
-            },
-            {
-              "icon": "phone",
-              "text": "Texas Performing Arts box office: (512) 471-1122"
-            }
-          ],
-          "desc": "On the page because anime rates high in this house, and off the page as a default because of the price. Four seats is $240 at the cheap end, which is a lot for two hours on a school night ending near 10 PM — and Oct 9 is a Friday, so at least that part works. The honest call: this is worth it only if both boys actually know the show. If they do, buy through Texas Performing Arts rather than a resale site; if they do not, skip it without guilt and put the money toward the Houston trip below.",
-          "links": [
-            {
-              "href": "https://texasperformingarts.org/event/my-hero-academia-2026-bass-concert-hall-austin-texas/",
-              "label": "Texas Performing Arts"
-            },
-            {
-              "href": "tel:5124711122",
-              "label": "Box office: (512) 471-1122"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "expires": "2026-10-31",
-          "image": "images/news_city.jpg",
-          "title": "🚧 Williams Drive Construction — Left Turns Are Going Away",
-          "brief": "Two weeks in. The center turn lane is going away between Serenada and Lakeway — left turns across Williams Dr stop there.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "info",
-            "text": "Now – late 2027"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Williams Dr, Austin Ave to Jim Hogg Rd · first phase Serenada Dr to Lakeway Dr"
-            },
-            {
-              "icon": "time",
-              "text": "Began Sep 16, 2026 · anticipated complete late 2027"
-            },
-            {
-              "icon": "info",
-              "text": "Raised center median, street lighting, signal and intersection upgrades, new waterline, bike and pedestrian improvements"
-            },
-            {
-              "icon": "info",
-              "text": "Existing center turn lane is removed — left turns across Williams Dr no longer allowed in the work section. Driveways stay open but some movements change"
-            },
-            {
-              "icon": "phone",
-              "text": "City project line: (512) 354-2627 · williamsdrive@georgetowntexas.gov"
-            }
-          ],
-          "desc": "This is the road the family uses for almost everything — H-E-B, the pediatrician, the pediatric dentist, Hillside Nursery and the route toward Serenada are all on or off Williams Dr. Losing the center turn lane is the part that will actually change driving: turns that used to be one move become a right, a loop and a light. Worth an extra five minutes in the estimate for anything on Williams Dr for the next year, and worth checking which side of the road a destination is on before leaving. This is a long-running condition rather than an event, so it stays here for a few weeks and then belongs in a permanent card.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/",
-              "label": "City of Georgetown"
-            },
-            {
-              "href": "tel:5123542627",
-              "label": "Call: (512) 354-2627"
             }
           ]
         },
@@ -4883,52 +4882,56 @@
         },
         {
           "verified": "2026-09",
-          "expires": "2026-10-12",
-          "image": "images/news_arts.jpg",
-          "title": "Georgetown Art Center — 'Interlocking Paths' Through Oct 12",
-          "brief": "Caroline Walker's free exhibit downtown closes Oct 12. Two weekends left, and it is ten minutes away.",
+          "expires": "2026-10-31",
+          "image": "images/news_city.jpg",
+          "title": "🚧 Williams Drive Construction — Left Turns Are Going Away",
+          "brief": "Three weeks in. No left turns across Williams Dr in the work zone, and it runs into late 2027.",
           "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
             {
               "type": "family",
               "label": "Family"
             }
           ],
           "previewMeta": {
-            "icon": "cost",
-            "text": "Free · downtown"
+            "icon": "info",
+            "text": "Now – late 2027"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Georgetown Art Center, downtown Square"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
+              "text": "Williams Dr, Austin Ave to Jim Hogg Rd · first phase Serenada Dr to Lakeway Dr"
             },
             {
               "icon": "time",
-              "text": "Sep 12 – Oct 12, 2026"
+              "text": "Began Sep 16, 2026 · anticipated complete late 2027"
             },
             {
-              "icon": "cost",
-              "text": "Cost: Free"
+              "icon": "info",
+              "text": "Raised center median, street lighting, signal and intersection upgrades, new waterline, bike and pedestrian improvements"
+            },
+            {
+              "icon": "info",
+              "text": "Existing center turn lane is removed — left turns across Williams Dr no longer allowed in the work section. Driveways stay open but some movements change"
+            },
+            {
+              "icon": "phone",
+              "text": "City project line: (512) 354-2627 · williamsdrive@georgetowntexas.gov"
             }
           ],
-          "desc": "A new show opens at the Art Center on the Square and runs a month. It's free and it's twenty minutes of walking around, which makes it a reasonable add-on to any downtown trip rather than a destination on its own. Fits naturally with the sidewalk-sale-and-Square routine.",
+          "desc": "This is the road the family uses for almost everything — H-E-B, the pediatrician, the pediatric dentist, Hillside Nursery and the route toward Serenada are all on or off Williams Dr. Losing the center turn lane is the part that will actually change driving: turns that used to be one move become a right, a loop and a light. Worth an extra five minutes in the estimate for anything on Williams Dr for the next year, and worth checking which side of the road a destination is on before leaving. This is a long-running condition rather than an event, so it stays here for a few weeks and then belongs in a permanent card.",
           "links": [
             {
-              "href": "https://georgetowntexas.gov/government/arts_and_culture/the_georgetown_art_center/",
-              "label": "Georgetown Art Center"
+              "href": "https://georgetowntexas.gov/",
+              "label": "City of Georgetown"
+            },
+            {
+              "href": "tel:5123542627",
+              "label": "Call: (512) 354-2627"
             }
           ]
         }
       ],
-      "staleAfter": "2026-10-09"
+      "staleAfter": "2026-10-16"
     }
   ]
 }
