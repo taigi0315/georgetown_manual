@@ -4454,7 +4454,7 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's useful in Georgetown and within ~2 hours for Nov 9–15, 2026. The clear family pick is Cedar Park's NightMarket.fun on Saturday: Asian food, anime, gaming and kids under 12 enter free with a ticketed adult. In town, Field of Honor, Market Days and Dino Fest make an easy local week.",
+      "intro": "What's useful in Georgetown and within ~2 hours for Nov 10–16, 2026. NightMarket.fun on Saturday remains the best family fit for Asian food, anime and gaming; Wurstfest is the bigger final-weekend road trip. In town, Field of Honor, Market Days and Dino Fest make an easy local week.",
       "cards": [
         {
           "verified": "2026-11",
@@ -4788,9 +4788,67 @@
               "label": "City of Georgetown calendar"
             }
           ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-15",
+          "image": "images/news_community.jpg",
+          "title": "Wurstfest — Final Weekend, New Braunfels",
+          "brief": "The big German-Texas festival ends Sunday. Kids 12 and under are free; weeknights are free for adults too.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Through Sun Nov 15"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Wurstfest Grounds, 120 Landa St, New Braunfels, TX 78130"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1 hr 20 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Nov 6–15 · final weekend Fri–Sun"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Kids 12 and under free. Fri/Sun adults $15 online ($20 gate); Sat $25 online ($30 gate). Final Sunday is free after 3 PM."
+            },
+            {
+              "icon": "info",
+              "text": "German food, carnival rides and games, five music stages and 40+ bands"
+            }
+          ],
+          "desc": "This is a real festival, not a quick local stop — make it a day trip only if the family wants food, music and carnival energy more than a quiet outing. Saturday is the most expensive and busiest day. Sunday after 3 PM is the value play for the four of you, though it shortens the drive-time margin and is still a long day.",
+          "links": [
+            {
+              "href": "https://wurstfest.com/",
+              "label": "Wurstfest official site and tickets"
+            }
+          ]
         }
       ],
-      "staleAfter": "2026-11-20"
+      "staleAfter": "2026-11-21"
     }
   ]
 }
