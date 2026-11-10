@@ -4454,74 +4454,15 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's going on in Georgetown and within ~2 hours — refreshed every Monday. Week of Oct 5–11, 2026. Korean Festival Houston is this weekend and the hotel is the only thing standing in the way. Market Days is Saturday in town, Monday the 12th is a full district holiday, and two free Halloween dates are worth holding now.",
+      "intro": "What's useful in Georgetown and within ~2 hours for Nov 9–15, 2026. The clear family pick is Cedar Park's NightMarket.fun on Saturday: Asian food, anime, gaming and kids under 12 enter free with a ticketed adult. In town, Field of Honor, Market Days and Dino Fest make an easy local week.",
       "cards": [
         {
-          "verified": "2026-10",
+          "verified": "2026-11",
           "featured": true,
-          "expires": "2026-10-12",
-          "image": "images/news_school.jpg",
-          "title": "District Holiday Next Monday, Oct 12 — Use It",
-          "brief": "No school Monday. Both pumpkin festivals are open on a weekday, and the Art Center exhibit closes that same day.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Next Monday"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Mon Oct 12 · no school"
-          },
-          "meta": [
-            {
-              "icon": "time",
-              "text": "Mon Oct 12 — GISD district holiday, offices closed as well as schools"
-            },
-            {
-              "icon": "info",
-              "text": "Round Rock Pumpkin Festival runs Fridays through Mondays, so it is open — and empty — that day"
-            },
-            {
-              "icon": "info",
-              "text": "Sweet Eats is open daily through Nov 8"
-            },
-            {
-              "icon": "info",
-              "text": "Last day for 'Interlocking Paths' at the Georgetown Art Center, free, downtown"
-            },
-            {
-              "icon": "phone",
-              "text": "Georgetown Pediatrics (512) 730-3957 · Pediatric Dentistry (512) 869-4100"
-            }
-          ],
-          "desc": "A full district holiday, not just a student one, which means the whole day is free rather than a half-measure. Three ways to spend it, in rough order of value: a pumpkin festival on a Monday when every other family is at work and school; a weekday doctor or dentist appointment, which is the whole reason these days are worth planning ahead; or twenty minutes downtown to catch the Art Center exhibit on its closing day. The next district day off after this is Thanksgiving week.",
-          "links": [
-            {
-              "href": "https://www.georgetownisd.org/",
-              "label": "GISD calendar"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "featured": true,
-          "expires": "2026-10-11",
+          "expires": "2026-11-14",
           "image": "images/news_community.jpg",
-          "title": "Korean Festival Houston — This Weekend, Oct 10–11, Free",
-          "brief": "It is this Saturday and Sunday. If the hotel is not booked by midweek, this becomes next year.",
+          "title": "NightMarket.fun — Asian Food, Anime & Gaming, Sat Nov 14",
+          "brief": "The best fit this week: 100+ vendors, Asian street food, K-pop, anime and games in Cedar Park. Kids under 12 are free with a ticketed adult.",
           "tags": [
             {
               "type": "harang",
@@ -4537,58 +4478,62 @@
             },
             {
               "type": "featured",
-              "label": "This weekend"
+              "label": "Top pick"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat–Sun · free"
+            "text": "Sat Nov 14 · 4–10 PM"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Discovery Green, 1500 McKinney St, Houston, TX 77010"
+              "text": "Lakeline Park, 1510 Alexis Dr, Cedar Park, TX 78613"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~2 hr 45 min east — this is an overnight, not a day trip"
+              "text": "Drive: ~30 min south"
             },
             {
               "icon": "time",
-              "text": "Sat Oct 10, 10 AM – 9 PM · Sun Oct 11, 11 AM – 8 PM"
+              "text": "Sat Nov 14, 4–10 PM"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free general admission, no ticket required · paid VIP tent seating available"
+              "text": "Cost: Ticketed; children under 12 enter free with a ticketed adult. Buy ahead — gate prices increase."
             },
             {
               "icon": "info",
-              "text": "17th year · K-pop headliner Big Ocean, traditional Korean performers, K-Showcase, K-pop dance competition, Korean food vendors"
+              "text": "100+ vendors, dozens of Asian food kitchens, 20+ performances, anime and gaming takeover, TCG/Pokémon space, cinema, kids zone and free overflow parking/shuttle"
             }
           ],
-          "desc": "Decision week is over — this is the weekend. Free entry, no ticket needed, two full days at Discovery Green, and nothing at this scale exists closer. Saturday is the longer day and carries the headliner, so if it is one night, drive Saturday morning and come back Sunday. The only real obstacle is a hotel on a Friday-booked weekend, so that is the thing to settle in the next day or two rather than Thursday. If it does not happen this year, the festival is annual and this card will be back in October 2027 — but the boys will be a year older each time this gets deferred.",
+          "desc": "This is the rare local event that actually lands on all four of you: Asian food for the adults, anime and gaming for the boys, plus performances and a real kids zone. It is a one-night, outdoor festival, so eat early and arrive near opening rather than trying to do all six hours. Bring jackets after sunset; buy the adult tickets in advance, and use the Reed Elementary overflow parking/shuttle if Lakeline is full.",
           "links": [
             {
-              "href": "https://www.kfesthouston.com/",
-              "label": "Korean Festival Houston"
+              "href": "https://www.nightmarket.fun/events/nightmarket-fun-2026",
+              "label": "NightMarket.fun details and tickets"
             },
             {
-              "href": "https://www.kfesthouston.com/schedule",
-              "label": "Performance schedule"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Discovery+Green+1500+McKinney+St+Houston+TX",
-              "label": "Google Maps"
+              "href": "https://www.nightmarket.fun/faqs",
+              "label": "Parking, kids and FAQ"
             }
           ]
         },
         {
-          "verified": "2026-10",
-          "expires": "2026-10-10",
-          "image": "images/news_city.jpg",
-          "title": "Market Days on the Square — Sat Oct 10, Free",
-          "brief": "Second Saturday: artisans, food trucks and live music downtown, 9:30 to 4. Free, and free parking.",
+          "verified": "2026-11",
+          "expires": "2026-11-15",
+          "image": "images/news_events.jpg",
+          "title": "Field of Honor — Final Week at San Gabriel Park",
+          "brief": "2,000 flags across the Event Lawn, with the observation deck open through Saturday and the field open until 5 PM Sunday.",
           "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
             {
               "type": "family",
               "label": "Family"
@@ -4596,12 +4541,12 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat Oct 10 · free"
+            "text": "Through Sun Nov 15"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Downtown Georgetown Square"
+              "text": "San Gabriel Park Event Lawn, Georgetown"
             },
             {
               "icon": "drive",
@@ -4609,7 +4554,57 @@
             },
             {
               "icon": "time",
-              "text": "Sat Oct 10, 9:30 AM – 4 PM · second Saturday of every month, March through November"
+              "text": "Nov 7–14: field and observation deck open 24/7 · Nov 15: open until 5 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: No visitor admission price published; a new dedicated flag is $45"
+            },
+            {
+              "icon": "info",
+              "text": "Dear Hero letter station Sat Nov 14, 9 AM–noon; Quilt of Valor ceremony Wed Nov 11, 1–5 PM"
+            }
+          ],
+          "desc": "This is a simple, meaningful local walk rather than a whole-day outing. Go near golden hour for the best view from the 16-foot observation deck, then let the boys write a Dear Hero note if you make it Saturday morning. The field itself is the reason to go; do not confuse buying a flag with needing admission to visit.",
+          "links": [
+            {
+              "href": "https://georgetowntxfieldofhonor.org/field-of-honor-events/",
+              "label": "Field of Honor schedule"
+            },
+            {
+              "href": "https://georgetowntxfieldofhonor.org/what-is-the-field-of-honor/",
+              "label": "Event details"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-14",
+          "image": "images/news_city.jpg",
+          "title": "2nd Saturday Market Days — Downtown Georgetown, Free",
+          "brief": "An easy in-town morning: artists, cottage food, food trucks and live music around the Square.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat Nov 14 · 9:30–4"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square, 710 S Main St"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Sat Nov 14, 9:30 AM–4 PM"
             },
             {
               "icon": "cost",
@@ -4617,93 +4612,23 @@
             },
             {
               "icon": "info",
-              "text": "Free parking: 5th and Main · 9th and Main · 7th and Rock · 5th and Austin Ave (next to Monument Cafe) · library lot on 8th"
-            },
-            {
-              "icon": "info",
-              "text": "Artisan, craft and cottage-food vendors, food trucks, live local musicians all day"
+              "text": "Artisan and craft vendors, cottage food, food trucks and live local music"
             }
           ],
-          "desc": "The monthly companion to First Friday, and the better one for a morning. Pair it with breakfast at Monument Cafe — the 5th and Austin lot is next door and free — and the whole thing costs what you spend on food. Two of these left this year before the season ends in November. Worth noting it is the same Saturday as the Houston festival, so realistically it is one or the other.",
+          "desc": "The easy, low-cost Saturday option before NightMarket.fun starts at 4 PM. It is not a destination festival, but it is a nice reason to get breakfast at Monument Cafe, walk the Square and let the boys browse without committing the day. Do it in the morning; the later Cedar Park event is the bigger outing.",
           "links": [
             {
-              "href": "https://www.dgagtx.org/Market-Days",
-              "label": "Market Days"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Georgetown+Square+Georgetown+TX",
-              "label": "Google Maps"
+              "href": "https://dgagtx.org/events",
+              "label": "Market Days details"
             }
           ]
         },
         {
-          "verified": "2026-09",
-          "expires": "2026-10-09",
+          "verified": "2026-11",
+          "expires": "2026-11-11",
           "image": "images/news_arts.jpg",
-          "title": "My Hero Academia in Concert — Fri Oct 9, Austin",
-          "brief": "This Friday. Last call — $240 at the cheap end for four, and the honest answer is probably no.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "cost",
-            "text": "$59–119/seat"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Bass Concert Hall, University of Texas, Austin"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Fri Oct 9, 7:30 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: about $59–119 per seat — roughly $240–475 for four"
-            },
-            {
-              "icon": "info",
-              "text": "15-piece live band playing Yuki Hayashi’s score with visuals from all eight seasons"
-            },
-            {
-              "icon": "phone",
-              "text": "Texas Performing Arts box office: (512) 471-1122"
-            }
-          ],
-          "desc": "Friday night, and the decision point is now. Four seats is $240 at the low end for about two hours, ending near 10 PM. It is also the night before the Houston drive, if Houston is happening — doing both is not realistic. The honest call stands: worth it only if both boys actually know the show well enough to recognise the music. If they do not, skip it without guilt. Buy through Texas Performing Arts rather than a resale site.",
-          "links": [
-            {
-              "href": "https://texasperformingarts.org/event/my-hero-academia-2026-bass-concert-hall-austin-texas/",
-              "label": "Texas Performing Arts"
-            },
-            {
-              "href": "tel:5124711122",
-              "label": "Box office: (512) 471-1122"
-            }
-          ]
-        },
-        {
-          "verified": "2026-10",
-          "expires": "2026-10-29",
-          "image": "images/news_events.jpg",
-          "title": "Halloween in Georgetown — Two Dates to Hold Now",
-          "brief": "Candy Crawl Sun Oct 25 and the city Trick or Treat Trail Thu Oct 29. Both free, both in town, both easy to miss.",
+          "title": "Public Stargazing at Garey Park — Wed Nov 11",
+          "brief": "A telescope night with the Williamson County Astronomy Club. Pre-registration only; no walk-ins.",
           "tags": [
             {
               "type": "harang",
@@ -4720,56 +4645,52 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Oct 25 & Oct 29 · free"
+            "text": "Wed Nov 11 · 7–9 PM"
           },
           "meta": [
             {
-              "icon": "time",
-              "text": "Downtown Candy Crawl — Sun Oct 25, 1 – 4 PM, on and around the Square"
-            },
-            {
-              "icon": "time",
-              "text": "Trick or Treat Trail — Thu Oct 29, 5 – 7 PM, San Gabriel Park"
+              "icon": "location",
+              "text": "Garey Park, Georgetown"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~10 min to either"
+              "text": "Drive: ~15 min"
+            },
+            {
+              "icon": "time",
+              "text": "Wed Nov 11, 7–9 PM · pre-registration required"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free"
+              "text": "Cost: $2 resident / $5 nonresident; ages 3 and under free"
             },
             {
               "icon": "info",
-              "text": "Trick or Treat Trail adds games, arts and crafts, Touch-A-Truck and food trucks"
+              "text": "Bring chairs or blankets. Williamson County Astronomy Club volunteers provide telescopes/cameras."
             }
           ],
-          "desc": "Three weeks out, and on the list now because costume decisions have a lead time and because both of these are the kind of free local thing that gets discovered the day after. Two separate events, two different flavours: the Candy Crawl is trick-or-treating at downtown businesses on a Sunday afternoon, and the city's Trick or Treat Trail is a park event on the Thursday before Halloween with more to do than collect candy. Doing both is fine — they are four days apart. ⚠ One widely-listed 'Masquerade on Main & Mill' on Oct 26 was checked and dropped: it is Georgetown, Ontario, not Georgetown, Texas.",
+          "desc": "A real hands-on science outing, but only if you register now — the park does not accept walk-ins at the gate. It is a school night, so this is better for the boys if they can handle a later bedtime; otherwise do not force it. Check the weather before leaving and bring a blanket because standing still under a clear November sky gets cold fast.",
           "links": [
             {
-              "href": "https://dgagtx.org/Candy-Crawl",
-              "label": "Downtown Candy Crawl"
-            },
-            {
-              "href": "https://georgetowntexas.gov/business_detail_T22_R193.php",
-              "label": "Trick or Treat Trail"
+              "href": "https://georgetownparks.perfectmind.com/23301/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f2c272df-1970-4923-8d0b-e8c3b8fa5463&widgetId=d632a03e-71ee-404b-ab67-33cb07caaabe&embed=False",
+              "label": "Register for Public Stargazing"
             }
           ]
         },
         {
-          "verified": "2026-09",
-          "expires": "2026-10-31",
+          "verified": "2026-11",
+          "expires": "2026-11-29",
           "image": "images/news_events.jpg",
-          "title": "Round Rock Pumpkin Festival — Opens Fri Oct 2",
-          "brief": "Open Fridays through Mondays all month — including the Oct 12 holiday, which is the quiet way to do it.",
+          "title": "Dino Fest at Sweet Eats — Daily Through Nov 29",
+          "brief": "Animatronic dinosaurs take over the corn maze, with the farm’s regular animal and play attractions still running.",
           "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
             {
               "type": "haneul",
               "label": "Hanung"
+            },
+            {
+              "type": "harang",
+              "label": "Harang"
             },
             {
               "type": "family",
@@ -4778,74 +4699,12 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Oct 2–31 · Fri–Mon"
+            "text": "Daily · through Nov 29"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Old Settlers Park, Round Rock"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~25 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Oct 2 – 31 · Fridays through Mondays, 10 AM – 7 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "⚠ Admission not published — many attractions are free, some need tickets bought on site (card or Apple Pay only). Parking is free"
-            },
-            {
-              "icon": "info",
-              "text": "Thousands of pumpkins, pumpkin painting, bouncy house, corn pit, slime station, barrel train, farm animals, fire trucks, face painting"
-            },
-            {
-              "icon": "info",
-              "text": "A portion of proceeds goes to Austin Pets Alive and the Old Settlers Association"
-            }
-          ],
-          "desc": "Worth listing next to Sweet Eats rather than instead of it, because they are different trips. Sweet Eats is a paid gate — about $80–100 for four before anything is bought — with a corn maze and fireworks. This is a park with free parking, a lot of free games and a ticket tent for the rest, which means you can do an hour for the price of a few tickets. Note the Monday opening: Mon Oct 12 is a GISD district holiday and this is open that day.",
-          "links": [
-            {
-              "href": "https://roundrockpumpkinfestival.com/",
-              "label": "Round Rock Pumpkin Festival"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Old+Settlers+Park+Round+Rock+TX",
-              "label": "Google Maps"
-            }
-          ]
-        },
-        {
-          "verified": "2026-09",
-          "expires": "2026-11-08",
-          "image": "images/news_events.jpg",
-          "title": "Sweet Eats Fall Festival — Open Now Through Nov 8",
-          "brief": "Corn maze and pumpkin patch, open now. The Friday and Saturday fireworks start this week, with October.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "cost",
-            "text": "$19.95–24.95"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Sweet Eats Adventure Farm, 14400 E State Hwy 29, Georgetown"
+              "text": "Sweet Eats Adventure Farm, 14400 E State Hwy 29, Georgetown, TX 78626"
             },
             {
               "icon": "drive",
@@ -4853,85 +4712,85 @@
             },
             {
               "icon": "time",
-              "text": "Sep 19 – Nov 8, 2026"
+              "text": "Nov 8–29, daily, 9 AM–6 PM"
             },
             {
               "icon": "cost",
-              "text": "Cost: $19.95–24.95 general admission, includes the 30+ attractions"
+              "text": "Cost: Ticketed — buy early to save up to 40%"
             },
             {
               "icon": "info",
-              "text": "4.5-acre corn maze, 40+ pumpkin varieties, wagon and pony rides, petting zoo, apple cannons, daily pig races"
-            },
-            {
-              "icon": "info",
-              "text": "Fireworks every Friday and Saturday night in October except Halloween night · weekend fire show, falconry and Zoofari in October"
+              "text": "4.5-acre themed corn maze with giant animatronic dinosaurs, plus petting zoo, pony rides and 30+ farm activities"
             }
           ],
-          "desc": "Worth doing once a season, not repeatedly — about $80–100 for the four of us before anything is bought inside. October is when it earns the ticket: fireworks every Friday and Saturday night except Halloween, plus the fire show, falconry and Zoofari on weekends, none of which were running in September. Best play is still a weekday: Mon Oct 12 is a GISD district holiday — same festival, no weekend crowd.",
+          "desc": "This is the fallback outdoor family day if the Saturday events are too much, not something to squeeze in on the same packed weekend. The dinosaur theme gives it a fresh reason to go after fall festival season, and weekday mornings should be much calmer. Check the farm’s status before driving because weather closures have happened.",
           "links": [
             {
-              "href": "https://www.sweeteats.com/austin-fall-festival/",
-              "label": "Fall Festival"
-            },
-            {
-              "href": "https://www.google.com/maps/search/?api=1&query=Sweet+Eats+Adventure+Farm+14400+E+State+Hwy+29+Georgetown+TX",
-              "label": "Google Maps"
+              "href": "https://www.sweeteats.com/austin-tx-texas-jurassic-dinosaur-festival-live-animatronic-giants-t-rex/",
+              "label": "Dino Fest details and tickets"
             }
           ]
         },
         {
-          "verified": "2026-09",
-          "expires": "2026-10-31",
-          "image": "images/news_city.jpg",
-          "title": "🚧 Williams Drive Construction — Left Turns Are Going Away",
-          "brief": "Three weeks in. No left turns across Williams Dr in the work zone, and it runs into late 2027.",
+          "verified": "2026-11",
+          "expires": "2026-11-15",
+          "image": "images/news_community.jpg",
+          "title": "Garey Park Phase II Celebration — Sun Nov 15",
+          "brief": "Grand-opening celebration for the new skate ranch, disc-golf course, play additions and trails — with food trucks, music and games.",
           "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
             {
               "type": "family",
               "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New"
             }
           ],
           "previewMeta": {
-            "icon": "info",
-            "text": "Now – late 2027"
+            "icon": "time",
+            "text": "Sun Nov 15"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Williams Dr, Austin Ave to Jim Hogg Rd · first phase Serenada Dr to Lakeway Dr"
+              "text": "Garey Park, Georgetown"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~15 min"
             },
             {
               "icon": "time",
-              "text": "Began Sep 16, 2026 · anticipated complete late 2027"
+              "text": "Sun Nov 15 · check the city calendar for the final event time"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Park admission may apply"
             },
             {
               "icon": "info",
-              "text": "Raised center median, street lighting, signal and intersection upgrades, new waterline, bike and pedestrian improvements"
-            },
-            {
-              "icon": "info",
-              "text": "Existing center turn lane is removed — left turns across Williams Dr no longer allowed in the work section. Driveways stay open but some movements change"
-            },
-            {
-              "icon": "phone",
-              "text": "City project line: (512) 354-2627 · williamsdrive@georgetowntexas.gov"
+              "text": "New Skate Ranch, disc-golf course, Play Ranch additions, trails, food trucks, live music, games and limited swag"
             }
           ],
-          "desc": "This is the road the family uses for almost everything — H-E-B, the pediatrician, the pediatric dentist, Hillside Nursery and the route toward Serenada are all on or off Williams Dr. Losing the center turn lane is the part that will actually change driving: turns that used to be one move become a right, a loop and a light. Worth an extra five minutes in the estimate for anything on Williams Dr for the next year, and worth checking which side of the road a destination is on before leaving. This is a long-running condition rather than an event, so it stays here for a few weeks and then belongs in a permanent card.",
+          "desc": "This is the more useful long-term find: the park has new things worth returning to after the opening day. The Skate Ranch and expanded play area make it especially worth checking for both boys, even if you do not stay for the full celebration. Verify the final schedule before heading over, because the city calendar is the source of truth.",
           "links": [
             {
               "href": "https://georgetowntexas.gov/",
-              "label": "City of Georgetown"
-            },
-            {
-              "href": "tel:5123542627",
-              "label": "Call: (512) 354-2627"
+              "label": "City of Georgetown calendar"
             }
           ]
         }
       ],
-      "staleAfter": "2026-10-16"
+      "staleAfter": "2026-11-20"
     }
   ]
 }
