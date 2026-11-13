@@ -823,8 +823,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Harang (11) · Haneul (8)</div>
-<div><strong>Updated</strong>   November 13, 2026 (v5.10)</div>
-<div><strong>v5.10</strong></div>
+<div><strong>Updated</strong>   November 13, 2026 (v5.11)</div>
+<div><strong>v5.11</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -867,7 +867,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v5.10 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v5.11 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -1049,6 +1049,10 @@
         buttons.forEach(b => b.classList.toggle('active', b.getAttribute('data-category') === 'all'));
         applyFilters();
       });
+
+      // Start on the concise News view; this must run once after cards render,
+      // not only after someone clicks a filter button.
+      applyFilters();
 
       // ----- Stale-card badge (TASK-011) -----
       // Cards carry data-verified="YYYY-MM". Once a card hasn't been verified
