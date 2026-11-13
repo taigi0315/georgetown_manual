@@ -823,8 +823,8 @@
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
 <div><strong>Family</strong>   Harang (11) · Haneul (8)</div>
-<div><strong>Updated</strong>   November 13, 2026 (v5.11)</div>
-<div><strong>v5.11</strong></div>
+<div><strong>Updated</strong>   November 13, 2026 (v5.12)</div>
+<div><strong>v5.12</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
@@ -867,7 +867,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v5.11 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v5.12 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -1050,10 +1050,6 @@
         applyFilters();
       });
 
-      // Start on the concise News view; this must run once after cards render,
-      // not only after someone clicks a filter button.
-      applyFilters();
-
       // ----- Stale-card badge (TASK-011) -----
       // Cards carry data-verified="YYYY-MM". Once a card hasn't been verified
       // in STALE_MONTHS, show a "Verify info" badge so out-of-date prices/hours
@@ -1223,6 +1219,9 @@
           card.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
       });
+
+      // Start on the concise News view after all filter dependencies are initialized.
+      applyFilters();
     }
 
     /* Bootstrap: load card data, render it, then wire up all the features.
