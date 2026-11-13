@@ -822,17 +822,17 @@
 <p class="subtitle">Schools, after-school programs, sports, weekend adventures, restaurants, and everything we need to know about our new home.</p>
 <div class="meta-bar">
 <div><strong>Home</strong>   Georgetown, TX 78633</div>
-<div><strong>Family</strong>   Harang (11) · Hanung (8)</div>
-<div><strong>Updated</strong>   November 13, 2026 (v5.9)</div>
-<div><strong>v5.9</strong></div>
+<div><strong>Family</strong>   Harang (11) · Haneul (8)</div>
+<div><strong>Updated</strong>   November 13, 2026 (v5.10)</div>
+<div><strong>v5.10</strong></div>
 </div>
 </header>
 <!-- ============ CATEGORY FILTER BAR ============ -->
 <div class="category-bar-wrapper">
 <div class="category-bar">
-<button class="category-btn active" data-category="all">All</button>
+<button class="category-btn" data-category="all">All</button>
 <button class="category-btn" data-category="deadlines">⏰ Deadlines</button>
-<button class="category-btn" data-category="news">📰 News</button>
+<button class="category-btn active" data-category="news">📰 News</button>
 <button class="category-btn" data-category="education">School & Care</button>
 <button class="category-btn" data-category="activities">Sports & Activities</button>
 <button class="category-btn" data-category="restaurants">Restaurants</button>
@@ -848,7 +848,7 @@
 <button aria-label="Clear search" class="search-clear" id="searchClear" type="button">✕</button>
 </div>
 <div class="tag-filter-row" id="tagFilterRow">
-<button class="tag-chip tag-haneul" data-tag="haneul" type="button">Hanung</button>
+<button class="tag-chip tag-haneul" data-tag="haneul" type="button">Haneul</button>
 <button class="tag-chip tag-harang" data-tag="harang" type="button">Harang</button>
 <button class="tag-chip tag-family" data-tag="family" type="button">Family</button>
 <button class="tag-chip tag-adult" data-tag="adult" type="button">Adult</button>
@@ -867,7 +867,7 @@
 <main id="content"></main>
 <!-- ============ FOOTER ============ -->
 <footer>
-    The Choi Family Manual · v5.9 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
+    The Choi Family Manual · v5.10 · Georgetown, TX · <a href="agent.html" style="color: var(--ink-tertiary);">AI Agent Instructions</a>
 </footer>
 </div>
 <script>
@@ -957,7 +957,7 @@
       const noResults = document.getElementById('noResults');
 
       // ----- Unified filter state -----
-      let activeCategory = 'all';
+      let activeCategory = 'news';
       let searchQuery = '';
       const activeTags = new Set();
 

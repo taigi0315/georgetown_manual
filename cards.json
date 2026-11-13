@@ -4454,7 +4454,7 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's useful in Georgetown and within ~2 hours for Nov 13–19, 2026. Saturday has three very different choices: Georgetown Market Days in the morning, NightMarket.fun for Asian food/anime/gaming at night, or Creek Show for Austin light art. Wurstfest is free for everyone on its final Sunday.",
+      "intro": "Your quick family-news view for Nov 13–19, 2026. The most time-sensitive weekend choices lead the page; each outdoor outing includes a destination-specific forecast when it is reliable. Saturday has Georgetown Market Days in the morning, NightMarket.fun for Asian food/anime/gaming at night, or Creek Show for Austin light art. Sunday’s New Braunfels Wurstfest admission is free, but storms are possible.",
       "cards": [
         {
           "verified": "2026-11",
@@ -4470,7 +4470,7 @@
             },
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "family",
@@ -4497,6 +4497,10 @@
             {
               "icon": "time",
               "text": "Sat Nov 14, 4–10 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Cedar Park / north Austin, Sat Nov 14: mostly cloudy with a couple of afternoon showers; high near 67°F, low near 56°F. Outdoor festival: bring a rain jacket. Forecast checked Nov 13."
             },
             {
               "icon": "cost",
@@ -4549,6 +4553,10 @@
               "text": "Sat Nov 14, 9:30 AM–4 PM"
             },
             {
+              "icon": "info",
+              "text": "Weather — Georgetown, Sat Nov 14: cloudy with possible afternoon showers; high 65°F, low 53°F. Go in the morning for the better chance of dry browsing. Forecast checked Nov 13."
+            },
+            {
               "icon": "cost",
               "text": "Cost: Free"
             },
@@ -4574,7 +4582,7 @@
           "tags": [
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "harang",
@@ -4601,6 +4609,10 @@
             {
               "icon": "time",
               "text": "Nov 8–29, daily, 9 AM–6 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Georgetown area: Nov 29 is beyond the reliable forecast window. Check Sweet Eats’ status and the local forecast before the drive."
             },
             {
               "icon": "cost",
@@ -4632,7 +4644,7 @@
             },
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "family",
@@ -4659,6 +4671,10 @@
             {
               "icon": "time",
               "text": "Sun Nov 15 · check the city calendar for the final event time"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Georgetown, Sun Nov 15: showers and a possible thunderstorm; high 58°F, low 47°F. Confirm the event before leaving. Forecast checked Nov 13."
             },
             {
               "icon": "cost",
@@ -4690,7 +4706,7 @@
             },
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "family",
@@ -4717,6 +4733,10 @@
             {
               "icon": "time",
               "text": "Nov 6–15 · final weekend Fri–Sun"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — New Braunfels, Sun Nov 15: showers and a possible thunderstorm; high 67°F, low 52°F. Check the festival’s updates before the long drive. Forecast checked Nov 13."
             },
             {
               "icon": "cost",
@@ -4749,7 +4769,7 @@
             },
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "family",
@@ -4776,6 +4796,10 @@
             {
               "icon": "time",
               "text": "Nightly Nov 13–21, 6–10 PM · Family Night Sat Nov 14"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Austin, Sat Nov 14: mostly cloudy with a couple of afternoon showers; high 67°F, low 56°F. It is outdoors after dark, so bring rain gear and a warm layer. Forecast checked Nov 13."
             },
             {
               "icon": "cost",
@@ -4807,7 +4831,7 @@
             },
             {
               "type": "haneul",
-              "label": "Hanung"
+              "label": "Haneul"
             },
             {
               "type": "family",
@@ -4834,6 +4858,10 @@
             {
               "icon": "time",
               "text": "Sat–Sun Nov 14–15 and Nov 21–22, 11 AM–5 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Austin, Sat Nov 14: mostly cloudy with possible afternoon showers; high 67°F, low 56°F. The Nov 21–22 weekend is beyond a reliable forecast window; check again closer to the date."
             },
             {
               "icon": "cost",
