@@ -4454,7 +4454,7 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "What's useful in Georgetown and within ~2 hours for Nov 10–16, 2026. NightMarket.fun on Saturday remains the best family fit for Asian food, anime and gaming; Wurstfest is the bigger final-weekend road trip. In town, Field of Honor, Market Days and Dino Fest make an easy local week.",
+      "intro": "What's useful in Georgetown and within ~2 hours for Nov 13–19, 2026. Saturday has three very different choices: Georgetown Market Days in the morning, NightMarket.fun for Asian food/anime/gaming at night, or Creek Show for Austin light art. Wurstfest is free for everyone on its final Sunday.",
       "cards": [
         {
           "verified": "2026-11",
@@ -4521,64 +4521,6 @@
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-15",
-          "image": "images/news_events.jpg",
-          "title": "Field of Honor — Final Week at San Gabriel Park",
-          "brief": "2,000 flags across the Event Lawn, with the observation deck open through Saturday and the field open until 5 PM Sunday.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Through Sun Nov 15"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "San Gabriel Park Event Lawn, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "time",
-              "text": "Nov 7–14: field and observation deck open 24/7 · Nov 15: open until 5 PM"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: No visitor admission price published; a new dedicated flag is $45"
-            },
-            {
-              "icon": "info",
-              "text": "Dear Hero letter station Sat Nov 14, 9 AM–noon; Quilt of Valor ceremony Wed Nov 11, 1–5 PM"
-            }
-          ],
-          "desc": "This is a simple, meaningful local walk rather than a whole-day outing. Go near golden hour for the best view from the 16-foot observation deck, then let the boys write a Dear Hero note if you make it Saturday morning. The field itself is the reason to go; do not confuse buying a flag with needing admission to visit.",
-          "links": [
-            {
-              "href": "https://georgetowntxfieldofhonor.org/field-of-honor-events/",
-              "label": "Field of Honor schedule"
-            },
-            {
-              "href": "https://georgetowntxfieldofhonor.org/what-is-the-field-of-honor/",
-              "label": "Event details"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
           "expires": "2026-11-14",
           "image": "images/news_city.jpg",
           "title": "2nd Saturday Market Days — Downtown Georgetown, Free",
@@ -4620,60 +4562,6 @@
             {
               "href": "https://dgagtx.org/events",
               "label": "Market Days details"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-11",
-          "image": "images/news_arts.jpg",
-          "title": "Public Stargazing at Garey Park — Wed Nov 11",
-          "brief": "A telescope night with the Williamson County Astronomy Club. Pre-registration only; no walk-ins.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Hanung"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Wed Nov 11 · 7–9 PM"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Garey Park, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~15 min"
-            },
-            {
-              "icon": "time",
-              "text": "Wed Nov 11, 7–9 PM · pre-registration required"
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: $2 resident / $5 nonresident; ages 3 and under free"
-            },
-            {
-              "icon": "info",
-              "text": "Bring chairs or blankets. Williamson County Astronomy Club volunteers provide telescopes/cameras."
-            }
-          ],
-          "desc": "A real hands-on science outing, but only if you register now — the park does not accept walk-ins at the gate. It is a school night, so this is better for the boys if they can handle a later bedtime; otherwise do not force it. Check the weather before leaving and bring a blanket because standing still under a clear November sky gets cold fast.",
-          "links": [
-            {
-              "href": "https://georgetownparks.perfectmind.com/23301/Clients/BookMe4BookingPages/BookingCoursesPage?calendarId=f2c272df-1970-4923-8d0b-e8c3b8fa5463&widgetId=d632a03e-71ee-404b-ab67-33cb07caaabe&embed=False",
-              "label": "Register for Public Stargazing"
             }
           ]
         },
@@ -4832,23 +4720,140 @@
             },
             {
               "icon": "cost",
-              "text": "Cost: Kids 12 and under free. Fri/Sun adults $15 online ($20 gate); Sat $25 online ($30 gate). Final Sunday is free after 3 PM."
+              "text": "Cost: Kids 12 and under free every day. Fri adults $15 online ($20 gate); Sat $25 online ($30 gate); final Sunday Nov 15 is free for everyone."
             },
             {
               "icon": "info",
               "text": "German food, carnival rides and games, five music stages and 40+ bands"
             }
           ],
-          "desc": "This is a real festival, not a quick local stop — make it a day trip only if the family wants food, music and carnival energy more than a quiet outing. Saturday is the most expensive and busiest day. Sunday after 3 PM is the value play for the four of you, though it shortens the drive-time margin and is still a long day.",
+          "desc": "This is a real festival, not a quick local stop — make it a day trip only if the family wants food, music and carnival energy more than a quiet outing. Saturday is the most expensive and busiest day. Sunday is now the value play: admission is free all day for everyone, though the drive still makes it a long outing.",
           "links": [
             {
               "href": "https://wurstfest.com/",
               "label": "Wurstfest official site and tickets"
             }
           ]
+        },
+        {
+          "verified": "2026-11",
+          "featured": true,
+          "expires": "2026-11-21",
+          "image": "images/news_arts.jpg",
+          "title": "Creek Show — Downtown Austin Light Installations",
+          "brief": "Nine nights of glowing public art along Waller Creek. Saturday is Family Night; go after sunset.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Weekend pick"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Nov 13–21 · 6–10 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Waterloo Greenway, 4th St to Lady Bird Lake · entrance at 703½ E 4th St, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Nightly Nov 13–21, 6–10 PM · Family Night Sat Nov 14"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Ticketed; proceeds support Waterloo Greenway"
+            },
+            {
+              "icon": "info",
+              "text": "Ten local-artist light installations, food vendors, DJ and family activities at Creek Monster Cove"
+            }
+          ],
+          "desc": "This is Austin at night done properly: walkable, visual, and special enough to feel like an outing rather than another festival tent. Saturday is the best match for the boys because it is Family Night, but it clashes directly with NightMarket.fun; choose NightMarket for food/anime/gaming, or choose Creek Show for a more atmospheric evening. Buy tickets before driving down and layer up for the creek walk.",
+          "links": [
+            {
+              "href": "https://waterloogreenway.org/creek-show-2026/",
+              "label": "Creek Show tickets and nightly schedule"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-22",
+          "image": "images/news_arts.jpg",
+          "title": "Austin Studio Tour — Free, Two Weekends",
+          "brief": "A free, choose-your-own Austin art day: working studios, demos and hands-on activities. Start with just one neighborhood.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Hanung"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Nov 14–15 & 21–22"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "309 artist studios, galleries and venues around Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~40–55 min south, depending on the area"
+            },
+            {
+              "icon": "time",
+              "text": "Sat–Sun Nov 14–15 and Nov 21–22, 11 AM–5 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free; some special programs may charge"
+            },
+            {
+              "icon": "info",
+              "text": "815 artists, live demos, art-making activities, performances and sensory-friendly exhibits"
+            }
+          ],
+          "desc": "Do not try to ‘do Austin Studio Tour’ — pick one cluster and make it a 2–3 hour adventure. It is a good fit for Harang’s creative side and a low-pressure way for both boys to see how things are made, but only after you use the map to choose nearby stops. This weekend overlaps NightMarket and Market Days, so the second weekend may be the calmer choice.",
+          "links": [
+            {
+              "href": "https://atxstudiotour.com/",
+              "label": "Austin Studio Tour map and guide"
+            }
+          ]
         }
       ],
-      "staleAfter": "2026-11-21"
+      "staleAfter": "2026-11-24"
     }
   ]
 }
