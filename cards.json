@@ -4454,131 +4454,14 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "Your quick family-news view for Nov 13–19, 2026. The most time-sensitive weekend choices lead the page; each outdoor outing includes a destination-specific forecast when it is reliable. Saturday has Georgetown Market Days in the morning, NightMarket.fun for Asian food/anime/gaming at night, or Creek Show for Austin light art. Sunday’s New Braunfels Wurstfest admission is free, but storms are possible.",
+      "intro": "Your quick family-news view for Nov 15–21, 2026. Georgetown’s Dino Fest remains a flexible local outing; the strongest next-weekend picks are Korean food and K-pop on Friday, then JAPAN Fes, Creek Show’s final night and Austin Studio Tour. Saturday in Austin currently looks stormy; Sunday is the better outdoor backup.",
       "cards": [
-        {
-          "verified": "2026-11",
-          "featured": true,
-          "expires": "2026-11-14",
-          "image": "images/news_community.jpg",
-          "title": "NightMarket.fun — Asian Food, Anime & Gaming, Sat Nov 14",
-          "brief": "The best fit this week: 100+ vendors, Asian street food, K-pop, anime and games in Cedar Park. Kids under 12 are free with a ticketed adult.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Top pick"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Nov 14 · 4–10 PM"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Lakeline Park, 1510 Alexis Dr, Cedar Park, TX 78613"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~30 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Nov 14, 4–10 PM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Cedar Park / north Austin, Sat Nov 14: mostly cloudy with a couple of afternoon showers; high near 67°F, low near 56°F. Outdoor festival: bring a rain jacket. Forecast checked Nov 13."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Ticketed; children under 12 enter free with a ticketed adult. Buy ahead — gate prices increase."
-            },
-            {
-              "icon": "info",
-              "text": "100+ vendors, dozens of Asian food kitchens, 20+ performances, anime and gaming takeover, TCG/Pokémon space, cinema, kids zone and free overflow parking/shuttle"
-            }
-          ],
-          "desc": "This is the rare local event that actually lands on all four of you: Asian food for the adults, anime and gaming for the boys, plus performances and a real kids zone. It is a one-night, outdoor festival, so eat early and arrive near opening rather than trying to do all six hours. Bring jackets after sunset; buy the adult tickets in advance, and use the Reed Elementary overflow parking/shuttle if Lakeline is full.",
-          "links": [
-            {
-              "href": "https://www.nightmarket.fun/events/nightmarket-fun-2026",
-              "label": "NightMarket.fun details and tickets"
-            },
-            {
-              "href": "https://www.nightmarket.fun/faqs",
-              "label": "Parking, kids and FAQ"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-14",
-          "image": "images/news_city.jpg",
-          "title": "2nd Saturday Market Days — Downtown Georgetown, Free",
-          "brief": "An easy in-town morning: artists, cottage food, food trucks and live music around the Square.",
-          "tags": [
-            {
-              "type": "family",
-              "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat Nov 14 · 9:30–4"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Downtown Georgetown Square, 710 S Main St"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "time",
-              "text": "Sat Nov 14, 9:30 AM–4 PM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Georgetown, Sat Nov 14: cloudy with possible afternoon showers; high 65°F, low 53°F. Go in the morning for the better chance of dry browsing. Forecast checked Nov 13."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free"
-            },
-            {
-              "icon": "info",
-              "text": "Artisan and craft vendors, cottage food, food trucks and live local music"
-            }
-          ],
-          "desc": "The easy, low-cost Saturday option before NightMarket.fun starts at 4 PM. It is not a destination festival, but it is a nice reason to get breakfast at Monument Cafe, walk the Square and let the boys browse without committing the day. Do it in the morning; the later Cedar Park event is the bigger outing.",
-          "links": [
-            {
-              "href": "https://dgagtx.org/events",
-              "label": "Market Days details"
-            }
-          ]
-        },
         {
           "verified": "2026-11",
           "expires": "2026-11-29",
           "image": "images/news_events.jpg",
           "title": "Dino Fest at Sweet Eats — Daily Through Nov 29",
-          "brief": "Animatronic dinosaurs take over the corn maze, with the farm’s regular animal and play attractions still running.",
+          "brief": "A dependable Georgetown-area family outing if you want a flexible dinosaur-and-farm day.",
           "tags": [
             {
               "type": "haneul",
@@ -4595,7 +4478,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Daily · through Nov 29"
+            "text": "Through Sun Nov 29"
           },
           "meta": [
             {
@@ -4608,160 +4491,32 @@
             },
             {
               "icon": "time",
-              "text": "Nov 8–29, daily, 9 AM–6 PM"
+              "text": "Daily through Sun Nov 29 · 9 AM–6 PM"
             },
             {
               "icon": "info",
-              "text": "Weather — Georgetown area: Nov 29 is beyond the reliable forecast window. Check Sweet Eats’ status and the local forecast before the drive."
+              "text": "Weather — Georgetown area: Nov 29 is beyond the reliable forecast window. Check the farm’s status and local forecast before driving."
             },
             {
               "icon": "cost",
-              "text": "Cost: Ticketed — buy early to save up to 40%"
-            },
-            {
-              "icon": "info",
-              "text": "4.5-acre themed corn maze with giant animatronic dinosaurs, plus petting zoo, pony rides and 30+ farm activities"
+              "text": "Cost: Ticketed; buy early for the advertised discount."
             }
           ],
-          "desc": "This is the fallback outdoor family day if the Saturday events are too much, not something to squeeze in on the same packed weekend. The dinosaur theme gives it a fresh reason to go after fall festival season, and weekday mornings should be much calmer. Check the farm’s status before driving because weather closures have happened.",
+          "desc": "Dinosaur-themed corn maze, animatronic dinosaurs, petting zoo, pony rides and farm activities. Confirm the day’s hours before leaving.",
           "links": [
             {
-              "href": "https://www.sweeteats.com/austin-tx-texas-jurassic-dinosaur-festival-live-animatronic-giants-t-rex/",
-              "label": "Dino Fest details and tickets"
+              "href": "https://sweeteats.com/dino-fest/",
+              "label": "Sweet Eats Dino Fest"
             }
           ]
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-15",
-          "image": "images/news_community.jpg",
-          "title": "Garey Park Phase II Celebration — Sun Nov 15",
-          "brief": "Grand-opening celebration for the new skate ranch, disc-golf course, play additions and trails — with food trucks, music and games.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "new",
-              "label": "New"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sun Nov 15"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Garey Park, Georgetown"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~15 min"
-            },
-            {
-              "icon": "time",
-              "text": "Sun Nov 15 · check the city calendar for the final event time"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Georgetown, Sun Nov 15: showers and a possible thunderstorm; high 58°F, low 47°F. Confirm the event before leaving. Forecast checked Nov 13."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Park admission may apply"
-            },
-            {
-              "icon": "info",
-              "text": "New Skate Ranch, disc-golf course, Play Ranch additions, trails, food trucks, live music, games and limited swag"
-            }
-          ],
-          "desc": "This is the more useful long-term find: the park has new things worth returning to after the opening day. The Skate Ranch and expanded play area make it especially worth checking for both boys, even if you do not stay for the full celebration. Verify the final schedule before heading over, because the city calendar is the source of truth.",
-          "links": [
-            {
-              "href": "https://georgetowntexas.gov/",
-              "label": "City of Georgetown calendar"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-15",
-          "image": "images/news_community.jpg",
-          "title": "Wurstfest — Final Weekend, New Braunfels",
-          "brief": "The big German-Texas festival ends Sunday. Kids 12 and under are free; weeknights are free for adults too.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "new",
-              "label": "New"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Through Sun Nov 15"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Wurstfest Grounds, 120 Landa St, New Braunfels, TX 78130"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~1 hr 20 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Nov 6–15 · final weekend Fri–Sun"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — New Braunfels, Sun Nov 15: showers and a possible thunderstorm; high 67°F, low 52°F. Check the festival’s updates before the long drive. Forecast checked Nov 13."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Kids 12 and under free every day. Fri adults $15 online ($20 gate); Sat $25 online ($30 gate); final Sunday Nov 15 is free for everyone."
-            },
-            {
-              "icon": "info",
-              "text": "German food, carnival rides and games, five music stages and 40+ bands"
-            }
-          ],
-          "desc": "This is a real festival, not a quick local stop — make it a day trip only if the family wants food, music and carnival energy more than a quiet outing. Saturday is the most expensive and busiest day. Sunday is now the value play: admission is free all day for everyone, though the drive still makes it a long outing.",
-          "links": [
-            {
-              "href": "https://wurstfest.com/",
-              "label": "Wurstfest official site and tickets"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "featured": true,
           "expires": "2026-11-21",
           "image": "images/news_arts.jpg",
-          "title": "Creek Show — Downtown Austin Light Installations",
-          "brief": "Nine nights of glowing public art along Waller Creek. Saturday is Family Night; go after sunset.",
+          "featured": true,
+          "title": "Creek Show — Final Nights of Light Art, Austin",
+          "brief": "A ticketed, after-dark Waller Creek walk with local light installations; final night is Saturday.",
           "tags": [
             {
               "type": "harang",
@@ -4777,12 +4532,12 @@
             },
             {
               "type": "featured",
-              "label": "Weekend pick"
+              "label": "Top Pick"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Nov 13–21 · 6–10 PM"
+            "text": "Nightly through Sat Nov 21"
           },
           "meta": [
             {
@@ -4795,26 +4550,148 @@
             },
             {
               "icon": "time",
-              "text": "Nightly Nov 13–21, 6–10 PM · Family Night Sat Nov 14"
+              "text": "Nightly through Sat Nov 21 · 6–10 PM"
             },
             {
               "icon": "info",
-              "text": "Weather — Austin, Sat Nov 14: mostly cloudy with a couple of afternoon showers; high 67°F, low 56°F. It is outdoors after dark, so bring rain gear and a warm layer. Forecast checked Nov 13."
+              "text": "Weather — Austin: Fri Nov 20 has rain/thunderstorms, high 73°F / low 61°F; Sat Nov 21 has thunderstorms especially late, high 76°F / low 56°F. It is outdoors: bring rain gear and confirm conditions."
             },
             {
               "icon": "cost",
-              "text": "Cost: Ticketed; proceeds support Waterloo Greenway"
-            },
-            {
-              "icon": "info",
-              "text": "Ten local-artist light installations, food vendors, DJ and family activities at Creek Monster Cove"
+              "text": "Cost: Ticketed; proceeds support Waterloo Greenway."
             }
           ],
-          "desc": "This is Austin at night done properly: walkable, visual, and special enough to feel like an outing rather than another festival tent. Saturday is the best match for the boys because it is Family Night, but it clashes directly with NightMarket.fun; choose NightMarket for food/anime/gaming, or choose Creek Show for a more atmospheric evening. Buy tickets before driving down and layer up for the creek walk.",
+          "desc": "Ten local-artist installations along Waller Creek, with food vendors and a family-friendly outdoor evening. Be in line before the event’s entry cutoff.",
           "links": [
             {
               "href": "https://waterloogreenway.org/creek-show-2026/",
-              "label": "Creek Show tickets and nightly schedule"
+              "label": "Creek Show details & tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-20",
+          "image": "images/news_community.jpg",
+          "featured": true,
+          "title": "Austin–Gwangmyeong Anniversary — Korean Dinner & K-pop",
+          "brief": "A one-evening Korean cultural celebration with a dinner buffet, K-pop and traditional performances.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Top Pick"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri Nov 20 · 6–9 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "City of Austin Permitting & Development Center, Austin"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45–55 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Nov 20 · 6–9 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Austin, Fri Nov 20: rain/thunderstorms are possible; high 73°F / low 61°F. This is indoors, but allow extra travel time."
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Check the organizer’s registration link; availability and price were not stated on the current announcement."
+            }
+          ],
+          "desc": "A practical Friday pick for Korean food and culture. Register before committing; the organizer lists a Korean buffet, K-pop, and traditional dance.",
+          "links": [
+            {
+              "href": "https://www.austinsistercities.com/what-we-do/visitor-center/events",
+              "label": "Austin Sister Cities event details"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-22",
+          "image": "images/news_events.jpg",
+          "featured": true,
+          "title": "JAPAN Fes Texas — Japanese Food & Culture, Austin",
+          "brief": "A Japan-focused weekend food-and-culture festival that fits the family’s anime interest, though specific One Piece/Naruto programming is not confirmed.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Top Pick"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Sat–Sun Nov 21–22"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Republic Square, 440 Federal Courthouse Plaza, Austin, TX 78701"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~45 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Sat–Sun Nov 21–22 · check official page for daily hours"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Austin: Sat Nov 21 has thunderstorms especially late, high 76°F / low 56°F; Sun Nov 22 is sunny, high 70°F / low 46°F. Sunday is the better outdoor-weather backup."
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Official event page does not list a current admission price; confirm before the drive."
+            }
+          ],
+          "desc": "Japanese food, culture and vendors at Republic Square. The official listing confirms the Austin dates and location; check its final schedule before leaving.",
+          "links": [
+            {
+              "href": "https://www.japanfes.com/texas/2026",
+              "label": "Official JAPAN Fes Texas page"
             }
           ]
         },
@@ -4822,8 +4699,8 @@
           "verified": "2026-11",
           "expires": "2026-11-22",
           "image": "images/news_arts.jpg",
-          "title": "Austin Studio Tour — Free, Two Weekends",
-          "brief": "A free, choose-your-own Austin art day: working studios, demos and hands-on activities. Start with just one neighborhood.",
+          "title": "Austin Studio Tour — Free Second Weekend",
+          "brief": "Choose a couple of nearby studios from the map for an easy art-and-music-friendly family afternoon.",
           "tags": [
             {
               "type": "harang",
@@ -4844,7 +4721,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Nov 14–15 & 21–22"
+            "text": "Sat–Sun Nov 21–22 · 11 AM–5 PM"
           },
           "meta": [
             {
@@ -4853,35 +4730,89 @@
             },
             {
               "icon": "drive",
-              "text": "Drive: ~40–55 min south, depending on the area"
+              "text": "Drive: ~40–55 min south, depending on the chosen stops"
             },
             {
               "icon": "time",
-              "text": "Sat–Sun Nov 14–15 and Nov 21–22, 11 AM–5 PM"
+              "text": "Sat–Sun Nov 21–22 · 11 AM–5 PM"
             },
             {
               "icon": "info",
-              "text": "Weather — Austin, Sat Nov 14: mostly cloudy with possible afternoon showers; high 67°F, low 56°F. The Nov 21–22 weekend is beyond a reliable forecast window; check again closer to the date."
+              "text": "Weather — Austin: Sat Nov 21 may have late thunderstorms; Sun Nov 22 is sunny and cooler. Pick Sunday or indoor hosts if weather is rough."
             },
             {
               "icon": "cost",
-              "text": "Cost: Free; some special programs may charge"
-            },
-            {
-              "icon": "info",
-              "text": "815 artists, live demos, art-making activities, performances and sensory-friendly exhibits"
+              "text": "Cost: Free; a few special programs may charge."
             }
           ],
-          "desc": "Do not try to ‘do Austin Studio Tour’ — pick one cluster and make it a 2–3 hour adventure. It is a good fit for Harang’s creative side and a low-pressure way for both boys to see how things are made, but only after you use the map to choose nearby stops. This weekend overlaps NightMarket and Market Days, so the second weekend may be the calmer choice.",
+          "desc": "The tour lists 815 artists across 309 locations. Use the official directory to build a short route rather than trying to cover too much.",
           "links": [
             {
               "href": "https://atxstudiotour.com/",
-              "label": "Austin Studio Tour map and guide"
+              "label": "Austin Studio Tour map & directory"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-20",
+          "image": "images/news_community.jpg",
+          "title": "New Braunfels Downtown Lighting & Weihnachtsmarkt Under the Stars",
+          "brief": "A free, one-evening holiday kickoff with Santa’s arrival, music, food trucks and a snow-sled hill.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri Nov 20 · 6–9 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Main Plaza / Sophienburg Museum, 401 W Coll St, New Braunfels, TX 78130"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1 hr 20 min south"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Nov 20 · 6–9 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — New Braunfels, Fri Nov 20: rain/thunderstorms are possible, high 73°F / low 63°F. Check downtown updates before the long drive."
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free for the downtown lighting and Under the Stars event."
+            }
+          ],
+          "desc": "Downtown lighting and Santa’s arrival run alongside the free outdoor market at the Sophienburg. Rain risk makes this a plan-to-confirm event.",
+          "links": [
+            {
+              "href": "https://downtownnewbraunfels.com/events/",
+              "label": "Downtown New Braunfels events"
             }
           ]
         }
       ],
-      "staleAfter": "2026-11-24"
+      "staleAfter": "2026-11-26"
     }
   ]
 }
