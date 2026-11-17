@@ -4454,14 +4454,14 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "Your quick family-news view for Nov 15–21, 2026. Georgetown’s Dino Fest remains a flexible local outing; the strongest next-weekend picks are Korean food and K-pop on Friday, then JAPAN Fes, Creek Show’s final night and Austin Studio Tour. Saturday in Austin currently looks stormy; Sunday is the better outdoor backup.",
+      "intro": "Your quick family-news view for Nov 17–23, 2026. This Friday has a Korean dinner-and-performance evening in Austin; Saturday has JAPAN Fes, Pokémon Club, and the start of Austin Studio Tour’s second weekend. Georgetown’s bigger holiday kickoff is next Friday–Saturday, while Waco’s hands-on Homestead Fair is the Thanksgiving-weekend road-trip choice.",
       "cards": [
         {
           "verified": "2026-11",
           "expires": "2026-11-29",
           "image": "images/news_events.jpg",
           "title": "Dino Fest at Sweet Eats — Daily Through Nov 29",
-          "brief": "A dependable Georgetown-area family outing if you want a flexible dinosaur-and-farm day.",
+          "brief": "Flexible Georgetown-area dinosaur and farm outing; an easy fallback around Thanksgiving break.",
           "tags": [
             {
               "type": "haneul",
@@ -4478,7 +4478,7 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Through Sun Nov 29"
+            "text": "Daily through Sun Nov 29"
           },
           "meta": [
             {
@@ -4499,10 +4499,10 @@
             },
             {
               "icon": "cost",
-              "text": "Cost: Ticketed; buy early for the advertised discount."
+              "text": "Cost: Ticketed; confirm current pricing and hours before leaving."
             }
           ],
-          "desc": "Dinosaur-themed corn maze, animatronic dinosaurs, petting zoo, pony rides and farm activities. Confirm the day’s hours before leaving.",
+          "desc": "Dinosaur-themed corn maze, animatronic dinosaurs, petting zoo, pony rides and farm activities.",
           "links": [
             {
               "href": "https://sweeteats.com/dino-fest/",
@@ -4512,70 +4512,11 @@
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-21",
-          "image": "images/news_arts.jpg",
-          "featured": true,
-          "title": "Creek Show — Final Nights of Light Art, Austin",
-          "brief": "A ticketed, after-dark Waller Creek walk with local light installations; final night is Saturday.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Top Pick"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Nightly through Sat Nov 21"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Waterloo Greenway, 4th St to Lady Bird Lake · entrance at 703½ E 4th St, Austin"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Nightly through Sat Nov 21 · 6–10 PM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Austin: Fri Nov 20 has rain/thunderstorms, high 73°F / low 61°F; Sat Nov 21 has thunderstorms especially late, high 76°F / low 56°F. It is outdoors: bring rain gear and confirm conditions."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Ticketed; proceeds support Waterloo Greenway."
-            }
-          ],
-          "desc": "Ten local-artist installations along Waller Creek, with food vendors and a family-friendly outdoor evening. Be in line before the event’s entry cutoff.",
-          "links": [
-            {
-              "href": "https://waterloogreenway.org/creek-show-2026/",
-              "label": "Creek Show details & tickets"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
           "expires": "2026-11-20",
           "image": "images/news_community.jpg",
           "featured": true,
           "title": "Austin–Gwangmyeong Anniversary — Korean Dinner & K-pop",
-          "brief": "A one-evening Korean cultural celebration with a dinner buffet, K-pop and traditional performances.",
+          "brief": "A Friday Korean cultural evening with buffet dinner, K-pop and traditional dance.",
           "tags": [
             {
               "type": "harang",
@@ -4605,7 +4546,7 @@
           "meta": [
             {
               "icon": "location",
-              "text": "City of Austin Permitting & Development Center, Austin"
+              "text": "City of Austin Permitting & Development Center, 6310 Wilhelmina Delco Dr, Austin, TX 78752"
             },
             {
               "icon": "drive",
@@ -4613,21 +4554,21 @@
             },
             {
               "icon": "time",
-              "text": "Fri Nov 20 · 6–9 PM"
+              "text": "Fri Nov 20 · 6–9 PM (check-in begins 5:30 PM)"
             },
             {
               "icon": "info",
-              "text": "Weather — Austin, Fri Nov 20: rain/thunderstorms are possible; high 73°F / low 61°F. This is indoors, but allow extra travel time."
+              "text": "Weather — Austin, Fri Nov 20: mostly sunny, high 73°F / low 57°F. Indoor event; allow extra time for Friday traffic."
             },
             {
               "icon": "cost",
-              "text": "Cost: Check the organizer’s registration link; availability and price were not stated on the current announcement."
+              "text": "Cost: Check organizer details or registration before committing; a current admission price is not posted."
             }
           ],
-          "desc": "A practical Friday pick for Korean food and culture. Register before committing; the organizer lists a Korean buffet, K-pop, and traditional dance.",
+          "desc": "The official schedule lists a buffet-style Korean dinner, K-pop by Debbie’s K-Pop Dance Team and traditional dance by Uri Karak.",
           "links": [
             {
-              "href": "https://www.austinsistercities.com/what-we-do/visitor-center/events",
+              "href": "https://www.austinsistercities.com/events/2026/11/20",
               "label": "Austin Sister Cities event details"
             }
           ]
@@ -4638,7 +4579,7 @@
           "image": "images/news_events.jpg",
           "featured": true,
           "title": "JAPAN Fes Texas — Japanese Food & Culture, Austin",
-          "brief": "A Japan-focused weekend food-and-culture festival that fits the family’s anime interest, though specific One Piece/Naruto programming is not confirmed.",
+          "brief": "Japanese food and culture at Republic Square; anime-friendly, but no One Piece/Naruto program is confirmed.",
           "tags": [
             {
               "type": "harang",
@@ -4676,18 +4617,18 @@
             },
             {
               "icon": "time",
-              "text": "Sat–Sun Nov 21–22 · check official page for daily hours"
+              "text": "Sat–Sun Nov 21–22 · official page confirms both Austin dates; check daily hours before leaving"
             },
             {
               "icon": "info",
-              "text": "Weather — Austin: Sat Nov 21 has thunderstorms especially late, high 76°F / low 56°F; Sun Nov 22 is sunny, high 70°F / low 46°F. Sunday is the better outdoor-weather backup."
+              "text": "Weather — Austin: Sat Nov 21 mostly cloudy, high 74°F / low 58°F; Sun Nov 22 may bring early showers/thunderstorms, high 73°F / low 49°F."
             },
             {
               "icon": "cost",
-              "text": "Cost: Official event page does not list a current admission price; confirm before the drive."
+              "text": "Cost: Confirm admission and final schedule on the official page."
             }
           ],
-          "desc": "Japanese food, culture and vendors at Republic Square. The official listing confirms the Austin dates and location; check its final schedule before leaving.",
+          "desc": "A practical culture-and-food outing for the boys’ Japanese/anime interest without promising franchise-specific programming.",
           "links": [
             {
               "href": "https://www.japanfes.com/texas/2026",
@@ -4700,7 +4641,7 @@
           "expires": "2026-11-22",
           "image": "images/news_arts.jpg",
           "title": "Austin Studio Tour — Free Second Weekend",
-          "brief": "Choose a couple of nearby studios from the map for an easy art-and-music-friendly family afternoon.",
+          "brief": "Pick one or two studios from the map for an unhurried art-focused afternoon.",
           "tags": [
             {
               "type": "harang",
@@ -4730,7 +4671,7 @@
             },
             {
               "icon": "drive",
-              "text": "Drive: ~40–55 min south, depending on the chosen stops"
+              "text": "Drive: ~40–55 min south, depending on chosen stops"
             },
             {
               "icon": "time",
@@ -4738,14 +4679,14 @@
             },
             {
               "icon": "info",
-              "text": "Weather — Austin: Sat Nov 21 may have late thunderstorms; Sun Nov 22 is sunny and cooler. Pick Sunday or indoor hosts if weather is rough."
+              "text": "Weather — Austin: Saturday is mostly cloudy; Sunday may have early showers/thunderstorms. Prefer Saturday or choose indoor studios if rain arrives."
             },
             {
               "icon": "cost",
-              "text": "Cost: Free; a few special programs may charge."
+              "text": "Cost: Free; some special programs may charge."
             }
           ],
-          "desc": "The tour lists 815 artists across 309 locations. Use the official directory to build a short route rather than trying to cover too much.",
+          "desc": "The official directory lets you build a short route instead of trying to cover the full citywide tour.",
           "links": [
             {
               "href": "https://atxstudiotour.com/",
@@ -4755,10 +4696,10 @@
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-20",
+          "expires": "2026-11-21",
           "image": "images/news_community.jpg",
-          "title": "New Braunfels Downtown Lighting & Weihnachtsmarkt Under the Stars",
-          "brief": "A free, one-evening holiday kickoff with Santa’s arrival, music, food trucks and a snow-sled hill.",
+          "title": "Round Rock Pokémon Club — Saturday Morning",
+          "brief": "A small, easy indoor Pokémon meet-up for trading and fellow fans before the afternoon plans.",
           "tags": [
             {
               "type": "harang",
@@ -4779,40 +4720,161 @@
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri Nov 20 · 6–9 PM"
+            "text": "Sat Nov 21 · 9:30–11 AM"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Main Plaza / Sophienburg Museum, 401 W Coll St, New Braunfels, TX 78130"
+              "text": "Round Rock Public Library, first floor"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~1 hr 20 min south"
+              "text": "Drive: ~25–30 min south"
             },
             {
               "icon": "time",
-              "text": "Fri Nov 20 · 6–9 PM"
+              "text": "Sat Nov 21 · 9:30–11 AM"
             },
             {
               "icon": "info",
-              "text": "Weather — New Braunfels, Fri Nov 20: rain/thunderstorms are possible, high 73°F / low 63°F. Check downtown updates before the long drive."
+              "text": "Weather — indoor event. Georgetown-area Saturday forecast is rather cloudy, high 75°F / low 56°F."
             },
             {
               "icon": "cost",
-              "text": "Cost: Free for the downtown lighting and Under the Stars event."
+              "text": "Cost: Library program; check the library calendar for any last-minute changes."
             }
           ],
-          "desc": "Downtown lighting and Santa’s arrival run alongside the free outdoor market at the Sophienburg. Rain risk makes this a plan-to-confirm event.",
+          "desc": "A straightforward family stop for Pokémon fans; keep expectations modest—it is a library club, not a convention or tournament.",
           "links": [
             {
-              "href": "https://downtownnewbraunfels.com/events/",
-              "label": "Downtown New Braunfels events"
+              "href": "https://www.roundrocktexas.gov/wp-content/uploads/2026/11/November-2026.pdf",
+              "label": "Round Rock library November calendar"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-28",
+          "image": "images/news_city.jpg",
+          "featured": true,
+          "title": "Georgetown Holiday Square — Lighting, Shop Small & Cocoa Crawl",
+          "brief": "A close-to-home post-Thanksgiving plan: lights Friday, then holiday shopping and cocoa tastings Saturday.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "featured",
+              "label": "Top Pick"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri–Sat Nov 27–28"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Downtown Georgetown Square, 710 S Main St, Georgetown, TX 78626"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10 min"
+            },
+            {
+              "icon": "time",
+              "text": "Lighting: Fri Nov 27 · 5:30 PM; Shop Small + Coffee & Cocoa Crawl: Sat Nov 28 · 10 AM–2 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Georgetown: Fri Nov 27 partly sunny, high 69°F / low 44°F; Sat Nov 28 sunny, high 62°F / low 40°F. Bring layers for Friday evening."
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free; participating retailers and restaurants offer their own shopping/dining specials."
+            }
+          ],
+          "desc": "The Square lighting starts the holiday season; Saturday pairs participating-store specials with the Coffee & Cocoa Crawl.",
+          "links": [
+            {
+              "href": "https://www.dgagtx.org/events",
+              "label": "Downtown Georgetown event details"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-29",
+          "image": "images/news_events.jpg",
+          "title": "Homestead Fair — Hands-on Thanksgiving Weekend, Waco",
+          "brief": "A high-value Waco day trip with hands-on crafts, farm animals, demos, concerts and food.",
+          "tags": [
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            },
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "new",
+              "label": "New"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri–Sun Nov 27–29"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Homestead Heritage, Waco, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~1 hr 40 min north"
+            },
+            {
+              "icon": "time",
+              "text": "Fri–Sat Nov 27–28 · 9 AM–9 PM; Sun Nov 29 · noon–5 PM"
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Waco: Fri Nov 27 clouds/sun, high 66°F / low 45°F; Sat Nov 28 sunny, high 62°F / low 42°F; Sun Nov 29 sunny to partly cloudy, high 64°F / low 41°F."
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free admission; reserve one parking pass per vehicle."
+            }
+          ],
+          "desc": "Working-farm family fair with make-your-own crafts, animals, demonstrations and live choir/orchestra concerts. Saturday has the best outdoor forecast.",
+          "links": [
+            {
+              "href": "https://www.homesteadfair.com/",
+              "label": "Homestead Fair parking pass & details"
             }
           ]
         }
       ],
-      "staleAfter": "2026-11-26"
+      "staleAfter": "2026-11-28"
     }
   ]
 }
