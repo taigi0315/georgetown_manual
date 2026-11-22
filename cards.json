@@ -4454,70 +4454,19 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "Your quick family-news view for Nov 17–23, 2026. This Friday has a Korean dinner-and-performance evening in Austin; Saturday has JAPAN Fes, Pokémon Club, and the start of Austin Studio Tour’s second weekend. Georgetown’s bigger holiday kickoff is next Friday–Saturday, while Waco’s hands-on Homestead Fair is the Thanksgiving-weekend road-trip choice.",
+      "intro": "Refreshed Nov 21, 2026. Plan ahead through Jan 20, 2027: holiday concerts and January anime/gaming lead the advance picks, with Georgetown’s Square lighting and Christmas Stroll close to home. IKKiCON badges increase Dec 6. Forecasts checked Nov 21; later events are beyond the forecast window.",
       "cards": [
         {
           "verified": "2026-11",
-          "expires": "2026-11-29",
+          "expires": "2027-01-10",
           "image": "images/news_events.jpg",
-          "title": "Dino Fest at Sweet Eats — Daily Through Nov 29",
-          "brief": "Flexible Georgetown-area dinosaur and farm outing; an easy fallback around Thanksgiving break.",
+          "title": "IKKiCON — Plan January Anime & Gaming Now",
+          "brief": "Anime, cosplay, console and tabletop gaming nearby; badge price increase Dec 6.",
           "tags": [
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
             {
               "type": "family",
               "label": "Family"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Daily through Sun Nov 29"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Sweet Eats Adventure Farm, 14400 E State Hwy 29, Georgetown, TX 78626"
             },
-            {
-              "icon": "drive",
-              "text": "Drive: ~25 min east"
-            },
-            {
-              "icon": "time",
-              "text": "Daily through Sun Nov 29 · 9 AM–6 PM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Georgetown area: Nov 29 is beyond the reliable forecast window. Check the farm’s status and local forecast before driving."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Ticketed; confirm current pricing and hours before leaving."
-            }
-          ],
-          "desc": "Dinosaur-themed corn maze, animatronic dinosaurs, petting zoo, pony rides and farm activities.",
-          "links": [
-            {
-              "href": "https://sweeteats.com/dino-fest/",
-              "label": "Sweet Eats Dino Fest"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-20",
-          "image": "images/news_community.jpg",
-          "featured": true,
-          "title": "Austin–Gwangmyeong Anniversary — Korean Dinner & K-pop",
-          "brief": "A Friday Korean cultural evening with buffet dinner, K-pop and traditional dance.",
-          "tags": [
             {
               "type": "harang",
               "label": "Harang"
@@ -4525,124 +4474,54 @@
             {
               "type": "haneul",
               "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Top Pick"
-            },
-            {
-              "type": "new",
-              "label": "New"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri Nov 20 · 6–9 PM"
+            "text": "Jan 8–10, 2027"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "City of Austin Permitting & Development Center, 6310 Wilhelmina Delco Dr, Austin, TX 78752"
+              "text": "Kalahari Resorts & Conventions, 3001 Kalahari Blvd, Round Rock, TX 78665"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~45–55 min south"
+              "text": "Drive: ~30–40 min (approximate; allow for traffic)"
             },
             {
               "icon": "time",
-              "text": "Fri Nov 20 · 6–9 PM (check-in begins 5:30 PM)"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Austin, Fri Nov 20: mostly sunny, high 73°F / low 57°F. Indoor event; allow extra time for Friday traffic."
+              "text": "Jan 8–10, 2027"
             },
             {
               "icon": "cost",
-              "text": "Cost: Check organizer details or registration before committing; a current admission price is not posted."
-            }
-          ],
-          "desc": "The official schedule lists a buffet-style Korean dinner, K-pop by Debbie’s K-Pop Dance Team and traditional dance by Uri Karak.",
-          "links": [
-            {
-              "href": "https://www.austinsistercities.com/events/2026/11/20",
-              "label": "Austin Sister Cities event details"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-22",
-          "image": "images/news_events.jpg",
-          "featured": true,
-          "title": "JAPAN Fes Texas — Japanese Food & Culture, Austin",
-          "brief": "Japanese food and culture at Republic Square; anime-friendly, but no One Piece/Naruto program is confirmed.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Top Pick"
-            },
-            {
-              "type": "new",
-              "label": "New"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Sat–Sun Nov 21–22"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Republic Square, 440 Federal Courthouse Plaza, Austin, TX 78701"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~45 min south"
-            },
-            {
-              "icon": "time",
-              "text": "Sat–Sun Nov 21–22 · official page confirms both Austin dates; check daily hours before leaving"
+              "text": "Cost: Ticketed; compare adult/child badges and fees before buying."
             },
             {
               "icon": "info",
-              "text": "Weather — Austin: Sat Nov 21 mostly cloudy, high 74°F / low 58°F; Sun Nov 22 may bring early showers/thunderstorms, high 73°F / low 49°F."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Confirm admission and final schedule on the official page."
+              "text": "Registration: badge price increase Dec 6, 2026. Weather: too far out for a reliable forecast."
             }
           ],
-          "desc": "A practical culture-and-food outing for the boys’ Japanese/anime interest without promising franchise-specific programming.",
+          "desc": "A strong match for both boys’ anime and gaming interests. The organizer confirms a Dec 6 badge price increase and VIP/merch pre-order cutoff; check the program for age restrictions and franchise-specific sessions rather than assuming Naruto, One Piece or Fortnite activities.",
           "links": [
             {
-              "href": "https://www.japanfes.com/texas/2026",
-              "label": "Official JAPAN Fes Texas page"
+              "href": "https://www.ikkicon.com/",
+              "label": "Official details & tickets"
             }
-          ]
+          ],
+          "featured": true
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-22",
+          "expires": "2026-12-16",
           "image": "images/news_arts.jpg",
-          "title": "Austin Studio Tour — Free Second Weekend",
-          "brief": "Pick one or two studios from the map for an unhurried art-focused afternoon.",
+          "title": "Elf in Concert — Movie With Live Orchestra",
+          "brief": "A familiar family movie with the Austin Symphony playing the score live.",
           "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
             {
               "type": "harang",
               "label": "Harang"
@@ -4650,57 +4529,150 @@
             {
               "type": "haneul",
               "label": "Haneul"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Tue–Wed Dec 15–16 · 7:30 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Dell Hall, Long Center for the Performing Arts, Austin, TX"
             },
+            {
+              "icon": "drive",
+              "text": "Drive: ~50–65 min (approximate; allow for traffic)"
+            },
+            {
+              "icon": "time",
+              "text": "Tue–Wed Dec 15–16 · 7:30 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Reserved seats; check current availability and fees."
+            }
+          ],
+          "desc": "An approachable orchestra outing for Harang’s music interest, with the full film projected above the musicians. Both performances start at 7:30 PM, so plan for a late school-night return; no purchase deadline is confirmed.",
+          "links": [
+            {
+              "href": "https://my.austinsymphony.org/1235",
+              "label": "Official details & tickets"
+            }
+          ],
+          "featured": true
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-12-13",
+          "image": "images/news_arts.jpg",
+          "title": "A Charlie Brown Christmas — Sunday Live Music",
+          "brief": "Vince Guaraldi’s holiday music performed by Austin Chamber Music Center.",
+          "tags": [
             {
               "type": "family",
               "label": "Family"
             },
             {
-              "type": "new",
-              "label": "New"
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat–Sun Nov 21–22 · 11 AM–5 PM"
+            "text": "Sun Dec 13 · 4 PM"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "309 artist studios, galleries and venues around Austin"
+              "text": "Bass Concert Hall, University of Texas, Austin, TX"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~40–55 min south, depending on chosen stops"
+              "text": "Drive: ~45–60 min (approximate; allow for traffic)"
             },
             {
               "icon": "time",
-              "text": "Sat–Sun Nov 21–22 · 11 AM–5 PM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — Austin: Saturday is mostly cloudy; Sunday may have early showers/thunderstorms. Prefer Saturday or choose indoor studios if rain arrives."
+              "text": "Sun Dec 13 · 4 PM"
             },
             {
               "icon": "cost",
-              "text": "Cost: Free; some special programs may charge."
+              "text": "Cost: Ticketed; confirm current seat prices and parking."
             }
           ],
-          "desc": "The official directory lets you build a short route instead of trying to cover the full citywide tour.",
+          "desc": "A Sunday afternoon concert offers an easier family schedule than a late weekday show. This is a live music performance rather than a promise of a film screening; book through the venue, with no confirmed advance-sales deadline.",
           "links": [
             {
-              "href": "https://atxstudiotour.com/",
-              "label": "Austin Studio Tour map & directory"
+              "href": "https://texasperformingarts.org/event/acmc-charlie-brown-christmas/",
+              "label": "Official details & tickets"
             }
           ]
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-21",
+          "expires": "2026-12-21",
+          "image": "images/news_arts.jpg",
+          "title": "Armadillo Christmas Bazaar — Art, Gifts & Live Music",
+          "brief": "Choose a December date now; children 12 and under enter free.",
+          "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
+            {
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Dec 12–21 · hours vary by day"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "Palmer Events Center, 900 Barton Springs Rd, Austin, TX"
+            },
+            {
+              "icon": "drive",
+              "text": "Drive: ~50–65 min (approximate; allow for traffic)"
+            },
+            {
+              "icon": "time",
+              "text": "Dec 12–21 · hours vary by day"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Adults ticketed; kids 12 & under free; parking extra."
+            }
+          ],
+          "desc": "An indoor mix of artist stalls and daily live performances makes this a flexible music-and-shopping outing. Check the daily artist schedule and current ticket total before choosing a day; no confirmed purchase deadline.",
+          "links": [
+            {
+              "href": "https://armadillobazaar.com/info/",
+              "label": "Official details & tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-12-06",
           "image": "images/news_community.jpg",
-          "title": "Round Rock Pokémon Club — Saturday Morning",
-          "brief": "A small, easy indoor Pokémon meet-up for trading and fellow fans before the afternoon plans.",
+          "title": "Georgetown Christmas Stroll — Save Dec 4–6",
+          "brief": "Free downtown holiday celebration; Saturday parade begins at 10 AM.",
           "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
             {
               "type": "harang",
               "label": "Harang"
@@ -4708,120 +4680,53 @@
             {
               "type": "haneul",
               "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "new",
-              "label": "New"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Sat Nov 21 · 9:30–11 AM"
+            "text": "Fri Dec 4 · 4–9:30 PM; Sat Dec 5 · 10 AM–9:30 PM; Sun Dec 6 · 10 AM–4 PM"
           },
           "meta": [
             {
               "icon": "location",
-              "text": "Round Rock Public Library, first floor"
+              "text": "Historic Downtown Square, 710 S Main St, Georgetown, TX 78626"
             },
             {
               "icon": "drive",
-              "text": "Drive: ~25–30 min south"
+              "text": "Drive: ~10–15 min (approximate; allow for traffic)"
             },
             {
               "icon": "time",
-              "text": "Sat Nov 21 · 9:30–11 AM"
-            },
-            {
-              "icon": "info",
-              "text": "Weather — indoor event. Georgetown-area Saturday forecast is rather cloudy, high 75°F / low 56°F."
+              "text": "Fri Dec 4 · 4–9:30 PM; Sat Dec 5 · 10 AM–9:30 PM; Sun Dec 6 · 10 AM–4 PM"
             },
             {
               "icon": "cost",
-              "text": "Cost: Library program; check the library calendar for any last-minute changes."
-            }
-          ],
-          "desc": "A straightforward family stop for Pokémon fans; keep expectations modest—it is a library club, not a convention or tournament.",
-          "links": [
-            {
-              "href": "https://www.roundrocktexas.gov/wp-content/uploads/2026/11/November-2026.pdf",
-              "label": "Round Rock library November calendar"
-            }
-          ]
-        },
-        {
-          "verified": "2026-11",
-          "expires": "2026-11-28",
-          "image": "images/news_city.jpg",
-          "featured": true,
-          "title": "Georgetown Holiday Square — Lighting, Shop Small & Cocoa Crawl",
-          "brief": "A close-to-home post-Thanksgiving plan: lights Friday, then holiday shopping and cocoa tastings Saturday.",
-          "tags": [
-            {
-              "type": "harang",
-              "label": "Harang"
-            },
-            {
-              "type": "haneul",
-              "label": "Haneul"
-            },
-            {
-              "type": "family",
-              "label": "Family"
-            },
-            {
-              "type": "featured",
-              "label": "Top Pick"
-            },
-            {
-              "type": "new",
-              "label": "New"
-            }
-          ],
-          "previewMeta": {
-            "icon": "time",
-            "text": "Fri–Sat Nov 27–28"
-          },
-          "meta": [
-            {
-              "icon": "location",
-              "text": "Downtown Georgetown Square, 710 S Main St, Georgetown, TX 78626"
-            },
-            {
-              "icon": "drive",
-              "text": "Drive: ~10 min"
-            },
-            {
-              "icon": "time",
-              "text": "Lighting: Fri Nov 27 · 5:30 PM; Shop Small + Coffee & Cocoa Crawl: Sat Nov 28 · 10 AM–2 PM"
+              "text": "Cost: Free admission; food and purchases extra."
             },
             {
               "icon": "info",
-              "text": "Weather — Georgetown: Fri Nov 27 partly sunny, high 69°F / low 44°F; Sat Nov 28 sunny, high 62°F / low 40°F. Bring layers for Friday evening."
-            },
-            {
-              "icon": "cost",
-              "text": "Cost: Free; participating retailers and restaurants offer their own shopping/dining specials."
+              "text": "Weather — Georgetown Dec 4–6: beyond the current reliable forecast window; recheck closer to the event."
             }
           ],
-          "desc": "The Square lighting starts the holiday season; Saturday pairs participating-store specials with the Coffee & Cocoa Crawl.",
+          "desc": "Holiday music, Santa’s Village, family activities and more than 200 vendors. Downtown street closures begin early Friday; use the organizer’s parking map and allow extra time for Saturday’s parade.",
           "links": [
             {
               "href": "https://www.dgagtx.org/events",
-              "label": "Downtown Georgetown event details"
+              "label": "Official details & tickets"
             }
           ]
         },
         {
           "verified": "2026-11",
-          "expires": "2026-11-29",
-          "image": "images/news_events.jpg",
-          "title": "Homestead Fair — Hands-on Thanksgiving Weekend, Waco",
-          "brief": "A high-value Waco day trip with hands-on crafts, farm animals, demos, concerts and food.",
+          "expires": "2026-11-27",
+          "image": "images/news_city.jpg",
+          "title": "25th Lighting of the Square — Friday After Thanksgiving",
+          "brief": "Entertainment starts 5:30 PM; courthouse lights switch on about 6 PM.",
           "tags": [
+            {
+              "type": "family",
+              "label": "Family"
+            },
             {
               "type": "harang",
               "label": "Harang"
@@ -4829,19 +4734,65 @@
             {
               "type": "haneul",
               "label": "Haneul"
+            }
+          ],
+          "previewMeta": {
+            "icon": "time",
+            "text": "Fri Nov 27 · entertainment 5:30–6:30 PM"
+          },
+          "meta": [
+            {
+              "icon": "location",
+              "text": "East courthouse steps, 710 S Main St, Georgetown, TX 78626"
             },
+            {
+              "icon": "drive",
+              "text": "Drive: ~10–15 min (approximate; allow for traffic)"
+            },
+            {
+              "icon": "time",
+              "text": "Fri Nov 27 · entertainment 5:30–6:30 PM"
+            },
+            {
+              "icon": "cost",
+              "text": "Cost: Free; Santa photos 6:30–8 PM accept toy or monetary donation."
+            },
+            {
+              "icon": "info",
+              "text": "Weather — Georgetown Fri Nov 27: sunny, high 65°F / low 41°F (checked Nov 21). Recheck before leaving."
+            }
+          ],
+          "desc": "A simple close-to-home holiday kickoff with carolers and late downtown shopping. Santa photos follow inside the courthouse, entering from Eighth Street; bring layers for the evening.",
+          "links": [
+            {
+              "href": "https://www.dgagtx.org/events",
+              "label": "Official details & tickets"
+            }
+          ]
+        },
+        {
+          "verified": "2026-11",
+          "expires": "2026-11-29",
+          "image": "images/news_events.jpg",
+          "title": "Homestead Fair — Thanksgiving Weekend in Waco",
+          "brief": "Hands-on crafts, farm animals, demonstrations, food and live music.",
+          "tags": [
             {
               "type": "family",
               "label": "Family"
             },
             {
-              "type": "new",
-              "label": "New"
+              "type": "harang",
+              "label": "Harang"
+            },
+            {
+              "type": "haneul",
+              "label": "Haneul"
             }
           ],
           "previewMeta": {
             "icon": "time",
-            "text": "Fri–Sun Nov 27–29"
+            "text": "Fri–Sat Nov 27–28 · 9 AM–9 PM; Sun Nov 29 · noon–5 PM"
           },
           "meta": [
             {
@@ -4850,31 +4801,31 @@
             },
             {
               "icon": "drive",
-              "text": "Drive: ~1 hr 40 min north"
+              "text": "Drive: ~1 hr 40 min (approximate; allow for traffic)"
             },
             {
               "icon": "time",
               "text": "Fri–Sat Nov 27–28 · 9 AM–9 PM; Sun Nov 29 · noon–5 PM"
             },
             {
-              "icon": "info",
-              "text": "Weather — Waco: Fri Nov 27 clouds/sun, high 66°F / low 45°F; Sat Nov 28 sunny, high 62°F / low 42°F; Sun Nov 29 sunny to partly cloudy, high 64°F / low 41°F."
+              "icon": "cost",
+              "text": "Cost: Free admission; one vehicle parking pass required. $28 advance parking through Nov 26; listed regular price $35. Activities/food extra."
             },
             {
-              "icon": "cost",
-              "text": "Cost: Free admission; reserve one parking pass per vehicle."
+              "icon": "info",
+              "text": "Weather — Waco Nov 27: sunny/partly cloudy 63°F/39°F; Nov 28 sunny 67°F/47°F; Nov 29 mostly sunny 68°F/50°F (checked Nov 21)."
             }
           ],
-          "desc": "Working-farm family fair with make-your-own crafts, animals, demonstrations and live choir/orchestra concerts. Saturday has the best outdoor forecast.",
+          "desc": "A longer day trip with practical making activities and Friday/Saturday choir and orchestra performances. Reserve the vehicle pass rather than assuming free admission includes parking.",
           "links": [
             {
               "href": "https://www.homesteadfair.com/",
-              "label": "Homestead Fair parking pass & details"
+              "label": "Official details & tickets"
             }
           ]
         }
       ],
-      "staleAfter": "2026-11-28"
+      "staleAfter": "2026-12-02"
     }
   ]
 }
