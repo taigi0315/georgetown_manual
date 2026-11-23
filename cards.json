@@ -4454,7 +4454,7 @@
       "id": "news",
       "category": "news",
       "title": "📰 Georgetown News",
-      "intro": "Refreshed Nov 21, 2026. Plan ahead through Jan 20, 2027: holiday concerts and January anime/gaming lead the advance picks, with Georgetown’s Square lighting and Christmas Stroll close to home. IKKiCON badges increase Dec 6. Forecasts checked Nov 21; later events are beyond the forecast window.",
+      "intro": "Refreshed Nov 23, 2026. Plan ahead through Jan 21, 2027: four advance picks cover Dec 12–21 and Jan 8–18, including live music and IKKiCON’s anime/gaming weekend. Near-term space stays focused on Georgetown’s Square lighting, Christmas Stroll and the Waco Homestead Fair. Forecasts are current only for Thanksgiving-weekend outdoor plans.",
       "cards": [
         {
           "verified": "2026-11",
@@ -4759,7 +4759,7 @@
             },
             {
               "icon": "info",
-              "text": "Weather — Georgetown Fri Nov 27: sunny, high 65°F / low 41°F (checked Nov 21). Recheck before leaving."
+              "text": "Weather — Georgetown Fri Nov 27: plenty of sunshine, high 64°F / low 41°F (checked Nov 23). Bring a warmer layer for the evening lighting."
             }
           ],
           "desc": "A simple close-to-home holiday kickoff with carolers and late downtown shopping. Santa photos follow inside the courthouse, entering from Eighth Street; bring layers for the evening.",
@@ -4813,7 +4813,7 @@
             },
             {
               "icon": "info",
-              "text": "Weather — Waco Nov 27: sunny/partly cloudy 63°F/39°F; Nov 28 sunny 67°F/47°F; Nov 29 mostly sunny 68°F/50°F (checked Nov 21)."
+              "text": "Weather — Waco: Fri Nov 27 mostly sunny 63°F/39°F; Sat Nov 28 sunny 69°F/49°F; Sun Nov 29 mostly sunny 74°F/51°F (checked Nov 23)."
             }
           ],
           "desc": "A longer day trip with practical making activities and Friday/Saturday choir and orchestra performances. Reserve the vehicle pass rather than assuming free admission includes parking.",
@@ -4825,7 +4825,7 @@
           ]
         }
       ],
-      "staleAfter": "2026-12-02"
+      "staleAfter": "2026-12-04"
     }
   ]
 }
